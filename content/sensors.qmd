@@ -1,0 +1,11 @@
+---
+title: PAM Sensors
+---
+
+Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:
+
+WISPR
+
+DMON
+
+Alseamar

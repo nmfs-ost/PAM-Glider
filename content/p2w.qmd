@@ -1,0 +1,10 @@
+---
+title: "Plankton to Whales"
+subtitle: "Operatationalizing ecosystem surveys using autonomous underwater gliders"
+page-layout: full
+---
+
+The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.
+
+This project is planned for 2025. 
+

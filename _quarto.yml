@@ -33,18 +33,22 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/add-content.qmd
-        text: Add content
-      - href: content/customizing.qmd
-        text: Customizing
-      - href: content/rendering.qmd
-        text: Rendering
-      - href: content/rmarkdown.Rmd
-        text: R Markdown files
-      - href: content/code.qmd
-        text: Code in your files
-      - href: content/acknowledgements.qmd
-        text: Acknowledgements
+      - href: content/about.qmd
+        text: About Us
+      - href: content/gliders.qmd
+        text: Gliders
+      - href: content/sensors.qmd
+        text: Sensors
+      - href: content/gliderRodeo.qmd
+        text: In-Water Testing
+      - href: content/shipSurveys.qmd
+        text: Shipboard & Glider Surveys
+      - href: content/transitionPlan.qmd
+        text: Transition Plan
+      # - href: content/p2w.qmd
+      #   text: Plankton to Whales
+      - href: content/contact.qmd
+        text: Contact Us
 
 format:
   html:

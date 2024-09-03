@@ -1,0 +1,9 @@
+---
+title: Glider Rodeo
+subtitle: Field testing of PAM-Glider Systems
+---
+
+*Goal*: In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).
+
+For more information, please see [Glider Rodeo Website](https://nmfs-pam-glider.github.io/GliderRodeo/)
+

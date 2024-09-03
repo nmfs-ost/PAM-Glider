@@ -1,0 +1,15 @@
+---
+title: Concurrent Shipboard & Glider Surveys
+---
+
+We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys- PacMAPPS west coast in 2024 and PacMAPPS Hawaii in 2025. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. (supported by the UxS SI PacMAPPS project)
+
+## CalCurCEAS 2024
+
+***Shipboard and Glider Survey off U.S. West Coast***
+
+![Planned shipboard tracklines for the 2024 CalCurCEAS Survey.](figs/Tracklines_calcurceas.png){fig-align="left"}
+
+![](figs/calCurCEAS_plannedGliderTracks.png)
+
+[Link to real time glider tracks](https://noaaosu.seaglider.pub/map/679?mission=CalCurCEAS_Aug2024)
