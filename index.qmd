@@ -3,4 +3,8 @@ title: "NOAA Fisheries PAM-Equipped Glider Research"
 page-layout: full
 ---
 
-Stay Tuned for a Pretty Home Page!
+Passive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.
+
+This site provides updated information on these efforts.
+
+*This site is under construction and is actively being updated.*

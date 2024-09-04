@@ -2,4 +2,7 @@
 title: Contact Us
 ---
 
-**Under Construction**
+Under Construction
+
+*Instructions for contacting us will be added soon!* --\> Give instructions for submitting an inquiry through the Github Issues
+

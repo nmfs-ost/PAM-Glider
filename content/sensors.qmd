@@ -5,7 +5,9 @@ title: PAM Sensors
 Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:
 
 WISPR
-
+[WISPR](https://embeddedocean.com/passive-acoustics-2/){target="_blank"} acoustic processors. 
+ 
 DMON
+DMONs were developed by Woods Hole Oceanographic Institute, and more information on these systems can be found [here](https://apps.dtic.mil/sti/tr/pdf/ADA617025.pdf){target="_blank"}.
 
-Alseamar
+Alseamar Auris- Alseamar has it's own proprietary acoustic system, 'Auris', which is deployed in it's SeaExplorer glider systems. Specifications for these systems can be found [here](https://www.alseamar-alcen.com/index.php/products/underwater-glider/seaexplorer){target="_blank"}.
