@@ -4,7 +4,7 @@
     "href": "content/sensors.html",
     "title": "PAM Sensors",
     "section": "",
-    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR\nDMON\nAlseamar",
+    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR WISPR acoustic processors.\nDMON DMONs were developed by Woods Hole Oceanographic Institute, and more information on these systems can be found here.\nAlseamar Auris- Alseamar has it’s own proprietary acoustic system, ‘Auris’, which is deployed in it’s SeaExplorer glider systems. Specifications for these systems can be found here.",
     "crumbs": [
       "Sensors"
     ]
@@ -54,7 +54,7 @@
     "href": "index.html",
     "title": "NOAA Fisheries PAM-Equipped Glider Research",
     "section": "",
-    "text": "Stay Tuned for a Pretty Home Page!",
+    "text": "Passive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.\nThis site provides updated information on these efforts.\nThis site is under construction and is actively being updated.",
     "crumbs": [
       "Home"
     ]
@@ -71,7 +71,7 @@
     "href": "content/transitionPlan.html",
     "title": "Transition to Operations",
     "section": "",
-    "text": "Here we will summarize our Transition to Operations Plan, and (eventually) link to the report or other relevant info.",
+    "text": "Our ultimate goal is to develop a Research to Operations Plan that will transition our science to using PAM-Gliders to address our management needs. This plan will be outlined in a National Strategy RoadMap for PAM-Glider Operations.\n\nThis will include:\n\nAccelerate Pacific-Wide PAM-Glider Operations\nMatch appropriate technology to research questions\nProvide a framework to monitor technological developments\nIdentify future investment needs",
     "crumbs": [
       "Transition Plan"
     ]
@@ -81,7 +81,7 @@
     "href": "content/contact.html",
     "title": "Contact Us",
     "section": "",
-    "text": "Under Construction",
+    "text": "Under Construction\nInstructions for contacting us will be added soon! –&gt; Give instructions for submitting an inquiry through the Github Issues",
     "crumbs": [
       "Contact Us"
     ]
@@ -91,7 +91,57 @@
     "href": "content/gliders.html",
     "title": "Gliders",
     "section": "",
-    "text": "Show the different gliders here.",
+    "text": "The primary contemporary gliders with PAM capacity include Slocum, Seagliders, Ocean Scout, and SeaExporer. We understand that technology is rapidly changing, and even if we are unable to directly include additional platforms, we hope to learn more about technologies currently in development. In addition, there may be (unfunded) opportunities for including alternative platforms within the Glider Rodeo effort (Please see section on ‘Inquiries’).\n\n\nNOAA’s Southwest Fisheries Science Center began deploying Slocum gliders to study Antarctic krill in 2018, and in 2025 they will expand their glider program with PAM-equipped gliders to study marine mammals off the U.S. West coast. Slocum Gliders are modular, and two different PAM systems will be tested: the DMON (developed by WHOI) and WISPR (Embedded Ocean Systems).\n\n\n\nSeagliders are buoyancy driven autonomous underwater vehicles developed at the University of Washington. Through a partnership with Dave Mellinger at Oregon State University, NOAA researchers at Pacific Islands Fisheries Science Center has been testing the passive acoustic capabilities of these gliders to conduct marine mammal monitoring off Hawaii. They will continue this collaboration in 2025 as PIFSC builds out their own glider lab with SeaGliders with onboard WISPR acoustic processors. Seaglider support resources can be found here , and WISPR 2.0 specifications can be found here . Note that WISPR 3.0 is under development.\n\n\n\nThe Ocean Scout is a small glider developed as a ‘user friendly’ PAM-equipped glider. They are much smaller and require less training and expertise to use. Southwest Fisheries Science Center has procured two Ocean Scouts for testing and for specific scientific research efforts. The Ocean Scout specifications can be found here.\n\n\n\nThe SeaExplorer was developed by the French company Alcen-Alseamar. Alseamar SeaExplorers are not yet available for purchase in the United States, but the company offers their gliders as a service, with mission planning, piloting, and data delivery. We will include SeaExplorers in our Glider Rodeo (as a service). SeaExplorer specifications can be found here.\n\n\n\nWe understand that these technologies are rapidly developing, and we’d love to hear about new developments. Please contact us under the ‘Contact Us’ page.",
+    "crumbs": [
+      "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/gliders.html#slocum-gliders-teledyne-webb",
+    "href": "content/gliders.html#slocum-gliders-teledyne-webb",
+    "title": "Gliders",
+    "section": "",
+    "text": "NOAA’s Southwest Fisheries Science Center began deploying Slocum gliders to study Antarctic krill in 2018, and in 2025 they will expand their glider program with PAM-equipped gliders to study marine mammals off the U.S. West coast. Slocum Gliders are modular, and two different PAM systems will be tested: the DMON (developed by WHOI) and WISPR (Embedded Ocean Systems).",
+    "crumbs": [
+      "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/gliders.html#seagliders-u-washington",
+    "href": "content/gliders.html#seagliders-u-washington",
+    "title": "Gliders",
+    "section": "",
+    "text": "Seagliders are buoyancy driven autonomous underwater vehicles developed at the University of Washington. Through a partnership with Dave Mellinger at Oregon State University, NOAA researchers at Pacific Islands Fisheries Science Center has been testing the passive acoustic capabilities of these gliders to conduct marine mammal monitoring off Hawaii. They will continue this collaboration in 2025 as PIFSC builds out their own glider lab with SeaGliders with onboard WISPR acoustic processors. Seaglider support resources can be found here , and WISPR 2.0 specifications can be found here . Note that WISPR 3.0 is under development.",
+    "crumbs": [
+      "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/gliders.html#ocean-scout-hefring",
+    "href": "content/gliders.html#ocean-scout-hefring",
+    "title": "Gliders",
+    "section": "",
+    "text": "The Ocean Scout is a small glider developed as a ‘user friendly’ PAM-equipped glider. They are much smaller and require less training and expertise to use. Southwest Fisheries Science Center has procured two Ocean Scouts for testing and for specific scientific research efforts. The Ocean Scout specifications can be found here.",
+    "crumbs": [
+      "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/gliders.html#seaexplorer-alseamar",
+    "href": "content/gliders.html#seaexplorer-alseamar",
+    "title": "Gliders",
+    "section": "",
+    "text": "The SeaExplorer was developed by the French company Alcen-Alseamar. Alseamar SeaExplorers are not yet available for purchase in the United States, but the company offers their gliders as a service, with mission planning, piloting, and data delivery. We will include SeaExplorers in our Glider Rodeo (as a service). SeaExplorer specifications can be found here.",
+    "crumbs": [
+      "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/gliders.html#developing-technology",
+    "href": "content/gliders.html#developing-technology",
+    "title": "Gliders",
+    "section": "",
+    "text": "We understand that these technologies are rapidly developing, and we’d love to hear about new developments. Please contact us under the ‘Contact Us’ page.",
     "crumbs": [
       "Gliders"
     ]
