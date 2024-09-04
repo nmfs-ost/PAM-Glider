@@ -10,6 +10,6 @@ We will deploy several PAM-equipped gliders in association with two large-scale 
 
 ![Planned shipboard tracklines for the 2024 CalCurCEAS Survey.](figs/Tracklines_calcurceas.png){fig-align="left"}
 
-![](figs/calCurCEAS_plannedGliderTracks.png)
+![](figs/calCurCEAS_plannedGliderTracks.png){target="_blank"}
 
-[Link to real time glider tracks](https://noaaosu.seaglider.pub/map/679?mission=CalCurCEAS_Aug2024)
+[Link to real time glider tracks](https://noaaosu.seaglider.pub/map/679?mission=CalCurCEAS_Aug2024){target="_blank"}

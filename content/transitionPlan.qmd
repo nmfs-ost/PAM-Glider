@@ -2,4 +2,16 @@
 title: Transition to Operations
 ---
 
-Here we will summarize our Transition to Operations Plan, and (eventually) link to the report or other relevant info.
+Our ultimate goal is to develop a Research to Operations Plan that will transition our science to using PAM-Gliders to address our management needs. This plan will be outlined in a National Strategy RoadMap for PAM-Glider Operations.
+
+![](figs/PAMGliderRoadmap.png){width="260"}
+
+This will include:
+
+-   Accelerate Pacific-Wide PAM-Glider Operations
+
+-   Match appropriate technology to research questions
+
+-   Provide a framework to monitor technological developments
+
+-   Identify future investment needs
