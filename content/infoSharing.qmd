@@ -1,0 +1,36 @@
+---
+title: Information Sharing
+---
+
+[What is Open Science?](https://www.cos.io/open-science){target="_blank"}
+The goals of 'Open Science' are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see Open Science for more info)(https://www.cos.io/open-science){target="_blank"}
+
+Below we outline the ways in which our PAM-Glider program aims to embrace Open Science. This is a work in progress, and we welcome suggestions in how we can improve on these efforts.
+ 
+
+
+
+## Open Educational Resources
+### Bioacoustics Stack Exchange
+Stack Exchange is a network of question and answer websites on topics in diverse fields. The Bioacoustics Stack Exchange site was created by our PAM community, for our PAM community. Answers to questions are crowd-sourced from the community, and both questions and answers are archived and publicly accessible via the site or by a search engine. For more information, visit the [Bioacoustics Stack Exchange](https://bioacoustics.stackexchange.com/){target="_blank"}. 
+
+
+### Zotero Group Library
+Zotero is a free, open-source reference management tool that helps users collect, organize, cite, and share research resources. A Zotero Group Library is a shared library that allows users to collaboration on research projects by sharing and managing references. We have developed the following Zotero Group Libraries to allow users to identify and share related references. To join and contribute references, first create a Zotero account and request to be a member. These libraries are by no means complete, and our intent is to build a collaborative resource for the broader community of researchers, students, and practicioners.
+
+[**PAM-Glider Group Library**](https://www.zotero.org/groups/5642642/pam-gliders){target="_blank"}
+
+[**Soundscape Group Library**](https://www.zotero.org/groups/58164/soundscape){target="_blank"}
+
+
+
+## Research Compendium
+A research compendium is a collection of all the digital components related to a research project, including data, code, text (like protocols and reports), and metadata. A research compendium provides a comprehensive package that allows others to fully reproduce research findings by accessing all the elements involved in the study process.
+
+We will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below. 
+
+
+## Open Data
+NOAA Fisheries' Passive Acoustics Data is archived at the National Centers for Environmental Information (NCEI) and archived data can be accessed via the [NCEI Passive Acoustic Data web portal](https://www.ncei.noaa.gov/products/passive-acoustic-data){target="_blank"}. 
+
+Detection data for a subset of NOAA Fisheries data can be viewed at the Passive Acoustic Cetacaean Map (PACM), developed at Northeast Fisheries Science Center. At present, the bulk of these data are from the U.S. East Coast, but an expanded PACM is in development. More information can be found at the [PACM website](https://apps-nefsc.fisheries.noaa.gov/pacm){target="_blank"}.

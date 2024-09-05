@@ -29,7 +29,7 @@ website:
 
     style: "docked"
     search: true
-    collapse-level: 1
+    collapse-level: 3
     contents:
       - href: index.qmd
         text: Home
@@ -47,6 +47,8 @@ website:
         text: Transition Plan
       # - href: content/p2w.qmd
       #   text: Plankton to Whales
+      - href: content/infoSharing.qmd
+        text: Information Sharing
       - href: content/contact.qmd
         text: Contact Us
 
