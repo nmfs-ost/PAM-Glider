@@ -14,7 +14,7 @@
     "href": "content/about.html",
     "title": "About Us",
     "section": "",
-    "text": "PAM-equipped gliders provide an autonomous solution to collecting vocal species encounter datasets that can serve NMFS assessment needs. Several studies have proven the utility of such data for examining habitat association and density estimates, though generally at a limited spatial scale. The right hardware deployed at sufficient temporal and geographic scale will provide acoustic detection and ecosystem data to inform qualitative and quantitative assessments. Such data can immediately be used to examine species occurrence and distribution in remote regions that are rarely or never surveyed using vessel-based methods. With dedicated R&D effort, PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including density.\nPAM-equipped Slocum gliders for real-time monitoring of North Atlantic right whales and other baleen whales off the Atlantic coast of the U.S. were developed through a NEFSC/WHOI collaboration over the last decade and now form part of an operational NMFS program. Those efforts currently focus primarily on monitoring low frequency cetacean species, though could be expanded to play a larger role in assessment surveys of other higher frequency cetacean species with some advancement to their acoustic data acquisition software. In partnership with the OMAO UxS Operation Center (UxSOC), PIFSC recently began testing PAM-equipped Seagliders to augment ship-based surveys across the vast Pacific Islands region. Initial surveys around the main Hawaiian Islands have provided important data on glider and high-frequency acoustic system endurance, acoustic encounter rates relative to other survey modalities, and the ability of the glider to maintain a predetermined trackline, an important consideration for systematic surveys in regions with strong currents and eddies that can force the glider off track.\nLeveraging this PAM SI and the knowledge base of operational NARW glider surveys, the UxS SI, PIFSC and SWFSC will lead a 3 year effort to accelerate the transition to operations for PAM-based glider surveys. The work will be focused in the Pacific for the duration of this IRA-funded SI because these Centers are ready to act and they are collectively responsible for the largest area under NMFS jurisdiction, have acute shortages of adequate shiptime, and must find alternative survey modalities to maintain their assessment operations. Despite the regional focus, the goal will be to develop an R2O plan that can be adapted or applied in other regions seeking to implement PAM-equipped glider surveys to support their marine mammal assessments. The effort includes:\n\nIn-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI)\nConcurrent glider and shipboard surveys. We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys- PacMAPPS west coast in 2024 and PacMAPPS Hawaii in 2025. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. (supported by the UxS SI PacMAPPS project)\nBuild capacity to sustain glider operations. PIFSC and SWFSC will increase capacity to sustain PAM-glider operations through support for glider technicians at each Center and for pilot and technician training (supported jointly by PAM SI Plankton to Whales/PacMAPPS projects and UxS SI). PAM-equipped glider services are typically not available as fee-for-service operations and partner CIs that have been supporting PIFSC R&D work to-date are not equipped to support NMFS operational use of PAM-equipped gliders. The Pacific-wide R2O plan will include considerations of operational costs for conducting PAM-glider surveys into the future.\n\nThis work is partly guided by the Transition Plan developed by PIFSC as part of its UxSOC- funded work and leverages the significant advancements by NEFSC and WHOI in development of PAM-equipped Slocum gliders.",
+    "text": "NOAA Fisheries will lead a 3 year effort to accelerate a transition to operations for using PAM-based glider surveys to augment existing surveys. These efforts are based on previous successful research efforts using PAM-equipped gliders off the U.S. East Coast to study right whales, and recent testing of SeaGliders off Hawaii. Slocum gliders are being used for real-time monitoring of North Atlantic right whales off the U.S. Atlantic coast through a NEFSC/WHOI collaboration. NOAA’s OMAO UxS Operation Center partnered with PIFSC to test PAM-equipped SeaGliders to augment ship-based surveys across the vast Pacific Islands region. The results from these studies highlighed that PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including density.\nTo expand on these efforts, PIFSC and SWFSC will lead a 3 year effort to accelerate the transition to operations for PAM-based glider surveys. The work will be focused in the Pacific initially because these Centers are ready to act and they are collectively responsible for the largest area under NMFS jurisdiction, have acute shortages of adequate shiptime, and must find alternative survey modalities to maintain their assessment operations. Despite the regional focus, the goal will be to develop a Research to Operations plan that can be adapted or applied in other regions seeking to implement PAM-equipped glider surveys to support their marine mammal assessments. The effort includes:\n\nIn-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. For more information, see the Glider Rodeo.\nConcurrent glider and shipboard surveys. We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys- PacMAPPS west coast in 2024 and PacMAPPS Hawaii in 2025. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. For more information, see the section on Shipboard Surveys.\nBuild capacity to sustain glider operations. PIFSC and SWFSC will increase capacity to sustain PAM-glider operations through support for glider technicians at each Center and for pilot and technician training. The Pacific-wide R2O plan will include considerations of operational costs for conducting PAM-glider surveys into the future.",
     "crumbs": [
       "About Us"
     ]
@@ -40,14 +40,61 @@
     ]
   },
   {
-    "objectID": "content/gliderRodeo.html",
-    "href": "content/gliderRodeo.html",
-    "title": "Glider Rodeo",
-    "section": "",
-    "text": "Goal: In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).\nFor more information, please see Glider Rodeo Website",
+    "objectID": "content/shipSurveys.html#whiceas-2026",
+    "href": "content/shipSurveys.html#whiceas-2026",
+    "title": "Concurrent Shipboard & Glider Surveys",
+    "section": "WHICEAS 2026",
+    "text": "WHICEAS 2026\nWinter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS) is currently scheduled for February/March 2026. We will update as these plans develop.",
     "crumbs": [
-      "In-Water Testing"
+      "Shipboard & Glider Surveys"
     ]
+  },
+  {
+    "objectID": "content/infoSharing.html",
+    "href": "content/infoSharing.html",
+    "title": "Information Sharing",
+    "section": "",
+    "text": "What is Open Science? The goals of ‘Open Science’ are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see Open Science for more info)(https://www.cos.io/open-science){target=“_blank”}\nBelow we outline the ways in which our PAM-Glider program aims to embrace Open Science. This is a work in progress, and we welcome suggestions in how we can improve on these efforts.",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/infoSharing.html#open-educational-resources",
+    "href": "content/infoSharing.html#open-educational-resources",
+    "title": "Information Sharing",
+    "section": "Open Educational Resources",
+    "text": "Open Educational Resources\n\nBioacoustics Stack Exchange\nStack Exchange is a network of question and answer websites on topics in diverse fields. The Bioacoustics Stack Exchange site was created by our PAM community, for our PAM community. Answers to questions are crowd-sourced from the community, and both questions and answers are archived and publicly accessible via the site or by a search engine. For more information, visit the Bioacoustics Stack Exchange.\n\n\nZotero Group Library\nZotero is a free, open-source reference management tool that helps users collect, organize, cite, and share research resources. A Zotero Group Library is a shared library that allows users to collaboration on research projects by sharing and managing references. We have developed the following Zotero Group Libraries to allow users to identify and share related references. To join and contribute references, first create a Zotero account and request to be a member. These libraries are by no means complete, and our intent is to build a collaborative resource for the broader community of researchers, students, and practicioners.\nPAM-Glider Group Library\nSoundscape Group Library",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/infoSharing.html#research-compendium",
+    "href": "content/infoSharing.html#research-compendium",
+    "title": "Information Sharing",
+    "section": "Research Compendium",
+    "text": "Research Compendium\nA research compendium is a collection of all the digital components related to a research project, including data, code, text (like protocols and reports), and metadata. A research compendium provides a comprehensive package that allows others to fully reproduce research findings by accessing all the elements involved in the study process.\nWe will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below.",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/infoSharing.html#open-data",
+    "href": "content/infoSharing.html#open-data",
+    "title": "Information Sharing",
+    "section": "Open Data",
+    "text": "Open Data\nNOAA Fisheries’ Passive Acoustics Data is archived at the National Centers for Environmental Information (NCEI) and archived data can be accessed via the NCEI Passive Acoustic Data web portal.\nDetection data for a subset of NOAA Fisheries data can be viewed at the Passive Acoustic Cetacaean Map (PACM), developed at Northeast Fisheries Science Center. At present, the bulk of these data are from the U.S. East Coast, but an expanded PACM is in development. More information can be found at the PACM website.",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/p2w.html",
+    "href": "content/p2w.html",
+    "title": "Plankton to Whales",
+    "section": "",
+    "text": "The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.\nThis project is planned for 2025."
   },
   {
     "objectID": "index.html",
@@ -60,11 +107,14 @@
     ]
   },
   {
-    "objectID": "content/p2w.html",
-    "href": "content/p2w.html",
-    "title": "Plankton to Whales",
+    "objectID": "content/gliderRodeo.html",
+    "href": "content/gliderRodeo.html",
+    "title": "Glider Rodeo",
     "section": "",
-    "text": "The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.\nThis project is planned for 2025."
+    "text": "Goal: In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).\nFor more information, please see Glider Rodeo Website",
+    "crumbs": [
+      "In-Water Testing"
+    ]
   },
   {
     "objectID": "content/transitionPlan.html",
