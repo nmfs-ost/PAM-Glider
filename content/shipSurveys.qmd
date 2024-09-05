@@ -13,3 +13,7 @@ We will deploy several PAM-equipped gliders in association with two large-scale 
 ![](figs/calCurCEAS_plannedGliderTracks.png){target="_blank"}
 
 [Link to real time glider tracks](https://noaaosu.seaglider.pub/map/679?mission=CalCurCEAS_Aug2024){target="_blank"}
+
+
+## WHICEAS 2026
+Winter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS) is currently scheduled for February/March 2026. We will update as these plans develop.
