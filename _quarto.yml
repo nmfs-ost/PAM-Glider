@@ -49,6 +49,8 @@ website:
       #   text: Plankton to Whales
       - href: content/infoSharing.qmd
         text: Information Sharing
+      - href: content/modeling.qmd
+        text: Spatial Modeling
       - href: content/contact.qmd
         text: Contact Us
 
