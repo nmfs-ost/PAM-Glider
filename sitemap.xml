@@ -1,43 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/sensors.html</loc>
-    <lastmod>2024-09-05T17:08:11.925Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/index.html</loc>
+    <lastmod>2024-10-21T21:39:03.200Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/about.html</loc>
-    <lastmod>2024-09-05T17:08:11.909Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/shipSurveys.html</loc>
-    <lastmod>2024-09-05T17:08:11.925Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/infoSharing.html</loc>
-    <lastmod>2024-09-05T17:08:11.925Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/modeling.html</loc>
+    <lastmod>2024-10-21T21:39:03.200Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/p2w.html</loc>
-    <lastmod>2024-09-05T17:08:11.925Z</lastmod>
+    <lastmod>2024-10-21T21:39:03.200Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/index.html</loc>
-    <lastmod>2024-09-05T17:08:11.925Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/infoSharing.html</loc>
+    <lastmod>2024-10-21T21:39:03.200Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/gliderRodeo.html</loc>
-    <lastmod>2024-09-05T17:08:11.925Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/transitionPlan.html</loc>
-    <lastmod>2024-09-05T17:08:11.925Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/contact.html</loc>
-    <lastmod>2024-09-05T17:08:11.909Z</lastmod>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/about.html</loc>
+    <lastmod>2024-10-21T21:39:03.180Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/gliders.html</loc>
-    <lastmod>2024-09-05T17:08:11.925Z</lastmod>
+    <lastmod>2024-10-21T21:39:03.200Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/transitionPlan.html</loc>
+    <lastmod>2024-10-21T21:39:03.200Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/gliderRodeo.html</loc>
+    <lastmod>2024-10-21T21:39:03.200Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/sensors.html</loc>
+    <lastmod>2024-10-21T21:39:03.200Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/contact.html</loc>
+    <lastmod>2024-10-21T21:39:03.180Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/shipSurveys.html</loc>
+    <lastmod>2024-10-21T21:39:03.200Z</lastmod>
   </url>
 </urlset>

@@ -1,53 +1,30 @@
 [
   {
-    "objectID": "content/sensors.html",
-    "href": "content/sensors.html",
-    "title": "PAM Sensors",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NOAA Fisheries PAM-Equipped Glider Research",
     "section": "",
-    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR WISPR acoustic processors.\nDMON DMONs were developed by Woods Hole Oceanographic Institute, and more information on these systems can be found here.\nAlseamar Auris- Alseamar has it’s own proprietary acoustic system, ‘Auris’, which is deployed in it’s SeaExplorer glider systems. Specifications for these systems can be found here.",
+    "text": "Passive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.\nThis site provides updated information on these efforts.\nThis site is under construction and is actively being updated.",
     "crumbs": [
-      "Sensors"
+      "Home"
     ]
   },
   {
-    "objectID": "content/about.html",
-    "href": "content/about.html",
-    "title": "About Us",
+    "objectID": "content/modeling.html",
+    "href": "content/modeling.html",
+    "title": "Spatial Modeling",
     "section": "",
-    "text": "NOAA Fisheries will lead a 3 year effort to accelerate a transition to operations for using PAM-based glider surveys to augment existing surveys. These efforts are based on previous successful research efforts using PAM-equipped gliders off the U.S. East Coast to study right whales, and recent testing of SeaGliders off Hawaii. Slocum gliders are being used for real-time monitoring of North Atlantic right whales off the U.S. Atlantic coast through a NEFSC/WHOI collaboration. NOAA’s OMAO UxS Operation Center partnered with PIFSC to test PAM-equipped SeaGliders to augment ship-based surveys across the vast Pacific Islands region. The results from these studies highlighed that PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including density.\nTo expand on these efforts, PIFSC and SWFSC will lead a 3 year effort to accelerate the transition to operations for PAM-based glider surveys. The work will be focused in the Pacific initially because these Centers are ready to act and they are collectively responsible for the largest area under NMFS jurisdiction, have acute shortages of adequate shiptime, and must find alternative survey modalities to maintain their assessment operations. Despite the regional focus, the goal will be to develop a Research to Operations plan that can be adapted or applied in other regions seeking to implement PAM-equipped glider surveys to support their marine mammal assessments. The effort includes:\n\nIn-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. For more information, see the Glider Rodeo.\nConcurrent glider and shipboard surveys. We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys- PacMAPPS west coast in 2024 and PacMAPPS Hawaii in 2025. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. For more information, see the section on Shipboard Surveys.\nBuild capacity to sustain glider operations. PIFSC and SWFSC will increase capacity to sustain PAM-glider operations through support for glider technicians at each Center and for pilot and technician training. The Pacific-wide R2O plan will include considerations of operational costs for conducting PAM-glider surveys into the future.",
+    "text": "Concurrent with the work to expand the use of PAM gliders across NOAA, another IRA-funded project is working to advance the analytical methods and tools to work towards incorporating glider-collected acoustic data into population modeling. The SPACIOUS (Spatial Population Assessment of Cetaceans Integrating acoustic Observations from Uncrewed Systems) project. The project aims to develop an analytical framework to integrate data from slow moving recording platforms (such as gliders and drifters) into spatial density models for cetaceans.\nOur hope is to engage with the broader community of bioacousticians, population ecologists, and glider users that are also thinking about this and working toward this goal to create products that will be useful to NOAA and the others. We will plan to share updates and content related to SPACIOUS here.",
     "crumbs": [
-      "About Us"
+      "Spatial Modeling"
     ]
   },
   {
-    "objectID": "content/shipSurveys.html",
-    "href": "content/shipSurveys.html",
-    "title": "Concurrent Shipboard & Glider Surveys",
+    "objectID": "content/p2w.html",
+    "href": "content/p2w.html",
+    "title": "Plankton to Whales",
     "section": "",
-    "text": "We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys- PacMAPPS west coast in 2024 and PacMAPPS Hawaii in 2025. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. (supported by the UxS SI PacMAPPS project)",
-    "crumbs": [
-      "Shipboard & Glider Surveys"
-    ]
-  },
-  {
-    "objectID": "content/shipSurveys.html#calcurceas-2024",
-    "href": "content/shipSurveys.html#calcurceas-2024",
-    "title": "Concurrent Shipboard & Glider Surveys",
-    "section": "CalCurCEAS 2024",
-    "text": "CalCurCEAS 2024\nShipboard and Glider Survey off U.S. West Coast\n\n\n\nPlanned shipboard tracklines for the 2024 CalCurCEAS Survey.\n\n\n\nLink to real time glider tracks",
-    "crumbs": [
-      "Shipboard & Glider Surveys"
-    ]
-  },
-  {
-    "objectID": "content/shipSurveys.html#whiceas-2026",
-    "href": "content/shipSurveys.html#whiceas-2026",
-    "title": "Concurrent Shipboard & Glider Surveys",
-    "section": "WHICEAS 2026",
-    "text": "WHICEAS 2026\nWinter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS) is currently scheduled for February/March 2026. We will update as these plans develop.",
-    "crumbs": [
-      "Shipboard & Glider Surveys"
-    ]
+    "text": "The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.\nThis project is planned for 2025."
   },
   {
     "objectID": "content/infoSharing.html",
@@ -90,50 +67,13 @@
     ]
   },
   {
-    "objectID": "content/p2w.html",
-    "href": "content/p2w.html",
-    "title": "Plankton to Whales",
+    "objectID": "content/about.html",
+    "href": "content/about.html",
+    "title": "About Us",
     "section": "",
-    "text": "The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.\nThis project is planned for 2025."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NOAA Fisheries PAM-Equipped Glider Research",
-    "section": "",
-    "text": "Passive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.\nThis site provides updated information on these efforts.\nThis site is under construction and is actively being updated.",
+    "text": "NOAA Fisheries will lead a 3 year effort to accelerate a transition to operations for using PAM-based glider surveys to augment existing surveys. These efforts are based on previous successful research efforts using PAM-equipped gliders off the U.S. East Coast to study right whales, and recent testing of Seagliders off Hawaii. Slocum gliders are being used for real-time monitoring of North Atlantic right whales off the U.S. Atlantic coast through a NEFSC/WHOI collaboration. NOAA’s OMAO UxS Operation Center partnered with PIFSC to test PAM-equipped Seagliders to augment ship-based surveys across the vast Pacific Islands region. The results from these studies highlighted that PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including density.\nTo expand on these efforts, PIFSC and SWFSC will lead a 3 year effort to accelerate the transition to operations for PAM-based glider surveys. The work will be focused in the Pacific initially because these Centers are ready to act and they are collectively responsible for the largest area under NMFS jurisdiction, have acute shortages of adequate shiptime, and must find alternative survey modalities to maintain their assessment operations. Despite the regional focus, the goal will be to develop a Research to Operations plan that can be adapted or applied in other regions seeking to implement PAM-equipped glider surveys to support their marine mammal assessments. The effort includes:\n\nIn-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. For more information, see the Glider Rodeo.\nConcurrent glider and shipboard surveys. We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys- PacMAPPS west coast in 2024 and PacMAPPS Hawaii in 2025. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. For more information, see the section on Shipboard Surveys.\nBuild capacity to sustain glider operations. PIFSC and SWFSC will increase capacity to sustain PAM-glider operations through support for glider technicians at each Center and for pilot and technician training. The Pacific-wide R2O plan will include considerations of operational costs for conducting PAM-glider surveys into the future.",
     "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "content/gliderRodeo.html",
-    "href": "content/gliderRodeo.html",
-    "title": "Glider Rodeo",
-    "section": "",
-    "text": "Goal: In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).\nFor more information, please see Glider Rodeo Website",
-    "crumbs": [
-      "In-Water Testing"
-    ]
-  },
-  {
-    "objectID": "content/transitionPlan.html",
-    "href": "content/transitionPlan.html",
-    "title": "Transition to Operations",
-    "section": "",
-    "text": "Our ultimate goal is to develop a Research to Operations Plan that will transition our science to using PAM-Gliders to address our management needs. This plan will be outlined in a National Strategy RoadMap for PAM-Glider Operations.\n\nThis will include:\n\nAccelerate Pacific-Wide PAM-Glider Operations\nMatch appropriate technology to research questions\nProvide a framework to monitor technological developments\nIdentify future investment needs",
-    "crumbs": [
-      "Transition Plan"
-    ]
-  },
-  {
-    "objectID": "content/contact.html",
-    "href": "content/contact.html",
-    "title": "Contact Us",
-    "section": "",
-    "text": "Under Construction\nInstructions for contacting us will be added soon! –&gt; Give instructions for submitting an inquiry through the Github Issues",
-    "crumbs": [
-      "Contact Us"
+      "About Us"
     ]
   },
   {
@@ -194,6 +134,76 @@
     "text": "We understand that these technologies are rapidly developing, and we’d love to hear about new developments. Please contact us under the ‘Contact Us’ page.",
     "crumbs": [
       "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/transitionPlan.html",
+    "href": "content/transitionPlan.html",
+    "title": "Transition to Operations",
+    "section": "",
+    "text": "Our ultimate goal is to develop a Research to Operations Plan that will transition our science to using PAM-Gliders to address our management needs. This plan will be outlined in a National Strategy RoadMap for PAM-Glider Operations.\n\nThis will include:\n\nAccelerate Pacific-Wide PAM-Glider Operations\nMatch appropriate technology to research questions\nProvide a framework to monitor technological developments\nIdentify future investment needs",
+    "crumbs": [
+      "Transition Plan"
+    ]
+  },
+  {
+    "objectID": "content/gliderRodeo.html",
+    "href": "content/gliderRodeo.html",
+    "title": "Glider Rodeo",
+    "section": "",
+    "text": "Goal: In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).\nFor more information, please see Glider Rodeo Website",
+    "crumbs": [
+      "In-Water Testing"
+    ]
+  },
+  {
+    "objectID": "content/sensors.html",
+    "href": "content/sensors.html",
+    "title": "PAM Sensors",
+    "section": "",
+    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR WISPR acoustic processors.\nDMON DMONs were developed by Woods Hole Oceanographic Institute, and more information on these systems can be found here.\nAlseamar Auris- Alseamar has it’s own proprietary acoustic system, ‘Auris’, which is deployed in it’s SeaExplorer glider systems. Specifications for these systems can be found here.",
+    "crumbs": [
+      "Sensors"
+    ]
+  },
+  {
+    "objectID": "content/contact.html",
+    "href": "content/contact.html",
+    "title": "Contact Us",
+    "section": "",
+    "text": "Under Construction\nInstructions for contacting us will be added soon! –&gt; Give instructions for submitting an inquiry through the Github Issues",
+    "crumbs": [
+      "Contact Us"
+    ]
+  },
+  {
+    "objectID": "content/shipSurveys.html",
+    "href": "content/shipSurveys.html",
+    "title": "Concurrent Shipboard & Glider Surveys",
+    "section": "",
+    "text": "We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys- PacMAPPS west coast in 2024 and PacMAPPS Hawaii in 2025. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. (supported by the UxS SI PacMAPPS project)",
+    "crumbs": [
+      "Shipboard & Glider Surveys"
+    ]
+  },
+  {
+    "objectID": "content/shipSurveys.html#calcurceas-2024",
+    "href": "content/shipSurveys.html#calcurceas-2024",
+    "title": "Concurrent Shipboard & Glider Surveys",
+    "section": "CalCurCEAS 2024",
+    "text": "CalCurCEAS 2024\nShipboard and Glider Survey off U.S. West Coast\n\n\n\nPlanned shipboard tracklines for the 2024 CalCurCEAS Survey.\n\n\n\nLink to real time glider tracks",
+    "crumbs": [
+      "Shipboard & Glider Surveys"
+    ]
+  },
+  {
+    "objectID": "content/shipSurveys.html#whiceas-2026",
+    "href": "content/shipSurveys.html#whiceas-2026",
+    "title": "Concurrent Shipboard & Glider Surveys",
+    "section": "WHICEAS 2026",
+    "text": "WHICEAS 2026\nWinter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS) is currently scheduled for February/March 2026. We will update as these plans develop.",
+    "crumbs": [
+      "Shipboard & Glider Surveys"
     ]
   }
 ]
