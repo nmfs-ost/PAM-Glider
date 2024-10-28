@@ -140,13 +140,19 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/gliderRodeo.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">In-Water Testing</span></a>
+ <span class="menu-text">Field Testing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/shipSurveys.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Shipboard &amp; Glider Surveys</span></a>
+ <span class="menu-text">Ship &amp; Glider Surveys</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../content/modeling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Spatial Modeling</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -163,12 +169,6 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/modeling.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Spatial Modeling</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="../content/contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contact Us</span></a>
   </div>
@@ -178,8 +178,14 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#auris" id="toc-auris" class="nav-link active" data-scroll-target="#auris">Auris</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-opensci/NOAA-quarto-simple/edit/main/content/sensors.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/NOAA-quarto-simple/blob/main/content/sensors.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-opensci/NOAA-quarto-simple/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -204,11 +210,32 @@ ul.task-list li input[type="checkbox"] {
 
 
 <p>Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:</p>
-<p>WISPR <a href="https://embeddedocean.com/passive-acoustics-2/" target="_blank">WISPR</a> acoustic processors.</p>
-<p>DMON DMONs were developed by Woods Hole Oceanographic Institute, and more information on these systems can be found <a href="https://apps.dtic.mil/sti/tr/pdf/ADA617025.pdf" target="_blank">here</a>.</p>
-<p>Alseamar Auris- Alseamar has it’s own proprietary acoustic system, ‘Auris’, which is deployed in it’s SeaExplorer glider systems. Specifications for these systems can be found <a href="https://www.alseamar-alcen.com/index.php/products/underwater-glider/seaexplorer" target="_blank">here</a>.</p>
+<div class="columns">
+<div class="column" style="width:&quot;80%;">
+<section id="wispr" class="level2">
+<h2 class="anchored" data-anchor-id="wispr">WISPR</h2>
+</section>
+</div><div class="column" style="width:&quot;20%;">
+<p><img src="images/wispr.jfif" class="img-fluid" width="100"></p>
+</div>
+</div>
+<p><a href="https://embeddedocean.com/passive-acoustics-2/" target="_blank">WISPR</a> is an acoustic processor developed by Embedded Ocean Systems and designed for limited space and low power, with options for customized applications. WISPR are currently used on SeaGliders, and integration for Slocum gliders is under development.</p>
+<div class="columns">
+<div class="column" style="width:&quot;80%;">
+<section id="dmon" class="level2">
+<h2 class="anchored" data-anchor-id="dmon">DMON</h2>
+</section>
+</div><div class="column" style="width:&quot;20%;">
+<p><img src="images/dmon.png" class="img-fluid" width="200"></p>
+</div>
+</div>
+<p>The Digital MONitor (<a href="https://apps.dtic.mil/sti/tr/pdf/ADA617025.pdf">DMON</a>) was developed by Woods Hole Oceanographic Institute and have been integrated on Slocum gliders and have been used with <a href="https://www.soest.hawaii.edu/ore/OE/Prof.Howe_PDF/DMON_Van_Uffelen_JOE_2017.pdf">SeaGliders</a>. The current iteration of DMON has limited capacity for high frequency recording, but expansion of this capacity to improve storage capacity is under development.</p>
+<section id="auris" class="level2">
+<h2 class="anchored" data-anchor-id="auris">Auris</h2>
+<p>The <a href="https://www.alseamar-alcen.com/index.php/products/underwater-glider/seaexplorer" target="_blank">Auris</a> acoustic processing system is a proprietary system developed for the Alseamar SeaExplorer glider.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -782,8 +809,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/gliderRodeo.html" class="pagination-link" aria-label="In-Water Testing">
-        <span class="nav-page-text">In-Water Testing</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/gliderRodeo.html" class="pagination-link" aria-label="Field Testing">
+        <span class="nav-page-text">Field Testing</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -795,7 +822,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/nmfs-opensci/NOAA-quarto-simple/edit/main/content/sensors.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/NOAA-quarto-simple/blob/main/content/sensors.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-opensci/NOAA-quarto-simple/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-opensci/NOAA-quarto-simple/edit/main/content/sensors.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-opensci/NOAA-quarto-simple/blob/main/content/sensors.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-opensci/NOAA-quarto-simple/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
