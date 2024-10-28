@@ -2,18 +2,48 @@
 title: Concurrent Shipboard & Glider Surveys
 ---
 
-We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys- PacMAPPS west coast in 2024 and PacMAPPS Hawaii in 2025. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. (supported by the UxS SI PacMAPPS project)
+Traditional large-scale surveys of marine mammals are conducted by visual observation from large research vessels. While these surveys collect extremely high-quality data that can be readily analyzed to assess marine mammal populations, they do have their limitations. These methods are complicated for deep-diving species that spend little time at the surface (beaked whales, sperm whales), and they are limited by weather conditions (including fog, rain, and high seas). These surveys are conducted \~ every 5 years during good weather seasons, and so are limited in their ability to assess seasonal and inter-annual variability.
+
+Can PAM-equipped gliders augment existing shipboard surveys to improve our understanding of deep-diving species or to improve our understanding of temporal variability in marine mammal populations?
+
+To address this question, we need to collect data using traditional methods (shipboard visual surveys) and new methods (PAM-gliders) in the same region and at the same time. Data collected druing these concurrent surveys are needed to develop and test statistical methods needed to use PAM-glider data to assess marine mammal populations.
+
+We will conduct concurrent shipboard/glider surveys off the U.S. West Coast (CalCurCEAS) and Hawaii (WHICEAS).
+
+Data from these surveys will be used for developing [Spatial Modeling](https://nmfs-pam-glider.github.io/PAM-UxS/content/modeling.html).
 
 ## CalCurCEAS 2024
 
-***Shipboard and Glider Survey off U.S. West Coast***
+::: columns
+::: {.column width="40%}
 
-![Planned shipboard tracklines for the 2024 CalCurCEAS Survey.](figs/Tracklines_calcurceas.png){fig-align="left"}
+Three SeaGliders were deployed out of Newport Oregon and surveyed in a zig-zag pattern south towards Eureka, California. The offshore glider (orange trackline) was deployed on August 23, 2024, and completed 1250 km (1150 km of official trackline) over 64 days. The two nearshore gliders covered over 700 km of trackline over 41 days (from September 14 - October 25, 2024). The offshore glider was the longest mission of any of the OSU gliders to date! This was also the first time this experienced glider team piloted three gliders simultaneously.
 
-![](figs/calCurCEAS_plannedGliderTracks.png){target="_blank"}
+:::
+::: {.column width="60%}
 
-[Link to real time glider tracks](https://noaaosu.seaglider.pub/map/679?mission=CalCurCEAS_Aug2024){target="_blank"}
+![](images/calCurCEAS_gliderMap.png){width="500"}
 
+::: 
+:::
+
+::: columns
+::: {.column width="50%}
+
+![Planned shipboard tracklines for the 2024 CalCurCEAS Survey.](images/Tracklines_calcurceas.png){width="400"}
+
+:::
+::: {.column width="50%}
+
+These PAM-glider tracks overlap in both time and space with the CalCurCEAS shipboard visual observation survey. In addition to visual observations, drifting acoustic recorders were deployed offshore to study beaked whales. This provides an opportunity to compare detection of species offshore Oregon by three different platforms: shipboard visual observation, drifting acoustic recorders, and PAM-equipped gliders. These data will be used to develop the analytical framework for integrating data from slow-moving recording platforms (such as gliders and drifting recorders) into spatial density models for marine mammals (see [Spatial Modeling](https://nmfs-pam-glider.github.io/PAM-UxS/content/modeling.html)).
+
+::: 
+:::
+
+Three PAM-equipped SeaGliders were deployed by collaborator Dave Mellinger from Oregon State University with co-piloting by our PIFSC colleagues: Selene Fregosi, Erik Norris, and Calla Lloyd-Lim.
 
 ## WHICEAS 2026
+
 Winter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS) is currently scheduled for February/March 2026. We will update as these plans develop.
+
+![](images/WHICEAS_example.png){width="500"}

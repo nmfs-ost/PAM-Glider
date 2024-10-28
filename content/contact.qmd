@@ -2,7 +2,6 @@
 title: Contact Us
 ---
 
-Under Construction
+To reach out with a question or comment, please reach out via the form link, below, and we will try to respond in a timely manner.
 
-*Instructions for contacting us will be added soon!* --\> Give instructions for submitting an inquiry through the Github Issues
-
+[Contact Us Form](https://forms.gle/jwzapgkpnoXz9ijs9)

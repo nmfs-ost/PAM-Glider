@@ -3,7 +3,7 @@ title: Information Sharing
 ---
 
 [What is Open Science?](https://www.cos.io/open-science){target="_blank"}
-The goals of 'Open Science' are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see Open Science for more info)(https://www.cos.io/open-science){target="_blank"}
+The goals of 'Open Science' are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see [Open Science](https://www.cos.io/open-science){target="_blank"} for more info).
 
 Below we outline the ways in which our PAM-Glider program aims to embrace Open Science. This is a work in progress, and we welcome suggestions in how we can improve on these efforts.
  
@@ -27,7 +27,7 @@ Zotero is a free, open-source reference management tool that helps users collect
 ## Research Compendium
 A research compendium is a collection of all the digital components related to a research project, including data, code, text (like protocols and reports), and metadata. A research compendium provides a comprehensive package that allows others to fully reproduce research findings by accessing all the elements involved in the study process.
 
-We will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below. 
+We will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below. (*Stay Tuned!*)
 
 
 ## Open Data
