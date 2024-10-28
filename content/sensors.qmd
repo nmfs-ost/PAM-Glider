@@ -1,13 +1,58 @@
 ---
 title: PAM Sensors
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:
+Glider platforms can support one or more options for PAM sensors.
+Technology is rapidly developing, and we will be testing the following
+PAM Sensors: 
 
-WISPR
-[WISPR](https://embeddedocean.com/passive-acoustics-2/){target="_blank"} acoustic processors. 
- 
-DMON
-DMONs were developed by Woods Hole Oceanographic Institute, and more information on these systems can be found [here](https://apps.dtic.mil/sti/tr/pdf/ADA617025.pdf){target="_blank"}.
+::: columns 
+::: {.column width="80%}
 
-Alseamar Auris- Alseamar has it's own proprietary acoustic system, 'Auris', which is deployed in it's SeaExplorer glider systems. Specifications for these systems can be found [here](https://www.alseamar-alcen.com/index.php/products/underwater-glider/seaexplorer){target="_blank"}.
+## WISPR
+
+::: 
+::: {.column width="20%}
+
+![](images/wispr.jfif){width="100"} 
+
+::: 
+:::
+
+[WISPR](https://embeddedocean.com/passive-acoustics-2/){target="_blank"}
+is an acoustic processor developed by Embedded Ocean Systems and
+designed for limited space and low power, with options for customized
+applications. WISPR are currently used on SeaGliders, and integration
+for Slocum gliders is under development.
+
+::: columns
+::: {.column width="80%}
+
+## DMON
+
+:::
+::: {.column width="20%}
+
+![](images/dmon.png){width="200"}
+
+::: 
+:::
+
+The Digital MONitor
+([DMON](https://apps.dtic.mil/sti/tr/pdf/ADA617025.pdf)) was developed
+by Woods Hole Oceanographic Institute and have been integrated on Slocum
+gliders and have been used with
+[SeaGliders](https://www.soest.hawaii.edu/ore/OE/Prof.Howe_PDF/DMON_Van_Uffelen_JOE_2017.pdf).
+The current iteration of DMON has limited capacity for high frequency
+recording, but expansion of this capacity to improve storage capacity is
+under development.
+
+## Auris
+
+The
+[Auris](https://www.alseamar-alcen.com/index.php/products/underwater-glider/seaexplorer){target="_blank"}
+acoustic processing system is a proprietary system developed for the
+Alseamar SeaExplorer glider.
