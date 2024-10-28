@@ -22,7 +22,7 @@ Three SeaGliders were deployed out of Newport Oregon and surveyed in a zig-zag p
 :::
 ::: {.column width="60%}
 
-![](images/calCurCEAS_gliderMap.png){width="500"}
+![](images/CalCurCEAS_gliderMap.png){width="500"}
 
 ::: 
 :::
