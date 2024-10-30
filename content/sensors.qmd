@@ -23,10 +23,10 @@ PAM Sensors:
 :::
 
 [WISPR](https://embeddedocean.com/passive-acoustics-2/){target="_blank"}
-is an acoustic processor developed by Embedded Ocean Systems and
-designed for limited space and low power, with options for customized
-applications. WISPR are currently used on SeaGliders, and integration
-for Slocum gliders is under development.
+(Wideband Intelligent Signal Processor and Recorder) is an acoustic processor 
+developed by Embedded Ocean Systems and designed for limited space and low 
+power, with options for customized applications. WISPR are currently used on 
+Seagliders, and integration for Slocum gliders is under development.
 
 ::: columns
 ::: {.column width="80%}
@@ -45,7 +45,7 @@ The Digital MONitor
 ([DMON](https://apps.dtic.mil/sti/tr/pdf/ADA617025.pdf)) was developed
 by Woods Hole Oceanographic Institute and have been integrated on Slocum
 gliders and have been used with
-[SeaGliders](https://www.soest.hawaii.edu/ore/OE/Prof.Howe_PDF/DMON_Van_Uffelen_JOE_2017.pdf).
+[Seagliders](https://www.soest.hawaii.edu/ore/OE/Prof.Howe_PDF/DMON_Van_Uffelen_JOE_2017.pdf).
 The current iteration of DMON has limited capacity for high frequency
 recording, but expansion of this capacity to improve storage capacity is
 under development.
