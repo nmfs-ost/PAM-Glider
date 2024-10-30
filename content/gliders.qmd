@@ -2,8 +2,6 @@
 title: Gliders
 ---
 
-# Gliders
-
 The primary contemporary gliders with PAM capacity include Slocum, Seagliders, Ocean Scout, and SeaExporer. We understand that technology is rapidly changing, and even if we are unable to directly include additional platforms, we hope to learn more about technologies currently in development. In addition, there may be (unfunded) opportunities for including alternative platforms within the Glider Rodeo effort (Please see section on 'Inquiries').
 
 ## Slocum Gliders (Teledyne Webb) ![](images/SlocumGlider.jpg){width="97"}
