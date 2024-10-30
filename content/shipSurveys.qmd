@@ -6,9 +6,9 @@ Traditional large-scale surveys of marine mammals are conducted by visual observ
 
 Can PAM-equipped gliders augment existing shipboard surveys to improve our understanding of deep-diving species or to improve our understanding of temporal variability in marine mammal populations?
 
-To address this question, we need to collect data using traditional methods (shipboard visual surveys) and new methods (PAM-gliders) in the same region and at the same time. Data collected druing these concurrent surveys are needed to develop and test statistical methods needed to use PAM-glider data to assess marine mammal populations.
+To address this question, we need to collect data using traditional methods (shipboard visual surveys) and new methods (PAM-gliders) in the same region and at the same time. Data collected during these concurrent surveys are needed to develop and test statistical methods needed to use PAM-glider data to assess marine mammal populations.
 
-We will conduct concurrent shipboard/glider surveys off the U.S. West Coast (CalCurCEAS) and Hawaii (WHICEAS).
+We will conduct concurrent shipboard/glider surveys off the U.S. West Coast (CalCurCEAS) and Hawaiʻi (WHICEAS).
 
 Data from these surveys will be used for developing [Spatial Modeling](https://nmfs-pam-glider.github.io/PAM-UxS/content/modeling.html).
 
@@ -17,7 +17,7 @@ Data from these surveys will be used for developing [Spatial Modeling](https://n
 ::: columns
 ::: {.column width="40%}
 
-Three SeaGliders were deployed out of Newport Oregon and surveyed in a zig-zag pattern south towards Eureka, California. The offshore glider (orange trackline) was deployed on August 23, 2024, and completed 1250 km (1150 km of official trackline) over 64 days. The two nearshore gliders covered over 700 km of trackline over 41 days (from September 14 - October 25, 2024). The offshore glider was the longest mission of any of the OSU gliders to date! This was also the first time this experienced glider team piloted three gliders simultaneously.
+Three Seagliders were deployed out of Newport Oregon and surveyed in a zig-zag pattern south towards Eureka, California. The offshore glider (orange trackline) was deployed on August 23, 2024, and completed 1250 km (1150 km of official trackline) over 64 days. The two nearshore gliders covered over 700 km of trackline over 41 days (from September 14 - October 25, 2024). The offshore glider was the longest mission of any of the OSU gliders to date! This was also the first time this experienced glider team piloted three gliders simultaneously.
 
 :::
 ::: {.column width="60%}
@@ -40,7 +40,7 @@ These PAM-glider tracks overlap in both time and space with the CalCurCEAS shipb
 ::: 
 :::
 
-Three PAM-equipped SeaGliders were deployed by collaborator Dave Mellinger from Oregon State University with co-piloting by our PIFSC colleagues: Selene Fregosi, Erik Norris, and Calla Lloyd-Lim.
+Three PAM-equipped Seagliders were deployed by collaborator Dave Mellinger from Oregon State University with co-piloting by our PIFSC colleagues: Selene Fregosi, Erik Norris, and Calla Lloyd-Lim.
 
 ## WHICEAS 2026
 
