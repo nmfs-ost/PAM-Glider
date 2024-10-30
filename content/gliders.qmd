@@ -6,19 +6,19 @@ title: Gliders
 
 The primary contemporary gliders with PAM capacity include Slocum, Seagliders, Ocean Scout, and SeaExporer. We understand that technology is rapidly changing, and even if we are unable to directly include additional platforms, we hope to learn more about technologies currently in development. In addition, there may be (unfunded) opportunities for including alternative platforms within the Glider Rodeo effort (Please see section on 'Inquiries').
 
-## Slocum Gliders (Teledyne Webb) ![](figs/SlocumGlider.jpg){width="97"}
+## Slocum Gliders (Teledyne Webb) ![](images/SlocumGlider.jpg){width="97"}
 
 NOAA's Southwest Fisheries Science Center began deploying Slocum gliders to study Antarctic krill in 2018, and in 2025 they will expand their glider program with PAM-equipped gliders to study marine mammals off the U.S. West coast. Slocum Gliders are modular, and two different PAM systems will be tested: the [DMON](https://apps.dtic.mil/sti/tr/pdf/ADA617025.pdf){target="_blank"} (developed by WHOI) and [WISPR](https://embeddedocean.com/passive-acoustics-2/){target="_blank"} (Embedded Ocean Systems).
 
-## SeaGliders (U Washington) ![](figs/seaGlider.jpg){width="114"}
+## SeaGliders (U Washington) ![](images/seaGlider.jpg){width="114"}
 
 [Seagliders](https://iop.apl.washington.edu/seaglider.php){target="_blank"}  are buoyancy driven autonomous underwater vehicles developed at the University of Washington. Through a partnership with Dave Mellinger at Oregon State University, NOAA researchers at Pacific Islands Fisheries Science Center has been testing the passive acoustic capabilities of these gliders to conduct marine mammal monitoring off Hawaii. They will continue this collaboration in 2025 as PIFSC builds out their own glider lab with SeaGliders with onboard [WISPR](https://embeddedocean.com/passive-acoustics-2/){target="_blank"}  acoustic processors. Seaglider support resources can be found [here](https://iop.apl.washington.edu/iopsg/){target="_blank"} , and WISPR 2.0 specifications can be found [here](https://embeddedocean.com/wispr-v2-0/){target="_blank"} . *Note that WISPR 3.0 is under development.*
 
-## Ocean Scout (Hefring) ![](figs/HefringGlider.jpg){width="149"}
+## Ocean Scout (Hefring) ![](images/HefringGlider.jpg){width="149"}
 
 The [Ocean Scout](https://www.hefring.com/oceanscout){target="_blank"} is a small glider developed as a 'user friendly' PAM-equipped glider. They are much smaller and require less training and expertise to use. Southwest Fisheries Science Center has procured two Ocean Scouts for testing and for specific scientific research efforts. The Ocean Scout specifications can be found [here](https://cdn2.assets-servd.host/hefring-engineering/production/dist/assets/PDFs/combined-base-and-pam.pdf?dm=1707500641).
 
-## SeaExplorer (Alseamar) ![](figs/alsemarGlider.png){width="247"}
+## SeaExplorer (Alseamar) ![](images/alsemarGlider.png){width="247"}
 
 The [SeaExplorer](https://www.alseamar-alcen.com/products/underwater-glider){target="_blank"}  was developed by the French company Alcen-Alseamar. Alseamar SeaExplorers are not yet available for purchase in the United States, but the company offers their gliders as a [service](https://www.alseamar-alcen.com/services/marine-survey-services/underwater-gliders-services), with mission planning, piloting, and data delivery. We will include SeaExplorers in our Glider Rodeo (as a service). SeaExplorer specifications can be found [here](https://www.alseamar-alcen.com/sites/alseamar-alcen/files/products/pdf/ALSEAMAR-SEA_EXPLORER-2022-Web.pdf){target="_blank"}.
 

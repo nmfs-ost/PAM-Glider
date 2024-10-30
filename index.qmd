@@ -7,4 +7,6 @@ Passive Acoustic Monitoring is an effective means of monitoring marine mammals a
 
 This site provides updated information on these efforts.
 
-*This site is under construction and is actively being updated.*
+![](content/images/PAMplatforms_gliders.png){width="618"}
+
+*Information provided here is ongoing, and is frequently updated.*
