@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -36,12 +36,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-d60dc51e4780a8da6e803e03ea2fa71c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e19d0f8100c91b5b96a38b37e81d057c.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -202,10 +202,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<div class="columns">
+<div class="column" style="width:75%;">
 <p>Passive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.</p>
 <p>This site provides updated information on these efforts.</p>
 <p><img src="content/images/PAMplatforms_gliders.png" class="img-fluid" width="618"></p>
 <p><em>Information provided here is ongoing, and is frequently updated.</em></p>
+</div><div class="column" style="width:25%;">
+<div class="callout callout-style-default callout-tip callout-titled" title="News!">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+News!
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Newsworthy Updates!</p>
+</div>
+</div>
+<p><a href="https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider">Sound Bytes Blog: It’s a boat, it’s a plane, it’s a passive acoustic ocean glider!</a> Selene Fregosi (PIFSC) explains how underwater gliders help us listen for whales! <img src="content/images/Selene_soundbytes.jpg" class="img-fluid" width="348"></p>
+<p><a href="https://www.fisheries.noaa.gov/news/ocean-gliders-listen-whales-oregon-test-new-ways-count-them?utm_medium=email&amp;utm_source=govdelivery">Ocean Gliders Listen for Whales off Oregon in Test of New Ways to Count Them</a> Passive acoustic monitoring by ‘gliders’ may better detect some species <img src="content/images/Glider_Preparations-MMTD-SWFSC.png" class="img-fluid" width="350"></p>
+</div>
+</div>
 
 
 
@@ -436,8 +456,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -548,7 +566,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
