@@ -3,9 +3,9 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA quarto simple" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
+  title: "PAM-UxS" 
+  site-url: "https://nmfs-pam-glider.github.io/PAM-UxS/" 
+  repo-url: "https://github.com/NMFS-PAM-Glider/PAM-UxS"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
@@ -21,11 +21,11 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
+        href: https://nmfs-pam-glider.github.io/PAM-UxS/
+        text: "NOAA Fisheries PAM Glider Research"
       - icon: github
-        href: https://github.com/nmfs-opensci
-        text: "NMFS OpenSci"
+        href: https://github.com/NMFS-PAM-Glider
+        text: "NOAA NMFS PAM Glider"
 
     style: "docked"
     search: true

@@ -3,6 +3,9 @@ title: "NOAA Fisheries PAM-Equipped Glider Research"
 page-layout: full
 ---
 
+::: columns 
+::: {.column width="75%"}
+
 Passive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.
 
 This site provides updated information on these efforts.
@@ -10,3 +13,17 @@ This site provides updated information on these efforts.
 ![](content/images/PAMplatforms_gliders.png){width="618"}
 
 *Information provided here is ongoing, and is frequently updated.*
+
+::: 
+::: {.column width="25%"}
+
+::: {.callout-tip title="News!"}
+Newsworthy Updates!
+:::
+
+[Sound Bytes Blog: It's a boat, it's a plane, it's a passive acoustic ocean glider!](https://www.fisheries.noaa.gov/science-blog/sound-bytes-its-boat-its-plane-its-passive-acoustic-ocean-glider) Selene Fregosi (PIFSC) explains how underwater gliders help us listen for whales! ![](content/images/Selene_soundbytes.jpg){width="348"}
+
+[Ocean Gliders Listen for Whales off Oregon in Test of New Ways to Count Them](https://www.fisheries.noaa.gov/news/ocean-gliders-listen-whales-oregon-test-new-ways-count-them?utm_medium=email&utm_source=govdelivery) Passive acoustic monitoring by 'gliders' may better detect some species ![](content/images/Glider_Preparations-MMTD-SWFSC.png){width="350"}
+
+:::
+:::
