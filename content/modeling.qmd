@@ -7,3 +7,4 @@ Concurrent with the work to expand the use of PAM gliders across NOAA, another I
 
 Our hope is to engage with the broader community of bioacousticians, population ecologists, and glider users that are also thinking about this and working toward this goal to create products that will be useful to NOAA and the others. We will plan to share updates and content related to SPACIOUS here. 
 
+![](images/SPACIOUS_icon.png){fig-align="center" width=240}
