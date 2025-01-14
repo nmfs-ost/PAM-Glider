@@ -15,32 +15,42 @@ Data from these surveys will be used for developing [Spatial Modeling](https://n
 ## CalCurCEAS 2024
 
 ::: columns
-::: {.column width="40%}
+::: {.column width="\"40%"}
+Three PAM-equipped Seagliders were deployed out of Newport Oregon and surveyed in a zig-zag pattern south towards Eureka, California:
 
-Three Seagliders were deployed out of Newport Oregon and surveyed in a zig-zag pattern south towards Eureka, California. The offshore glider (orange trackline) was deployed on August 23, 2024, and completed 1250 km (1150 km of official trackline) over 64 days. The two nearshore gliders covered over 700 km of trackline over 41 days (from September 14 - October 25, 2024). The offshore glider was the longest mission of any of the OSU gliders to date! This was also the first time this experienced glider team piloted three gliders simultaneously.
+1.  **SG679:** Offshore Tracks (orange trackline)
 
+    -   63 days (8/23/2024 - 10/25/2024)
+    -   Four transects, 297 dives
+    -   Surveyed 1459 km trackline
+    -   180 kHz sampling, 2.5 Tb data
+    -   94% total mission has recordings
+
+2.  **SG639:** Inshore Tracks (yellow); **SG80** (red)
+
+    -   41 days (9/14/2024 - 10/25/2024)
+    -   SG639: 6 transects 217 dives, 789 km; bonus transect to Trinidad Canyon
+    -   SG80: 8 transects, 232 dives, 806 km
+    -   200 kHz sampling, 1.8 Tb data
+    -   95% total mission has recordings
 :::
-::: {.column width="60%}
 
-![](images/CalCurCEAS_gliderMap.png){width="500"}
+::: {.column width="\"60%"}
+![](images/CalCurCEAS_gliderMap.png){width="580"}
+:::
 
-::: 
+The PAM-equipped Seagliders were deployed by collaborator Dave Mellinger from Oregon State University with co-piloting by our PIFSC colleagues: Selene Fregosi, Erik Norris, and Calla Lloyd-Lim. The offshore glider was the longest mission of any of the OSU gliders to date! This was also the first time this experienced glider team piloted three gliders simultaneously.
 :::
 
 ::: columns
-::: {.column width="50%}
-
+::: {.column width="\"50%"}
 ![Planned shipboard tracklines for the 2024 CalCurCEAS Survey.](images/Tracklines_calcurceas.png){width="400"}
-
 :::
-::: {.column width="50%}
 
+::: {.column width="\"50%"}
 These PAM-glider tracks overlap in both time and space with the CalCurCEAS shipboard visual observation survey. In addition to visual observations, drifting acoustic recorders were deployed offshore to study beaked whales. This provides an opportunity to compare detection of species offshore Oregon by three different platforms: shipboard visual observation, drifting acoustic recorders, and PAM-equipped gliders. These data will be used to develop the analytical framework for integrating data from slow-moving recording platforms (such as gliders and drifting recorders) into spatial density models for marine mammals (see [Spatial Modeling](https://nmfs-pam-glider.github.io/PAM-UxS/content/modeling.html)).
-
-::: 
 :::
-
-Three PAM-equipped Seagliders were deployed by collaborator Dave Mellinger from Oregon State University with co-piloting by our PIFSC colleagues: Selene Fregosi, Erik Norris, and Calla Lloyd-Lim.
+:::
 
 ## WHICEAS 2026
 
