@@ -1,6 +1,7 @@
-# NOAA Fisheries PAM-UxS Glider Research
-Under Construction
+# NOAA Fisheries PAM-Glider Research
 
+
+### About: 
 This repository contains summary information regarding NOAA Fisheries' development of a PAM-Glider Research to Operations plan, including projects that inform these plans.
 
 
