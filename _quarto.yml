@@ -43,6 +43,8 @@ website:
         text: Field Testing
       - href: content/shipSurveys.qmd
         text: Ship & Glider Surveys
+      - href: content/gliderSoundscapes.qmd
+        text: Soundscapes
       - href: content/modeling.qmd
         text: Spatial Modeling
       - href: content/transitionPlan.qmd

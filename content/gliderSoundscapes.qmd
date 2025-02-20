@@ -1,0 +1,4 @@
+---
+title: Glider Soundscapes
+---
+Soundscape analysis is a valuable tool for assessing changes to the marine environment. Soundscape analysis is complicated by instrument noise, variable instrument depth, and other complications. We will investigate two methods for assessing soundscape (PyPAM and MANTA), and test these analyses on glider data to define best practices to use PAM-equipped gliders for soundscape analysis. 
