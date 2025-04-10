@@ -3,8 +3,8 @@ title: "Spatial Modeling"
 page-layout: full
 ---
 
-Concurrent with the work to expand the use of PAM gliders across NOAA, another IRA-funded project is working to advance the analytical methods and tools to work towards incorporating glider-collected acoustic data into population modeling. The SPACIOUS (Spatial Population Assessment of Cetaceans Integrating acoustic Observations from Uncrewed Systems) project. The project aims to develop an analytical framework to integrate data from slow moving recording platforms (such as gliders and drifters) into spatial density models for cetaceans. 
+Concurrent with the work to expand the use of PAM gliders across NOAA, a synergestic project is working to advance the analytical methods and tools to work towards incorporating glider-collected acoustic data into population modeling. The SPACIOUS (Spatial Population Assessment of Cetaceans Integrating acoustic Observations from Uncrewed Systems) project aims to develop an analytical framework to integrate data from slow-moving recording platforms (such as gliders and drifters) into spatial density models for cetaceans. 
 
-Our hope is to engage with the broader community of bioacousticians, population ecologists, and glider users that are also thinking about this and working toward this goal to create products that will be useful to NOAA and the others. We will plan to share updates and content related to SPACIOUS here. 
+More information on this project can be found on the [PAM-Stocks site](https://nmfs-ost.github.io/PAM-Stocks/). Our hope is to engage with the broader community of bioacousticians, population ecologists, and glider users that are also thinking about this problem and working toward this goal to create products that will be useful to NOAA and the others. We will plan to share updates and content related to SPACIOUS there. 
 
 ![](images/SPACIOUS_icon.png){fig-align="center" width=240}
