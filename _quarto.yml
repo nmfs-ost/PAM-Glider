@@ -4,8 +4,8 @@ project:
 website: 
   page-navigation: true
   title: "PAM-UxS" 
-  site-url: "https://nmfs-pam-glider.github.io/PAM-UxS/" 
-  repo-url: "https://github.com/NMFS-PAM-Glider/PAM-UxS"
+  site-url: "https://nmfs-ost.github.io/PAM-Glider/" 
+  repo-url: "https://github.com/nmfs-ost/PAM-Glider"
   repo-actions: [edit, source, issue]
   favicon: content/images/SEAGLIDER.png
   
@@ -21,10 +21,10 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-pam-glider.github.io/PAM-UxS/
+        href: https://nmfs-ost.github.io/PAM-Glider/
         text: "NOAA Fisheries PAM Glider Research"
       - icon: github
-        href: https://github.com/NMFS-PAM-Glider
+        href: https://github.com/nmfs-ost/PAM-Glider
         text: "NOAA NMFS PAM Glider"
 
     style: "docked"
@@ -35,18 +35,21 @@ website:
         text: Home
       - href: content/about.qmd
         text: About Us
-      - href: content/gliders.qmd
-        text: Gliders
-      - href: content/sensors.qmd
-        text: Sensors
+        contents: Resources
+        - href: content/glider-labs.qmd
+          text: NMFS Glider Labs
+        - href: content/gliders.qmd
+          text: Gliders
+        - href: content/sensors.qmd
+          text: Sensors
       - href: content/gliderRodeo.qmd
         text: Field Testing
       - href: content/shipSurveys.qmd
         text: Ship & Glider Surveys
       - href: content/gliderSoundscapes.qmd
         text: Soundscapes
-      - href: content/modeling.qmd
-        text: Spatial Modeling
+      # - href: content/modeling.qmd
+      #   text: Spatial Modeling
       - href: content/transitionPlan.qmd
         text: Transition Plan
       # - href: content/p2w.qmd

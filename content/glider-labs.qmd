@@ -1,0 +1,34 @@
+---
+title: "Glider labs"
+format: html
+---
+
+## NOAA Fisheries glider labs
+
+[**PIFSC PSD (Protected Species Division) Glider Lab**](https://stunning-adventure-z2nw12l.pages.github.io/)  
+Honolulu, HI  
+*GitHub Enterprise account required to view*
+
+[**SWFSC ESD (Ecosystem Science Division) Glider Lab**](https://swfsc.github.io/glider-lab-manual/)  
+La Jolla, CA  
+
+**NEFSC**  
+Woods Hole, MA
+
+**SEFSC**  
+Miami, FL  
+
+
+#### NOAA Collaborators
+
+Oregon State University Cooperative Institute for Marine and Ecosystem Resources Studies - [PMEL Ocean Acoustics Program](https://cimers.oregonstate.edu/our-research/ocean-acoustics/pmel-ocean-acoustic-program)
+
+Woods Hole Oceanographic Instituion - [Robots4Whales](https://robots4whales.whoi.edu/)
+
+University of the Virgin Islands - [UVI Ocean Glider Laborator](https://www.uvi.edu/research/center-for-marine-environmental-studies/gliders/index.html)
+
+
+## PAM glider fleets
+
+[PAM Glider Specs](https://docs.google.com/spreadsheets/d/1tQciIqVNt5-WjlX3glFSI3Oo9C9KDUqx1eQGQzWqlQ4/edit?gid=0#gid=0)
+
