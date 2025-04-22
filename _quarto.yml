@@ -35,7 +35,8 @@ website:
         text: Home
       - href: content/about.qmd
         text: About Us
-        contents: Resources
+      - section: Resources
+        contents:
         - href: content/glider-labs.qmd
           text: NMFS Glider Labs
         - href: content/gliders.qmd
