@@ -3,4 +3,17 @@ title: "Glider labs"
 format: html
 ---
 
-## Glider labs
+## NMFS Glider labs/fleets
+
+[PIFSC PSD (Protected Species Division) Glider Lab](https://stunning-adventure-z2nw12l.pages.github.io/) *GitHub Enterprise account required to view*
+
+[SWFSC ESD (Ecosystem Science Division) Glider Lab](https://swfsc.github.io/glider-lab-manual/)
+
+NEFSC
+
+SEFSC
+
+### NMFS PAM Glider Fleets
+
+[PAM Glider Specs](https://docs.google.com/spreadsheets/d/1tQciIqVNt5-WjlX3glFSI3Oo9C9KDUqx1eQGQzWqlQ4/edit?gid=0#gid=0)
+
