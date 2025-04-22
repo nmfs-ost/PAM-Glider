@@ -1,1 +1,1 @@
-Sitemap: https://nmfs-pam-glider.github.io/PAM-UxS/sitemap.xml
+Sitemap: https://nmfs-ost.github.io/PAM-Glider/sitemap.xml

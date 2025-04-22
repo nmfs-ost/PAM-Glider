@@ -1,51 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/content/sensors.html</loc>
-    <lastmod>2025-04-11T14:08:27.899Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/sensors.html</loc>
+    <lastmod>2025-04-22T21:35:03.356Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/content/transitionPlan.html</loc>
-    <lastmod>2025-04-11T14:08:27.899Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/transitionPlan.html</loc>
+    <lastmod>2025-04-22T21:35:03.356Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/content/contact.html</loc>
-    <lastmod>2025-04-11T14:08:27.863Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/contact.html</loc>
+    <lastmod>2025-04-22T21:35:03.320Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/content/gliderSoundscapes.html</loc>
-    <lastmod>2025-04-11T14:08:27.863Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/infoSharing.html</loc>
+    <lastmod>2025-04-22T21:35:03.355Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/content/modeling.html</loc>
-    <lastmod>2025-04-11T14:08:27.899Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/about.html</loc>
+    <lastmod>2025-04-22T21:35:03.319Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/content/p2w.html</loc>
-    <lastmod>2025-04-11T14:08:27.899Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/shipSurveys.html</loc>
+    <lastmod>2025-04-22T21:35:03.356Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/index.html</loc>
-    <lastmod>2025-04-11T14:08:27.900Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/index.html</loc>
+    <lastmod>2025-04-22T21:35:03.356Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/content/shipSurveys.html</loc>
-    <lastmod>2025-04-11T14:08:27.899Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/p2w.html</loc>
+    <lastmod>2025-04-22T21:35:03.356Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/content/about.html</loc>
-    <lastmod>2025-04-11T14:08:27.863Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/modeling.html</loc>
+    <lastmod>2025-04-22T21:35:03.356Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/content/infoSharing.html</loc>
-    <lastmod>2025-04-11T14:08:27.899Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/gliderSoundscapes.html</loc>
+    <lastmod>2025-04-22T21:35:03.320Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/content/gliderRodeo.html</loc>
-    <lastmod>2025-04-11T14:08:27.863Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/glider-labs.html</loc>
+    <lastmod>2025-04-22T21:35:03.320Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-pam-glider.github.io/PAM-UxS/content/gliders.html</loc>
-    <lastmod>2025-04-11T14:08:27.863Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/gliderRodeo.html</loc>
+    <lastmod>2025-04-22T21:35:03.320Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/gliders.html</loc>
+    <lastmod>2025-04-22T21:35:03.320Z</lastmod>
   </url>
 </urlset>
