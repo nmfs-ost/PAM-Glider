@@ -10,7 +10,7 @@ To address this question, we need to collect data using traditional methods (shi
 
 We will conduct concurrent shipboard/glider surveys off the U.S. West Coast (CalCurCEAS) and Hawaiʻi (WHICEAS).
 
-Data from these surveys will be used for developing [Spatial Modeling](https://nmfs-pam-glider.github.io/PAM-UxS/content/modeling.html).
+Data from these surveys will be used for developing [Spatial Modeling](https://nmfs-ost.github.io/PAM-Stocks/content/gliderStocks.html).
 
 ## CalCurCEAS 2024
 
@@ -48,7 +48,7 @@ The PAM-equipped Seagliders were deployed by collaborator Dave Mellinger from Or
 :::
 
 ::: {.column width="\"50%"}
-These PAM-glider tracks overlap in both time and space with the CalCurCEAS shipboard visual observation survey. In addition to visual observations, drifting acoustic recorders were deployed offshore to study beaked whales. This provides an opportunity to compare detection of species offshore Oregon by three different platforms: shipboard visual observation, drifting acoustic recorders, and PAM-equipped gliders. These data will be used to develop the analytical framework for integrating data from slow-moving recording platforms (such as gliders and drifting recorders) into spatial density models for marine mammals (see [Spatial Modeling](https://nmfs-pam-glider.github.io/PAM-UxS/content/modeling.html)).
+These PAM-glider tracks overlap in both time and space with the CalCurCEAS shipboard visual observation survey. In addition to visual observations, drifting acoustic recorders were deployed offshore to study beaked whales. This provides an opportunity to compare detection of species offshore Oregon by three different platforms: shipboard visual observation, drifting acoustic recorders, and PAM-equipped gliders. These data will be used to develop the analytical framework for integrating data from slow-moving recording platforms (such as gliders and drifting recorders) into spatial density models for marine mammals (see [Spatial Modeling](https://nmfs-ost.github.io/PAM-Stocks/content/gliderStocks.html)).
 :::
 :::
 
