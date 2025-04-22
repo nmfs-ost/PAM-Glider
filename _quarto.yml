@@ -35,10 +35,13 @@ website:
         text: Home
       - href: content/about.qmd
         text: About Us
-      - href: content/gliders.qmd
-        text: Gliders
-      - href: content/sensors.qmd
-        text: Sensors
+        contents: Resources
+        - href: content/glider-labs.qmd
+          text: Glider Labs
+        - href: content/gliders.qmd
+          text: Gliders
+        - href: content/sensors.qmd
+          text: Sensors
       - href: content/gliderRodeo.qmd
         text: Field Testing
       - href: content/shipSurveys.qmd
