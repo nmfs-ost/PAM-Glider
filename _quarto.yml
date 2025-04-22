@@ -4,8 +4,8 @@ project:
 website: 
   page-navigation: true
   title: "PAM-UxS" 
-  site-url: "https://nmfs-pam-glider.github.io/PAM-UxS/" 
-  repo-url: "https://github.com/NMFS-PAM-Glider/PAM-UxS"
+  site-url: "https://nmfs-ost.github.io/PAM-Glider/" 
+  repo-url: "https://github.com/nmfs-ost/PAM-Glider"
   repo-actions: [edit, source, issue]
   favicon: content/images/SEAGLIDER.png
   
@@ -21,10 +21,10 @@ website:
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-pam-glider.github.io/PAM-UxS/
+        href: https://nmfs-ost.github.io/PAM-Glider/
         text: "NOAA Fisheries PAM Glider Research"
       - icon: github
-        href: https://github.com/NMFS-PAM-Glider
+        href: https://github.com/nmfs-ost/PAM-Glider
         text: "NOAA NMFS PAM Glider"
 
     style: "docked"
