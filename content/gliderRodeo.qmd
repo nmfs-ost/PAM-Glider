@@ -7,6 +7,7 @@ subtitle: Field testing of PAM-Glider Systems
 In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).
 
 ## Deployment Tracker
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPI-3uRxrq3h9f0C1DLAHUVDzpRsHuQDGbjZHOCckjuP2yLr-II1muMCTCFvpn22OKmd2wM2pmU27j/pubhtml?gid=1944379023&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 [Spreadsheet to track current and completed deployments](https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?usp=sharing). Link for NOAA personnel (password protected)
 
 ## Slocum WISPR
