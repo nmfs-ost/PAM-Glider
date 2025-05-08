@@ -1,0 +1,52 @@
+---
+title: "slocum-wispr3"
+format: html
+---
+
+## Offload data
+
+1.  Glider techs: open glider and remove two micro SD cards from WISPR board
+2.  These cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)
+3.  Plug cards into computer and copy raw .dat files to a hard drive
+4.  Pass hard drive off to PAM analyst 
+
+## Decompress data and convert to usable audio file format
+
+1.  PAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac
+2.  Download [workflow_convertWISPR.m](https://github.com/sfregosi/agate/blob/c07366e646cf799da088086068062dce681352c3/agate/example_workflows/workflow_convertWISPR.m) and the [example Hefring configuration file](https://github.com/sfregosi/agate/blob/c07366e646cf799da088086068062dce681352c3/agate/settings/agate_config_hefring.cnf) 
+3.  Open configuration file with text editor and replace “% %%%     HEFRING WISPR EXAMPLE            %%%” with the glider deployment ID
+    -   i.e. “% %%% stenella-20250414 %%%”
+4.  Add the glider serial number to the ‘CONFIG.glider = ‘ argument
+    -   i.e. “CONFIG.glider = ‘stenella’;”
+5.  Add the path to the raw .dat files and path to converted flac files in the last two lines of the configuration file
+6.  Save as ‘agate_config_DeploymentID.cnf’ to the input data directory
+7.  If you do not have agate downloaded already, clone the [agate repository](https://github.com/sfregosi/agate) 
+8.  Open the convert matlab script and set the path to the agate folder on line 36
+9.  Set the path to the configuration file on line 42
+10. Run the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file
+11. If .wav files are needed, use the [flac2wav.m matlab script](https://github.com/sfregosi/myUtils/blob/main/flac2wav.m) 
+
+## Extract other metadata as needed
+
+-   NA? Do we have other data to extract and archive from wispr
+
+## Create full bandwidth LTSA
+
+1.  Download a zipped folder of [Triton - flac version](https://github.com/sfregosi/Triton), extract and save it to your Matlab folder as Triton-flac
+2.  Open Matlab and set the path to this flac version of Triton
+3.  Open Triton by typing ‘triton’ into command window
+4.  In the control window, click on Tools -\> Make LTSA from Directory of Files 
+5.  Enter 3 for flac
+6.  Navigate to your directory of flac files and click ‘Select Folder’
+7.  Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)
+
+## Decimate for LF analysis as needed
+
+1.  Download [decimatedir.m Matlab script](https://github.com/sfregosi/myUtils/blob/37085e24b57cd9c35bb8d1542f7ad4b779ec95f2/dataProcessing/downsampling/decimateDir.m) and decimate to 500 Hz for low frequency baleen whale analysis 
+2.  METHODS DOCUMENTATION - WORK IN PROGRESS
+
+## Update Deployment Tracker Spreadsheet
+
+1.  Open [Glider Deployment Tracker Spreadsheet](https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?gid=0#gid=0) and ensure all fields have been completed
+2.  Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality 
+3.  Calculate the deployment duration, distance, and recording duration and fill in the associated columns 

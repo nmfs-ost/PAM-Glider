@@ -1,0 +1,54 @@
+---
+title: "Slocum DMON 2"
+format: html
+---
+
+The DMON has two sampling routines for low and high frequency; continuous recording of the low-frequency hydrophone at 2 kHz and duty-cycled recording of the high-frequency hydrophone at 120 kHz for 30 seconds out of every 450 seconds (30 sec on 7.5 minutes off, 8 minute cycle) (LF2_HF120d30_450s.bin). The low frequency hydrophone recordings are .wav2 and the high frequency hydrophone recordings are .wav3. These files have to be renamed to .wav to be usable, so [this script renames](https://github.com/Kourtney-Burger/myUtils/blob/77801f13f5a1100f3f51da347511f6c92fc44eb7/R/dmonAudioRenamer.R) each wav file with its respective frequency
+
+## Offload data
+
+1.  Glider techs: open Slocum glider and follow [dmon instructions section H and I (up to step 4) here](https://drive.google.com/file/d/1B0qPXvF9vondThmoCeFgc_b4TiKmtLQX/view?usp=drive_link) 
+2.  copy raw files to a hard drive
+3.  Pass hard drive off to PAM analyst 
+
+## Decompress data and convert to usable audio file format
+
+1.  PAM analyst: Get offloaded data from glider team (section I [here](https://drive.google.com/file/d/1B0qPXvF9vondThmoCeFgc_b4TiKmtLQX/view?usp=drive_link))
+2.  If you only see .dgt files, then you will need to unpack them to get .wav and other recording metadata files 
+    -   You do not need to follow these steps if you can see .err, .log, .wav2, .wav3, and .xml files for each .dtg file
+3.  Download the dmon software [here](https://drive.google.com/drive/folders/1DONtp-OHFmMK2MItj9Q-IKVeBQikeh8Q?usp=drive_link) and open d3read.exe
+4.  You should see a new terminal window open, prompting you to enter a directory. Copy the directory where the .dgt files are located and press enter
+5.  You will then be prompted to ‘Input filename base?’, type the file header of each dgt file (before the three digits ###) and hit enter
+    -   Example: for the file named risso001.dgt, you would type risso and hit enter
+6.  You should then see a list of .dgt files in that directory and the unpacking process should start
+7.  If .flac files are needed, use the [wav2flac.m matlab script](https://github.com/sfregosi/myUtils/blob/main/wav2flac.m) 
+
+## Clean wav Files and Segment Duty Cycled Data
+
+1.  Add Timestamps: The files are named risso###.ext so we need to timestamps to all of the files based on the start of each recording
+2.  Segment Audio: Although this data was duty cycled, the dmon combines all of the recordings into just a few files. Both the 2kHz and 120kHz have the same metadata
+
+## Extract other metadata as needed
+
+-   NA? Do we have other data to extract and archive from DMON
+
+## Create full bandwidth LTSA
+
+1.  Download a zipped folder of [Triton - flac version](https://github.com/sfregosi/Triton), extract and save it to your Matlab folder as Triton-flac
+2.  Open Matlab and set the path to this flac version of Triton
+3.  Open Triton by typing ‘triton’ into command window
+4.  In the control window, click on Tools -\> Make LTSA from Directory of Files 
+5.  Enter 2 for wav
+6.  Navigate to your directory of wav files and click ‘Select Folder’
+7.  For low frequency data, use 1 seconds and 1 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_1s_1Hz.ltsa (ex. risso-20250414_2kHz_1s_1Hz.ltsa)
+8.  For high frequency data, use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. risso-20250414_120kHz_5s_200Hz.ltsa)
+
+## Decimate for LF analysis as needed
+
+-   Not needed unless we want to decimate smaller then 2 kHz, could go to 500 Hz for consistency? 
+
+## Update Deployment Tracker Spreadsheet
+
+1.  Open [Glider Deployment Tracker Spreadsheet](https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?gid=0#gid=0) and ensure all fields have been completed
+2.  Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality 
+3.  Calculate the deployment duration, distance, and recording duration and fill in the associated columns
