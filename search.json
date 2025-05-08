@@ -1,12 +1,293 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NOAA Fisheries PAM-Equipped Glider Research",
+    "objectID": "content/gliderSoundscapes.html",
+    "href": "content/gliderSoundscapes.html",
+    "title": "Glider Soundscapes",
     "section": "",
-    "text": "Passive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.\nThis site provides updated information on these efforts.\n\nInformation provided here is ongoing, and is frequently updated.\n\n\n\n\n\n\n\nNews!\n\n\n\nNewsworthy Updates!\n\n\nSound Bytes Blog: It’s a boat, it’s a plane, it’s a passive acoustic ocean glider! Selene Fregosi (PIFSC) explains how underwater gliders help us listen for whales! \nOcean Gliders Listen for Whales off Oregon in Test of New Ways to Count Them Passive acoustic monitoring by ‘gliders’ may better detect some species",
+    "text": "Soundscape analysis is a valuable tool for assessing changes to the marine environment. Soundscape analysis is complicated by instrument noise, variable instrument depth, and other complications. We will investigate two methods for assessing soundscape (PyPAM and MANTA), and test these analyses on glider data to define best practices to use PAM-equipped gliders for soundscape analysis.",
     "crumbs": [
-      "Home"
+      "Soundscapes"
+    ]
+  },
+  {
+    "objectID": "content/transitionPlan.html",
+    "href": "content/transitionPlan.html",
+    "title": "Transition to Operations",
+    "section": "",
+    "text": "Our ultimate goal is to develop a Research to Operations Plan that will transition our science to using PAM-Gliders to address our management needs. This plan will be outlined in a National Strategy RoadMap for PAM-Glider Operations.\n\nThese collective efforts will:\n\nAccelerate Pacific-Wide PAM-Glider Operations\nMatch appropriate technology to research questions\nProvide a framework to monitor technological developments\nIdentify future investment needs",
+    "crumbs": [
+      "Transition Plan"
+    ]
+  },
+  {
+    "objectID": "content/infoSharing.html",
+    "href": "content/infoSharing.html",
+    "title": "Information Sharing",
+    "section": "",
+    "text": "What is Open Science? The goals of ‘Open Science’ are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see Open Science for more info).\nBelow we outline the ways in which our PAM-Glider program aims to embrace Open Science. This is a work in progress, and we welcome suggestions in how we can improve on these efforts.",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/infoSharing.html#open-educational-resources",
+    "href": "content/infoSharing.html#open-educational-resources",
+    "title": "Information Sharing",
+    "section": "Open Educational Resources",
+    "text": "Open Educational Resources\n\nBioacoustics Stack Exchange\nStack Exchange is a network of question and answer websites on topics in diverse fields. The Bioacoustics Stack Exchange site was created by our PAM community, for our PAM community. Answers to questions are crowd-sourced from the community, and both questions and answers are archived and publicly accessible via the site or by a search engine. For more information, visit the Bioacoustics Stack Exchange.\n\n\nZotero Group Library\nZotero is a free, open-source reference management tool that helps users collect, organize, cite, and share research resources. A Zotero Group Library is a shared library that allows users to collaboration on research projects by sharing and managing references. We have developed the following Zotero Group Libraries to allow users to identify and share related references. To join and contribute references, first create a Zotero account and request to be a member. These libraries are by no means complete, and our intent is to build a collaborative resource for the broader community of researchers, students, and practitioners.\nPAM-Glider Group Library\nSoundscape Group Library",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/infoSharing.html#research-compendium",
+    "href": "content/infoSharing.html#research-compendium",
+    "title": "Information Sharing",
+    "section": "Research Compendium",
+    "text": "Research Compendium\nA research compendium is a collection of all the digital components related to a research project, including data, code, text (like protocols and reports), and metadata. A research compendium provides a comprehensive package that allows others to fully reproduce research findings by accessing all the elements involved in the study process.\nWe will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below. (Stay Tuned!)",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/infoSharing.html#open-data",
+    "href": "content/infoSharing.html#open-data",
+    "title": "Information Sharing",
+    "section": "Open Data",
+    "text": "Open Data\nNOAA Fisheries’ Passive Acoustics Data is archived at the National Centers for Environmental Information (NCEI) and archived data can be accessed via the NCEI Passive Acoustic Data web portal.\nDetection data for a subset of NOAA Fisheries data can be viewed at the Passive Acoustic Cetacaean Map (PACM), developed at Northeast Fisheries Science Center. At present, the bulk of these data are from the U.S. East Coast, but an expanded PACM is in development. More information can be found at the PACM website.",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/glider-labs.html",
+    "href": "content/glider-labs.html",
+    "title": "Glider labs",
+    "section": "",
+    "text": "PIFSC PSD (Protected Species Division) Glider Lab\nHonolulu, HI\nGitHub Enterprise account required to view\nSWFSC ESD (Ecosystem Science Division) Glider Lab\nLa Jolla, CA\nNEFSC\nWoods Hole, MA\nSEFSC\nMiami, FL",
+    "crumbs": [
+      "Resources",
+      "NMFS Glider Labs"
+    ]
+  },
+  {
+    "objectID": "content/glider-labs.html#noaa-fisheries-glider-labs",
+    "href": "content/glider-labs.html#noaa-fisheries-glider-labs",
+    "title": "Glider labs",
+    "section": "",
+    "text": "PIFSC PSD (Protected Species Division) Glider Lab\nHonolulu, HI\nGitHub Enterprise account required to view\nSWFSC ESD (Ecosystem Science Division) Glider Lab\nLa Jolla, CA\nNEFSC\nWoods Hole, MA\nSEFSC\nMiami, FL",
+    "crumbs": [
+      "Resources",
+      "NMFS Glider Labs"
+    ]
+  },
+  {
+    "objectID": "content/glider-labs.html#noaa-collaborators",
+    "href": "content/glider-labs.html#noaa-collaborators",
+    "title": "Glider labs",
+    "section": "NOAA Collaborators",
+    "text": "NOAA Collaborators\nOregon State University Cooperative Institute for Marine and Ecosystem Resources Studies - PMEL Ocean Acoustics Program\nWoods Hole Oceanographic Instituion - Robots4Whales\nUniversity of the Virgin Islands - UVI Ocean Glider Laborator\n\nNOAA PAM glider fleets\nLink for NOAA personnel (password protected) PAM Glider Specs",
+    "crumbs": [
+      "Resources",
+      "NMFS Glider Labs"
+    ]
+  },
+  {
+    "objectID": "content/shipSurveys.html",
+    "href": "content/shipSurveys.html",
+    "title": "Concurrent Shipboard & Glider Surveys",
+    "section": "",
+    "text": "Traditional large-scale surveys of marine mammals are conducted by visual observation from large research vessels. While these surveys collect extremely high-quality data that can be readily analyzed to assess marine mammal populations, they do have their limitations. These methods are complicated for deep-diving species that spend little time at the surface (beaked whales, sperm whales), and they are limited by weather conditions (including fog, rain, and high seas). These surveys are conducted ~ every 5 years during good weather seasons, and so are limited in their ability to assess seasonal and inter-annual variability.\nCan PAM-equipped gliders augment existing shipboard surveys to improve our understanding of deep-diving species or to improve our understanding of temporal variability in marine mammal populations?\nTo address this question, we need to collect data using traditional methods (shipboard visual surveys) and new methods (PAM-gliders) in the same region and at the same time. Data collected during these concurrent surveys are needed to develop and test statistical methods needed to use PAM-glider data to assess marine mammal populations.\nWe will conduct concurrent shipboard/glider surveys off the U.S. West Coast (CalCurCEAS) and Hawaiʻi (WHICEAS).\nData from these surveys will be used for developing Spatial Modeling.",
+    "crumbs": [
+      "Ship & Glider Surveys"
+    ]
+  },
+  {
+    "objectID": "content/shipSurveys.html#calcurceas-2024",
+    "href": "content/shipSurveys.html#calcurceas-2024",
+    "title": "Concurrent Shipboard & Glider Surveys",
+    "section": "CalCurCEAS 2024",
+    "text": "CalCurCEAS 2024\n\n\nThree PAM-equipped Seagliders were deployed out of Newport Oregon and surveyed in a zig-zag pattern south towards Eureka, California:\n\nSG679: Offshore Tracks (orange trackline)\n\n63 days (8/23/2024 - 10/25/2024)\nFour transects, 297 dives\nSurveyed 1459 km trackline\n180 kHz sampling, 2.5 Tb data\n94% total mission has recordings\n\nSG639: Inshore Tracks (yellow); SG80 (red)\n\n41 days (9/14/2024 - 10/25/2024)\nSG639: 6 transects 217 dives, 789 km; bonus transect to Trinidad Canyon\nSG80: 8 transects, 232 dives, 806 km\n200 kHz sampling, 1.8 Tb data\n95% total mission has recordings\n\n\n\n\nThe PAM-equipped Seagliders were deployed by collaborator Dave Mellinger from Oregon State University with co-piloting by our PIFSC colleagues: Selene Fregosi, Erik Norris, and Calla Lloyd-Lim. The offshore glider was the longest mission of any of the OSU gliders to date! This was also the first time this experienced glider team piloted three gliders simultaneously.\n\n\n\n\n\n\nPlanned shipboard tracklines for the 2024 CalCurCEAS Survey.\n\n\n\nThese PAM-glider tracks overlap in both time and space with the CalCurCEAS shipboard visual observation survey. In addition to visual observations, drifting acoustic recorders were deployed offshore to study beaked whales. This provides an opportunity to compare detection of species offshore Oregon by three different platforms: shipboard visual observation, drifting acoustic recorders, and PAM-equipped gliders. These data will be used to develop the analytical framework for integrating data from slow-moving recording platforms (such as gliders and drifting recorders) into spatial density models for marine mammals (see Spatial Modeling).",
+    "crumbs": [
+      "Ship & Glider Surveys"
+    ]
+  },
+  {
+    "objectID": "content/shipSurveys.html#whiceas-2026",
+    "href": "content/shipSurveys.html#whiceas-2026",
+    "title": "Concurrent Shipboard & Glider Surveys",
+    "section": "WHICEAS 2026",
+    "text": "WHICEAS 2026\nWinter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS) is currently scheduled for February/March 2026. We will update as these plans develop.",
+    "crumbs": [
+      "Ship & Glider Surveys"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr2.html",
+    "href": "content/data_processing/seaglider-wispr2.html",
+    "title": "Seaglider - WISPR 2",
+    "section": "",
+    "text": "Glider techs: open Seaglider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr2.html#offload-data",
+    "href": "content/data_processing/seaglider-wispr2.html#offload-data",
+    "title": "Seaglider - WISPR 2",
+    "section": "",
+    "text": "Glider techs: open Seaglider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr2.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "href": "content/data_processing/seaglider-wispr2.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "title": "Seaglider - WISPR 2",
+    "section": "Decompress data and convert to usable audio file format",
+    "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example configuration file \nOpen configuration file with text editor and replace “% %%%  TEMPLATE - PUT MISSION METADATA HERE  %%%” with the glider deployment ID\n\ni.e. “% %%% sg639_Sep2024 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘sg639’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the following two lines of the configuration file\n\nCONFIG.ws.inDir = ‘D:\\sgXXX_Location_Mon20XX_raw_acoustic_data’;   % path to raw .dat files\nCONFIG.ws.outDir = ‘E:\\sgXXX_Location_Mon20XX\\flac’;   % path to save converted files\n\nIf only converting to flac, comment out all of the other lines in the config file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr2.html#extract-other-metadata-as-needed",
+    "href": "content/data_processing/seaglider-wispr2.html#extract-other-metadata-as-needed",
+    "title": "Seaglider - WISPR 2",
+    "section": "Extract other metadata as needed",
+    "text": "Extract other metadata as needed\n\nNA? Do we have other data to extract and archive from wispr",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr2.html#create-full-bandwidth-ltsa",
+    "href": "content/data_processing/seaglider-wispr2.html#create-full-bandwidth-ltsa",
+    "title": "Seaglider - WISPR 2",
+    "section": "4 Create full bandwidth LTSA",
+    "text": "4 Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr2.html#decimate-for-lf-analysis-as-needed",
+    "href": "content/data_processing/seaglider-wispr2.html#decimate-for-lf-analysis-as-needed",
+    "title": "Seaglider - WISPR 2",
+    "section": "Decimate for LF analysis as needed",
+    "text": "Decimate for LF analysis as needed\n\nDownload decimatedir.m Matlab script and decimate to 500 Hz for low frequency baleen whale analysis \nMETHODS DOCUMENTATION - WORK IN PROGRESS",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr2.html#update-deployment-tracker-spreadsheet",
+    "href": "content/data_processing/seaglider-wispr2.html#update-deployment-tracker-spreadsheet",
+    "title": "Seaglider - WISPR 2",
+    "section": "Update Deployment Tracker Spreadsheet",
+    "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/oceanscout-wispr6.html",
+    "href": "content/data_processing/oceanscout-wispr6.html",
+    "title": "slocum-wispr3",
+    "section": "",
+    "text": "Glider techs: open glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/oceanscout-wispr6.html#offload-data",
+    "href": "content/data_processing/oceanscout-wispr6.html#offload-data",
+    "title": "slocum-wispr3",
+    "section": "",
+    "text": "Glider techs: open glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/oceanscout-wispr6.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "href": "content/data_processing/oceanscout-wispr6.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "title": "slocum-wispr3",
+    "section": "Decompress data and convert to usable audio file format",
+    "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example Hefring configuration file \nOpen configuration file with text editor and replace “% %%%     HEFRING WISPR EXAMPLE            %%%” with the glider deployment ID\n\ni.e. “% %%% stenella-20250414 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘stenella’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the last two lines of the configuration file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/oceanscout-wispr6.html#extract-other-metadata-as-needed",
+    "href": "content/data_processing/oceanscout-wispr6.html#extract-other-metadata-as-needed",
+    "title": "slocum-wispr3",
+    "section": "Extract other metadata as needed",
+    "text": "Extract other metadata as needed\n\nNA? Do we have other data to extract and archive from wispr",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/oceanscout-wispr6.html#create-full-bandwidth-ltsa",
+    "href": "content/data_processing/oceanscout-wispr6.html#create-full-bandwidth-ltsa",
+    "title": "slocum-wispr3",
+    "section": "Create full bandwidth LTSA",
+    "text": "Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/oceanscout-wispr6.html#decimate-for-lf-analysis-as-needed",
+    "href": "content/data_processing/oceanscout-wispr6.html#decimate-for-lf-analysis-as-needed",
+    "title": "slocum-wispr3",
+    "section": "Decimate for LF analysis as needed",
+    "text": "Decimate for LF analysis as needed\n\nDownload decimatedir.m Matlab script and decimate to 500 Hz for low frequency baleen whale analysis \nMETHODS DOCUMENTATION - WORK IN PROGRESS",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/oceanscout-wispr6.html#update-deployment-tracker-spreadsheet",
+    "href": "content/data_processing/oceanscout-wispr6.html#update-deployment-tracker-spreadsheet",
+    "title": "slocum-wispr3",
+    "section": "Update Deployment Tracker Spreadsheet",
+    "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
     ]
   },
   {
@@ -50,53 +331,328 @@
     ]
   },
   {
-    "objectID": "content/gliderSoundscapes.html",
-    "href": "content/gliderSoundscapes.html",
-    "title": "Glider Soundscapes",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NOAA Fisheries PAM-Equipped Glider Research",
     "section": "",
-    "text": "Soundscape analysis is a valuable tool for assessing changes to the marine environment. Soundscape analysis is complicated by instrument noise, variable instrument depth, and other complications. We will investigate two methods for assessing soundscape (PyPAM and MANTA), and test these analyses on glider data to define best practices to use PAM-equipped gliders for soundscape analysis.",
+    "text": "Passive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.\nThis site provides updated information on these efforts.\n\nInformation provided here is ongoing, and is frequently updated.\n\n\n\n\n\n\n\nNews!\n\n\n\nNewsworthy Updates!\n\n\nSound Bytes Blog: It’s a boat, it’s a plane, it’s a passive acoustic ocean glider! Selene Fregosi (PIFSC) explains how underwater gliders help us listen for whales! \nOcean Gliders Listen for Whales off Oregon in Test of New Ways to Count Them Passive acoustic monitoring by ‘gliders’ may better detect some species",
     "crumbs": [
-      "Soundscapes"
+      "Home"
     ]
   },
   {
-    "objectID": "content/infoSharing.html",
-    "href": "content/infoSharing.html",
-    "title": "Information Sharing",
+    "objectID": "content/p2w.html",
+    "href": "content/p2w.html",
+    "title": "Plankton to Whales",
     "section": "",
-    "text": "What is Open Science? The goals of ‘Open Science’ are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see Open Science for more info).\nBelow we outline the ways in which our PAM-Glider program aims to embrace Open Science. This is a work in progress, and we welcome suggestions in how we can improve on these efforts.",
+    "text": "The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.\nThis project is planned for 2025."
+  },
+  {
+    "objectID": "content/data_processing/slocum-wispr3.html",
+    "href": "content/data_processing/slocum-wispr3.html",
+    "title": "Slocum - WISPR 3",
+    "section": "",
+    "text": "Glider techs: open Slocum glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
-      "Information Sharing"
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - WISPR 3"
     ]
   },
   {
-    "objectID": "content/infoSharing.html#open-educational-resources",
-    "href": "content/infoSharing.html#open-educational-resources",
-    "title": "Information Sharing",
-    "section": "Open Educational Resources",
-    "text": "Open Educational Resources\n\nBioacoustics Stack Exchange\nStack Exchange is a network of question and answer websites on topics in diverse fields. The Bioacoustics Stack Exchange site was created by our PAM community, for our PAM community. Answers to questions are crowd-sourced from the community, and both questions and answers are archived and publicly accessible via the site or by a search engine. For more information, visit the Bioacoustics Stack Exchange.\n\n\nZotero Group Library\nZotero is a free, open-source reference management tool that helps users collect, organize, cite, and share research resources. A Zotero Group Library is a shared library that allows users to collaboration on research projects by sharing and managing references. We have developed the following Zotero Group Libraries to allow users to identify and share related references. To join and contribute references, first create a Zotero account and request to be a member. These libraries are by no means complete, and our intent is to build a collaborative resource for the broader community of researchers, students, and practitioners.\nPAM-Glider Group Library\nSoundscape Group Library",
+    "objectID": "content/data_processing/slocum-wispr3.html#offload-data",
+    "href": "content/data_processing/slocum-wispr3.html#offload-data",
+    "title": "Slocum - WISPR 3",
+    "section": "",
+    "text": "Glider techs: open Slocum glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
-      "Information Sharing"
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - WISPR 3"
     ]
   },
   {
-    "objectID": "content/infoSharing.html#research-compendium",
-    "href": "content/infoSharing.html#research-compendium",
-    "title": "Information Sharing",
-    "section": "Research Compendium",
-    "text": "Research Compendium\nA research compendium is a collection of all the digital components related to a research project, including data, code, text (like protocols and reports), and metadata. A research compendium provides a comprehensive package that allows others to fully reproduce research findings by accessing all the elements involved in the study process.\nWe will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below. (Stay Tuned!)",
+    "objectID": "content/data_processing/slocum-wispr3.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "href": "content/data_processing/slocum-wispr3.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "title": "Slocum - WISPR 3",
+    "section": "Decompress data and convert to usable audio file format",
+    "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example Hefring configuration file \nOpen configuration file with text editor and replace “% %%%     HEFRING WISPR EXAMPLE            %%%” with the glider deployment ID\n\ni.e. “% %%% stenella-20250414 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘stenella’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the last two lines of the configuration file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
     "crumbs": [
-      "Information Sharing"
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - WISPR 3"
     ]
   },
   {
-    "objectID": "content/infoSharing.html#open-data",
-    "href": "content/infoSharing.html#open-data",
-    "title": "Information Sharing",
-    "section": "Open Data",
-    "text": "Open Data\nNOAA Fisheries’ Passive Acoustics Data is archived at the National Centers for Environmental Information (NCEI) and archived data can be accessed via the NCEI Passive Acoustic Data web portal.\nDetection data for a subset of NOAA Fisheries data can be viewed at the Passive Acoustic Cetacaean Map (PACM), developed at Northeast Fisheries Science Center. At present, the bulk of these data are from the U.S. East Coast, but an expanded PACM is in development. More information can be found at the PACM website.",
+    "objectID": "content/data_processing/slocum-wispr3.html#extract-other-metadata-as-needed",
+    "href": "content/data_processing/slocum-wispr3.html#extract-other-metadata-as-needed",
+    "title": "Slocum - WISPR 3",
+    "section": "Extract other metadata as needed",
+    "text": "Extract other metadata as needed\n\nNA? Do we have other data to extract and archive from wispr",
     "crumbs": [
-      "Information Sharing"
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - WISPR 3"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/slocum-wispr3.html#create-full-bandwidth-ltsa",
+    "href": "content/data_processing/slocum-wispr3.html#create-full-bandwidth-ltsa",
+    "title": "Slocum - WISPR 3",
+    "section": "Create full bandwidth LTSA",
+    "text": "Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - WISPR 3"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/slocum-wispr3.html#decimate-for-lf-analysis-as-needed",
+    "href": "content/data_processing/slocum-wispr3.html#decimate-for-lf-analysis-as-needed",
+    "title": "Slocum - WISPR 3",
+    "section": "Decimate for LF analysis as needed",
+    "text": "Decimate for LF analysis as needed\n\nDownload decimatedir.m Matlab script and decimate to 500 Hz for low frequency baleen whale analysis \nMETHODS DOCUMENTATION - WORK IN PROGRESS",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - WISPR 3"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/slocum-wispr3.html#update-deployment-tracker-spreadsheet",
+    "href": "content/data_processing/slocum-wispr3.html#update-deployment-tracker-spreadsheet",
+    "title": "Slocum - WISPR 3",
+    "section": "Update Deployment Tracker Spreadsheet",
+    "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - WISPR 3"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/slocum-dmon2.html",
+    "href": "content/data_processing/slocum-dmon2.html",
+    "title": "Slocum DMON 2",
+    "section": "",
+    "text": "The DMON has two sampling routines for low and high frequency; continuous recording of the low-frequency hydrophone at 2 kHz and duty-cycled recording of the high-frequency hydrophone at 120 kHz for 30 seconds out of every 450 seconds (30 sec on 7.5 minutes off, 8 minute cycle) (LF2_HF120d30_450s.bin). The low frequency hydrophone recordings are .wav2 and the high frequency hydrophone recordings are .wav3. These files have to be renamed to .wav to be usable, so this script renames each wav file with its respective frequency",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - DMON 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/slocum-dmon2.html#offload-data",
+    "href": "content/data_processing/slocum-dmon2.html#offload-data",
+    "title": "Slocum DMON 2",
+    "section": "Offload data",
+    "text": "Offload data\n\nGlider techs: open Slocum glider and follow dmon instructions section H and I (up to step 4) here \ncopy raw files to a hard drive\nPass hard drive off to PAM analyst",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - DMON 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/slocum-dmon2.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "href": "content/data_processing/slocum-dmon2.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "title": "Slocum DMON 2",
+    "section": "Decompress data and convert to usable audio file format",
+    "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: Get offloaded data from glider team (section I here)\nIf you only see .dgt files, then you will need to unpack them to get .wav and other recording metadata files \n\nYou do not need to follow these steps if you can see .err, .log, .wav2, .wav3, and .xml files for each .dtg file\n\nDownload the dmon software here and open d3read.exe\nYou should see a new terminal window open, prompting you to enter a directory. Copy the directory where the .dgt files are located and press enter\nYou will then be prompted to ‘Input filename base?’, type the file header of each dgt file (before the three digits ###) and hit enter\n\nExample: for the file named risso001.dgt, you would type risso and hit enter\n\nYou should then see a list of .dgt files in that directory and the unpacking process should start\nIf .flac files are needed, use the wav2flac.m matlab script",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - DMON 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/slocum-dmon2.html#clean-wav-files-and-segment-duty-cycled-data",
+    "href": "content/data_processing/slocum-dmon2.html#clean-wav-files-and-segment-duty-cycled-data",
+    "title": "Slocum DMON 2",
+    "section": "Clean wav Files and Segment Duty Cycled Data",
+    "text": "Clean wav Files and Segment Duty Cycled Data\n\nAdd Timestamps: The files are named risso###.ext so we need to timestamps to all of the files based on the start of each recording\nSegment Audio: Although this data was duty cycled, the dmon combines all of the recordings into just a few files. Both the 2kHz and 120kHz have the same metadata",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - DMON 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/slocum-dmon2.html#extract-other-metadata-as-needed",
+    "href": "content/data_processing/slocum-dmon2.html#extract-other-metadata-as-needed",
+    "title": "Slocum DMON 2",
+    "section": "Extract other metadata as needed",
+    "text": "Extract other metadata as needed\n\nNA? Do we have other data to extract and archive from DMON",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - DMON 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/slocum-dmon2.html#create-full-bandwidth-ltsa",
+    "href": "content/data_processing/slocum-dmon2.html#create-full-bandwidth-ltsa",
+    "title": "Slocum DMON 2",
+    "section": "Create full bandwidth LTSA",
+    "text": "Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 2 for wav\nNavigate to your directory of wav files and click ‘Select Folder’\nFor low frequency data, use 1 seconds and 1 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_1s_1Hz.ltsa (ex. risso-20250414_2kHz_1s_1Hz.ltsa)\nFor high frequency data, use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. risso-20250414_120kHz_5s_200Hz.ltsa)",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - DMON 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/slocum-dmon2.html#decimate-for-lf-analysis-as-needed",
+    "href": "content/data_processing/slocum-dmon2.html#decimate-for-lf-analysis-as-needed",
+    "title": "Slocum DMON 2",
+    "section": "Decimate for LF analysis as needed",
+    "text": "Decimate for LF analysis as needed\n\nNot needed unless we want to decimate smaller then 2 kHz, could go to 500 Hz for consistency?",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - DMON 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/slocum-dmon2.html#update-deployment-tracker-spreadsheet",
+    "href": "content/data_processing/slocum-dmon2.html#update-deployment-tracker-spreadsheet",
+    "title": "Slocum DMON 2",
+    "section": "Update Deployment Tracker Spreadsheet",
+    "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Slocum - DMON 2"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr3.html",
+    "href": "content/data_processing/seaglider-wispr3.html",
+    "title": "Seaglider - WISPR 3",
+    "section": "",
+    "text": "Glider techs: open Seaglider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 3"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr3.html#offload-data",
+    "href": "content/data_processing/seaglider-wispr3.html#offload-data",
+    "title": "Seaglider - WISPR 3",
+    "section": "",
+    "text": "Glider techs: open Seaglider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 3"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr3.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "href": "content/data_processing/seaglider-wispr3.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "title": "Seaglider - WISPR 3",
+    "section": "Decompress data and convert to usable audio file format",
+    "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example configuration file \nOpen configuration file with text editor and replace “% %%%  TEMPLATE - PUT MISSION METADATA HERE  %%%” with the glider deployment ID\n\ni.e. “% %%% sg639_Sep2024 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘sg639’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the following two lines of the configuration file\n\nCONFIG.ws.inDir = ‘D:\\sgXXX_Location_Mon20XX_raw_acoustic_data’;   % path to raw .dat files\nCONFIG.ws.outDir = ‘E:\\sgXXX_Location_Mon20XX\\flac’;   % path to save converted files\n\nIf only converting to flac, comment out all of the other lines in the config file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 3"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr3.html#extract-other-metadata-as-needed",
+    "href": "content/data_processing/seaglider-wispr3.html#extract-other-metadata-as-needed",
+    "title": "Seaglider - WISPR 3",
+    "section": "Extract other metadata as needed",
+    "text": "Extract other metadata as needed\n\nNA? Do we have other data to extract and archive from wispr",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 3"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr3.html#create-full-bandwidth-ltsa",
+    "href": "content/data_processing/seaglider-wispr3.html#create-full-bandwidth-ltsa",
+    "title": "Seaglider - WISPR 3",
+    "section": "4 Create full bandwidth LTSA",
+    "text": "4 Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 3"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr3.html#decimate-for-lf-analysis-as-needed",
+    "href": "content/data_processing/seaglider-wispr3.html#decimate-for-lf-analysis-as-needed",
+    "title": "Seaglider - WISPR 3",
+    "section": "Decimate for LF analysis as needed",
+    "text": "Decimate for LF analysis as needed\n\nDownload decimatedir.m Matlab script and decimate to 500 Hz for low frequency baleen whale analysis \nMETHODS DOCUMENTATION - WORK IN PROGRESS",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 3"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/seaglider-wispr3.html#update-deployment-tracker-spreadsheet",
+    "href": "content/data_processing/seaglider-wispr3.html#update-deployment-tracker-spreadsheet",
+    "title": "Seaglider - WISPR 3",
+    "section": "Update Deployment Tracker Spreadsheet",
+    "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
+    "crumbs": [
+      "Analysis Methods",
+      "Data Pre-Processing",
+      "Seaglider - WISPR 3"
+    ]
+  },
+  {
+    "objectID": "content/sensors.html",
+    "href": "content/sensors.html",
+    "title": "PAM Sensors",
+    "section": "",
+    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR (Wideband Intelligent Signal Processor and Recorder) is an acoustic processor developed by Embedded Ocean Systems and designed for limited space and low power, with options for customized applications. WISPR are currently used on Seagliders, and recent integration with Slocum gliders is undergoing testing.\nWISPR3 resources can be found here.\nThe Digital MONitor (DMON) was developed by Woods Hole Oceanographic Institute and have been integrated on Slocum gliders and have been used with Seagliders. The current iteration of DMON has limited capacity for high frequency recording, but expansion of this capacity to improve storage capacity is under development.",
+    "crumbs": [
+      "Resources",
+      "Sensors"
+    ]
+  },
+  {
+    "objectID": "content/sensors.html#wispr",
+    "href": "content/sensors.html#wispr",
+    "title": "PAM Sensors",
+    "section": "WISPR",
+    "text": "WISPR",
+    "crumbs": [
+      "Resources",
+      "Sensors"
+    ]
+  },
+  {
+    "objectID": "content/sensors.html#dmon",
+    "href": "content/sensors.html#dmon",
+    "title": "PAM Sensors",
+    "section": "DMON",
+    "text": "DMON",
+    "crumbs": [
+      "Resources",
+      "Sensors"
+    ]
+  },
+  {
+    "objectID": "content/sensors.html#auris",
+    "href": "content/sensors.html#auris",
+    "title": "PAM Sensors",
+    "section": "Auris",
+    "text": "Auris\nThe Auris acoustic processing system is a proprietary system developed for the Alseamar SeaExplorer glider.",
+    "crumbs": [
+      "Resources",
+      "Sensors"
     ]
   },
   {
@@ -176,90 +732,6 @@
     ]
   },
   {
-    "objectID": "content/p2w.html",
-    "href": "content/p2w.html",
-    "title": "Plankton to Whales",
-    "section": "",
-    "text": "The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.\nThis project is planned for 2025."
-  },
-  {
-    "objectID": "content/sensors.html",
-    "href": "content/sensors.html",
-    "title": "PAM Sensors",
-    "section": "",
-    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR (Wideband Intelligent Signal Processor and Recorder) is an acoustic processor developed by Embedded Ocean Systems and designed for limited space and low power, with options for customized applications. WISPR are currently used on Seagliders, and recent integration with Slocum gliders is undergoing testing.\nWISPR3 resources can be found here.\nThe Digital MONitor (DMON) was developed by Woods Hole Oceanographic Institute and have been integrated on Slocum gliders and have been used with Seagliders. The current iteration of DMON has limited capacity for high frequency recording, but expansion of this capacity to improve storage capacity is under development.",
-    "crumbs": [
-      "Resources",
-      "Sensors"
-    ]
-  },
-  {
-    "objectID": "content/sensors.html#wispr",
-    "href": "content/sensors.html#wispr",
-    "title": "PAM Sensors",
-    "section": "WISPR",
-    "text": "WISPR",
-    "crumbs": [
-      "Resources",
-      "Sensors"
-    ]
-  },
-  {
-    "objectID": "content/sensors.html#dmon",
-    "href": "content/sensors.html#dmon",
-    "title": "PAM Sensors",
-    "section": "DMON",
-    "text": "DMON",
-    "crumbs": [
-      "Resources",
-      "Sensors"
-    ]
-  },
-  {
-    "objectID": "content/sensors.html#auris",
-    "href": "content/sensors.html#auris",
-    "title": "PAM Sensors",
-    "section": "Auris",
-    "text": "Auris\nThe Auris acoustic processing system is a proprietary system developed for the Alseamar SeaExplorer glider.",
-    "crumbs": [
-      "Resources",
-      "Sensors"
-    ]
-  },
-  {
-    "objectID": "content/glider-labs.html",
-    "href": "content/glider-labs.html",
-    "title": "Glider labs",
-    "section": "",
-    "text": "PIFSC PSD (Protected Species Division) Glider Lab\nHonolulu, HI\nGitHub Enterprise account required to view\nSWFSC ESD (Ecosystem Science Division) Glider Lab\nLa Jolla, CA\nNEFSC\nWoods Hole, MA\nSEFSC\nMiami, FL",
-    "crumbs": [
-      "Resources",
-      "NMFS Glider Labs"
-    ]
-  },
-  {
-    "objectID": "content/glider-labs.html#noaa-fisheries-glider-labs",
-    "href": "content/glider-labs.html#noaa-fisheries-glider-labs",
-    "title": "Glider labs",
-    "section": "",
-    "text": "PIFSC PSD (Protected Species Division) Glider Lab\nHonolulu, HI\nGitHub Enterprise account required to view\nSWFSC ESD (Ecosystem Science Division) Glider Lab\nLa Jolla, CA\nNEFSC\nWoods Hole, MA\nSEFSC\nMiami, FL",
-    "crumbs": [
-      "Resources",
-      "NMFS Glider Labs"
-    ]
-  },
-  {
-    "objectID": "content/glider-labs.html#noaa-collaborators",
-    "href": "content/glider-labs.html#noaa-collaborators",
-    "title": "Glider labs",
-    "section": "NOAA Collaborators",
-    "text": "NOAA Collaborators\nOregon State University Cooperative Institute for Marine and Ecosystem Resources Studies - PMEL Ocean Acoustics Program\nWoods Hole Oceanographic Instituion - Robots4Whales\nUniversity of the Virgin Islands - UVI Ocean Glider Laborator\n\nNOAA PAM glider fleets\nLink for NOAA personnel (password protected) PAM Glider Specs",
-    "crumbs": [
-      "Resources",
-      "NMFS Glider Labs"
-    ]
-  },
-  {
     "objectID": "content/modeling.html",
     "href": "content/modeling.html",
     "title": "Spatial Modeling",
@@ -274,46 +746,6 @@
     "text": "NOAA Fisheries will lead a 3 year effort to accelerate a transition to operations for using PAM-based glider surveys to augment existing surveys. These efforts are based on previous successful research efforts using PAM-equipped gliders off the U.S. East Coast to study right whales, and recent testing of Seagliders off Hawaiʻi. Slocum gliders are being used for real-time monitoring of North Atlantic right whales off the U.S. Atlantic coast through a NEFSC/WHOI collaboration. NOAA’s OMAO UxS Operation Center partnered with PIFSC to test PAM-equipped Seagliders to augment ship-based surveys across the vast Pacific Islands region. The results from these studies highlighted that PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including density.\nTo expand on these efforts, PIFSC and SWFSC will lead a 3 year effort to accelerate the transition to operations for PAM-based glider surveys. The work will be focused in the Pacific initially because these Centers are ready to act and they are collectively responsible for the largest area under NMFS jurisdiction, have acute shortages of adequate shiptime, and must find alternative survey modalities to maintain their assessment operations. Despite the regional focus, the goal will be to develop a Research to Operations plan that can be adapted or applied in other regions seeking to implement PAM-equipped glider surveys to support their marine mammal assessments. The effort includes:\n\nBuild capacity to sustain glider operations. PIFSC and SWFSC will increase capacity to sustain PAM-glider operations through support for glider technicians at each Center and for pilot and technician training. The Pacific-wide R2O plan will include considerations of operational costs for conducting PAM-glider surveys into the future. See Gliders and Sensors to learn more about available (and developing) hardware options.\nIn-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. For more information, see the Field Testing.\nConcurrent glider and shipboard surveys. We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys- PacMAPPS west coast in 2024 and PacMAPPS Hawaiʻi in 2025. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. For more information, see the section on Ship & Glider Surveys.\nDevelop Spatial Modeling Methods. We will initiate development of statistical models to accommodate marine mammal acoustic detection data from PAM Gliders, facilitating adoption of these methods to address our stock assessment needs. See PAM-Stocks - Mobile recorders for more information.",
     "crumbs": [
       "About Us"
-    ]
-  },
-  {
-    "objectID": "content/transitionPlan.html",
-    "href": "content/transitionPlan.html",
-    "title": "Transition to Operations",
-    "section": "",
-    "text": "Our ultimate goal is to develop a Research to Operations Plan that will transition our science to using PAM-Gliders to address our management needs. This plan will be outlined in a National Strategy RoadMap for PAM-Glider Operations.\n\nThese collective efforts will:\n\nAccelerate Pacific-Wide PAM-Glider Operations\nMatch appropriate technology to research questions\nProvide a framework to monitor technological developments\nIdentify future investment needs",
-    "crumbs": [
-      "Transition Plan"
-    ]
-  },
-  {
-    "objectID": "content/shipSurveys.html",
-    "href": "content/shipSurveys.html",
-    "title": "Concurrent Shipboard & Glider Surveys",
-    "section": "",
-    "text": "Traditional large-scale surveys of marine mammals are conducted by visual observation from large research vessels. While these surveys collect extremely high-quality data that can be readily analyzed to assess marine mammal populations, they do have their limitations. These methods are complicated for deep-diving species that spend little time at the surface (beaked whales, sperm whales), and they are limited by weather conditions (including fog, rain, and high seas). These surveys are conducted ~ every 5 years during good weather seasons, and so are limited in their ability to assess seasonal and inter-annual variability.\nCan PAM-equipped gliders augment existing shipboard surveys to improve our understanding of deep-diving species or to improve our understanding of temporal variability in marine mammal populations?\nTo address this question, we need to collect data using traditional methods (shipboard visual surveys) and new methods (PAM-gliders) in the same region and at the same time. Data collected during these concurrent surveys are needed to develop and test statistical methods needed to use PAM-glider data to assess marine mammal populations.\nWe will conduct concurrent shipboard/glider surveys off the U.S. West Coast (CalCurCEAS) and Hawaiʻi (WHICEAS).\nData from these surveys will be used for developing Spatial Modeling.",
-    "crumbs": [
-      "Ship & Glider Surveys"
-    ]
-  },
-  {
-    "objectID": "content/shipSurveys.html#calcurceas-2024",
-    "href": "content/shipSurveys.html#calcurceas-2024",
-    "title": "Concurrent Shipboard & Glider Surveys",
-    "section": "CalCurCEAS 2024",
-    "text": "CalCurCEAS 2024\n\n\nThree PAM-equipped Seagliders were deployed out of Newport Oregon and surveyed in a zig-zag pattern south towards Eureka, California:\n\nSG679: Offshore Tracks (orange trackline)\n\n63 days (8/23/2024 - 10/25/2024)\nFour transects, 297 dives\nSurveyed 1459 km trackline\n180 kHz sampling, 2.5 Tb data\n94% total mission has recordings\n\nSG639: Inshore Tracks (yellow); SG80 (red)\n\n41 days (9/14/2024 - 10/25/2024)\nSG639: 6 transects 217 dives, 789 km; bonus transect to Trinidad Canyon\nSG80: 8 transects, 232 dives, 806 km\n200 kHz sampling, 1.8 Tb data\n95% total mission has recordings\n\n\n\n\nThe PAM-equipped Seagliders were deployed by collaborator Dave Mellinger from Oregon State University with co-piloting by our PIFSC colleagues: Selene Fregosi, Erik Norris, and Calla Lloyd-Lim. The offshore glider was the longest mission of any of the OSU gliders to date! This was also the first time this experienced glider team piloted three gliders simultaneously.\n\n\n\n\n\n\nPlanned shipboard tracklines for the 2024 CalCurCEAS Survey.\n\n\n\nThese PAM-glider tracks overlap in both time and space with the CalCurCEAS shipboard visual observation survey. In addition to visual observations, drifting acoustic recorders were deployed offshore to study beaked whales. This provides an opportunity to compare detection of species offshore Oregon by three different platforms: shipboard visual observation, drifting acoustic recorders, and PAM-equipped gliders. These data will be used to develop the analytical framework for integrating data from slow-moving recording platforms (such as gliders and drifting recorders) into spatial density models for marine mammals (see Spatial Modeling).",
-    "crumbs": [
-      "Ship & Glider Surveys"
-    ]
-  },
-  {
-    "objectID": "content/shipSurveys.html#whiceas-2026",
-    "href": "content/shipSurveys.html#whiceas-2026",
-    "title": "Concurrent Shipboard & Glider Surveys",
-    "section": "WHICEAS 2026",
-    "text": "WHICEAS 2026\nWinter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS) is currently scheduled for February/March 2026. We will update as these plans develop.",
-    "crumbs": [
-      "Ship & Glider Surveys"
     ]
   }
 ]
