@@ -1,6 +1,6 @@
-name: New Seaglider WISPR Data
-description: Data pre-processing steps for new, incoming PAM data from Seagliders with WISPR recording systems. 
-title: "New Seaglider WISPR Data: [INSERT DEPLOYMENT ID HERE]"
+name: New Slocum DMON Data
+description: Data pre-processing steps for new, incoming PAM data from Slocums with DMON recording systems. 
+title: "New Slocum DMON Data: [INSERT DEPLOYMENT ID HERE]"
 labels: ["new data"]
 #projects: ["PAM SI]
 assignees:
@@ -12,7 +12,7 @@ body:
     attributes:
       label: Deployment ID
       description: Deployment ID from deployment tracker 
-      placeholder: e.g., sg679_Aug2024
+      placeholder: e.g., risso-20250414
     validations: 
       required: true
       
@@ -22,27 +22,28 @@ body:
       label: Instructions
       description: Pre-processing instructions and method links
       value: |
-        Press the green 'Create' button below to create this issue template with the data pre-processing steps for each new PAM glider dataset. More detail on these methods can be found [here](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-wispr2.html)
+        Press the green 'Create' button below to create this issue template with the data pre-processing steps for each new PAM glider dataset. More detail on these methods can be found [here](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/slocum-dmon2.html)
 
   - type: checkboxes
     id: checklist_Offload-Data
     attributes:
       label: Prep Data
-      description: Complete the following steps to offload the data from the WISPR board and convert it to usable audio files
+      description: Complete the following steps to offload the data from the DMON recording system and convert it to usable audio files
       options:
-        - label: Retrieve micro SD cards from the WISPR board
-        - label: Copy raw .dat files from cards to a hard drive, pass hard drive off to PAM analyst 
-        - label: Use agate workflow_convertWISPR.m script to convert from .dat to .flac
-        - label: If .wav files are needed, use the flac2wav.m matlab script 
+        - label: Offload raw .dtg data from glider to a hard drive, pass hard drive off to PAM analyst 
+        - label: Use d3read.exe to extract .wav and other recording metadata files from .dtg files
+        - label: If .flac files are needed, use the wav2fla.m matlab script 
+        - label: Use the reformat_dmon_wav_files.sav to separate duty cycled audio files and rename wav files to include timestamp
+        - label: Use a bulk file renaming tool to change the 4 digit year in the wav filenames to a 2 digit year
         
   - type: checkboxes
-    id: checklist_LTSA-Decimate
+    id: checklist_LTSA
     attributes:
-      label: Decimation and LTSAs
-      description: Use Matlab to create full bandwith longterm spectral average and decimate for low frequency data analysis
+      label: LTSAs
+      description: Use Matlab to create longterm spectral averages for the low and high frequency wav files
       options:
-        - label: Create LTSA with 5 seconds and 200 Hz settings, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
-        - label: Download decimatedir.m Matlab script and decimate to 500 Hz 
+        - label: Create high frequency LTSA with 5 seconds and 200 Hz settings, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
+        - label: Create low frequency LTSA with 1 seconds and 1 Hz settings, save LTSA as DeploymentID_SamplingRate_1s_1Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
 
   - type: checkboxes
     id: checklist_Deployment-Tracker
