@@ -32,9 +32,9 @@ body:
       options:
         - label: Offload raw .dtg data from glider to a hard drive, pass hard drive off to PAM analyst 
         - label: Use d3read.exe to extract .wav and other recording metadata files from .dtg files
-        - label: If .flac files are needed, use the wav2fla.m matlab script 
         - label: Use the reformat_dmon_wav_files.sav to separate duty cycled audio files and rename wav files to include timestamp
         - label: Use a bulk file renaming tool to change the 4 digit year in the wav filenames to a 2 digit year
+        - label: If .flac files are needed, use the wav2fla.m matlab script 
         
   - type: checkboxes
     id: checklist_LTSA
