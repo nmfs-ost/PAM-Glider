@@ -22,7 +22,7 @@ body:
       required: true
   
   - type: checkboxes
-    id: checklist-OffloadData
+    id: checklist_Offload-Data
     attributes:
       label: Prep Data
       description: Complete the following steps to offload the data from the WISPR board and convert it to usable audio files
@@ -33,7 +33,7 @@ body:
         - label: If .wav files are needed, use the flac2wav.m matlab script 
         
   - type: checkboxes
-    id: checklist-LTSA&Decimate
+    id: checklist_LTSA-Decimate
     attributes:
       label: Decimation and LTSAs
       description: Use Matlab to create full bandwith longterm spectral average and decimate for low frequency data analysis
@@ -42,7 +42,7 @@ body:
         - label: Download decimatedir.m Matlab script and decimate to 500 Hz 
 
   - type: checkboxes
-    id: checklist5
+    id: checklist_Deployment-Tracker
     attributes:
       label: Update Deployment Tracker Spreadsheet
       # description: 
