@@ -21,7 +21,7 @@ body:
     validations: true
   
   - type: checkboxes
-    id: checklist
+    id: checklist1
     attributes:
       label: Offload Data
       description: Please work with the glider tech team to complete the following tasks to offload raw data from the WISPR recording system
@@ -30,7 +30,7 @@ body:
         - label: Plug cards into computer and copy raw .dat files to a hard drive, pass hard drive off to PAM analyst 
   
   - type: checkboxes
-    id: checklist
+    id: checklist2
     attributes:
       label: Decompress Data and Prep Audio Files
       description: Complete the followng steps to decompress the raw data files (.dat) and convert them to .flac files
@@ -48,7 +48,7 @@ body:
         - label: If .wav files are needed, use the flac2wav.m matlab script 
         
   - type: checkboxes
-    id: checklist
+    id: checklist3
     attributes:
       label: Create Full Bandwidth LTSA
       # description: Use Matlab to create full bandwith longterm spectral average
@@ -62,7 +62,7 @@ body:
         - label: Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
 
   - type: checkboxes
-    id: checklist
+    id: checklist4
     attributes:
       label: Decimate for Low Frequency Analysis
       # description:
@@ -70,7 +70,7 @@ body:
         - label: Download decimatedir.m Matlab script and decimate to 500 Hz for low frequency baleen whale analysis 
 
   - type: checkboxes
-    id: checklist
+    id: checklist5
     attributes:
       label: Update Deployment Tracker Spreadsheet
       # description: 
