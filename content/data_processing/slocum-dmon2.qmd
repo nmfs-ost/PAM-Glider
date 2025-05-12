@@ -25,8 +25,31 @@ The DMON has two sampling routines for low and high frequency; continuous record
 
 ## Clean wav Files and Segment Duty Cycled Data
 
-1.  Add Timestamps: The files are named risso###.ext so we need to timestamps to all of the files based on the start of each recording
-2.  Segment Audio: Although this data was duty cycled, the dmon combines all of the recordings into just a few files. Both the 2kHz and 120kHz have the same metadata
+::: callout-important
+The existing processing workflow for DMON data requires access to an IDL Runtime license. See directions here for purchasing and installing a license.
+:::
+
+1.  Open the ['reformat_dmon_wav_files.sav'](https://drive.google.com/file/d/1Sp73IcyAJeqLWnSKJ6SJGyMcFsoFN0Iy/view?usp=drive_link) file, this will open a stand alone application window
+
+2.  You will be prompted to choose a folder with DMON data, select a directory that includes the unpackaged data files from the steps above (including wav and log.xml files)
+
+3.  You will then be prompted to choose an output folder, it is recommended you save your processed audio files in a subfolder
+
+4.  You should then see the two file paths in the application window, click 'Go!' and the processing will start
+
+5.  Close the window once all the raw audio files have been renamed and separated based on the sampling routine
+
+6.  This processing renames the files to include a 4 digit year. Matlab and other processing softwares expect two digit years, so we need to rename these
+
+7.  Open files explorer and select all of the newly processed audio files
+
+8.  Right click on the files and select 'Rename with PowerRename'. If you do not see this option, you may need to use different renaming methods/software
+
+9.  In the PowerRename window, fill in the four digit year to the 'Search for' box and the two digit year in the 'Replace with' box
+
+    ![](images/clipboard-3898691826.png)
+
+10. Click 'Apply' and all of your files should now have the YYMMDD naming structure needed for the next data processing steps
 
 ## Extract other metadata as needed
 
@@ -38,7 +61,7 @@ The DMON has two sampling routines for low and high frequency; continuous record
 2.  Open Matlab and set the path to this flac version of Triton
 3.  Open Triton by typing ‘triton’ into command window
 4.  In the control window, click on Tools -\> Make LTSA from Directory of Files 
-5.  Enter 2 for wav
+5.  Enter 1 for wav
 6.  Navigate to your directory of wav files and click ‘Select Folder’
 7.  For low frequency data, use 1 seconds and 1 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_1s_1Hz.ltsa (ex. risso-20250414_2kHz_1s_1Hz.ltsa)
 8.  For high frequency data, use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. risso-20250414_120kHz_5s_200Hz.ltsa)
