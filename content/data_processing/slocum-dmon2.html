@@ -43,9 +43,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f4bbd00bc521a1430264096eb1751a15.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-c4519e516c76af1bb22a3985aa1b521c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-f4bbd00bc521a1430264096eb1751a15.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-c1d337819f3ac2b0397a022af9e8144e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-8367c8b2524fa41b854692582a7903cf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-c1d337819f3ac2b0397a022af9e8144e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -491,9 +491,31 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="clean-wav-files-and-segment-duty-cycled-data" class="level2">
 <h2 class="anchored" data-anchor-id="clean-wav-files-and-segment-duty-cycled-data">Clean wav Files and Segment Duty Cycled Data</h2>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The existing processing workflow for DMON data requires access to an IDL Runtime license. See directions here for purchasing and installing a license.</p>
+</div>
+</div>
 <ol type="1">
-<li>Add Timestamps: The files are named risso###.ext so we need to timestamps to all of the files based on the start of each recording</li>
-<li>Segment Audio: Although this data was duty cycled, the dmon combines all of the recordings into just a few files. Both the 2kHz and 120kHz have the same metadata</li>
+<li><p>Open the <a href="https://drive.google.com/file/d/1Sp73IcyAJeqLWnSKJ6SJGyMcFsoFN0Iy/view?usp=drive_link">‘reformat_dmon_wav_files.sav’</a> file, this will open a stand alone application window</p></li>
+<li><p>You will be prompted to choose a folder with DMON data, select a directory that includes the unpackaged data files from the steps above (including wav and log.xml files)</p></li>
+<li><p>You will then be prompted to choose an output folder, it is recommended you save your processed audio files in a subfolder</p></li>
+<li><p>You should then see the two file paths in the application window, click ‘Go!’ and the processing will start</p></li>
+<li><p>Close the window once all the raw audio files have been renamed and separated based on the sampling routine</p></li>
+<li><p>This processing renames the files to include a 4 digit year. Matlab and other processing softwares expect two digit years, so we need to rename these</p></li>
+<li><p>Open files explorer and select all of the newly processed audio files</p></li>
+<li><p>Right click on the files and select ‘Rename with PowerRename’. If you do not see this option, you may need to use different renaming methods/software</p></li>
+<li><p>In the PowerRename window, fill in the four digit year to the ‘Search for’ box and the two digit year in the ‘Replace with’ box</p>
+<p><img src="images/clipboard-3898691826.png" class="img-fluid"></p></li>
+<li><p>Click ‘Apply’ and all of your files should now have the YYMMDD naming structure needed for the next data processing steps</p></li>
 </ol>
 </section>
 <section id="extract-other-metadata-as-needed" class="level2">
@@ -509,7 +531,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Open Matlab and set the path to this flac version of Triton</li>
 <li>Open Triton by typing ‘triton’ into command window</li>
 <li>In the control window, click on Tools -&gt; Make LTSA from Directory of Files&nbsp;</li>
-<li>Enter 2 for wav</li>
+<li>Enter 1 for wav</li>
 <li>Navigate to your directory of wav files and click ‘Select Folder’</li>
 <li>For low frequency data, use 1 seconds and 1 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_1s_1Hz.ltsa (ex. risso-20250414_2kHz_1s_1Hz.ltsa)</li>
 <li>For high frequency data, use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. risso-20250414_120kHz_5s_200Hz.ltsa)</li>
