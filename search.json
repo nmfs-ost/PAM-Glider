@@ -67,7 +67,7 @@
     "text": "Glider techs: open Seaglider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 3"
     ]
   },
@@ -79,7 +79,7 @@
     "text": "Glider techs: open Seaglider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 3"
     ]
   },
@@ -91,7 +91,7 @@
     "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example configuration file \nOpen configuration file with text editor and replace “% %%%  TEMPLATE - PUT MISSION METADATA HERE  %%%” with the glider deployment ID\n\ni.e. “% %%% sg639_Sep2024 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘sg639’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the following two lines of the configuration file\n\nCONFIG.ws.inDir = ‘D:\\sgXXX_Location_Mon20XX_raw_acoustic_data’;   % path to raw .dat files\nCONFIG.ws.outDir = ‘E:\\sgXXX_Location_Mon20XX\\flac’;   % path to save converted files\n\nIf only converting to flac, comment out all of the other lines in the config file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 3"
     ]
   },
@@ -103,7 +103,7 @@
     "text": "Extract other metadata as needed\n\nNA? Do we have other data to extract and archive from wispr",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 3"
     ]
   },
@@ -115,7 +115,7 @@
     "text": "4 Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 3"
     ]
   },
@@ -127,7 +127,7 @@
     "text": "Decimate for LF analysis as needed\n\nDownload decimatedir.m Matlab script and decimate to 500 Hz for low frequency baleen whale analysis \nMETHODS DOCUMENTATION - WORK IN PROGRESS",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 3"
     ]
   },
@@ -139,7 +139,7 @@
     "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 3"
     ]
   },
@@ -151,7 +151,7 @@
     "text": "Glider techs: open glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Oceanscout - WISPR 6.1"
     ]
   },
@@ -163,7 +163,7 @@
     "text": "Glider techs: open glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Oceanscout - WISPR 6.1"
     ]
   },
@@ -175,7 +175,7 @@
     "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example Hefring configuration file \nOpen configuration file with text editor and replace “% %%%     HEFRING WISPR EXAMPLE            %%%” with the glider deployment ID\n\ni.e. “% %%% stenella-20250414 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘stenella’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the last two lines of the configuration file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Oceanscout - WISPR 6.1"
     ]
   },
@@ -187,7 +187,7 @@
     "text": "Extract other metadata as needed\n\nNA? Do we have other data to extract and archive from wispr",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Oceanscout - WISPR 6.1"
     ]
   },
@@ -199,7 +199,7 @@
     "text": "Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Oceanscout - WISPR 6.1"
     ]
   },
@@ -211,7 +211,7 @@
     "text": "Decimate for LF analysis as needed\n\nDownload decimatedir.m Matlab script and decimate to 500 Hz for low frequency baleen whale analysis \nMETHODS DOCUMENTATION - WORK IN PROGRESS",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Oceanscout - WISPR 6.1"
     ]
   },
@@ -223,7 +223,7 @@
     "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Oceanscout - WISPR 6.1"
     ]
   },
@@ -235,7 +235,7 @@
     "text": "The DMON has two sampling routines for low and high frequency; continuous recording of the low-frequency hydrophone at 2 kHz and duty-cycled recording of the high-frequency hydrophone at 120 kHz for 30 seconds out of every 450 seconds (30 sec on 7.5 minutes off, 8 minute cycle) (LF2_HF120d30_450s.bin). The low frequency hydrophone recordings are .wav2 and the high frequency hydrophone recordings are .wav3. These files have to be renamed to .wav to be usable, so this script renames each wav file with its respective frequency",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - DMON 2"
     ]
   },
@@ -247,7 +247,7 @@
     "text": "Offload data\n\nGlider techs: open Slocum glider and follow dmon instructions section H and I (up to step 4) here \ncopy raw files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - DMON 2"
     ]
   },
@@ -259,7 +259,7 @@
     "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: Get offloaded data from glider team (section I here)\nIf you only see .dgt files, then you will need to unpack them to get .wav and other recording metadata files \n\nYou do not need to follow these steps if you can see .err, .log, .wav2, .wav3, and .xml files for each .dtg file\n\nDownload the dmon software here and open d3read.exe\nYou should see a new terminal window open, prompting you to enter a directory. Copy the directory where the .dgt files are located and press enter\nYou will then be prompted to ‘Input filename base?’, type the file header of each dgt file (before the three digits ###) and hit enter\n\nExample: for the file named risso001.dgt, you would type risso and hit enter\n\nYou should then see a list of .dgt files in that directory and the unpacking process should start\nIf .flac files are needed, use the wav2flac.m matlab script",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - DMON 2"
     ]
   },
@@ -271,7 +271,7 @@
     "text": "Clean wav Files and Segment Duty Cycled Data\n\n\n\n\n\n\nImportant\n\n\n\nThe existing processing workflow for DMON data requires access to an IDL Runtime license. See directions here for purchasing and installing a license.\n\n\n\nOpen the ‘reformat_dmon_wav_files.sav’ file, this will open a stand alone application window\nYou will be prompted to choose a folder with DMON data, select a directory that includes the unpackaged data files from the steps above (including wav and log.xml files)\nYou will then be prompted to choose an output folder, it is recommended you save your processed audio files in a subfolder\nYou should then see the two file paths in the application window, click ‘Go!’ and the processing will start\nClose the window once all the raw audio files have been renamed and separated based on the sampling routine\nThis processing renames the files to include a 4 digit year. Matlab and other processing softwares expect two digit years, so we need to rename these\nOpen files explorer and select all of the newly processed audio files\nRight click on the files and select ‘Rename with PowerRename’. If you do not see this option, you may need to use different renaming methods/software\nIn the PowerRename window, fill in the four digit year to the ‘Search for’ box and the two digit year in the ‘Replace with’ box\n\nClick ‘Apply’ and all of your files should now have the YYMMDD naming structure needed for the next data processing steps",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - DMON 2"
     ]
   },
@@ -283,7 +283,7 @@
     "text": "Extract other metadata as needed\n\nNA? Do we have other data to extract and archive from DMON",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - DMON 2"
     ]
   },
@@ -295,7 +295,7 @@
     "text": "Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 1 for wav\nNavigate to your directory of wav files and click ‘Select Folder’\nFor low frequency data, use 1 seconds and 1 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_1s_1Hz.ltsa (ex. risso-20250414_2kHz_1s_1Hz.ltsa)\nFor high frequency data, use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. risso-20250414_120kHz_5s_200Hz.ltsa)",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - DMON 2"
     ]
   },
@@ -307,7 +307,7 @@
     "text": "Decimate for LF analysis as needed\n\nNot needed unless we want to decimate smaller then 2 kHz, could go to 500 Hz for consistency?",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - DMON 2"
     ]
   },
@@ -319,7 +319,7 @@
     "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - DMON 2"
     ]
   },
@@ -331,7 +331,7 @@
     "text": "Glider techs: open Seaglider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 2"
     ]
   },
@@ -343,7 +343,7 @@
     "text": "Glider techs: open Seaglider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 2"
     ]
   },
@@ -355,7 +355,7 @@
     "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example configuration file \nOpen configuration file with text editor and replace “% %%%  TEMPLATE - PUT MISSION METADATA HERE  %%%” with the glider deployment ID\n\ni.e. “% %%% sg639_Sep2024 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘sg639’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the following two lines of the configuration file\n\nCONFIG.ws.inDir = ‘D:\\sgXXX_Location_Mon20XX_raw_acoustic_data’;   % path to raw .dat files\nCONFIG.ws.outDir = ‘E:\\sgXXX_Location_Mon20XX\\flac’;   % path to save converted files\n\nIf only converting to flac, comment out all of the other lines in the config file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 2"
     ]
   },
@@ -367,7 +367,7 @@
     "text": "Extract other metadata as needed\n\nNA? Do we have other data to extract and archive from wispr",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 2"
     ]
   },
@@ -379,7 +379,7 @@
     "text": "4 Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 2"
     ]
   },
@@ -391,7 +391,7 @@
     "text": "Decimate for LF analysis as needed\n\nDownload decimatedir.m Matlab script and decimate to 500 Hz for low frequency baleen whale analysis \nMETHODS DOCUMENTATION - WORK IN PROGRESS",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 2"
     ]
   },
@@ -403,109 +403,48 @@
     "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Seaglider - WISPR 2"
     ]
   },
   {
-    "objectID": "content/modeling.html",
-    "href": "content/modeling.html",
-    "title": "Spatial Modeling",
+    "objectID": "content/infoSharing.html",
+    "href": "content/infoSharing.html",
+    "title": "Information Sharing",
     "section": "",
-    "text": "Concurrent with the work to expand the use of PAM gliders across NOAA, a synergestic project is working to advance the analytical methods and tools to work towards incorporating glider-collected acoustic data into population modeling. The SPACIOUS (Spatial Population Assessment of Cetaceans Integrating acoustic Observations from Uncrewed Systems) project aims to develop an analytical framework to integrate data from slow-moving recording platforms (such as gliders and drifters) into spatial density models for cetaceans.\nMore information on this project can be found on the PAM-Stocks site. Our hope is to engage with the broader community of bioacousticians, population ecologists, and glider users that are also thinking about this problem and working toward this goal to create products that will be useful to NOAA and the others. We will plan to share updates and content related to SPACIOUS there."
-  },
-  {
-    "objectID": "content/glider-labs.html",
-    "href": "content/glider-labs.html",
-    "title": "Glider labs",
-    "section": "",
-    "text": "PIFSC PSD (Protected Species Division) Glider Lab\nHonolulu, HI\nGitHub Enterprise account required to view\nSWFSC ESD (Ecosystem Science Division) Glider Lab\nLa Jolla, CA\nNEFSC\nWoods Hole, MA\nSEFSC\nMiami, FL",
+    "text": "What is Open Science? The goals of ‘Open Science’ are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see Open Science for more info).\nBelow we outline the ways in which our PAM-Glider program aims to embrace Open Science. This is a work in progress, and we welcome suggestions in how we can improve on these efforts.",
     "crumbs": [
-      "Resources",
-      "NMFS Glider Labs"
+      "Information Sharing"
     ]
   },
   {
-    "objectID": "content/glider-labs.html#noaa-fisheries-glider-labs",
-    "href": "content/glider-labs.html#noaa-fisheries-glider-labs",
-    "title": "Glider labs",
-    "section": "",
-    "text": "PIFSC PSD (Protected Species Division) Glider Lab\nHonolulu, HI\nGitHub Enterprise account required to view\nSWFSC ESD (Ecosystem Science Division) Glider Lab\nLa Jolla, CA\nNEFSC\nWoods Hole, MA\nSEFSC\nMiami, FL",
+    "objectID": "content/infoSharing.html#open-educational-resources",
+    "href": "content/infoSharing.html#open-educational-resources",
+    "title": "Information Sharing",
+    "section": "Open Educational Resources",
+    "text": "Open Educational Resources\n\nBioacoustics Stack Exchange\nStack Exchange is a network of question and answer websites on topics in diverse fields. The Bioacoustics Stack Exchange site was created by our PAM community, for our PAM community. Answers to questions are crowd-sourced from the community, and both questions and answers are archived and publicly accessible via the site or by a search engine. For more information, visit the Bioacoustics Stack Exchange.\n\n\nZotero Group Library\nZotero is a free, open-source reference management tool that helps users collect, organize, cite, and share research resources. A Zotero Group Library is a shared library that allows users to collaboration on research projects by sharing and managing references. We have developed the following Zotero Group Libraries to allow users to identify and share related references. To join and contribute references, first create a Zotero account and request to be a member. These libraries are by no means complete, and our intent is to build a collaborative resource for the broader community of researchers, students, and practitioners.\nPAM-Glider Group Library\nSoundscape Group Library",
     "crumbs": [
-      "Resources",
-      "NMFS Glider Labs"
+      "Information Sharing"
     ]
   },
   {
-    "objectID": "content/glider-labs.html#noaa-collaborators",
-    "href": "content/glider-labs.html#noaa-collaborators",
-    "title": "Glider labs",
-    "section": "NOAA Collaborators",
-    "text": "NOAA Collaborators\nOregon State University Cooperative Institute for Marine and Ecosystem Resources Studies - PMEL Ocean Acoustics Program\nWoods Hole Oceanographic Instituion - Robots4Whales\nUniversity of the Virgin Islands - UVI Ocean Glider Laborator\n\nNOAA PAM glider fleets\nLink for NOAA personnel (password protected) PAM Glider Specs",
+    "objectID": "content/infoSharing.html#research-compendium",
+    "href": "content/infoSharing.html#research-compendium",
+    "title": "Information Sharing",
+    "section": "Research Compendium",
+    "text": "Research Compendium\nA research compendium is a collection of all the digital components related to a research project, including data, code, text (like protocols and reports), and metadata. A research compendium provides a comprehensive package that allows others to fully reproduce research findings by accessing all the elements involved in the study process.\nWe will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below. (Stay Tuned!)",
     "crumbs": [
-      "Resources",
-      "NMFS Glider Labs"
+      "Information Sharing"
     ]
   },
   {
-    "objectID": "content/sensors.html",
-    "href": "content/sensors.html",
-    "title": "PAM Sensors",
-    "section": "",
-    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR (Wideband Intelligent Signal Processor and Recorder) is an acoustic processor developed by Embedded Ocean Systems and designed for limited space and low power, with options for customized applications. WISPR are currently used on Seagliders, and recent integration with Slocum gliders is undergoing testing.\nWISPR3 resources can be found here.\nThe Digital MONitor (DMON) was developed by Woods Hole Oceanographic Institute and have been integrated on Slocum gliders and have been used with Seagliders. The current iteration of DMON has limited capacity for high frequency recording, but expansion of this capacity to improve storage capacity is under development.",
+    "objectID": "content/infoSharing.html#open-data",
+    "href": "content/infoSharing.html#open-data",
+    "title": "Information Sharing",
+    "section": "Open Data",
+    "text": "Open Data\nNOAA Fisheries’ Passive Acoustics Data is archived at the National Centers for Environmental Information (NCEI) and archived data can be accessed via the NCEI Passive Acoustic Data web portal.\nDetection data for a subset of NOAA Fisheries data can be viewed at the Passive Acoustic Cetacaean Map (PACM), developed at Northeast Fisheries Science Center. At present, the bulk of these data are from the U.S. East Coast, but an expanded PACM is in development. More information can be found at the PACM website.",
     "crumbs": [
-      "Resources",
-      "Sensors"
-    ]
-  },
-  {
-    "objectID": "content/sensors.html#wispr",
-    "href": "content/sensors.html#wispr",
-    "title": "PAM Sensors",
-    "section": "WISPR",
-    "text": "WISPR",
-    "crumbs": [
-      "Resources",
-      "Sensors"
-    ]
-  },
-  {
-    "objectID": "content/sensors.html#dmon",
-    "href": "content/sensors.html#dmon",
-    "title": "PAM Sensors",
-    "section": "DMON",
-    "text": "DMON",
-    "crumbs": [
-      "Resources",
-      "Sensors"
-    ]
-  },
-  {
-    "objectID": "content/sensors.html#auris",
-    "href": "content/sensors.html#auris",
-    "title": "PAM Sensors",
-    "section": "Auris",
-    "text": "Auris\nThe Auris acoustic processing system is a proprietary system developed for the Alseamar SeaExplorer glider.",
-    "crumbs": [
-      "Resources",
-      "Sensors"
-    ]
-  },
-  {
-    "objectID": "content/p2w.html",
-    "href": "content/p2w.html",
-    "title": "Plankton to Whales",
-    "section": "",
-    "text": "The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.\nThis project is planned for 2025."
-  },
-  {
-    "objectID": "content/contact.html",
-    "href": "content/contact.html",
-    "title": "Contact Us",
-    "section": "",
-    "text": "To reach out with a question or comment, please reach out via the form link, below, and we will try to respond in a timely manner.\nContact Us Form",
-    "crumbs": [
-      "Contact Us"
+      "Information Sharing"
     ]
   },
   {
@@ -575,44 +514,112 @@
     ]
   },
   {
-    "objectID": "content/infoSharing.html",
-    "href": "content/infoSharing.html",
-    "title": "Information Sharing",
+    "objectID": "content/contact.html",
+    "href": "content/contact.html",
+    "title": "Contact Us",
     "section": "",
-    "text": "What is Open Science? The goals of ‘Open Science’ are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see Open Science for more info).\nBelow we outline the ways in which our PAM-Glider program aims to embrace Open Science. This is a work in progress, and we welcome suggestions in how we can improve on these efforts.",
+    "text": "To reach out with a question or comment, please reach out via the form link, below, and we will try to respond in a timely manner.\nContact Us Form",
     "crumbs": [
-      "Information Sharing"
+      "Contact Us"
     ]
   },
   {
-    "objectID": "content/infoSharing.html#open-educational-resources",
-    "href": "content/infoSharing.html#open-educational-resources",
-    "title": "Information Sharing",
-    "section": "Open Educational Resources",
-    "text": "Open Educational Resources\n\nBioacoustics Stack Exchange\nStack Exchange is a network of question and answer websites on topics in diverse fields. The Bioacoustics Stack Exchange site was created by our PAM community, for our PAM community. Answers to questions are crowd-sourced from the community, and both questions and answers are archived and publicly accessible via the site or by a search engine. For more information, visit the Bioacoustics Stack Exchange.\n\n\nZotero Group Library\nZotero is a free, open-source reference management tool that helps users collect, organize, cite, and share research resources. A Zotero Group Library is a shared library that allows users to collaboration on research projects by sharing and managing references. We have developed the following Zotero Group Libraries to allow users to identify and share related references. To join and contribute references, first create a Zotero account and request to be a member. These libraries are by no means complete, and our intent is to build a collaborative resource for the broader community of researchers, students, and practitioners.\nPAM-Glider Group Library\nSoundscape Group Library",
+    "objectID": "content/p2w.html",
+    "href": "content/p2w.html",
+    "title": "Plankton to Whales",
+    "section": "",
+    "text": "The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.\nThis project is planned for 2025."
+  },
+  {
+    "objectID": "content/sensors.html",
+    "href": "content/sensors.html",
+    "title": "PAM Sensors",
+    "section": "",
+    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR (Wideband Intelligent Signal Processor and Recorder) is an acoustic processor developed by Embedded Ocean Systems and designed for limited space and low power, with options for customized applications. WISPR are currently used on Seagliders, and recent integration with Slocum gliders is undergoing testing.\nWISPR3 resources can be found here.\nThe Digital MONitor (DMON) was developed by Woods Hole Oceanographic Institute and have been integrated on Slocum gliders and have been used with Seagliders. The current iteration of DMON has limited capacity for high frequency recording, but expansion of this capacity to improve storage capacity is under development.",
     "crumbs": [
-      "Information Sharing"
+      "Resources",
+      "Sensors"
     ]
   },
   {
-    "objectID": "content/infoSharing.html#research-compendium",
-    "href": "content/infoSharing.html#research-compendium",
-    "title": "Information Sharing",
-    "section": "Research Compendium",
-    "text": "Research Compendium\nA research compendium is a collection of all the digital components related to a research project, including data, code, text (like protocols and reports), and metadata. A research compendium provides a comprehensive package that allows others to fully reproduce research findings by accessing all the elements involved in the study process.\nWe will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below. (Stay Tuned!)",
+    "objectID": "content/sensors.html#wispr",
+    "href": "content/sensors.html#wispr",
+    "title": "PAM Sensors",
+    "section": "WISPR",
+    "text": "WISPR",
     "crumbs": [
-      "Information Sharing"
+      "Resources",
+      "Sensors"
     ]
   },
   {
-    "objectID": "content/infoSharing.html#open-data",
-    "href": "content/infoSharing.html#open-data",
-    "title": "Information Sharing",
-    "section": "Open Data",
-    "text": "Open Data\nNOAA Fisheries’ Passive Acoustics Data is archived at the National Centers for Environmental Information (NCEI) and archived data can be accessed via the NCEI Passive Acoustic Data web portal.\nDetection data for a subset of NOAA Fisheries data can be viewed at the Passive Acoustic Cetacaean Map (PACM), developed at Northeast Fisheries Science Center. At present, the bulk of these data are from the U.S. East Coast, but an expanded PACM is in development. More information can be found at the PACM website.",
+    "objectID": "content/sensors.html#dmon",
+    "href": "content/sensors.html#dmon",
+    "title": "PAM Sensors",
+    "section": "DMON",
+    "text": "DMON",
     "crumbs": [
-      "Information Sharing"
+      "Resources",
+      "Sensors"
     ]
+  },
+  {
+    "objectID": "content/sensors.html#auris",
+    "href": "content/sensors.html#auris",
+    "title": "PAM Sensors",
+    "section": "Auris",
+    "text": "Auris\nThe Auris acoustic processing system is a proprietary system developed for the Alseamar SeaExplorer glider.",
+    "crumbs": [
+      "Resources",
+      "Sensors"
+    ]
+  },
+  {
+    "objectID": "content/glider-labs.html",
+    "href": "content/glider-labs.html",
+    "title": "Glider labs",
+    "section": "",
+    "text": "PIFSC PSD (Protected Species Division) Glider Lab\nHonolulu, HI\nGitHub Enterprise account required to view\nSWFSC ESD (Ecosystem Science Division) Glider Lab\nLa Jolla, CA\nNEFSC\nWoods Hole, MA\nSEFSC\nMiami, FL",
+    "crumbs": [
+      "Resources",
+      "NMFS Glider Labs"
+    ]
+  },
+  {
+    "objectID": "content/glider-labs.html#noaa-fisheries-glider-labs",
+    "href": "content/glider-labs.html#noaa-fisheries-glider-labs",
+    "title": "Glider labs",
+    "section": "",
+    "text": "PIFSC PSD (Protected Species Division) Glider Lab\nHonolulu, HI\nGitHub Enterprise account required to view\nSWFSC ESD (Ecosystem Science Division) Glider Lab\nLa Jolla, CA\nNEFSC\nWoods Hole, MA\nSEFSC\nMiami, FL",
+    "crumbs": [
+      "Resources",
+      "NMFS Glider Labs"
+    ]
+  },
+  {
+    "objectID": "content/glider-labs.html#noaa-collaborators",
+    "href": "content/glider-labs.html#noaa-collaborators",
+    "title": "Glider labs",
+    "section": "NOAA Collaborators",
+    "text": "NOAA Collaborators\nOregon State University Cooperative Institute for Marine and Ecosystem Resources Studies - PMEL Ocean Acoustics Program\nWoods Hole Oceanographic Instituion - Robots4Whales\nUniversity of the Virgin Islands - UVI Ocean Glider Laborator\n\nNOAA PAM glider fleets\nLink for NOAA personnel (password protected) PAM Glider Specs",
+    "crumbs": [
+      "Resources",
+      "NMFS Glider Labs"
+    ]
+  },
+  {
+    "objectID": "content/modeling.html",
+    "href": "content/modeling.html",
+    "title": "Spatial Modeling",
+    "section": "",
+    "text": "Concurrent with the work to expand the use of PAM gliders across NOAA, a synergestic project is working to advance the analytical methods and tools to work towards incorporating glider-collected acoustic data into population modeling. The SPACIOUS (Spatial Population Assessment of Cetaceans Integrating acoustic Observations from Uncrewed Systems) project aims to develop an analytical framework to integrate data from slow-moving recording platforms (such as gliders and drifters) into spatial density models for cetaceans.\nMore information on this project can be found on the PAM-Stocks site. Our hope is to engage with the broader community of bioacousticians, population ecologists, and glider users that are also thinking about this problem and working toward this goal to create products that will be useful to NOAA and the others. We will plan to share updates and content related to SPACIOUS there."
+  },
+  {
+    "objectID": "content/data_processing/data-preprocessing.html",
+    "href": "content/data_processing/data-preprocessing.html",
+    "title": "Data Pre-Processing",
+    "section": "",
+    "text": "Each glider/PAM system combination has a unique set of data pre-processing steps to complete, prior to data analysis. These steps include offloading the data from the PAM system, decompressing files, creating LTSAs, decimating, and updating the deployment tracker.\nEach section below links to detailed methods for each glider/pam system combination\n\nSeaglider - WISPR 2\nSeaglider - WISPR 3\nSeaglider - PMAR XL\nSlocum - WISPR 3\nSlocum - DMON 2\nOceanscout - WISPR 6.1\nAlseamar"
   },
   {
     "objectID": "content/data_processing/slocum-wispr3.html",
@@ -622,7 +629,7 @@
     "text": "Glider techs: open Slocum glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - WISPR 3"
     ]
   },
@@ -634,7 +641,7 @@
     "text": "Glider techs: open Slocum glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - WISPR 3"
     ]
   },
@@ -646,7 +653,7 @@
     "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example Hefring configuration file \nOpen configuration file with text editor and replace “% %%%     HEFRING WISPR EXAMPLE            %%%” with the glider deployment ID\n\ni.e. “% %%% stenella-20250414 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘stenella’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the last two lines of the configuration file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - WISPR 3"
     ]
   },
@@ -658,7 +665,7 @@
     "text": "Extract other metadata as needed\n\nNA? Do we have other data to extract and archive from wispr",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - WISPR 3"
     ]
   },
@@ -670,7 +677,7 @@
     "text": "Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - WISPR 3"
     ]
   },
@@ -682,7 +689,7 @@
     "text": "Decimate for LF analysis as needed\n\nDownload decimatedir.m Matlab script and decimate to 500 Hz for low frequency baleen whale analysis \nMETHODS DOCUMENTATION - WORK IN PROGRESS",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - WISPR 3"
     ]
   },
@@ -694,7 +701,7 @@
     "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
     "crumbs": [
       "Analysis Methods",
-      "Data Pre-Processing",
+      "content/data-preprocessing.qmd",
       "Slocum - WISPR 3"
     ]
   },

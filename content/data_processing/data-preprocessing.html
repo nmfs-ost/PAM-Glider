@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>PAM Sensors – PAM-UxS</title>
+<title>Data Pre-Processing – PAM-UxS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,29 +23,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../content/gliderRodeo.html" rel="next">
-<link href="../content/gliders.html" rel="prev">
-<link href="../content/images/SEAGLIDER.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-c1d337819f3ac2b0397a022af9e8144e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-8367c8b2524fa41b854692582a7903cf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-c1d337819f3ac2b0397a022af9e8144e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../content/images/SEAGLIDER.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-c1d337819f3ac2b0397a022af9e8144e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-8367c8b2524fa41b854692582a7903cf.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-c1d337819f3ac2b0397a022af9e8144e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -248,7 +246,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/glider-labs.html">Resources</a></li><li class="breadcrumb-item"><a href="../content/sensors.html">Sensors</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Data Pre-Processing</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -262,7 +260,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
-      <a href="../index.html" class="sidebar-logo-link">
+      <a href="../../index.html" class="sidebar-logo-link">
       <img src="https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
@@ -280,13 +278,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/about.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About Us</span></a>
   </div>
 </li>
@@ -301,19 +299,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/glider-labs.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/glider-labs.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">NMFS Glider Labs</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/gliders.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/gliders.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Gliders</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/sensors.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../content/sensors.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sensors</span></a>
   </div>
 </li>
@@ -321,25 +319,25 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/gliderRodeo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/gliderRodeo.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Field Testing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/shipSurveys.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/shipSurveys.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Ship &amp; Glider Surveys</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/gliderSoundscapes.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/gliderSoundscapes.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Soundscapes</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/transitionPlan.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/transitionPlan.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Transition Plan</span></a>
   </div>
 </li>
@@ -363,43 +361,43 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/data_processing/seaglider-wispr2.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/data_processing/seaglider-wispr2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seaglider - WISPR 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/data_processing/seaglider-wispr3.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/data_processing/seaglider-wispr3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seaglider - WISPR 3</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/data_processing/seaglider-pmar-xl.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/data_processing/seaglider-pmar-xl.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Seaglider - PMAR XL</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/data_processing/slocum-wispr3.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/data_processing/slocum-wispr3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slocum - WISPR 3</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/data_processing/slocum-dmon2.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/data_processing/slocum-dmon2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Slocum - DMON 2</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/data_processing/oceanscout-wispr6.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/data_processing/oceanscout-wispr6.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Oceanscout - WISPR 6.1</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/data_processing/alseamar.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/data_processing/alseamar.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Alseamar</span></a>
   </div>
 </li>
@@ -409,13 +407,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/infoSharing.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/infoSharing.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Information Sharing</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/contact.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/contact.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Contact Us</span></a>
   </div>
 </li>
@@ -424,22 +422,16 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#auris" id="toc-auris" class="nav-link active" data-scroll-target="#auris">Auris</a></li>
-  </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/sensors.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/sensors.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/glider-labs.html">Resources</a></li><li class="breadcrumb-item"><a href="../content/sensors.html">Sensors</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">PAM Sensors</h1>
+<h1 class="title">Data Pre-Processing</h1>
 </div>
 
 
@@ -456,34 +448,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:</p>
-<div class="columns">
-<div class="column" style="width:&quot;80%;">
-<section id="wispr" class="level2">
-<h2 class="anchored" data-anchor-id="wispr">WISPR</h2>
-</section>
-</div><div class="column" style="width:&quot;20%;">
-<p><img src="images/wispr.jfif" class="img-fluid" width="100"></p>
-</div>
-</div>
-<p><a href="https://embeddedocean.com/passive-acoustics-2/" target="_blank">WISPR</a> (Wideband Intelligent Signal Processor and Recorder) is an acoustic processor developed by Embedded Ocean Systems and designed for limited space and low power, with options for customized applications. WISPR are currently used on Seagliders, and recent integration with Slocum gliders is undergoing testing.</p>
-<p>WISPR3 resources can be found <a href="https://github.com/embeddedocean/wispr3">here</a>.</p>
-<div class="columns">
-<div class="column" style="width:&quot;80%;">
-<section id="dmon" class="level2">
-<h2 class="anchored" data-anchor-id="dmon">DMON</h2>
-</section>
-</div><div class="column" style="width:&quot;20%;">
-<p><img src="images/dmon.png" class="img-fluid" width="200"></p>
-</div>
-</div>
-<p>The Digital MONitor (<a href="https://apps.dtic.mil/sti/tr/pdf/ADA617025.pdf">DMON</a>) was developed by Woods Hole Oceanographic Institute and have been integrated on Slocum gliders and have been used with <a href="https://www.soest.hawaii.edu/ore/OE/Prof.Howe_PDF/DMON_Van_Uffelen_JOE_2017.pdf">Seagliders</a>. The current iteration of DMON has limited capacity for high frequency recording, but expansion of this capacity to improve storage capacity is under development.</p>
-<section id="auris" class="level2">
-<h2 class="anchored" data-anchor-id="auris">Auris</h2>
-<p>The <a href="https://www.alseamar-alcen.com/index.php/products/underwater-glider/seaexplorer" target="_blank">Auris</a> acoustic processing system is a proprietary system developed for the Alseamar SeaExplorer glider.</p>
+<p>Each glider/PAM system combination has a unique set of data pre-processing steps to complete, prior to data analysis. These steps include offloading the data from the PAM system, decompressing files, creating LTSAs, decimating, and updating the deployment tracker.</p>
+<p>Each section below links to detailed methods for each glider/pam system combination</p>
+<ul>
+<li><p><a href="https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-wispr2.html">Seaglider - WISPR 2</a></p></li>
+<li><p><a href="https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-wispr3.html">Seaglider - WISPR 3</a></p></li>
+<li><p><a href="https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-pmar-xl.html">Seaglider - PMAR XL</a></p></li>
+<li><p><a href="https://nmfs-ost.github.io/PAM-Glider/content/data_processing/slocum-wispr3.html">Slocum - WISPR 3</a></p></li>
+<li><p><a href="https://nmfs-ost.github.io/PAM-Glider/content/data_processing/slocum-dmon2.html">Slocum - DMON 2</a></p></li>
+<li><p><a href="https://nmfs-ost.github.io/PAM-Glider/content/data_processing/oceanscout-wispr6.html">Oceanscout - WISPR 6.1</a></p></li>
+<li><p><a href="https://nmfs-ost.github.io/PAM-Glider/content/data_processing/alseamar.html">Alseamar</a></p></li>
+</ul>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -898,18 +875,6 @@ ul.task-list li input[type="checkbox"] {
     }
   });
   </script>
-<nav class="page-navigation">
-  <div class="nav-page nav-page-previous">
-      <a href="../content/gliders.html" class="pagination-link" aria-label="Gliders">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Gliders</span>
-      </a>          
-  </div>
-  <div class="nav-page nav-page-next">
-      <a href="../content/gliderRodeo.html" class="pagination-link" aria-label="Field Testing">
-        <span class="nav-page-text">Field Testing</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
-  </div>
-</nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
@@ -918,7 +883,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/sensors.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/sensors.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/data_processing/data-preprocessing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/data_processing/data-preprocessing.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
