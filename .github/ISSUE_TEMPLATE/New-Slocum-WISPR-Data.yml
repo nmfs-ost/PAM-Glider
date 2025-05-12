@@ -42,7 +42,7 @@ body:
       description: Use Matlab to create full bandwith longterm spectral average and decimate for low frequency data analysis
       options:
         - label: Create LTSA with 5 seconds and 200 Hz settings, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)
-        - label: Download decimatedir.m Matlab script and decimate to 500 Hz 
+        - label: Decimate to 500 Hz 
 
   - type: checkboxes
     id: checklist_Deployment-Tracker
