@@ -57,7 +57,7 @@ website:
       #   text: Plankton to Whales
       - section: Analysis Methods
         contents: 
-          - section: Data Pre-Processing
+          - section: content/data-preprocessing.qmd
             contents: 
             - href: content/data_processing/seaglider-wispr2.qmd
               text: Seaglider - WISPR 2
