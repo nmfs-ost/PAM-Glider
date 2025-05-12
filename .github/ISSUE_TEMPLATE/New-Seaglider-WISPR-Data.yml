@@ -18,7 +18,7 @@ body:
       label: Deployment ID
       description: Deployment ID from deployment tracker 
       placeholder: e.g., sg679_Aug2024
-    validations:true
+    validations: true
   
   - type: checkboxes
     id: checklist
