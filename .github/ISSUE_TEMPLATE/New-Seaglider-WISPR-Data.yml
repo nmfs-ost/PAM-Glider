@@ -1,0 +1,80 @@
+name: New Seaglider WISPR Data
+description: Data pre-processing steps for new, incoming PAM data from Seagliders with WISPR recording systems. 
+title: "[New Seaglider WISPR Data]: Deployment_ID"
+labels: ["new data"]
+#projects: ["PAM SI]
+assignees:
+  - Kourtney-Burger
+  - sfregosi-noaa
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Press the green 'Create' button below to create this issue template with the data pre-processing steps that need to be completed with each new PAM glider dataset
+
+  - type:input
+    id: dataset-name
+    attributes:
+      label: Deployment ID
+      description: Deployment ID from deployment tracker 
+      placeholder: e.g., sg679_Aug2024
+    validations:true
+  
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Offload Data
+      description: Please work with the glider tech team to complete the following tasks to offload raw data from the WISPR recording system
+      options:
+        - label: Open Seaglider and remove two micro SD cards from the WISPR board
+        - label: Plug cards into computer and copy raw .dat files to a hard drive, pass hard drive off to PAM analyst 
+  
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Decompress Data and Prep Audio Files
+      description: Complete the followng steps to decompress the raw data files (.dat) and convert them to .flac files
+      options:
+        - label: Use agate convert WISPR workflow script to convert from .dat to .flac
+        - label: Download workflow_convertWISPR.m and the example configuration file 
+        - label: Open configuration file with text editor and replace “% %%%  TEMPLATE - PUT MISSION METADATA HERE  %%%” with the glider deployment ID (i.e. “% %%% sg639_Sep2024 %%%”)
+        - label: Add the glider serial number to the ’CONFIG.glider = ‘ argument (i.e. “CONFIG.glider = ‘sg639’;”)
+        - label: Add the path to the raw .dat files and path to converted flac files in the following two lines of the configuration file; CONFIG.ws.inDir = ‘D:\sgXXX_Location_Mon20XX_raw_acoustic_data’;   % path to raw .dat files, CONFIG.ws.outDir = ‘E:\sgXXX_Location_Mon20XX\flac’;   % path to save converted files. If only converting to flac, comment out all of the other lines in the config file
+        - label: Save as ‘agate_config_DeploymentID.cnf’ to the input data directory
+        - label: If you do not have agate downloaded already, clone the agate repository 
+        - label: Open the convert matlab script and set the path to the agate folder on line 36
+        - label: Set the path to the configuration file on line 42
+        - label: Run the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file
+        - label: If .wav files are needed, use the flac2wav.m matlab script 
+        
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Create Full Bandwidth LTSA
+      # description: Use Matlab to create full bandwith longterm spectral average
+      options:
+        - label: Download a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac
+        - label: Open Matlab and set the path to this flac version of Triton
+        - label: Open Triton by typing ‘triton’ into command window
+        - label: In the control window, click on Tools -> Make LTSA from Directory of Files 
+        - label: Enter 3 for flac
+        - label: Navigate to your directory of flac files and click ‘Select Folder’
+        - label: Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Decimate for Low Frequency Analysis
+      # description:
+      options:
+        - label: Download decimatedir.m Matlab script and decimate to 500 Hz for low frequency baleen whale analysis 
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Update Deployment Tracker Spreadsheet
+      # description: 
+      options:
+        - label: Open Glider Deployment Tracker Spreadsheet and ensure all fields have been completed
+        - label: Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality 
+        - label: Calculate the deployment duration, distance, and recording duration and fill in the associated columns 
