@@ -1,4 +1,4 @@
-name: New Seaglider WISPR Data
+name: New Alseamar Data
 description: Data pre-processing steps for new, incoming PAM data from Seagliders with WISPR recording systems. 
 title: "New Seaglider WISPR Data: [INSERT DEPLOYMENT ID HERE]"
 labels: ["new data"]
