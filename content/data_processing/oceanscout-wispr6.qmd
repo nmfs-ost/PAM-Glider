@@ -1,5 +1,5 @@
 ---
-title: "slocum-wispr3"
+title: "Oceanscout WISPR 6"
 format: html
 ---
 
