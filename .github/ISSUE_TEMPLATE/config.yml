@@ -1,0 +1,7 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Glider Questions
+    url: https://nmfs-ost.github.io/PAM-Glider/
+    about: Please see our home page for more glider information and create a blank issue for any unresolved questions.
+
+# No issue_templates needed if you use YAML-based forms — GitHub auto-detects them
