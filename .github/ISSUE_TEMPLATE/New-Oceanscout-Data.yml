@@ -1,5 +1,5 @@
-name: New Seaglider WISPR Data
-description: Data pre-processing steps for new, incoming PAM data from Seagliders with WISPR recording systems. 
+name: New Oceanscout WISPR Data
+description: Data pre-processing steps for new, incoming PAM data from Oceanscouts with WISPR recording systems. 
 title: "New Seaglider WISPR Data: [INSERT DEPLOYMENT ID HERE]"
 labels: ["new data"]
 #projects: ["PAM SI]
@@ -22,7 +22,7 @@ body:
       label: Instructions
       description: Pre-processing instructions and method links
       value: |
-        Press the green 'Create' button below to create this issue template with the data pre-processing steps for each new PAM glider dataset. More detail on these methods can be found [here](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-wispr2.html)
+        Press the green 'Create' button below to create this issue template with the data pre-processing steps for each new PAM glider dataset. More detail on these methods can be found [here](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/oceanscout-wispr6.html)
 
   - type: checkboxes
     id: checklist_Offload-Data
