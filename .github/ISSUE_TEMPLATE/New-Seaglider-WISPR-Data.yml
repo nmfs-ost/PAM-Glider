@@ -12,7 +12,7 @@ body:
       value: |
         Press the green 'Create' button below to create this issue template with the data pre-processing steps that need to be completed with each new PAM glider dataset
 
-  - type:input
+  - type: input
     id: dataset-name
     attributes:
       label: Deployment ID
