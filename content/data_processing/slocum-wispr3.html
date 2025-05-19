@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -38,14 +38,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f4bbd00bc521a1430264096eb1751a15.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-c4519e516c76af1bb22a3985aa1b521c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-f4bbd00bc521a1430264096eb1751a15.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f4511e7c7da31304ac4019ab17dc7eac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-7ad160369fa1c49b10eedb3a7e81e124.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-f4511e7c7da31304ac4019ab17dc7eac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -363,14 +363,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/data_processing/seaglider-wispr2.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Seaglider - WISPR 2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/data_processing/seaglider-wispr3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Seaglider - WISPR 3</span></a>
+  <a href="../../content/data_processing/seaglider-wispr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Seaglider - WISPR</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -431,9 +425,8 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#offload-data" id="toc-offload-data" class="nav-link active" data-scroll-target="#offload-data">Offload data</a></li>
   <li><a href="#decompress-data-and-convert-to-usable-audio-file-format" id="toc-decompress-data-and-convert-to-usable-audio-file-format" class="nav-link" data-scroll-target="#decompress-data-and-convert-to-usable-audio-file-format">Decompress data and convert to usable audio file format</a></li>
-  <li><a href="#extract-other-metadata-as-needed" id="toc-extract-other-metadata-as-needed" class="nav-link" data-scroll-target="#extract-other-metadata-as-needed">Extract other metadata as needed</a></li>
   <li><a href="#create-full-bandwidth-ltsa" id="toc-create-full-bandwidth-ltsa" class="nav-link" data-scroll-target="#create-full-bandwidth-ltsa">Create full bandwidth LTSA</a></li>
-  <li><a href="#decimate-for-lf-analysis-as-needed" id="toc-decimate-for-lf-analysis-as-needed" class="nav-link" data-scroll-target="#decimate-for-lf-analysis-as-needed">Decimate for LF analysis as needed</a></li>
+  <li><a href="#post-mission-processing" id="toc-post-mission-processing" class="nav-link" data-scroll-target="#post-mission-processing">Post Mission Processing</a></li>
   <li><a href="#update-deployment-tracker-spreadsheet" id="toc-update-deployment-tracker-spreadsheet" class="nav-link" data-scroll-target="#update-deployment-tracker-spreadsheet">Update Deployment Tracker Spreadsheet</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/data_processing/slocum-wispr3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/data_processing/slocum-wispr3.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -492,12 +485,6 @@ ul.task-list li input[type="checkbox"] {
 <li>If .wav files are needed, use the <a href="https://github.com/sfregosi/myUtils/blob/main/flac2wav.m">flac2wav.m matlab script</a>&nbsp;</li>
 </ol>
 </section>
-<section id="extract-other-metadata-as-needed" class="level2">
-<h2 class="anchored" data-anchor-id="extract-other-metadata-as-needed">Extract other metadata as needed</h2>
-<ul>
-<li>NA? Do we have other data to extract and archive from wispr</li>
-</ul>
-</section>
 <section id="create-full-bandwidth-ltsa" class="level2">
 <h2 class="anchored" data-anchor-id="create-full-bandwidth-ltsa">Create full bandwidth LTSA</h2>
 <ol type="1">
@@ -510,19 +497,17 @@ ul.task-list li input[type="checkbox"] {
 <li>Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)</li>
 </ol>
 </section>
-<section id="decimate-for-lf-analysis-as-needed" class="level2">
-<h2 class="anchored" data-anchor-id="decimate-for-lf-analysis-as-needed">Decimate for LF analysis as needed</h2>
-<ol type="1">
-<li>Download <a href="https://github.com/sfregosi/myUtils/blob/37085e24b57cd9c35bb8d1542f7ad4b779ec95f2/dataProcessing/downsampling/decimateDir.m">decimatedir.m Matlab script</a> and decimate to 500 Hz for low frequency baleen whale analysis&nbsp;</li>
-<li>METHODS DOCUMENTATION - WORK IN PROGRESS</li>
-</ol>
+<section id="post-mission-processing" class="level2">
+<h2 class="anchored" data-anchor-id="post-mission-processing">Post Mission Processing</h2>
+<p>METHODS - Work in progress</p>
+<p>Work with SWFSC glider team to get post mission metadata (TBD) and create a Mission Report using <a href="https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing">this template</a>. Save the report to … (TBD)</p>
 </section>
 <section id="update-deployment-tracker-spreadsheet" class="level2">
 <h2 class="anchored" data-anchor-id="update-deployment-tracker-spreadsheet">Update Deployment Tracker Spreadsheet</h2>
 <ol type="1">
 <li>Open <a href="https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?gid=0#gid=0">Glider Deployment Tracker Spreadsheet</a> and ensure all fields have been completed</li>
 <li>Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality&nbsp;</li>
-<li>Calculate the deployment duration, distance, and recording duration and fill in the associated columns&nbsp;</li>
+<li>Calculate the deployment duration, distance, and recording duration and fill in the associated columns</li>
 </ol>
 
 

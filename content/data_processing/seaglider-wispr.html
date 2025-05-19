@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.30">
+<meta name="generator" content="quarto-1.7.31">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -29,7 +29,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../content/data_processing/seaglider-wispr3.html" rel="next">
+<link href="../../content/data_processing/seaglider-pmar-xl.html" rel="next">
 <link href="../../content/data_processing/data-preprocessing.html" rel="prev">
 <link href="../../content/images/SEAGLIDER.png" rel="icon" type="image/png">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -38,14 +38,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2b3e328b71be8d25427581baeb23079b.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-de070a7b0ab54f8780927367ac907214.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-f4bbd00bc521a1430264096eb1751a15.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-c4519e516c76af1bb22a3985aa1b521c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-f4bbd00bc521a1430264096eb1751a15.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-f4511e7c7da31304ac4019ab17dc7eac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-7ad160369fa1c49b10eedb3a7e81e124.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-f4511e7c7da31304ac4019ab17dc7eac.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -248,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Analysis Methods</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Data Pre-Processing</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/seaglider-wispr2.html">Seaglider - WISPR 2</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Analysis Methods</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Data Pre-Processing</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/seaglider-wispr.html">Seaglider - WISPR</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -363,14 +363,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/data_processing/seaglider-wispr2.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Seaglider - WISPR 2</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/data_processing/seaglider-wispr3.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Seaglider - WISPR 3</span></a>
+  <a href="../../content/data_processing/seaglider-wispr.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Seaglider - WISPR</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -431,18 +425,17 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#offload-data" id="toc-offload-data" class="nav-link active" data-scroll-target="#offload-data">Offload data</a></li>
   <li><a href="#decompress-data-and-convert-to-usable-audio-file-format" id="toc-decompress-data-and-convert-to-usable-audio-file-format" class="nav-link" data-scroll-target="#decompress-data-and-convert-to-usable-audio-file-format">Decompress data and convert to usable audio file format</a></li>
-  <li><a href="#extract-other-metadata-as-needed" id="toc-extract-other-metadata-as-needed" class="nav-link" data-scroll-target="#extract-other-metadata-as-needed">Extract other metadata as needed</a></li>
-  <li><a href="#create-full-bandwidth-ltsa" id="toc-create-full-bandwidth-ltsa" class="nav-link" data-scroll-target="#create-full-bandwidth-ltsa">4 Create full bandwidth LTSA</a></li>
-  <li><a href="#decimate-for-lf-analysis-as-needed" id="toc-decimate-for-lf-analysis-as-needed" class="nav-link" data-scroll-target="#decimate-for-lf-analysis-as-needed">Decimate for LF analysis as needed</a></li>
+  <li><a href="#create-full-bandwidth-ltsa" id="toc-create-full-bandwidth-ltsa" class="nav-link" data-scroll-target="#create-full-bandwidth-ltsa">Create full bandwidth LTSA</a></li>
+  <li><a href="#post-mission-processing" id="toc-post-mission-processing" class="nav-link" data-scroll-target="#post-mission-processing">Post Mission Processing</a></li>
   <li><a href="#update-deployment-tracker-spreadsheet" id="toc-update-deployment-tracker-spreadsheet" class="nav-link" data-scroll-target="#update-deployment-tracker-spreadsheet">Update Deployment Tracker Spreadsheet</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/data_processing/seaglider-wispr2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/data_processing/seaglider-wispr2.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/data_processing/seaglider-wispr.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/data_processing/seaglider-wispr.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Analysis Methods</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Data Pre-Processing</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/seaglider-wispr2.html">Seaglider - WISPR 2</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Analysis Methods</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Data Pre-Processing</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/seaglider-wispr.html">Seaglider - WISPR</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Seaglider - WISPR 2</h1>
 </div>
@@ -476,14 +469,14 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="decompress-data-and-convert-to-usable-audio-file-format">Decompress data and convert to usable audio file format</h2>
 <ol type="1">
 <li><p>PAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac</p></li>
-<li><p>Download <a href="https://github.com/sfregosi/agate/blob/c07366e646cf799da088086068062dce681352c3/agate/example_workflows/workflow_convertWISPR.m">workflow_convertWISPR.m</a> and the <a href="https://github.com/sfregosi/agate/blob/c07366e646cf799da088086068062dce681352c3/agate/settings/agate_config_example.cnf">example configuration file</a>&nbsp;</p></li>
+<li><p>If you have an existing mission configuration file, skip to step 8. If you do not have one, download the <a href="https://github.com/sfregosi/agate/blob/c07366e646cf799da088086068062dce681352c3/agate/settings/agate_config_example.cnf">example configuration file</a> and complete the following steps to edit it</p></li>
 <li><p>Open configuration file with text editor and replace “% %%%&nbsp; TEMPLATE - PUT MISSION METADATA HERE&nbsp; %%%” with the glider deployment ID</p>
 <ul>
 <li>i.e.&nbsp;“% %%% sg639_Sep2024 %%%”</li>
 </ul></li>
 <li><p>Add the glider serial number to the ’CONFIG.glider = ‘ argument</p>
 <ul>
-<li>i.e.&nbsp;“CONFIG.glider = ‘sg639’;”</li>
+<li>i.e.&nbsp;“CONFIG.glider = ‘sgXXX’;”</li>
 </ul></li>
 <li><p>Add the path to the raw .dat files and path to converted flac files in the following two lines of the configuration file</p>
 <ul>
@@ -492,44 +485,38 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p>If only converting to flac, comment out all of the other lines in the config file</p></li>
 <li><p>Save as ‘agate_config_DeploymentID.cnf’ to the input data directory</p></li>
-<li><p>If you do not have agate downloaded already, clone the <a href="https://github.com/sfregosi/agate">agate repository</a>&nbsp;</p></li>
-<li><p>Open the convert matlab script and set the path to the agate folder on line 36</p></li>
+<li><p>Download and open <a href="https://github.com/sfregosi/agate/blob/c07366e646cf799da088086068062dce681352c3/agate/example_workflows/workflow_convertWISPR.m">workflow_convertWISPR.m</a> matlab script. Set the path to the agate folder on line 36</p></li>
 <li><p>Set the path to the configuration file on line 42</p></li>
 <li><p>Run the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file</p></li>
-<li><p>If .wav files are needed, use the <a href="https://github.com/sfregosi/myUtils/blob/main/flac2wav.m">flac2wav.m matlab script</a>&nbsp;</p></li>
+<li><p>If .wav files are needed, use the <a href="https://github.com/sfregosi/myUtils/blob/main/flac2wav.m">flac2wav.m matlab script</a></p></li>
 </ol>
 </section>
-<section id="extract-other-metadata-as-needed" class="level2">
-<h2 class="anchored" data-anchor-id="extract-other-metadata-as-needed">Extract other metadata as needed</h2>
-<ul>
-<li>NA? Do we have other data to extract and archive from wispr</li>
-</ul>
-</section>
 <section id="create-full-bandwidth-ltsa" class="level2">
-<h2 class="anchored" data-anchor-id="create-full-bandwidth-ltsa">4 Create full bandwidth LTSA</h2>
+<h2 class="anchored" data-anchor-id="create-full-bandwidth-ltsa">Create full bandwidth LTSA</h2>
 <ol type="1">
-<li><p>Download a zipped folder of <a href="https://github.com/sfregosi/Triton">Triton - flac version</a>, extract and save it to your Matlab folder as Triton-flac</p></li>
-<li><p>Open Matlab and set the path to this flac version of Triton</p></li>
-<li><p>Open Triton by typing ‘triton’ into command window</p></li>
+<li><p>Open Triton in MATLAB by typing ‘triton’ into command window. Ensure you are using a version of Triton that supports FLAC files</p></li>
 <li><p>In the control window, click on Tools -&gt; Make LTSA from Directory of Files&nbsp;</p></li>
 <li><p>Enter 3 for flac</p></li>
 <li><p>Navigate to your directory of flac files and click ‘Select Folder’</p></li>
 <li><p>Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)</p></li>
 </ol>
 </section>
-<section id="decimate-for-lf-analysis-as-needed" class="level2">
-<h2 class="anchored" data-anchor-id="decimate-for-lf-analysis-as-needed">Decimate for LF analysis as needed</h2>
+<section id="post-mission-processing" class="level2">
+<h2 class="anchored" data-anchor-id="post-mission-processing">Post Mission Processing</h2>
 <ol type="1">
-<li><p>Download <a href="https://github.com/sfregosi/myUtils/blob/37085e24b57cd9c35bb8d1542f7ad4b779ec95f2/dataProcessing/downsampling/decimateDir.m">decimatedir.m Matlab script</a> and decimate to 500 Hz for low frequency baleen whale analysis&nbsp;</p></li>
-<li><p>METHODS DOCUMENTATION - WORK IN PROGRESS</p></li>
+<li>Follow the Agate methods <a href="https://sfregosi.github.io/agate/mission-processing.html#plot-multiple-glider-tracks">here</a> to run post-mission processing.
+<ul>
+<li>This includes extracting sampling locations and environmental data, assessing acoustic effort, creating summary tables, and plotting the glider paths.</li>
+</ul></li>
+<li>Create a Mission Report using <a href="https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing">this template</a>. Save the report to … (TBD)</li>
 </ol>
 </section>
 <section id="update-deployment-tracker-spreadsheet" class="level2">
 <h2 class="anchored" data-anchor-id="update-deployment-tracker-spreadsheet">Update Deployment Tracker Spreadsheet</h2>
 <ol type="1">
 <li><p>Open <a href="https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?gid=0#gid=0">Glider Deployment Tracker Spreadsheet</a> and ensure all fields have been completed</p></li>
-<li><p>Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality&nbsp;</p></li>
-<li><p>Calculate the deployment duration, distance, and recording duration and fill in the associated columns&nbsp;</p></li>
+<li><p>Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality</p></li>
+<li><p>Use the acoustic effort summary from the post mission processing to fill in the deployment duration, distance, and recording duration columns</p></li>
 </ol>
 
 
@@ -955,8 +942,8 @@ ul.task-list li input[type="checkbox"] {
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../content/data_processing/seaglider-wispr3.html" class="pagination-link" aria-label="Seaglider - WISPR 3">
-        <span class="nav-page-text">Seaglider - WISPR 3</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/data_processing/seaglider-pmar-xl.html" class="pagination-link" aria-label="Seaglider - PMAR XL">
+        <span class="nav-page-text">Seaglider - PMAR XL</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -968,7 +955,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/data_processing/seaglider-wispr2.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/data_processing/seaglider-wispr2.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/data_processing/seaglider-wispr.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/data_processing/seaglider-wispr.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
