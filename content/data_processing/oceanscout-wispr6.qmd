@@ -6,9 +6,9 @@ format: html
 ## Offload data
 
 1.  Glider techs: open glider and remove two micro SD cards from WISPR board
-2.  These cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)
-3.  Plug cards into computer and copy raw .dat files to a hard drive
-4.  Pass hard drive off to PAM analyst 
+    -   These cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)
+2.  Plug cards into computer and copy raw .dat files to a hard drive
+3.  Pass hard drive off to PAM analyst 
 
 ## Decompress data and convert to usable audio file format
 
@@ -26,27 +26,27 @@ format: html
 10. Run the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file
 11. If .wav files are needed, use the [flac2wav.m matlab script](https://github.com/sfregosi/myUtils/blob/main/flac2wav.m) 
 
-## Extract other metadata as needed
-
--   NA? Do we have other data to extract and archive from wispr
-
 ## Create full bandwidth LTSA
 
-1.  Download a zipped folder of [Triton - flac version](https://github.com/sfregosi/Triton), extract and save it to your Matlab folder as Triton-flac
-2.  Open Matlab and set the path to this flac version of Triton
-3.  Open Triton by typing ‘triton’ into command window
-4.  In the control window, click on Tools -\> Make LTSA from Directory of Files 
-5.  Enter 3 for flac
-6.  Navigate to your directory of flac files and click ‘Select Folder’
-7.  Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)
+1.  Open Triton in MATLAB by typing ‘triton’ into command window. Ensure you are using a version of Triton that supports FLAC files
 
-## Decimate for LF analysis as needed
+2.  In the control window, click on Tools -\> Make LTSA from Directory of Files 
 
-1.  Download [decimatedir.m Matlab script](https://github.com/sfregosi/myUtils/blob/37085e24b57cd9c35bb8d1542f7ad4b779ec95f2/dataProcessing/downsampling/decimateDir.m) and decimate to 500 Hz for low frequency baleen whale analysis 
-2.  METHODS DOCUMENTATION - WORK IN PROGRESS
+3.  Enter 3 for flac
+
+4.  Navigate to your directory of flac files and click ‘Select Folder’
+
+5.  Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
+
+## Extract other metadata as needed
+
+METHODS - Work in progress
+
+1.  Extract environmental data and oceanscout mission summaries from Hefring website
+2.  Create a Mission Report using [this template](https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing). Save the report to ... (TBD)
 
 ## Update Deployment Tracker Spreadsheet
 
 1.  Open [Glider Deployment Tracker Spreadsheet](https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?gid=0#gid=0) and ensure all fields have been completed
 2.  Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality 
-3.  Calculate the deployment duration, distance, and recording duration and fill in the associated columns 
+3.  Calculate the deployment duration, distance, and recording duration and fill in the associated columns

@@ -36,13 +36,12 @@ body:
         - label: If .wav files are needed, use the flac2wav.m matlab script 
         
   - type: checkboxes
-    id: checklist_LTSA-Decimate
+    id: checklist_LTSA
     attributes:
-      label: Decimation and LTSAs
-      description: Use Matlab to create full bandwith longterm spectral average and decimate for low frequency data analysis
+      label: LTSAs
+      description: Use Matlab to create a full bandwith LTSA
       options:
         - label: Create LTSA with 5 seconds and 200 Hz settings, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
-        - label: Decimate to 500 Hz 
 
   - type: checkboxes
     id: checklist_Deployment-Tracker
@@ -50,6 +49,15 @@ body:
       label: Update Deployment Tracker Spreadsheet
       # description: 
       options:
-        - label: Open Glider Deployment Tracker Spreadsheet and ensure all fields have been completed
-        - label: Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality 
+        - label: Use the full bandwidth LTSA to mark data start and end (or use file timestamps) and assess overall data quality 
         - label: Calculate the deployment duration, distance, and recording duration and fill in the associated columns 
+        - label: Open Glider Deployment Tracker Spreadsheet and ensure all fields have been completed
+
+  - type: checkboxes
+    id: checklist_OtherData
+    attributes:
+      label: Other Data
+      # description: 
+      options:
+        - label: Extract environmental data and Oceanscout mission summary data from Hefring website
+        - label: Create mission summary report

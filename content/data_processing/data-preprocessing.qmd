@@ -7,9 +7,7 @@ Each glider/PAM system combination has a unique set of data pre-processing steps
 
 Each section below links to detailed methods for each glider/pam system combination
 
--   [Seaglider - WISPR 2](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-wispr2.html)
-
--   [Seaglider - WISPR 3](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-wispr3.html)
+-   [Seaglider - WISPR](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-wispr2.html)
 
 -   [Seaglider - PMAR XL](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-pmar-xl.html)
 

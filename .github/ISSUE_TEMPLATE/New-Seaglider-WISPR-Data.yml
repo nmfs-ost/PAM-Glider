@@ -22,7 +22,7 @@ body:
       label: Instructions
       description: Pre-processing instructions and method links
       value: |
-        Press the green 'Create' button below to create this issue template with the data pre-processing steps for each new PAM glider dataset. More detail on these methods can be found [here](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-wispr2.html)
+        Press the green 'Create' button below to create this issue template with the data pre-processing steps for each new PAM glider dataset. More detail on these methods can be found [here](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-wispr.html)
 
   - type: checkboxes
     id: checklist_Offload-Data
@@ -36,14 +36,22 @@ body:
         - label: If .wav files are needed, use the flac2wav.m matlab script 
         
   - type: checkboxes
-    id: checklist_LTSA-Decimate
+    id: checklist_LTSA
     attributes:
-      label: Decimation and LTSAs
-      description: Use Matlab to create full bandwith longterm spectral average and decimate for low frequency data analysis
+      label: LTSAs
+      description: Use Matlab to create a full bandwith LTSA
       options:
         - label: Create LTSA with 5 seconds and 200 Hz settings, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
-        - label: Decimate to 500 Hz 
 
+  - type: checkboxes
+    id: checklist_OtherData
+    attributes:
+      label: Agate Post Mission Processing
+      # description: 
+      options:
+        - label: Run Agate post-mission processing scripts
+        - label: Create mission summary report
+        
   - type: checkboxes
     id: checklist_Deployment-Tracker
     attributes:
@@ -52,4 +60,4 @@ body:
       options:
         - label: Open Glider Deployment Tracker Spreadsheet and ensure all fields have been completed
         - label: Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality 
-        - label: Calculate the deployment duration, distance, and recording duration and fill in the associated columns 
+        - label: Use acoustic effort summary to fill in the deployment duration, distance, and recording duration

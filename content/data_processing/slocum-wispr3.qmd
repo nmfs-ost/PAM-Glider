@@ -26,10 +26,6 @@ format: html
 10. Run the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file
 11. If .wav files are needed, use the [flac2wav.m matlab script](https://github.com/sfregosi/myUtils/blob/main/flac2wav.m) 
 
-## Extract other metadata as needed
-
--   NA? Do we have other data to extract and archive from wispr
-
 ## Create full bandwidth LTSA
 
 1.  Download a zipped folder of [Triton - flac version](https://github.com/sfregosi/Triton), extract and save it to your Matlab folder as Triton-flac
@@ -40,13 +36,14 @@ format: html
 6.  Navigate to your directory of flac files and click ‘Select Folder’
 7.  Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)
 
-## Decimate for LF analysis as needed
+## Post Mission Processing
 
-1.  Download [decimatedir.m Matlab script](https://github.com/sfregosi/myUtils/blob/37085e24b57cd9c35bb8d1542f7ad4b779ec95f2/dataProcessing/downsampling/decimateDir.m) and decimate to 500 Hz for low frequency baleen whale analysis 
-2.  METHODS DOCUMENTATION - WORK IN PROGRESS
+METHODS - Work in progress
+
+Work with SWFSC glider team to get post mission metadata (TBD) and create a Mission Report using [this template](https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing). Save the report to ... (TBD)
 
 ## Update Deployment Tracker Spreadsheet
 
 1.  Open [Glider Deployment Tracker Spreadsheet](https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?gid=0#gid=0) and ensure all fields have been completed
 2.  Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality 
-3.  Calculate the deployment duration, distance, and recording duration and fill in the associated columns 
+3.  Calculate the deployment duration, distance, and recording duration and fill in the associated columns

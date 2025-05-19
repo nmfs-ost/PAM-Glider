@@ -45,6 +45,15 @@ body:
         - label: Decimate to 500 Hz 
 
   - type: checkboxes
+    id: checklist_OtherData
+    attributes:
+      label: Post Mission Processing
+      # description: 
+      options:
+        - label: Work with SWFSC Glider Lab to get post mission metadata
+        - label: Create mission summary report
+
+  - type: checkboxes
     id: checklist_Deployment-Tracker
     attributes:
       label: Update Deployment Tracker Spreadsheet

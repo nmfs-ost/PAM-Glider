@@ -46,6 +46,15 @@ body:
         - label: Create low frequency LTSA with 1 seconds and 1 Hz settings, save LTSA as DeploymentID_SamplingRate_1s_1Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
 
   - type: checkboxes
+    id: checklist_OtherData
+    attributes:
+      label: Post Mission Processing
+      # description: 
+      options:
+        - label: Work with SWFSC Glider Lab to get post mission metadata
+        - label: Create mission summary report
+
+  - type: checkboxes
     id: checklist_Deployment-Tracker
     attributes:
       label: Update Deployment Tracker Spreadsheet

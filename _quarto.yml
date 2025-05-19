@@ -59,10 +59,8 @@ website:
         contents: 
           - section: content/data_processing/data-preprocessing.qmd
             contents: 
-            - href: content/data_processing/seaglider-wispr2.qmd
-              text: Seaglider - WISPR 2
-            - href: content/data_processing/seaglider-wispr3.qmd
-              text: Seaglider - WISPR 3
+            - href: content/data_processing/seaglider-wispr.qmd
+              text: Seaglider - WISPR
             - href: content/data_processing/seaglider-pmar-xl.qmd
               text: Seaglider - PMAR XL
             - href: content/data_processing/slocum-wispr3.qmd

@@ -26,7 +26,7 @@ The DMON has two sampling routines for low and high frequency; continuous record
 ## Clean wav Files and Segment Duty Cycled Data
 
 ::: callout-important
-The existing processing workflow for DMON data requires access to an IDL Runtime license. See directions here for purchasing and installing a license.
+The existing processing workflow for DMON data requires access to an IDL Runtime license
 :::
 
 1.  Open the ['reformat_dmon_wav_files.sav'](https://drive.google.com/file/d/1Sp73IcyAJeqLWnSKJ6SJGyMcFsoFN0Iy/view?usp=drive_link) file, this will open a stand alone application window
@@ -51,24 +51,25 @@ The existing processing workflow for DMON data requires access to an IDL Runtime
 
 10. Click 'Apply' and all of your files should now have the YYMMDD naming structure needed for the next data processing steps
 
-## Extract other metadata as needed
-
--   NA? Do we have other data to extract and archive from DMON
+11. R methods - work in progress
 
 ## Create full bandwidth LTSA
 
-1.  Download a zipped folder of [Triton - flac version](https://github.com/sfregosi/Triton), extract and save it to your Matlab folder as Triton-flac
-2.  Open Matlab and set the path to this flac version of Triton
-3.  Open Triton by typing ‘triton’ into command window
-4.  In the control window, click on Tools -\> Make LTSA from Directory of Files 
-5.  Enter 1 for wav
-6.  Navigate to your directory of wav files and click ‘Select Folder’
-7.  For low frequency data, use 1 seconds and 1 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_1s_1Hz.ltsa (ex. risso-20250414_2kHz_1s_1Hz.ltsa)
-8.  For high frequency data, use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. risso-20250414_120kHz_5s_200Hz.ltsa)
+1.  Open Triton in MATLAB by typing ‘triton’ into command window
 
-## Decimate for LF analysis as needed
+2.  In the control window, click on Tools -\> Make LTSA from Directory of Files 
 
--   Not needed unless we want to decimate smaller then 2 kHz, could go to 500 Hz for consistency? 
+3.  Enter 1 for wav
+
+4.  Navigate to your directory of flac files and click ‘Select Folder’
+
+5.  Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
+
+## Post Mission Processing
+
+METHODS - Work in progress
+
+Work with SWFSC glider team to get post mission metadata (TBD) and create a Mission Report using [this template](https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing). Save the report to ... (TBD)
 
 ## Update Deployment Tracker Spreadsheet
 
