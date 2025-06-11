@@ -1,5 +1,5 @@
 ---
-title: "Seaglider - WISPR 2"
+title: "Seaglider - WISPR"
 format: html
 ---
 
