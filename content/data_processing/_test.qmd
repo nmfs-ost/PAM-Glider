@@ -1,0 +1,19 @@
+---
+title: "Test Glider Methods"
+format: html
+params:
+  bandpass_low: 200
+  bandpass_high: 4000
+---
+
+## Preprocessing Steps
+
+### Bandpass Filtering
+
+```{r echo=FALSE, results='asis'}
+expanded_text <- knitr::knit_expand("methods/test.R",
+                   low = params$bandpass_low,
+                   high = params$bandpass_high)
+
+knitr::knit(text = expanded_text, quiet = TRUE)
+```

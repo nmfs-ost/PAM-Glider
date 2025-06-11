@@ -19,7 +19,7 @@ Woods Hole, MA
 Miami, FL  
 
 
-#### NOAA Collaborators
+## NOAA Collaborators
 
 Oregon State University Cooperative Institute for Marine and Ecosystem Resources Studies - [PMEL Ocean Acoustics Program](https://cimers.oregonstate.edu/our-research/ocean-acoustics/pmel-ocean-acoustic-program)
 
@@ -28,7 +28,7 @@ Woods Hole Oceanographic Instituion - [Robots4Whales](https://robots4whales.whoi
 University of the Virgin Islands - [UVI Ocean Glider Laborator](https://www.uvi.edu/research/center-for-marine-environmental-studies/gliders/index.html)
 
 
-## PAM glider fleets
-
+### NOAA PAM glider fleets
+*Link for NOAA personnel (password protected)*
 [PAM Glider Specs](https://docs.google.com/spreadsheets/d/1tQciIqVNt5-WjlX3glFSI3Oo9C9KDUqx1eQGQzWqlQ4/edit?gid=0#gid=0)
 

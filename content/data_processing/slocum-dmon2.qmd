@@ -1,0 +1,78 @@
+---
+title: "Slocum DMON 2"
+format: html
+---
+
+The DMON has two sampling routines for low and high frequency; continuous recording of the low-frequency hydrophone at 2 kHz and duty-cycled recording of the high-frequency hydrophone at 120 kHz for 30 seconds out of every 450 seconds (30 sec on 7.5 minutes off, 8 minute cycle) (LF2_HF120d30_450s.bin). The low frequency hydrophone recordings are .wav2 and the high frequency hydrophone recordings are .wav3. These files have to be renamed to .wav to be usable, so [this script renames](https://github.com/Kourtney-Burger/myUtils/blob/77801f13f5a1100f3f51da347511f6c92fc44eb7/R/dmonAudioRenamer.R) each wav file with its respective frequency
+
+## Offload data
+
+1.  Glider techs: open Slocum glider and follow [dmon instructions section H and I (up to step 4) here](https://drive.google.com/file/d/1B0qPXvF9vondThmoCeFgc_b4TiKmtLQX/view?usp=drive_link) 
+2.  copy raw files to a hard drive
+3.  Pass hard drive off to PAM analyst 
+
+## Decompress data and convert to usable audio file format
+
+1.  PAM analyst: Get offloaded data from glider team (section I [here](https://drive.google.com/file/d/1B0qPXvF9vondThmoCeFgc_b4TiKmtLQX/view?usp=drive_link))
+2.  If you only see .dgt files, then you will need to unpack them to get .wav and other recording metadata files 
+    -   You do not need to follow these steps if you can see .err, .log, .wav2, .wav3, and .xml files for each .dtg file
+3.  Download the dmon software [here](https://drive.google.com/drive/folders/1DONtp-OHFmMK2MItj9Q-IKVeBQikeh8Q?usp=drive_link) and open d3read.exe
+4.  You should see a new terminal window open, prompting you to enter a directory. Copy the directory where the .dgt files are located and press enter
+5.  You will then be prompted to ‘Input filename base?’, type the file header of each dgt file (before the three digits ###) and hit enter
+    -   Example: for the file named risso001.dgt, you would type risso and hit enter
+6.  You should then see a list of .dgt files in that directory and the unpacking process should start
+7.  If .flac files are needed, use the [wav2flac.m matlab script](https://github.com/sfregosi/myUtils/blob/main/wav2flac.m) 
+
+## Clean wav Files and Segment Duty Cycled Data
+
+::: callout-important
+The existing processing workflow for DMON data requires access to an IDL Runtime license
+:::
+
+1.  Open the ['reformat_dmon_wav_files.sav'](https://drive.google.com/file/d/1Sp73IcyAJeqLWnSKJ6SJGyMcFsoFN0Iy/view?usp=drive_link) file, this will open a stand alone application window
+
+2.  You will be prompted to choose a folder with DMON data, select a directory that includes the unpackaged data files from the steps above (including wav and log.xml files)
+
+3.  You will then be prompted to choose an output folder, it is recommended you save your processed audio files in a subfolder
+
+4.  You should then see the two file paths in the application window, click 'Go!' and the processing will start
+
+5.  Close the window once all the raw audio files have been renamed and separated based on the sampling routine
+
+6.  This processing renames the files to include a 4 digit year. Matlab and other processing softwares expect two digit years, so we need to rename these
+
+7.  Open files explorer and select all of the newly processed audio files
+
+8.  Right click on the files and select 'Rename with PowerRename'. If you do not see this option, you may need to use different renaming methods/software
+
+9.  In the PowerRename window, fill in the four digit year to the 'Search for' box and the two digit year in the 'Replace with' box
+
+    ![](images/clipboard-3898691826.png)
+
+10. Click 'Apply' and all of your files should now have the YYMMDD naming structure needed for the next data processing steps
+
+11. R methods - work in progress
+
+## Create full bandwidth LTSA
+
+1.  Open Triton in MATLAB by typing ‘triton’ into command window
+
+2.  In the control window, click on Tools -\> Make LTSA from Directory of Files 
+
+3.  Enter 1 for wav
+
+4.  Navigate to your directory of flac files and click ‘Select Folder’
+
+5.  Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
+
+## Post Mission Processing
+
+METHODS - Work in progress
+
+Work with SWFSC glider team to get post mission metadata (TBD) and create a Mission Report using [this template](https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing). Save the report to ... (TBD)
+
+## Update Deployment Tracker Spreadsheet
+
+1.  Open [Glider Deployment Tracker Spreadsheet](https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?gid=0#gid=0) and ensure all fields have been completed
+2.  Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality 
+3.  Calculate the deployment duration, distance, and recording duration and fill in the associated columns

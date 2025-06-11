@@ -6,6 +6,12 @@ subtitle: Field testing of PAM-Glider Systems
 ## Goal: 
 In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).
 
+## Deployment Tracker
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPI-3uRxrq3h9f0C1DLAHUVDzpRsHuQDGbjZHOCckjuP2yLr-II1muMCTCFvpn22OKmd2wM2pmU27j/pubhtml?gid=1944379023&amp;single=true&amp;widget=true&amp;headers=false" style="width:950px; height:500px; border: 2px solid black;"></iframe>
+[Spreadsheet to track current and completed deployments](https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?usp=sharing). Link for NOAA personnel (password protected)
+
+Post mission summary reports can be found [here][fill in link] or linked in the last column of the Deployment Tracker spreadsheet above.
+
 ## Slocum WISPR
 
 The Ecosystem Science Division (ESD) at the Southwest Fisheries Science Center (SWFSC) deployed glider “unit_1024” on February 24, 2025 off San Diego, CA (@fig-fieldTest_pathMap_SlocumWispr_feb2025). This glider was deployed in conjunction with Teledyne Webb Research from the vessel R/V *Benthic Cat*. The main objective of this deployment was to test two new sensors: a photosynthetically active radiation (PAR) sensor (Biospherical Instruments) and a passive acoustic monitor (“WISPR”, Embedded Ocean Systems). The glider was programmed to fly approximately 70 km north between 9-Mile Bank and Del Mar Steeples toward Oceanside Harbor. However, 36 hours after deployment, the glider mission aborted its mission for a leak in the aft section. An emergency recovery was initiated for February 26 aboard the R/V *Outer Limits*. Prior to the leak, the glider traveled a total of 29.74 km wile performing 29 dives to a maximum depth of 600 m.

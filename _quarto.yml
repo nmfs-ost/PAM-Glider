@@ -35,7 +35,8 @@ website:
         text: Home
       - href: content/about.qmd
         text: About Us
-        contents: Resources
+      - section: Resources
+        contents:
         - href: content/glider-labs.qmd
           text: NMFS Glider Labs
         - href: content/gliders.qmd
@@ -54,10 +55,27 @@ website:
         text: Transition Plan
       # - href: content/p2w.qmd
       #   text: Plankton to Whales
+      - section: Analysis Methods
+        contents: 
+          - section: content/data_processing/data-preprocessing.qmd
+            contents: 
+            - href: content/data_processing/seaglider-wispr.qmd
+              text: Seaglider - WISPR
+            - href: content/data_processing/seaglider-pmar-xl.qmd
+              text: Seaglider - PMAR XL
+            - href: content/data_processing/slocum-wispr3.qmd
+              text: Slocum - WISPR 3
+            - href: content/data_processing/slocum-dmon2.qmd
+              text: Slocum - DMON 2
+            - href: content/data_processing/oceanscout-wispr6.qmd
+              text: Oceanscout - WISPR 6.1
+            - href: content/data_processing/alseamar.qmd
+              text: Alseamar
       - href: content/infoSharing.qmd
         text: Information Sharing
       - href: content/contact.qmd
         text: Contact Us
+      # - href: content/data_processing/test.qmd
 
 format:
   html:
