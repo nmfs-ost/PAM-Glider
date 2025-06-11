@@ -96,7 +96,7 @@
   {
     "objectID": "content/data_processing/seaglider-wispr.html",
     "href": "content/data_processing/seaglider-wispr.html",
-    "title": "Seaglider - WISPR 2",
+    "title": "Seaglider - WISPR",
     "section": "",
     "text": "Glider techs: open Seaglider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
@@ -108,7 +108,7 @@
   {
     "objectID": "content/data_processing/seaglider-wispr.html#offload-data",
     "href": "content/data_processing/seaglider-wispr.html#offload-data",
-    "title": "Seaglider - WISPR 2",
+    "title": "Seaglider - WISPR",
     "section": "",
     "text": "Glider techs: open Seaglider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
@@ -120,7 +120,7 @@
   {
     "objectID": "content/data_processing/seaglider-wispr.html#decompress-data-and-convert-to-usable-audio-file-format",
     "href": "content/data_processing/seaglider-wispr.html#decompress-data-and-convert-to-usable-audio-file-format",
-    "title": "Seaglider - WISPR 2",
+    "title": "Seaglider - WISPR",
     "section": "Decompress data and convert to usable audio file format",
     "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nIf you have an existing mission configuration file, skip to step 8. If you do not have one, download the example configuration file and complete the following steps to edit it\nOpen configuration file with text editor and replace “% %%%  TEMPLATE - PUT MISSION METADATA HERE  %%%” with the glider deployment ID\n\ni.e. “% %%% sg639_Sep2024 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘sgXXX’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the following two lines of the configuration file\n\nCONFIG.ws.inDir = ‘D:\\sgXXX_Location_Mon20XX_raw_acoustic_data’;   % path to raw .dat files\nCONFIG.ws.outDir = ‘E:\\sgXXX_Location_Mon20XX\\flac’;   % path to save converted files\n\nIf only converting to flac, comment out all of the other lines in the config file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nDownload and open workflow_convertWISPR.m matlab script. Set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
     "crumbs": [
@@ -132,7 +132,7 @@
   {
     "objectID": "content/data_processing/seaglider-wispr.html#create-full-bandwidth-ltsa",
     "href": "content/data_processing/seaglider-wispr.html#create-full-bandwidth-ltsa",
-    "title": "Seaglider - WISPR 2",
+    "title": "Seaglider - WISPR",
     "section": "Create full bandwidth LTSA",
     "text": "Create full bandwidth LTSA\n\nOpen Triton in MATLAB by typing ‘triton’ into command window. Ensure you are using a version of Triton that supports FLAC files\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)",
     "crumbs": [
@@ -144,7 +144,7 @@
   {
     "objectID": "content/data_processing/seaglider-wispr.html#post-mission-processing",
     "href": "content/data_processing/seaglider-wispr.html#post-mission-processing",
-    "title": "Seaglider - WISPR 2",
+    "title": "Seaglider - WISPR",
     "section": "Post Mission Processing",
     "text": "Post Mission Processing\n\nFollow the Agate methods here to run post-mission processing.\n\nThis includes extracting sampling locations and environmental data, assessing acoustic effort, creating summary tables, and plotting the glider paths.\n\nCreate a Mission Report using this template. Save the report to … (TBD)",
     "crumbs": [
@@ -156,7 +156,7 @@
   {
     "objectID": "content/data_processing/seaglider-wispr.html#update-deployment-tracker-spreadsheet",
     "href": "content/data_processing/seaglider-wispr.html#update-deployment-tracker-spreadsheet",
-    "title": "Seaglider - WISPR 2",
+    "title": "Seaglider - WISPR",
     "section": "Update Deployment Tracker Spreadsheet",
     "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality\nUse the acoustic effort summary from the post mission processing to fill in the deployment duration, distance, and recording duration columns",
     "crumbs": [
