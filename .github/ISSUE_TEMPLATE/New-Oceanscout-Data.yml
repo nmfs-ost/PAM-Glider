@@ -60,4 +60,4 @@ body:
       # description: 
       options:
         - label: Extract environmental data and Oceanscout mission summary data from Hefring website
-        - label: Create mission summary report
+        - label: Create [post mission summary report](https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing)
