@@ -1,91 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/gliders.html</loc>
-    <lastmod>2025-07-11T21:46:16.038Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/modeling.html</loc>
-    <lastmod>2025-07-11T21:46:16.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/DeploymentSummaries.html</loc>
-    <lastmod>2025-07-11T21:46:16.037Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-wispr.html</loc>
-    <lastmod>2025-07-11T21:46:16.038Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/alseamar.html</loc>
-    <lastmod>2025-07-11T21:46:16.037Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/EnvData-processing.html</loc>
-    <lastmod>2025-07-11T21:46:16.037Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/p2w.html</loc>
-    <lastmod>2025-07-11T21:46:16.094Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/index.html</loc>
+    <lastmod>2025-07-11T22:01:03.578Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-ost.github.io/PAM-Glider/content/gliderSoundscapes.html</loc>
-    <lastmod>2025-07-11T21:46:16.038Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/infoSharing.html</loc>
-    <lastmod>2025-07-11T21:46:16.093Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/shipSurveys.html</loc>
-    <lastmod>2025-07-11T21:46:16.094Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/glider-FieldTesting.html</loc>
-    <lastmod>2025-07-11T21:46:16.038Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/index.html</loc>
-    <lastmod>2025-07-11T21:46:16.094Z</lastmod>
+    <lastmod>2025-07-11T22:01:03.522Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-ost.github.io/PAM-Glider/content/glider-labs.html</loc>
-    <lastmod>2025-07-11T21:46:16.038Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/contact.html</loc>
-    <lastmod>2025-07-11T21:46:16.037Z</lastmod>
+    <lastmod>2025-07-11T22:01:03.522Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-ost.github.io/PAM-Glider/content/transitionPlan.html</loc>
-    <lastmod>2025-07-11T21:46:16.094Z</lastmod>
+    <lastmod>2025-07-11T22:01:03.578Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/about.html</loc>
-    <lastmod>2025-07-11T21:46:16.037Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/oceanscout-wispr6.html</loc>
-    <lastmod>2025-07-11T21:46:16.038Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/slocum-wispr3.html</loc>
-    <lastmod>2025-07-11T21:46:16.038Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/AcousticData-preprocessing.html</loc>
-    <lastmod>2025-07-11T21:46:16.037Z</lastmod>
-  </url>
-  <url>
-    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-pmar-xl.html</loc>
-    <lastmod>2025-07-11T21:46:16.038Z</lastmod>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/contact.html</loc>
+    <lastmod>2025-07-11T22:01:03.521Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/slocum-dmon2.html</loc>
-    <lastmod>2025-07-11T21:46:16.038Z</lastmod>
+    <lastmod>2025-07-11T22:01:03.522Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-pmar-xl.html</loc>
+    <lastmod>2025-07-11T22:01:03.522Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/slocum-wispr3.html</loc>
+    <lastmod>2025-07-11T22:01:03.522Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/AcousticData-preprocessing.html</loc>
+    <lastmod>2025-07-11T22:01:03.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/seaglider-wispr.html</loc>
+    <lastmod>2025-07-11T22:01:03.522Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/glider-FieldTesting.html</loc>
+    <lastmod>2025-07-11T22:01:03.522Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/about.html</loc>
+    <lastmod>2025-07-11T22:01:03.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/gliders.html</loc>
+    <lastmod>2025-07-11T22:01:03.522Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/DeploymentSummaries.html</loc>
+    <lastmod>2025-07-11T22:01:03.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/EnvData-processing.html</loc>
+    <lastmod>2025-07-11T22:01:03.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/alseamar.html</loc>
+    <lastmod>2025-07-11T22:01:03.521Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/data_processing/oceanscout-wispr6.html</loc>
+    <lastmod>2025-07-11T22:01:03.522Z</lastmod>
   </url>
   <url>
     <loc>https://nmfs-ost.github.io/PAM-Glider/content/sensors.html</loc>
-    <lastmod>2025-07-11T21:46:16.094Z</lastmod>
+    <lastmod>2025-07-11T22:01:03.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/p2w.html</loc>
+    <lastmod>2025-07-11T22:01:03.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/infoSharing.html</loc>
+    <lastmod>2025-07-11T22:01:03.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/shipSurveys.html</loc>
+    <lastmod>2025-07-11T22:01:03.578Z</lastmod>
+  </url>
+  <url>
+    <loc>https://nmfs-ost.github.io/PAM-Glider/content/modeling.html</loc>
+    <lastmod>2025-07-11T22:01:03.578Z</lastmod>
   </url>
 </urlset>
