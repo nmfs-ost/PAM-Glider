@@ -248,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Analysis Methods</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Data Pre-Processing</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/slocum-wispr3.html">Slocum - WISPR 3</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/data_processing/AcousticData-preprocessing.html">Analysis Methods</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/AcousticData-preprocessing.html">Acoustic Data Pre-Processing</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/slocum-wispr3.html">Slocum - WISPR 3</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -321,7 +321,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/gliderRodeo.html" class="sidebar-item-text sidebar-link">
+  <a href="../../content/glider-FieldTesting.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Field Testing</span></a>
   </div>
 </li>
@@ -354,8 +354,8 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="../../content/data_processing/data-preprocessing.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Data Pre-Processing</span></a>
+            <a href="../../content/data_processing/AcousticData-preprocessing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Acoustic Data Pre-Processing</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -399,6 +399,18 @@ ul.task-list li input[type="checkbox"] {
 </li>
       </ul>
   </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/data_processing/EnvData-processing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Environmental Data Processing</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/data_processing/DeploymentSummaries.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Deployment Summaries</span></a>
+  </div>
+</li>
       </ul>
   </li>
         <li class="sidebar-item">
@@ -426,7 +438,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#offload-data" id="toc-offload-data" class="nav-link active" data-scroll-target="#offload-data">Offload data</a></li>
   <li><a href="#decompress-data-and-convert-to-usable-audio-file-format" id="toc-decompress-data-and-convert-to-usable-audio-file-format" class="nav-link" data-scroll-target="#decompress-data-and-convert-to-usable-audio-file-format">Decompress data and convert to usable audio file format</a></li>
   <li><a href="#create-full-bandwidth-ltsa" id="toc-create-full-bandwidth-ltsa" class="nav-link" data-scroll-target="#create-full-bandwidth-ltsa">Create full bandwidth LTSA</a></li>
-  <li><a href="#post-mission-processing" id="toc-post-mission-processing" class="nav-link" data-scroll-target="#post-mission-processing">Post Mission Processing</a></li>
   <li><a href="#update-deployment-tracker-spreadsheet" id="toc-update-deployment-tracker-spreadsheet" class="nav-link" data-scroll-target="#update-deployment-tracker-spreadsheet">Update Deployment Tracker Spreadsheet</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/data_processing/slocum-wispr3.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/data_processing/slocum-wispr3.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
@@ -435,7 +446,7 @@ ul.task-list li input[type="checkbox"] {
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Analysis Methods</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/data-preprocessing.html">Data Pre-Processing</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/slocum-wispr3.html">Slocum - WISPR 3</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/data_processing/AcousticData-preprocessing.html">Analysis Methods</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/AcousticData-preprocessing.html">Acoustic Data Pre-Processing</a></li><li class="breadcrumb-item"><a href="../../content/data_processing/slocum-wispr3.html">Slocum - WISPR 3</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Slocum - WISPR 3</h1>
 </div>
@@ -496,11 +507,6 @@ ul.task-list li input[type="checkbox"] {
 <li>Navigate to your directory of flac files and click ‘Select Folder’</li>
 <li>Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)</li>
 </ol>
-</section>
-<section id="post-mission-processing" class="level2">
-<h2 class="anchored" data-anchor-id="post-mission-processing">Post Mission Processing</h2>
-<p>METHODS - Work in progress</p>
-<p>Work with SWFSC glider team to get post mission metadata (TBD) and create a Mission Report using <a href="https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing">this template</a>. Save the report to … (TBD)</p>
 </section>
 <section id="update-deployment-tracker-spreadsheet" class="level2">
 <h2 class="anchored" data-anchor-id="update-deployment-tracker-spreadsheet">Update Deployment Tracker Spreadsheet</h2>

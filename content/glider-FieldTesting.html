@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Transition to Operations – PAM-UxS</title>
+<title>Field Testing – PAM-UxS</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/data_processing/AcousticData-preprocessing.html" rel="next">
-<link href="../content/gliderSoundscapes.html" rel="prev">
+<link href="../content/shipSurveys.html" rel="next">
+<link href="../content/sensors.html" rel="prev">
 <link href="../content/images/SEAGLIDER.png" rel="icon" type="image/png">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
@@ -248,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/transitionPlan.html">Transition Plan</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/glider-FieldTesting.html">Field Testing</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -321,7 +321,7 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/glider-FieldTesting.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/glider-FieldTesting.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Field Testing</span></a>
   </div>
 </li>
@@ -339,7 +339,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/transitionPlan.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/transitionPlan.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Transition Plan</span></a>
   </div>
 </li>
@@ -430,8 +430,16 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#goal" id="toc-goal" class="nav-link active" data-scroll-target="#goal">Goal:</a></li>
+  <li><a href="#deployment-tracker" id="toc-deployment-tracker" class="nav-link" data-scroll-target="#deployment-tracker">Deployment Tracker</a></li>
+  <li><a href="#slocum-wispr" id="toc-slocum-wispr" class="nav-link" data-scroll-target="#slocum-wispr">Slocum WISPR</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/glider-FieldTesting.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/glider-FieldTesting.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -439,7 +447,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Transition to Operations</h1>
+<h1 class="title">Field Testing</h1>
+<p class="subtitle lead">Field testing of PAM-Glider Systems</p>
 </div>
 
 
@@ -456,17 +465,53 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Our ultimate goal is to develop a Research to Operations Plan that will transition our science to using PAM-Gliders to address our management needs. This plan will be outlined in a National Strategy RoadMap for PAM-Glider Operations.</p>
-<p><img src="images/PAMGliderRoadmap.png" class="img-fluid" width="260"></p>
-<p>These collective efforts will:</p>
-<ul>
-<li><p>Accelerate Pacific-Wide PAM-Glider Operations</p></li>
-<li><p>Match appropriate technology to research questions</p></li>
-<li><p>Provide a framework to monitor technological developments</p></li>
-<li><p>Identify future investment needs</p></li>
-</ul>
+<section id="goal" class="level2">
+<h2 class="anchored" data-anchor-id="goal">Goal:</h2>
+<p>In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).</p>
+</section>
+<section id="deployment-tracker" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-tracker">Deployment Tracker</h2>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPI-3uRxrq3h9f0C1DLAHUVDzpRsHuQDGbjZHOCckjuP2yLr-II1muMCTCFvpn22OKmd2wM2pmU27j/pubhtml?gid=1944379023&amp;single=true&amp;widget=true&amp;headers=false" style="width:950px; height:500px; border: 2px solid black;">
+</iframe>
+<p><a href="https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?usp=sharing">Spreadsheet to track current and completed deployments</a>. Link for NOAA personnel (password protected)</p>
+<p>Post mission summary reports can be found [here][fill in link] or linked in the last column of the Deployment Tracker spreadsheet above.</p>
+</section>
+<section id="slocum-wispr" class="level2">
+<h2 class="anchored" data-anchor-id="slocum-wispr">Slocum WISPR</h2>
+<p>The Ecosystem Science Division (ESD) at the Southwest Fisheries Science Center (SWFSC) deployed glider “unit_1024” on February 24, 2025 off San Diego, CA (<a href="#fig-fieldTest_pathMap_SlocumWispr_feb2025" class="quarto-xref">Figure&nbsp;1</a>). This glider was deployed in conjunction with Teledyne Webb Research from the vessel R/V <em>Benthic Cat</em>. The main objective of this deployment was to test two new sensors: a photosynthetically active radiation (PAR) sensor (Biospherical Instruments) and a passive acoustic monitor (“WISPR”, Embedded Ocean Systems). The glider was programmed to fly approximately 70 km north between 9-Mile Bank and Del Mar Steeples toward Oceanside Harbor. However, 36 hours after deployment, the glider mission aborted its mission for a leak in the aft section. An emergency recovery was initiated for February 26 aboard the R/V <em>Outer Limits</em>. Prior to the leak, the glider traveled a total of 29.74 km wile performing 29 dives to a maximum depth of 600 m.</p>
+<p>Details regarding this sea trial, including pre- and post-trial testing can be found <a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/supplemental/2025%20February%20unit_1024%20Emergency%20Recovery%20and%20Post-Deployment%20Report.pdf">here</a>.</p>
+<div id="fig-fieldTest_pathMap_SlocumWispr_feb2025" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-fieldTest_pathMap_SlocumWispr_feb2025-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/fieldTest_pathMap_SlocumWispr_feb2025.PNG" class="img-fluid figure-img" width="331">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fieldTest_pathMap_SlocumWispr_feb2025-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: Path of “unit_1024.” unit_1024 was deployed 22 km west of Mission Bay, San Diego, CA on February 24, 2025. The glider flew a path west from the initial deployment location and was headed north toward Oceanside, CA, when it aborted its mission for a leak in the aft section. The glider drifted southwest overnight and was recovered on February 26, 2025 by the F/V Outer Limits. Yellow dots indicate where the glider surfaced throughout its deployment, red dots indicate points where the glider aborted its mission, and the bullseye represents the glider’s next waypoint.
+</figcaption>
+</figure>
+</div>
+<p>This was the first deployment of this glider, which was prepared by Teledyne staff. Therefore, no deployment-specific testing was done beyond our standard pre-deployment preparations and tests. Configuration and initialization files for the WISPR prioritized testing of the device and a high sample rate (200 kHz) provided sampling of noise at high frequencies. We were unable to simulate missions with these files prior to deployment because of tight scheduling between glider training and boat availability.</p>
+<p>Data were downloaded locally, and a long term spectral average (LTSA) shows high levels of noise at frequencies below 10 kHz and numerous encounters with animals (<a href="#fig-fieldTest_LTSA_SlocumWispr_feb2025" class="quarto-xref">Figure&nbsp;2</a>). This field test serves as a first trial of this glider and included sensors that may create their own noise, including a pumped CTD. These recordings will be examined to identify glider noise that may interfere with acoustic detection of the marine environments.</p>
+<div id="fig-fieldTest_LTSA_SlocumWispr_feb2025" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-fieldTest_LTSA_SlocumWispr_feb2025-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/fieldTest_LTSA_SlocumWispr_feb2025.png" class="img-fluid figure-img" width="321">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fieldTest_LTSA_SlocumWispr_feb2025-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2: Long term spectral average (LTSA) of Slocum glider with WISPR acoustic processor during field trials off San Diego, February 2025.
+</figcaption>
+</figure>
+</div>
+<p>Autonomous gliders also provide environmental measures in the form of conductivity-temperature-depth (CTD) sensors (at a minimum), and may include any number of additional sensors to study the biotic and abiotic environment. Environmental sensors on Unit_1024 included temperature, chlorophyll, and backscatter (see preliminary environmental data visualizations, below). Environmental sensors such as pumped CTDs can add electrical and radiated noise that may interfere with passive acoustic data quality. Additional information on environmental data products for the SWFSC Slocum Gliders is provided <a href="https://swfsc.github.io/glider-lab-manual/content/glider-data.html#data-products">here</a>.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/unit_1024-20250224_oceo.png" class="img-fluid figure-img"></p>
+<figcaption>Environmental data collected during sea trial of Unit_1024 including temperature, chlorophyll, and backscatter including data plotted along geographic map (top), by depth (middle) and a gridded data plotted by profile index and depth (bottom).</figcaption>
+</figure>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -883,13 +928,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/gliderSoundscapes.html" class="pagination-link" aria-label="Soundscapes">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Soundscapes</span>
+      <a href="../content/sensors.html" class="pagination-link" aria-label="Sensors">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Sensors</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/data_processing/AcousticData-preprocessing.html" class="pagination-link" aria-label="Acoustic Data Pre-Processing">
-        <span class="nav-page-text">Acoustic Data Pre-Processing</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/shipSurveys.html" class="pagination-link" aria-label="Ship &amp; Glider Surveys">
+        <span class="nav-page-text">Ship &amp; Glider Surveys</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -901,7 +946,7 @@ ul.task-list li input[type="checkbox"] {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/transitionPlan.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/transitionPlan.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM-Glider/edit/main/content/glider-FieldTesting.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/blob/main/content/glider-FieldTesting.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM-Glider/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
