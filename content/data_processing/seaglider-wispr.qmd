@@ -57,12 +57,6 @@ format: html
 
 5.  Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
 
-## Post Mission Processing
-
-1.  Follow the Agate methods [here](https://sfregosi.github.io/agate/mission-processing.html#plot-multiple-glider-tracks) to run post-mission processing.
-    -   This includes extracting sampling locations and environmental data, assessing acoustic effort, creating summary tables, and plotting the glider paths.
-2.  Create a Mission Report using [this template](https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing). Save the report to ... (TBD)
-
 ## Update Deployment Tracker Spreadsheet
 
 1.  Open [Glider Deployment Tracker Spreadsheet](https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?gid=0#gid=0) and ensure all fields have been completed
