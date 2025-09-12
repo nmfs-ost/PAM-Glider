@@ -3,3 +3,4 @@ title: "Seaglider - PMAR XL"
 format: html
 ---
 
+PMARXL has been removed from the OSU Seagliders and replaced with the WISPR3 system. If it is used again in the future by NMFS this page will be updated. 

@@ -87,6 +87,7 @@ format:
     code-copy: true
     code-overflow: wrap
     toc: true
+    link-external-newwindow: true
 
 
 filters:
