@@ -43,10 +43,14 @@ website:
           text: Gliders
         - href: content/sensors.qmd
           text: Sensors
-      - href: content/glider-FieldTesting.qmd
-        text: Field Testing
-      - href: content/shipSurveys.qmd
-        text: Ship & Glider Surveys
+      - section: content/glider-FieldTesting.qmd
+        contents: 
+        - href: content/glider-LocalFieldTesting.qmd
+          text: Local Sea Trials
+        - href: content/glider-rodeo.qmd
+          text: Glider Rodeo
+        - href: content/shipSurveys.qmd
+          text: Ship & Glider Surveys
       - href: content/gliderSoundscapes.qmd
         text: Soundscapes
       # - href: content/modeling.qmd
