@@ -221,37 +221,7 @@
     "href": "content/glider-FieldTesting.html",
     "title": "Field Testing",
     "section": "",
-    "text": "In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).",
-    "crumbs": [
-      "Field Testing"
-    ]
-  },
-  {
-    "objectID": "content/glider-FieldTesting.html#unit_1024-20250224",
-    "href": "content/glider-FieldTesting.html#unit_1024-20250224",
-    "title": "Field Testing",
-    "section": "unit_1024-20250224",
-    "text": "unit_1024-20250224\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
-    "crumbs": [
-      "Field Testing"
-    ]
-  },
-  {
-    "objectID": "content/glider-FieldTesting.html#stenella-20250414",
-    "href": "content/glider-FieldTesting.html#stenella-20250414",
-    "title": "Field Testing",
-    "section": "stenella-20250414",
-    "text": "stenella-20250414\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
-    "crumbs": [
-      "Field Testing"
-    ]
-  },
-  {
-    "objectID": "content/glider-FieldTesting.html#risso-20250414",
-    "href": "content/glider-FieldTesting.html#risso-20250414",
-    "title": "Field Testing",
-    "section": "risso-20250414",
-    "text": "risso-20250414\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "text": "While PAM equipped gliders have been extensively used for specific survey needs, they are also rapidly evolving and require extensive expertise for successful adoption to address additional survey needs. A fundamental requirement to developing a sustainable transition to operations plan for NOAA Fisheries necessarily includes a series of field tests.\nOur field testing includes:\n\nLocal Sea Trials to field test individual gliders to ensure functionality\nGlider Rodeo to assess the strengths and limitations of different PAM-Glider platforms and sensors\nConcurrent Ship & Glider Surveys to collect data for developing advanced statistical methods to assess marine mammal populations using PAM-gliders and to better understand how these methods can augment shipboard surveys.",
     "crumbs": [
       "Field Testing"
     ]
@@ -263,6 +233,7 @@
     "section": "",
     "text": "Traditional large-scale surveys of marine mammals are conducted by visual observation from large research vessels. While these surveys collect extremely high-quality data that can be readily analyzed to assess marine mammal populations, they do have their limitations. These methods are complicated for deep-diving species that spend little time at the surface (beaked whales, sperm whales), and they are limited by weather conditions (including fog, rain, and high seas). These surveys are conducted ~ every 5 years during good weather seasons, and so are limited in their ability to assess seasonal and inter-annual variability.\nCan PAM-equipped gliders augment existing shipboard surveys to improve our understanding of deep-diving species or to improve our understanding of temporal variability in marine mammal populations?\nTo address this question, we need to collect data using traditional methods (shipboard visual surveys) and new methods (PAM-gliders) in the same region and at the same time. Data collected during these concurrent surveys are needed to develop and test statistical methods needed to use PAM-glider data to assess marine mammal populations.\nWe will conduct concurrent shipboard/glider surveys off the U.S. West Coast (CalCurCEAS) and Hawaiʻi (WHICEAS).\nData from these surveys will be used for developing Spatial Modeling.",
     "crumbs": [
+      "Field Testing",
       "Ship & Glider Surveys"
     ]
   },
@@ -273,6 +244,7 @@
     "section": "CalCurCEAS 2024",
     "text": "CalCurCEAS 2024\n\n\nThree PAM-equipped Seagliders were deployed out of Newport Oregon and surveyed in a zig-zag pattern south towards Eureka, California:\n\nSG679: Offshore Tracks (orange trackline)\n\n63 days (8/23/2024 - 10/25/2024)\nFour transects, 297 dives\nSurveyed 1459 km trackline\n180 kHz sampling, 2.5 Tb data\n94% total mission has recordings\n\nSG639: Inshore Tracks (yellow); SG80 (red)\n\n41 days (9/14/2024 - 10/25/2024)\nSG639: 6 transects 217 dives, 789 km; bonus transect to Trinidad Canyon\nSG80: 8 transects, 232 dives, 806 km\n200 kHz sampling, 1.8 Tb data\n95% total mission has recordings\n\n\n\n\nThe PAM-equipped Seagliders were deployed by collaborator Dave Mellinger from Oregon State University with co-piloting by our PIFSC colleagues: Selene Fregosi, Erik Norris, and Calla Lloyd-Lim. The offshore glider was the longest mission of any of the OSU gliders to date! This was also the first time this experienced glider team piloted three gliders simultaneously.\n\n\n\n\n\n\nPlanned shipboard tracklines for the 2024 CalCurCEAS Survey.\n\n\n\nThese PAM-glider tracks overlap in both time and space with the CalCurCEAS shipboard visual observation survey. In addition to visual observations, drifting acoustic recorders were deployed offshore to study beaked whales. This provides an opportunity to compare detection of species offshore Oregon by three different platforms: shipboard visual observation, drifting acoustic recorders, and PAM-equipped gliders. These data will be used to develop the analytical framework for integrating data from slow-moving recording platforms (such as gliders and drifting recorders) into spatial density models for marine mammals (see Spatial Modeling).",
     "crumbs": [
+      "Field Testing",
       "Ship & Glider Surveys"
     ]
   },
@@ -283,6 +255,7 @@
     "section": "WHICEAS 2026",
     "text": "WHICEAS 2026\nWinter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS) is currently scheduled for February/March 2026. We will update as these plans develop.",
     "crumbs": [
+      "Field Testing",
       "Ship & Glider Surveys"
     ]
   },
@@ -292,6 +265,72 @@
     "title": "Plankton to Whales",
     "section": "",
     "text": "The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.\nThis project is planned for 2025."
+  },
+  {
+    "objectID": "content/glider-rodeo.html#survey-logistics",
+    "href": "content/glider-rodeo.html#survey-logistics",
+    "title": "Glider Rodeo",
+    "section": "Survey Logistics",
+    "text": "Survey Logistics\nNMFS will be carrying out performance testing across glider systems during a 2-week ‘glider rodeo’ planned for Hawaii in February 2026. A pre-designed survey path will provide for resampling of the same area by each glider platform over the 2 week effort. Glider performance and acoustic detection metrics will be measured for each system to enable comparison and inform future glider acquisitions and use by NMFS.\nNMFS-funded testing will include Slocum, Seaglider, OceanScout (Hefring) and SeaExplorer (Alseamar) platforms with DMONS2, WISPR, and Alseamar’s acoustic acquisition systems. Additional systems may be considered (assuming no additional costs).",
+    "crumbs": [
+      "Field Testing",
+      "Glider Rodeo"
+    ]
+  },
+  {
+    "objectID": "content/glider-rodeo.html#metrics",
+    "href": "content/glider-rodeo.html#metrics",
+    "title": "Glider Rodeo",
+    "section": "Metrics",
+    "text": "Metrics\nDuring the glider rodeo, we will identify and define a series of metrics to be calculated for each platform. These metrics will provide a means of comparison to identify strengths and limitations, as well as ranges of performance. The metrics include:\n\nOperational metrics: Measures related to active operations and routine functioning of the platform and systems (including glider platform, oceanographic sensors, battery/power, satellite transmissions, software interface, and glider piloting).\nPassive acoustic metrics: Measure related to assessing detection, classification, and localization of animals.\nSoundscape Metrics: Measures related to assessing ambient sound, including acoustic sensitivity/calibration, self-noise, available data, and ability to measure soundscape in hybrid millidecade. There is a natural crossover between soundscape and bioacoustics measures; soundscape metrics will be all PAM metrics not directly associated with animal sounds.\nResource metrics: measures of resources (personnel, expertise, equipment, materials, time, budget) needed to implement the technology.\n\nWe are actively working with experts to develop a suite of metrics that provide a means of assessing each platform that can be completed with the available resources. We will make these metrics (including their definition) publicly accessible here when they are available.",
+    "crumbs": [
+      "Field Testing",
+      "Glider Rodeo"
+    ]
+  },
+  {
+    "objectID": "content/glider-LocalFieldTesting.html",
+    "href": "content/glider-LocalFieldTesting.html",
+    "title": "Local Sea Trials",
+    "section": "",
+    "text": "In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).",
+    "crumbs": [
+      "Field Testing",
+      "Local Sea Trials"
+    ]
+  },
+  {
+    "objectID": "content/glider-LocalFieldTesting.html#unit_1024-20250224",
+    "href": "content/glider-LocalFieldTesting.html#unit_1024-20250224",
+    "title": "Local Sea Trials",
+    "section": "unit_1024-20250224",
+    "text": "unit_1024-20250224\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "crumbs": [
+      "Field Testing",
+      "Local Sea Trials"
+    ]
+  },
+  {
+    "objectID": "content/glider-LocalFieldTesting.html#stenella-20250414",
+    "href": "content/glider-LocalFieldTesting.html#stenella-20250414",
+    "title": "Local Sea Trials",
+    "section": "stenella-20250414",
+    "text": "stenella-20250414\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "crumbs": [
+      "Field Testing",
+      "Local Sea Trials"
+    ]
+  },
+  {
+    "objectID": "content/glider-LocalFieldTesting.html#risso-20250414",
+    "href": "content/glider-LocalFieldTesting.html#risso-20250414",
+    "title": "Local Sea Trials",
+    "section": "risso-20250414",
+    "text": "risso-20250414\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "crumbs": [
+      "Field Testing",
+      "Local Sea Trials"
+    ]
   },
   {
     "objectID": "content/glider-labs.html",
