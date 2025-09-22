@@ -79,6 +79,8 @@ website:
           - href: content/data_processing/DeploymentSummaries.qmd
       - href: content/infoSharing.qmd
         text: Information Sharing
+      - href: content/presentations.qmd
+        text: Presentations & Publications
       - href: content/contact.qmd
         text: Contact Us
       # - href: content/data_processing/test.qmd
