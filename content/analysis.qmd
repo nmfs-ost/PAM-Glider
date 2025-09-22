@@ -1,0 +1,14 @@
+---
+title: "Analysis Methods"
+format: html
+---
+
+This section provides an overview of the data analysis processes for glider missions, from initial data offloading and processing to generating comprehensive mission summaries.
+
+Click on the links below for detailed methods and instructions for each process.
+
+-   [**Acoustic Data Pre-Processing**:](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/AcousticData-preprocessing.html) Instructions for handling raw acoustic data from various glider and sensor combinations
+
+-   [**Environmental Data Processing:**](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/EnvData-processing.html) Methods for extracting and processing environmental data collected during glider deployments
+
+-   [**Deployment Summaries**:](https://nmfs-ost.github.io/PAM-Glider/content/data_processing/DeploymentSummaries.html) Guidelines for creating post-mission reports that include sampling locations, acoustic effort, and glider paths

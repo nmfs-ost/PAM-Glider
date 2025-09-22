@@ -29,13 +29,13 @@ website:
 
     style: "docked"
     search: true
-    collapse-level: 3
+    collapse-level: 1
     contents:
       - href: index.qmd
         text: Home
       - href: content/about.qmd
         text: About Us
-      - section: Resources
+      - section: content/resources.qmd
         contents:
         - href: content/glider-labs.qmd
           text: NMFS Glider Labs
@@ -59,7 +59,7 @@ website:
         text: Transition Plan
       # - href: content/p2w.qmd
       #   text: Plankton to Whales
-      - section: Analysis Methods
+      - section: content/analysis.qmd
         contents: 
           - section: content/data_processing/AcousticData-preprocessing.qmd
             contents: 
