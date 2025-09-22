@@ -15,7 +15,7 @@ format: html
 
 -   **Links:** \[Slides\], \[Video\]
 
-### Development of a Pacific-wide Passive Acoustic Glider Program to Augment Cetacean Surveys
+### Development of a Pacific-wide Passive Acoustic Glider Program to Augment Cetacean Surveys, Protected Species Assessment Workshop 2025 (PSAWIV)
 
 \[insert picture of pres\]
 
@@ -23,7 +23,7 @@ format: html
 
 -   **Abstract:** A collaborative effort between PIFSC, SWFSC and OSU/PMEL aims to accelerate NMFS’s use of passive acoustic monitoring (PAM) glider surveys to augment existing ship-based surveys for cetacean stock assessment. This effort builds on historically successful efforts by NMFS to use PAM-equipped gliders including studies of endangered right whales off the U.S. East Coast and odontocetes around the Main Hawaiian Islands. This previous work highlighted the feasibility of using PAM-equipped gliders to bolster data collection efforts for cetacean surveys. Use of gliders is of particular interest in the Pacific region, which is the largest area under NMFS jurisdiction and is subject to acute shortages of adequate ship time; therefore, this region must identify survey modalities that maintain assessment operations over as large an area as possible. While the initial effort is focused in the Pacific region, this project will result in a Research-to-Operations plan that can be adapted or applied in other regions. Primary goals of this work are to (1) build capacity to sustain glider operations within NMFS through purchasing equipment, developing infrastructure, and hiring piloting and technical staff; (2) conduct detailed in-water instrumentation testing and comparison of currently available glider and sensor types to provide guidance for various use cases; (3) conduct concurrent glider and shipboard surveys off both the U.S. West Coast and Main Hawaiian Islands which will provide a unique opportunity to compare these two data streams; and (4) advance animal distribution modeling methods to integrate the PAM-glider collected data into stock assessments.
 
--   **Links:** \[Slides\], \[Video\]
+-   **Links:** [Slides](https://github.com/nmfs-ost/PAM-Glider/blob/main/supplemental/Presentations/PSAWIV_2025_Fregosi_Pacific-wide%20passive%20acoustic%20gliders.pdf), \[Video\]
 
 ### **NOAA Fisheries’ Strategy for Passive Acoustic Gliders,** UG2 Workshop '24
 
