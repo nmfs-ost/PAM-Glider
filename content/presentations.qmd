@@ -17,7 +17,7 @@ format: html
 
 ### Development of a Pacific-wide Passive Acoustic Glider Program to Augment Cetacean Surveys, Protected Species Assessment Workshop 2025 (PSAWIV)
 
-\[insert picture of pres\]
+![](images/fregosi_psaw_2025.jpg){width="314"}
 
 -   **Selene Fregosi**, Erin Olseon, Erik Norris, Shannon Rankin, Kourtney Burger, Anthony Cossio, Jen Walsh, David Mellinger
 
@@ -27,22 +27,22 @@ format: html
 
 ### NOAA Fisheries’ Strategy for Passive Acoustic Gliders, UG2 Workshop '24
 
-\[insert picture of pres\]
+![](images/rankin_UG2_presentation.jpg){width="296"}
 
 -   **Shannon Rankin**, Christian Reiss, Erin Oleson, Selene Fregosi, David K. Mellinger, Erik Norris
 
 -   **Abstract:** NOAA Fisheries has developed a strategic goal of investing in passive acoustic monitoring (PAM) from underwater gliders as part of an effort to build a dynamically managed fisheries system that accounts for climate change and supports science- based management and conservation. PAM-equipped gliders provide an autonomous solution to collecting encounter datasets for vocal species that can serve NMFS assessment needs. With dedicated R&D effort, PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including population density. As part of this strategic initiative, NOAA Fisheries will lead a 3-year effort to accelerate the transition to operations for PAM-based glider surveys. The goal will be to develop a research-to-operations plan to implement PAM-equipped glider surveys that support their marine mammal assessments. The effort includes (1) the Glider Rodeo, (2) concurrent glider and shipboard surveys, and (3) the Plankton to Whales project. The Glider Rodeo \[see associated presentation\], involving in-water testing of several PAM-glider systems, has the goal of examining glider and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. The concurrent surveys include deploying several PAM-equipped gliders in association with two large-scale assessment surveys: PacMAPPS West Coast in 2024 and PacMAPPS Hawaii in 2026. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. The Plankton to Whales project is a pilot study that will provide seasonal autonomous ecosystem sampling from plankton to whales using paired PAM and oceanographic gliders with shadow- graph sensors for observing plankton.
 
--   **Links:** \[Slides\], \[Video\]
+-   **Links:** [Slides](https://github.com/nmfs-ost/PAM-Glider/tree/main/supplemental/Presentations/Rankin_NMFS-PAM-UxS_presentation_UG2_2024.pdf)
 
 ### The Glider Rodeo: NOAA Fisheries’ Passive Acoustic Underwater Glider Comparison, UG2 Workshop '24
 
-\[insert picture of pres\]
+![](images/norris_UG2_2024.jpg){width="365"}
 
 -   **Erik Norris**, Shannon Rankin, Erin Oleson, Christian Reiss, Selene Fregosi, David K. Mellinger
 
 -   **Abstract:** As part of a strategic goal to invest in passive acoustic monitoring using the uncrewed systems strategic initiative, NOAA Fisheries is pursuing field tests of several underwater gliders equipped with passive acoustic monitoring (PAM) systems. These tests will take place during two 2-week ‘glider rodeos’ planned for the U.S. West Coast and Hawaii in 2025-2026. Testing will include Slocum (Teledyne Webb), Seaglider (Univ. Washington), OceanScout (Hefring), and SeaExplorer (Alseamar) platforms with DMON, WISPR, and Alseamar acoustic acquisition systems. A pre-designed survey path will allow resampling of the same area by each glider over each 2-week effort to maximize spatial and temporal overlap. Glider performance and acoustic recording and detection metrics will be measured for each system to enable comparison and inform future glider acquisitions and use by NOAA Fisheries. Metrics under consideration include survey, data quality, and acoustic metrics. This is a unique opportunity to examine the performance and capability of a diverse set of currently available PAMequipped underwater gliders, and we welcome community input into test design and assessment metrics. There may be unfunded opportunities for participation to compare other systems if they are provided, and we will offer logistical support when possible. Results will be made publicly available to inform future research and development.
 
--   **Links:** \[Slides\], \[Video\]
+-   **Links:** [Poster](https://github.com/nmfs-ost/PAM-Glider/tree/main/supplemental/Presentations/Norris-UG2-Poster_v4_2024.pdf)
 
 ## Publications
