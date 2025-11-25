@@ -5,17 +5,7 @@ format: html
 
 ## Presentations
 
-### Development of a Pacific-wide Passive Acoustic Glider Program to Enhance Cetacean Survey and Assessment Capabilities, ASA Honolulu December 2025
-
-\[insert picture of pres\]
-
--   **Selene Fregosi**, Shannon Rankin, David Mellinger, Erik Norris, Kourtney Burger, Anthony Cossio, Jen Walsh, Erin Olseon,
-
--   **Abstract:** Traditional vessel-based surveys conducted by the National Marine Fisheries Service (NMFS) for cetacean stock assessment are often limited by high costs and insufficient coverage. This is particularly true in the Pacific region, which is the largest area under NMFS jurisdiction and is subject to acute shortages of adequate ship time. To address these limitations, a focused initiative is accelerating the use of Passive Acoustic Monitoring (PAM) on buoyancy-driven underwater gliders by developing a Pacific-wide NMFS PAM glider program. The primary goal is to establish a national strategy to augment critical stock assessment surveys and reduce dependency on ships for regular monitoring. Efforts include building capacity to sustain glider operations; validating vehicle and sensor performance and developing use-case guidelines with in-water testing; comparing glider data streams to concurrent shipboard surveys off the U.S. West Coast and Hawaiʻi; and advancing modeling methods to integrate these new data into stock assessments. While the initial effort is focused in the Pacific region, a related Research-to-Operations plan will be adaptable to other regions. The project stands to improve conservation and management of protected species by providing scalable and persistent monitoring in a changing ocean.
-
--   **Links:** \[Slides\], \[Video\]
-
-### Development of a Pacific-wide Passive Acoustic Glider Program to Augment Cetacean Surveys, Protected Species Assessment Workshop 2025 (PSAWIV)
+### Development of a Pacific-wide Passive Acoustic Glider Program to Augment Cetacean Surveys, Protected Species Assessment Workshop 2025 (PSAW IV)
 
 ![](images/fregosi_psaw_2025.jpg){width="314"}
 
@@ -24,6 +14,8 @@ format: html
 -   **Abstract:** A collaborative effort between PIFSC, SWFSC and OSU/PMEL aims to accelerate NMFS’s use of passive acoustic monitoring (PAM) glider surveys to augment existing ship-based surveys for cetacean stock assessment. This effort builds on historically successful efforts by NMFS to use PAM-equipped gliders including studies of endangered right whales off the U.S. East Coast and odontocetes around the Main Hawaiian Islands. This previous work highlighted the feasibility of using PAM-equipped gliders to bolster data collection efforts for cetacean surveys. Use of gliders is of particular interest in the Pacific region, which is the largest area under NMFS jurisdiction and is subject to acute shortages of adequate ship time; therefore, this region must identify survey modalities that maintain assessment operations over as large an area as possible. While the initial effort is focused in the Pacific region, this project will result in a Research-to-Operations plan that can be adapted or applied in other regions. Primary goals of this work are to (1) build capacity to sustain glider operations within NMFS through purchasing equipment, developing infrastructure, and hiring piloting and technical staff; (2) conduct detailed in-water instrumentation testing and comparison of currently available glider and sensor types to provide guidance for various use cases; (3) conduct concurrent glider and shipboard surveys off both the U.S. West Coast and Main Hawaiian Islands which will provide a unique opportunity to compare these two data streams; and (4) advance animal distribution modeling methods to integrate the PAM-glider collected data into stock assessments.
 
 -   **Links:** [Slides](https://github.com/nmfs-ost/PAM-Glider/blob/main/supplemental/Presentations/PSAWIV_2025_Fregosi_Pacific-wide%20passive%20acoustic%20gliders.pdf), \[Video\]
+
+-   Also presented at ASA Honolulu December 2025
 
 ### NOAA Fisheries’ Strategy for Passive Acoustic Gliders, UG2 Workshop '24
 
