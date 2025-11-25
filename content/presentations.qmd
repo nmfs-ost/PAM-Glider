@@ -5,7 +5,7 @@ format: html
 
 ## Presentations
 
-### Development of a Pacific-wide Passive Acoustic Glider Program to Augment Cetacean Surveys, Protected Species Assessment Workshop 2025 (PSAW IV)
+### Development of a Pacific-wide Passive Acoustic Glider Program to Augment Cetacean Surveys, [Protected Species Assessment Workshop 2025 (PSAW IV)](https://www.fisheries.noaa.gov/event/protected-species-assessment-workshop-psaw-iv)
 
 ![](images/fregosi_psaw_2025.jpg){width="314"}
 
@@ -15,7 +15,7 @@ format: html
 
 -   **Links:** [Slides](https://github.com/nmfs-ost/PAM-Glider/blob/main/supplemental/Presentations/PSAWIV_2025_Fregosi_Pacific-wide%20passive%20acoustic%20gliders.pdf), \[Video\]
 
--   Also presented at ASA Honolulu December 2025
+-   Also presented at [ASA Honolulu December 2025](https://acousticalsociety.org/honolulu-2025/)
 
 ### NOAA Fisheries’ Strategy for Passive Acoustic Gliders, UG2 Workshop '24
 
