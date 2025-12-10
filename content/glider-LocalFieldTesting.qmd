@@ -35,3 +35,9 @@ To-do
 ### [Acoustic Data Assessment](https://docs.google.com/document/d/17Tu1QX2XrTTKTicmKIXhrJO86YwIlDjTwo5DGiNWbMk/edit?tab=t.0#heading=h.l1yk3lbyn1p1)
 ### Summary 
 To-do
+
+## elrond-20250908
+### [SWFSC Glider Lab Deployment Summary](https://docs.google.com/document/d/1TkiaCJAuFGLfH1TDVV5Bh11jLWTybSc2HVcEjNRzOLc/edit?tab=t.0)
+### [Acoustic Data Assessment]()
+### Summary 
+To-do
