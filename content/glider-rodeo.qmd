@@ -1,0 +1,37 @@
+---
+title: "Glider Rodeo"
+format: html
+---
+
+::: columns
+::: {.column width="75%"}
+ 
+![](images/GliderRodeoText.JPG) 
+
+:::
+::: {.column width="25%"}
+ 
+![](images/GliderRodeo.png)
+ 
+:::
+:::
+
+## Survey Logistics
+
+NMFS will be carrying out performance testing across glider systems during a 2-week ‘glider rodeo’ planned for Hawaii in February 2026. A pre-designed survey path will provide for resampling of the same area by each glider platform over the 2 week effort. Glider performance and acoustic detection metrics will be measured for each system to enable comparison and inform future glider acquisitions and use by NMFS.
+
+NMFS-funded testing will include Slocum, Seaglider, OceanScout (Hefring) and SeaExplorer (Alseamar) platforms with DMONS2, WISPR, and Alseamar’s acoustic acquisition systems. Additional systems may be considered (assuming no additional costs).
+
+## Metrics
+
+During the glider rodeo, we will identify and define a series of metrics to be calculated for each platform. These metrics will provide a means of comparison to identify strengths and limitations, as well as ranges of performance. The metrics include:
+
+1.  **Operational metrics:** Measures related to active operations and routine functioning of the platform and systems (including glider platform, oceanographic sensors, battery/power, satellite transmissions, software interface, and glider piloting).
+
+2.  **Passive acoustic metrics:** Measure related to assessing detection, classification, and localization of animals.
+
+3.  **Soundscape Metrics:** Measures related to assessing ambient sound, including acoustic sensitivity/calibration, self-noise, available data, and ability to measure soundscape in hybrid millidecade. There is a natural crossover between soundscape and bioacoustics measures; soundscape metrics will be all PAM metrics not directly associated with animal sounds.
+
+4.  **Resource metrics:** measures of resources (personnel, expertise, equipment, materials, time, budget) needed to implement the technology.
+
+We are actively working with experts to develop a suite of metrics that provide a means of assessing each platform that can be completed with the available resources. We will make these metrics (including their definition) publicly accessible here when they are available.

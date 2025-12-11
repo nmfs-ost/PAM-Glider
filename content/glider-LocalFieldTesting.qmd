@@ -1,0 +1,43 @@
+---
+title: Local Sea Trials
+subtitle: Local Field Testing of PAM-Glider Systems
+---
+
+# Goal:
+
+In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).
+
+# Deployment Tracker
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPI-3uRxrq3h9f0C1DLAHUVDzpRsHuQDGbjZHOCckjuP2yLr-II1muMCTCFvpn22OKmd2wM2pmU27j/pubhtml?gid=1944379023&amp;single=true&amp;widget=true&amp;headers=false" style="width:950px; height:500px; border: 2px solid black;">
+
+</iframe>
+
+[Spreadsheet to track current and completed deployments](https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?usp=sharing). Link for NOAA personnel (password protected)
+
+Post mission summary reports can be found \[here\]\[fill in link\] or linked in the last column of the Deployment Tracker spreadsheet above.
+
+# Field Test Summaries
+## unit_1024-20250224
+### [SWFSC Glider Lab Deployment Summary](https://docs.google.com/document/d/1LQ9ch1gEuHtHEUbC7dymbtm9UlZu6IaePKbmLpKTlyU/edit?tab=t.0)
+### [Acoustic Data Assessment](https://docs.google.com/document/d/17Tu1QX2XrTTKTicmKIXhrJO86YwIlDjTwo5DGiNWbMk/edit?tab=t.0#heading=h.xy58u859kk1o)
+### Summary 
+To-do
+
+## stenella-20250414
+### [SWFSC Glider Lab Deployment Summary](https://docs.google.com/document/d/1JWkHtAoQar3fr0TLmKJT9VI5O5IqFkpEw4G_07ZFRts/edit?tab=t.0)
+### [Acoustic Data Assessment](https://docs.google.com/document/d/17Tu1QX2XrTTKTicmKIXhrJO86YwIlDjTwo5DGiNWbMk/edit?tab=t.0#heading=h.8h8jgpqjpia7)
+### Summary 
+To-do
+
+## risso-20250414
+### [SWFSC Glider Lab Deployment Summary](https://docs.google.com/document/d/11aBBLY6xJhdd2vDwuhdBLK3SVcPaqnxbkMR-Fn0rgy0/edit?tab=t.0)
+### [Acoustic Data Assessment](https://docs.google.com/document/d/17Tu1QX2XrTTKTicmKIXhrJO86YwIlDjTwo5DGiNWbMk/edit?tab=t.0#heading=h.l1yk3lbyn1p1)
+### Summary 
+To-do
+
+## elrond-20250908
+### [SWFSC Glider Lab Deployment Summary](https://docs.google.com/document/d/1TkiaCJAuFGLfH1TDVV5Bh11jLWTybSc2HVcEjNRzOLc/edit?tab=t.0)
+### [Acoustic Data Assessment]()
+### Summary 
+To-do

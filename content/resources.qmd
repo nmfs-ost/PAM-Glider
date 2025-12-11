@@ -1,0 +1,12 @@
+---
+title: "Resources"
+format: html
+---
+
+This section provides an overview of the key components of our program: the labs that manage our gliders, the different types of gliders we deploy, and the passive acoustic monitoring (PAM) sensors they carry.
+
+[**Glider Labs**](https://nmfs-ost.github.io/PAM-Glider/content/glider-labs.html)
+
+[**Gliders Types**](https://nmfs-ost.github.io/PAM-Glider/content/gliders.html)
+
+[**PAM Sensors**](https://nmfs-ost.github.io/PAM-Glider/content/sensors.html)

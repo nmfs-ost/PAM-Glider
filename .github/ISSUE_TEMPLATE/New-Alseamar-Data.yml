@@ -53,3 +53,4 @@ body:
         - label: Open Glider Deployment Tracker Spreadsheet and ensure all fields have been completed
         - label: Use the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality 
         - label: Calculate the deployment duration, distance, and recording duration and fill in the associated columns 
+        - label: Create [post mission summary report](https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing)

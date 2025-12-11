@@ -1,0 +1,24 @@
+---
+title: "Deployment Summaries"
+format: html
+---
+
+# Slocum
+
+[Link to ESD instructions](https://swfsc.github.io/glider-lab-manual/content/glider-data.html#data-products)
+
+METHODS - Work in progress
+
+Work with SWFSC glider team to get post mission metadata (TBD) and create a Mission Report using [this template](https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing). Save the report to ... (TBD)
+
+# Seaglider
+
+[Link to Agate instructions](https://sfregosi.github.io/agate/)
+
+1.  Follow the Agate methods [here](https://sfregosi.github.io/agate/mission-processing.html#plot-multiple-glider-tracks) to run post-mission processing.
+    -   This includes extracting sampling locations and environmental data, assessing acoustic effort, creating summary tables, and plotting the glider paths.
+2.  Create a Mission Report using [this template](https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing). Save the report to ... (TBD)
+
+# Hefring
+
+Create a Mission Report using [this template](https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing). Save the report to ... (TBD)

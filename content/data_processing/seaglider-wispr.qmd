@@ -7,15 +7,15 @@ format: html
 
 1.  Glider techs: open Seaglider and remove two micro SD cards from WISPR board
 
-    -   These cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)
+    -   These cards are numbered/ordered to be sure to replace them in the right order. Card 1 is farthest from the power connector (at the edge of the board) and Card 2 is in between Card 1 and the power connector.
 
 2.  Plug cards into computer and copy raw .dat files to a hard drive
 
-3.  Pass hard drive off to PAM analyst 
+3.  Pass hard drive off to PAM analyst
 
 ## Decompress data and convert to usable audio file format
 
-1.  PAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac
+1.  PAM analyst: use __*agate*__ convert WISPR workflow script to convert from .dat to .flac ([guide](https://sfregosi.github.io/agate/convert-wispr.html))
 
 2.  If you have an existing mission configuration file, skip to step 8. If you do not have one, download the [example configuration file](https://github.com/sfregosi/agate/blob/c07366e646cf799da088086068062dce681352c3/agate/settings/agate_config_example.cnf) and complete the following steps to edit it
 
@@ -56,12 +56,6 @@ format: html
 4.  Navigate to your directory of flac files and click ‘Select Folder’
 
 5.  Use 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)
-
-## Post Mission Processing
-
-1.  Follow the Agate methods [here](https://sfregosi.github.io/agate/mission-processing.html#plot-multiple-glider-tracks) to run post-mission processing.
-    -   This includes extracting sampling locations and environmental data, assessing acoustic effort, creating summary tables, and plotting the glider paths.
-2.  Create a Mission Report using [this template](https://docs.google.com/document/d/1n_gStQKpFswIsa8mMzGJQ2-xDK0fJE_6092rQl4_PAo/edit?usp=sharing). Save the report to ... (TBD)
 
 ## Update Deployment Tracker Spreadsheet
 

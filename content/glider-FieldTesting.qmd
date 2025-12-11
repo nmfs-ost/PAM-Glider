@@ -1,0 +1,13 @@
+---
+title: Field Testing
+---
+
+While PAM equipped gliders have been extensively used for specific survey needs, they are also rapidly evolving and require extensive expertise for successful adoption to address additional survey needs. A fundamental requirement to developing a sustainable transition to operations plan for NOAA Fisheries necessarily includes a series of field tests.
+
+Our field testing includes:
+
+1.   [Local Sea Trials](https://nmfs-ost.github.io/PAM-Glider/content/glider-LocalFieldTesting.html) to field test individual gliders to ensure functionality
+
+2.  [Glider Rodeo](https://nmfs-ost.github.io/PAM-Glider/content/glider-rodeo.html) to assess the strengths and limitations of different PAM-Glider platforms and sensors
+
+3.  [Concurrent Ship & Glider Surveys](https://nmfs-ost.github.io/PAM-Glider/content/shipSurveys.html) to collect data for developing advanced statistical methods to assess marine mammal populations using PAM-gliders and to better understand how these methods can augment shipboard surveys.
