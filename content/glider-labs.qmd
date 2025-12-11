@@ -5,7 +5,7 @@ format: html
 
 ## NOAA Fisheries glider labs
 
-[**PIFSC PSD (Protected Species Division) Glider Lab**](https://stunning-adventure-z2nw12l.pages.github.io/)  
+[**PIFSC PSD (Protected Species Division) Glider Lab**](https://noaa-pifsc.github.io/glider-lab)  
 Honolulu, HI  
 *GitHub Enterprise account required to view*
 

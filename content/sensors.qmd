@@ -30,6 +30,9 @@ Seagliders, and recent integration with Slocum gliders is undergoing testing.
 
 WISPR3 resources can be found [here](https://github.com/embeddedocean/wispr3).
 
+Additional resources installing and operating the WISPR system on Seagliders can
+be found at the [PIFSC Glider Lab WISPR page](https://noaa-pifsc.github.io/glider-lab/wispr.html). 
+
 ::: columns
 ::: {.column width="80%}
 
