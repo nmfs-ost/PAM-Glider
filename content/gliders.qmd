@@ -2,7 +2,7 @@
 title: Gliders
 ---
 
-The primary contemporary gliders with PAM capacity include Slocum, Seagliders, Ocean Scout, and SeaExporer. We understand that technology is rapidly changing, and even if we are unable to directly include additional platforms, we hope to learn more about technologies currently in development. In addition, there may be (unfunded) opportunities for including alternative platforms within the Glider Rodeo effort (Please see section on 'Inquiries').
+The primary contemporary gliders with PAM capacity include Slocum, Seagliders, Oceanscout, and SeaExporer. We understand that technology is rapidly changing, and even if we are unable to directly include additional platforms, we hope to learn more about technologies currently in development. In addition, there may be (unfunded) opportunities for including alternative platforms within the Glider Rodeo effort (Please see section on 'Inquiries').
 
 ## Slocum Gliders (Teledyne Webb) ![](images/SlocumGlider.jpg){width="97"}
 
@@ -12,9 +12,9 @@ NOAA's Southwest Fisheries Science Center began deploying Slocum gliders to stud
 
 [Seagliders](https://iop.apl.washington.edu/seaglider.php){target="_blank"}  are buoyancy driven autonomous underwater vehicles developed at the University of Washington. Through a partnership with Dave Mellinger at Oregon State University, NOAA researchers at Pacific Islands Fisheries Science Center has been testing the passive acoustic capabilities of these gliders to conduct marine mammal monitoring off Hawaiʻi. They will continue this collaboration in 2025 as PIFSC builds out their own glider lab with Seagliders with onboard [WISPR](https://embeddedocean.com/passive-acoustics-2/){target="_blank"}  acoustic processors. Seaglider support resources can be found [here](https://iop.apl.washington.edu/iopsg/){target="_blank"} , and WISPR 2.0 specifications can be found [here](https://embeddedocean.com/wispr-v2-0/){target="_blank"} . *Note that WISPR 3.0 is under development.*
 
-## Ocean Scout (Hefring) ![](images/HefringGlider.jpg){width="149"}
+## Oceanscout (Hefring) ![](images/HefringGlider.jpg){width="149"}
 
-The [Ocean Scout](https://www.hefring.com/oceanscout){target="_blank"} is a small glider developed as a 'user friendly' PAM-equipped glider. They are much smaller and require less training and expertise to use. Southwest Fisheries Science Center has procured two Ocean Scouts for testing and for specific scientific research efforts. The Ocean Scout specifications can be found [here](https://cdn2.assets-servd.host/hefring-engineering/production/dist/assets/PDFs/combined-base-and-pam.pdf?dm=1707500641).
+The [Oceanscout](https://www.hefring.com/oceanscout){target="_blank"} is a small glider developed as a 'user friendly' PAM-equipped glider. They are much smaller and require less training and expertise to use. Southwest Fisheries Science Center has procured two Oceanscouts for testing and for specific scientific research efforts. The Oceanscout specifications can be found [here](https://cdn2.assets-servd.host/hefring-engineering/production/dist/assets/PDFs/combined-base-and-pam.pdf?dm=1707500641).
 
 ## SeaExplorer (Alseamar) ![](images/alsemarGlider.png){width="247"}
 
