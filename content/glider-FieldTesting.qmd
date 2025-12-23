@@ -11,3 +11,11 @@ Our field testing includes:
 2.  [Glider Rodeo](https://nmfs-ost.github.io/PAM-Glider/content/glider-rodeo.html) to assess the strengths and limitations of different PAM-Glider platforms and sensors
 
 3.  [Concurrent Ship & Glider Surveys](https://nmfs-ost.github.io/PAM-Glider/content/shipSurveys.html) to collect data for developing advanced statistical methods to assess marine mammal populations using PAM-gliders and to better understand how these methods can augment shipboard surveys.
+
+# Deployment Tracker
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTPI-3uRxrq3h9f0C1DLAHUVDzpRsHuQDGbjZHOCckjuP2yLr-II1muMCTCFvpn22OKmd2wM2pmU27j/pubhtml?gid=1944379023&amp;single=true&amp;widget=true&amp;headers=false" style="width:950px; height:500px; border: 2px solid black;">
+
+</iframe>
+
+[Spreadsheet to track current and completed deployments](https://docs.google.com/spreadsheets/d/1MzLF2bmLcWy9u6glj3hu6Q1DINr5-NeJPCuBQgy-LZU/edit?usp=sharing). Link for NOAA personnel (password protected)
