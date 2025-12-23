@@ -238,7 +238,7 @@
     "href": "content/glider-LocalFieldTesting.html",
     "title": "Local Sea Trials",
     "section": "",
-    "text": "In-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices (including WHOI DMONs) and how these choices may vary based on regional differences in assessment needs and oceanographic realities. (supported by the UxS Plankton to Whales Project and PAM SI).",
+    "text": "In-water instrumentation testing of newly installed or aquired PAM glider systems to test operational settings and modes and assess data quality and glider-generated noise sources (supported by the UxS Plankton to Whales Project and PAM SI).",
     "crumbs": [
       "Field Testing",
       "Local Sea Trials"
@@ -249,7 +249,7 @@
     "href": "content/glider-LocalFieldTesting.html#unit_1024-20250224",
     "title": "Local Sea Trials",
     "section": "unit_1024-20250224",
-    "text": "unit_1024-20250224\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "text": "unit_1024-20250224\nSlocum with WISPR. Intial engineering test.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
     "crumbs": [
       "Field Testing",
       "Local Sea Trials"
@@ -260,7 +260,7 @@
     "href": "content/glider-LocalFieldTesting.html#stenella-20250414",
     "title": "Local Sea Trials",
     "section": "stenella-20250414",
-    "text": "stenella-20250414\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "text": "stenella-20250414\nSlocum with WISPR. Two-week test of various WISPR settings resulting in some continous and some intermittent acoustic recordings with cycling of other Slocum sensors to diagnose noise sources.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
     "crumbs": [
       "Field Testing",
       "Local Sea Trials"
@@ -271,7 +271,7 @@
     "href": "content/glider-LocalFieldTesting.html#risso-20250414",
     "title": "Local Sea Trials",
     "section": "risso-20250414",
-    "text": "risso-20250414\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "text": "risso-20250414\nSlocum with DMON. Two-week test with continuous low-frequency and duty cycled high-frequency acoustic recordings and cycling of other Slocum sensors.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
     "crumbs": [
       "Field Testing",
       "Local Sea Trials"
@@ -282,7 +282,7 @@
     "href": "content/glider-LocalFieldTesting.html#elrond-20250908",
     "title": "Local Sea Trials",
     "section": "elrond-20250908",
-    "text": "elrond-20250908\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "text": "elrond-20250908\nOceanscout. Initial piloting test with continous high-frequency acoustic recordings.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
     "crumbs": [
       "Field Testing",
       "Local Sea Trials"
@@ -293,7 +293,7 @@
     "href": "content/sensors.html",
     "title": "PAM Sensors",
     "section": "",
-    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR (Wideband Intelligent Signal Processor and Recorder) is an acoustic processor developed by Embedded Ocean Systems and designed for limited space and low power, with options for customized applications. WISPR are currently used on Seagliders, and recent integration with Slocum gliders is undergoing testing.\nWISPR3 resources can be found here.\nThe Digital MONitor (DMON) was developed by Woods Hole Oceanographic Institute and have been integrated on Slocum gliders and have been used with Seagliders. The current iteration of DMON has limited capacity for high frequency recording, but expansion of this capacity to improve storage capacity is under development.",
+    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR (Wideband Intelligent Signal Processor and Recorder) is an acoustic processor developed by Embedded Ocean Systems and designed for limited space and low power, with options for customized applications. WISPR are currently used on Seagliders, and recent integration with Slocum gliders is undergoing testing.\nWISPR3 resources can be found here.\nAdditional resources installing and operating the WISPR system on Seagliders can be found at the PIFSC Glider Lab WISPR page.\nThe Digital MONitor (DMON) was developed by Woods Hole Oceanographic Institute and have been integrated on Slocum gliders and have been used with Seagliders. The current iteration of DMON has limited capacity for high frequency recording, but expansion of this capacity to improve storage capacity is under development.",
     "crumbs": [
       "Resources",
       "Sensors"
@@ -397,7 +397,7 @@
     "href": "content/glider-FieldTesting.html",
     "title": "Field Testing",
     "section": "",
-    "text": "While PAM equipped gliders have been extensively used for specific survey needs, they are also rapidly evolving and require extensive expertise for successful adoption to address additional survey needs. A fundamental requirement to developing a sustainable transition to operations plan for NOAA Fisheries necessarily includes a series of field tests.\nOur field testing includes:\n\nLocal Sea Trials to field test individual gliders to ensure functionality\nGlider Rodeo to assess the strengths and limitations of different PAM-Glider platforms and sensors\nConcurrent Ship & Glider Surveys to collect data for developing advanced statistical methods to assess marine mammal populations using PAM-gliders and to better understand how these methods can augment shipboard surveys.",
+    "text": "While PAM equipped gliders have been extensively used for specific survey needs, they are also rapidly evolving and require extensive expertise for successful adoption to address additional survey needs. A fundamental requirement to developing a sustainable transition to operations plan for NOAA Fisheries necessarily includes a series of field tests.\nOur field testing includes:\n\nLocal Sea Trials to field test individual gliders to ensure functionality\nGlider Rodeo to assess the strengths and limitations of different PAM-Glider platforms and sensors\nConcurrent Ship & Glider Surveys to collect data for developing advanced statistical methods to assess marine mammal populations using PAM-gliders and to better understand how these methods can augment shipboard surveys.\n\n\nDeployment Tracker\n\n\nSpreadsheet to track current and completed deployments. Link for NOAA personnel (password protected)",
     "crumbs": [
       "Field Testing"
     ]
@@ -450,7 +450,7 @@
     "href": "content/gliders.html",
     "title": "Gliders",
     "section": "",
-    "text": "The primary contemporary gliders with PAM capacity include Slocum, Seagliders, Ocean Scout, and SeaExporer. We understand that technology is rapidly changing, and even if we are unable to directly include additional platforms, we hope to learn more about technologies currently in development. In addition, there may be (unfunded) opportunities for including alternative platforms within the Glider Rodeo effort (Please see section on ‘Inquiries’).",
+    "text": "The primary contemporary gliders with PAM capacity include Slocum, Seagliders, Oceanscout, and SeaExporer. We understand that technology is rapidly changing, and even if we are unable to directly include additional platforms, we hope to learn more about technologies currently in development. In addition, there may be (unfunded) opportunities for including alternative platforms within the Glider Rodeo effort (Please see section on ‘Inquiries’).",
     "crumbs": [
       "Resources",
       "Gliders"
@@ -479,11 +479,11 @@
     ]
   },
   {
-    "objectID": "content/gliders.html#ocean-scout-hefring",
-    "href": "content/gliders.html#ocean-scout-hefring",
+    "objectID": "content/gliders.html#oceanscout-hefring",
+    "href": "content/gliders.html#oceanscout-hefring",
     "title": "Gliders",
-    "section": "Ocean Scout (Hefring) ",
-    "text": "Ocean Scout (Hefring) \nThe Ocean Scout is a small glider developed as a ‘user friendly’ PAM-equipped glider. They are much smaller and require less training and expertise to use. Southwest Fisheries Science Center has procured two Ocean Scouts for testing and for specific scientific research efforts. The Ocean Scout specifications can be found here.",
+    "section": "Oceanscout (Hefring) ",
+    "text": "Oceanscout (Hefring) \nThe Oceanscout is a small glider developed as a ‘user friendly’ PAM-equipped glider. They are much smaller and require less training and expertise to use. Southwest Fisheries Science Center has procured two Oceanscouts for testing and for specific scientific research efforts. The Oceanscout specifications can be found here.",
     "crumbs": [
       "Resources",
       "Gliders"
