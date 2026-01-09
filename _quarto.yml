@@ -15,7 +15,7 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/7/79/NOAA_logo.svg"
     favicon: favicon.ico
     pinned: true
     align: center
