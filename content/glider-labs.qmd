@@ -6,8 +6,7 @@ format: html
 ## NOAA Fisheries glider labs
 
 [**PIFSC PSD (Protected Species Division) Glider Lab**](https://noaa-pifsc.github.io/glider-lab)  
-Honolulu, HI  
-*GitHub Enterprise account required to view*
+Honolulu, HI
 
 [**SWFSC ESD (Ecosystem Science Division) Glider Lab**](https://swfsc.github.io/glider-lab-manual/)  
 La Jolla, CA  
