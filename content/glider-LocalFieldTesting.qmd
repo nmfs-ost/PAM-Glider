@@ -25,7 +25,7 @@ To-do
 Slocum with WISPR. Two-week test of various WISPR settings resulting in some continous and some intermittent acoustic recordings with cycling of other Slocum sensors to diagnose noise sources.
 
 ### [SWFSC Glider Lab Deployment Summary](https://docs.google.com/document/d/1JWkHtAoQar3fr0TLmKJT9VI5O5IqFkpEw4G_07ZFRts/edit?tab=t.0)
-### [Acoustic Data Assessment](https://docs.google.com/document/d/17Tu1QX2XrTTKTicmKIXhrJO86YwIlDjTwo5DGiNWbMk/edit?tab=t.0#heading=h.8h8jgpqjpia7)
+### [Acoustic Data Assessment](https://docs.google.com/document/d/17Tu1QX2XrTTKTicmKIXhrJO86YwIlDjTwo5DGiNWbMk/edit?tab=t.0#heading=h.l1yk3lbyn1p1)
 ### Summary 
 To-do
 
@@ -33,7 +33,7 @@ To-do
 Slocum with DMON. Two-week test with continuous low-frequency and duty cycled high-frequency acoustic recordings and cycling of other Slocum sensors. 
 
 ### [SWFSC Glider Lab Deployment Summary](https://docs.google.com/document/d/11aBBLY6xJhdd2vDwuhdBLK3SVcPaqnxbkMR-Fn0rgy0/edit?tab=t.0)
-### [Acoustic Data Assessment](https://docs.google.com/document/d/17Tu1QX2XrTTKTicmKIXhrJO86YwIlDjTwo5DGiNWbMk/edit?tab=t.0#heading=h.l1yk3lbyn1p1)
+### [Acoustic Data Assessment](https://docs.google.com/document/d/17Tu1QX2XrTTKTicmKIXhrJO86YwIlDjTwo5DGiNWbMk/edit?tab=t.0#heading=h.8h8jgpqjpia7)
 ### Summary 
 To-do
 
@@ -41,6 +41,6 @@ To-do
 Oceanscout. Initial piloting test with continous high-frequency acoustic recordings. 
 
 ### [SWFSC Glider Lab Deployment Summary](https://docs.google.com/document/d/1TkiaCJAuFGLfH1TDVV5Bh11jLWTybSc2HVcEjNRzOLc/edit?tab=t.0)
-### [Acoustic Data Assessment]()
+### [Acoustic Data Assessment](https://docs.google.com/document/d/17Tu1QX2XrTTKTicmKIXhrJO86YwIlDjTwo5DGiNWbMk/edit?tab=t.0#heading=h.tc6w7oiwh83h)
 ### Summary 
 To-do
