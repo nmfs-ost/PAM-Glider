@@ -83,7 +83,7 @@ website:
         text: Presentations & Publications
       - href: content/contact.qmd
         text: Contact Us
-      # - href: content/data_processing/test.qmd
+
 
 format:
   html:
@@ -94,6 +94,7 @@ format:
     code-overflow: wrap
     toc: true
     link-external-newwindow: true
+    page-layout: full
 
 
 filters:

@@ -4,3 +4,86 @@
 
 $font-family: "Atkinson Hyperlegible", sans-serif;
 
+
+/* === Two-column layout === */
+.page-columns {
+  max-width: none !important;
+  margin: 0;
+}
+
+.page-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+/* Main content behaves normally */
+.main-content {
+  min-width: 0;
+}
+
+/* Right-hand scrollable sidebar */
+.media-sidebar {
+  position: sticky;
+  top: 1rem;
+  height: calc(100vh - 2rem);
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+/* Nice scrollbar on desktop */
+.media-sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+.media-sidebar::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 6px;
+}
+
+/* === Media cards === */
+.media-card {
+  display: flex;
+  flex-direction: column;      /* stack image above text */
+  gap: 0.6rem;
+  margin-bottom: 1.25rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  overflow: hidden;           /* makes image respect rounded corners */
+  transition: 0.2s;
+}
+
+.media-card:hover {
+  background: #eef1f4;
+  transform: translateY(-2px);
+}
+
+/* Full-width thumbnail */
+.media-card img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;        /* keeps thumbnails consistent */
+  object-fit: cover;
+  display: block;
+}
+
+/* Text block */
+.media-card a {
+  padding: 0.75rem;
+  text-decoration: none;
+  color: inherit;
+  line-height: 1.25;
+  font-size: 0.95rem;
+}
+
+/* Mobile fallback */
+@media (max-width: 900px) {
+  .page-layout {
+    grid-template-columns: 1fr;
+  }
+  .media-sidebar {
+    height: auto;
+    position: relative;
+  }
+}
+
