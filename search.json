@@ -142,22 +142,22 @@
     ]
   },
   {
-    "objectID": "content/glider-rodeo.html#survey-logistics",
-    "href": "content/glider-rodeo.html#survey-logistics",
+    "objectID": "content/glider-rodeo.html#goal",
+    "href": "content/glider-rodeo.html#goal",
     "title": "Glider Rodeo",
-    "section": "Survey Logistics",
-    "text": "Survey Logistics\nNMFS will be carrying out performance testing across glider systems during a 2-week ‘glider rodeo’ planned for Hawaii in February 2026. A pre-designed survey path will provide for resampling of the same area by each glider platform over the 2 week effort. Glider performance and acoustic detection metrics will be measured for each system to enable comparison and inform future glider acquisitions and use by NMFS.\nNMFS-funded testing will include Slocum, Seaglider, OceanScout (Hefring) and SeaExplorer (Alseamar) platforms with DMONS2, WISPR, and Alseamar’s acoustic acquisition systems. Additional systems may be considered (assuming no additional costs).",
+    "section": "Goal",
+    "text": "Goal\nField testing of PAM-glider platforms to provide data-driven guidance on the capabilities of each system to (1) work in different operational environments and (2) address different research questions. This 2-week sea trial will be conducted off Oahu, Hawai’i in February 2026.",
     "crumbs": [
       "Field Testing",
       "Glider Rodeo"
     ]
   },
   {
-    "objectID": "content/glider-rodeo.html#metrics",
-    "href": "content/glider-rodeo.html#metrics",
+    "objectID": "content/glider-rodeo.html#approach",
+    "href": "content/glider-rodeo.html#approach",
     "title": "Glider Rodeo",
-    "section": "Metrics",
-    "text": "Metrics\nDuring the glider rodeo, we will identify and define a series of metrics to be calculated for each platform. These metrics will provide a means of comparison to identify strengths and limitations, as well as ranges of performance. The metrics include:\n\nOperational metrics: Measures related to active operations and routine functioning of the platform and systems (including glider platform, oceanographic sensors, battery/power, satellite transmissions, software interface, and glider piloting).\nPassive acoustic metrics: Measure related to assessing detection, classification, and localization of animals.\nSoundscape Metrics: Measures related to assessing ambient sound, including acoustic sensitivity/calibration, self-noise, available data, and ability to measure soundscape in hybrid millidecade. There is a natural crossover between soundscape and bioacoustics measures; soundscape metrics will be all PAM metrics not directly associated with animal sounds.\nResource metrics: measures of resources (personnel, expertise, equipment, materials, time, budget) needed to implement the technology.\n\nWe are actively working with experts to develop a suite of metrics that provide a means of assessing each platform that can be completed with the available resources. We will make these metrics (including their definition) publicly accessible here when they are available.",
+    "section": "Approach",
+    "text": "Approach\nWe will collect comparable data (at the same time and place) during the 2-week sea trial to assess several glider capabilities. We will conduct several mission modes, with each mode serving as an in-situ experiment for assessing piloting strategies and impacts on navigation, endurance, and noise. Modes include:\n\nOptimize to survey coverage\nOptimize for low noise\nIntermediate approach to survey coverage and noise reduction\nDrifting (Quiet Mode)\n\n\nPiloting: To achieve mission goals, different gliders may have different approaches, advantages, and limitations. These approaches may have differing impacts on other critical components (navigation, endurance, noise). Also, each glider platform has a unique approach to piloting requiring different levels of expertise and abilities to modify a mission.\nNavigation: Different platforms vary in their ability to overcome challenges due to currents and navigating hazards. This may affect their suitability to work in certain environmental conditions, the survey area they can cover, flight efficiency and endurance, and the additional noise resulting from maintaining course (which reduces quality of acoustic data).\nEndurance: Primary endurance concerns are related to battery endurance (glider platform, environmental sensors, and PAM sensors) and PAM data storage. Survey modes provide a means of assessing power and storage endurance ranges under a variety of mission conditions to inform future survey planning.\nNoise: Our ability to use PAM gliders to effectively study specific species, anthropogenic noise, and/or the marine soundscape is necessarily dependent on interference by self-noise produced by the glider platform and its components. For each glider, we will study the source of each noise identified and the degree to which these noise sources interfere with study objectives.\n\nAdditional details on the [Glider Rodeo](https://nmfs-ost.github.io/PAM-Glider/content/glider-rodeo.html) will be updated on our [PAM-Glider site](https://nmfs-ost.github.io/PAM-Glider/).",
     "crumbs": [
       "Field Testing",
       "Glider Rodeo"
