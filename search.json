@@ -142,11 +142,22 @@
     ]
   },
   {
-    "objectID": "content/glider-rodeo.html#goal",
-    "href": "content/glider-rodeo.html#goal",
+    "objectID": "content/glider-rodeo.html#goals",
+    "href": "content/glider-rodeo.html#goals",
     "title": "Glider Rodeo",
-    "section": "Goal",
-    "text": "Goal\nField testing of PAM-glider platforms to provide data-driven guidance on the capabilities of each system to (1) work in different operational environments and (2) address different research questions. This 2-week sea trial will be conducted off Oahu, Hawai’i in February 2026.",
+    "section": "Goals",
+    "text": "Goals\nAccelerate the use of uncrewed vessels (UxS) to decrease dependence on large scale ship surveys. PAM-Gliders provide an opportunity to assess populations of marine mammals (protected species) and the environment to augment existing shipboard surveys.",
+    "crumbs": [
+      "Field Testing",
+      "Glider Rodeo"
+    ]
+  },
+  {
+    "objectID": "content/glider-rodeo.html#objectives",
+    "href": "content/glider-rodeo.html#objectives",
+    "title": "Glider Rodeo",
+    "section": "Objectives",
+    "text": "Objectives\nField testing of PAM-glider platforms to provide data-driven guidance on the capabilities of each system to (1) work in different operational environments and (2) address different research questions. This 2-week sea trial will be conducted off Oahu, Hawai’i in February 2026.",
     "crumbs": [
       "Field Testing",
       "Glider Rodeo"
@@ -157,7 +168,7 @@
     "href": "content/glider-rodeo.html#approach",
     "title": "Glider Rodeo",
     "section": "Approach",
-    "text": "Approach\nWe will collect comparable data (at the same time and place) during the 2-week sea trial to assess several glider capabilities. We will conduct several mission modes, with each mode serving as an in-situ experiment for assessing piloting strategies and impacts on navigation, endurance, and noise. Modes include:\n\nOptimize to survey coverage\nOptimize for low noise\nIntermediate approach to survey coverage and noise reduction\nDrifting (Quiet Mode)\n\n\nPiloting: To achieve mission goals, different gliders may have different approaches, advantages, and limitations. These approaches may have differing impacts on other critical components (navigation, endurance, noise). Also, each glider platform has a unique approach to piloting requiring different levels of expertise and abilities to modify a mission.\nNavigation: Different platforms vary in their ability to overcome challenges due to currents and navigating hazards. This may affect their suitability to work in certain environmental conditions, the survey area they can cover, flight efficiency and endurance, and the additional noise resulting from maintaining course (which reduces quality of acoustic data).\nEndurance: Primary endurance concerns are related to battery endurance (glider platform, environmental sensors, and PAM sensors) and PAM data storage. Survey modes provide a means of assessing power and storage endurance ranges under a variety of mission conditions to inform future survey planning.\nNoise: Our ability to use PAM gliders to effectively study specific species, anthropogenic noise, and/or the marine soundscape is necessarily dependent on interference by self-noise produced by the glider platform and its components. For each glider, we will study the source of each noise identified and the degree to which these noise sources interfere with study objectives.\n\nAdditional details on the [Glider Rodeo](https://nmfs-ost.github.io/PAM-Glider/content/glider-rodeo.html) will be updated on our [PAM-Glider site](https://nmfs-ost.github.io/PAM-Glider/).",
+    "text": "Approach\nWe will collect comparable data (at the same time and place) during the 2-week sea trial to assess several glider capabilities. Gliders will transit tracklines with a ‘Figure 8’ design, while conducting several mission modes, with each mode serving as an in-situ experiment for assessing piloting strategies and impacts on navigation, endurance, and noise. Modes include:\n\nOptimize to survey coverage\nOptimize for low noise\nIntermediate approach to survey coverage and noise reduction\nDrifting (Quiet Mode)\n\n\nPiloting: To achieve mission goals, different gliders may have different approaches, advantages, and limitations. These approaches may have differing impacts on other critical components (navigation, endurance, noise). Also, each glider platform has a unique approach to piloting requiring different levels of expertise and abilities to modify a mission.\nNavigation: Different platforms vary in their ability to overcome challenges due to currents and navigating hazards. This may affect their suitability to work in certain environmental conditions, the survey area they can cover, flight efficiency and endurance, and the additional noise resulting from maintaining course (which reduces quality of acoustic data).\nEndurance: Primary endurance concerns are related to battery endurance (glider platform, environmental sensors, and PAM sensors) and PAM data storage. Survey modes provide a means of assessing power and storage endurance ranges under a variety of mission conditions to inform future survey planning.\nNoise: Our ability to use PAM gliders to effectively study specific species, anthropogenic noise, and/or the marine soundscape is necessarily dependent on interference by self-noise produced by the glider platform and its components. For each glider, we will study the source of each noise identified and the degree to which these noise sources interfere with study objectives.\n\nThe Glider Rodeo will include glider teams from Pacific Islands Fisheries Science Center, Southwest Fisheries Science Center as well as academic partners (Oregon State University, Cornell University) and industry partners (Alseamar, Teledyne, and Jasco). For more information, see links to Glider Platformsand PAM Sensors. The Glider Rodeo is part of a larger effort to develop a Transition to Operations plan for PAM-Gliders. For more information on these larger efforts, visit our PAM-Glider site.\n\n\n\nGlider Rodeo draft figure-8 tracklines planned for offshore Hawaii.",
     "crumbs": [
       "Field Testing",
       "Glider Rodeo"
