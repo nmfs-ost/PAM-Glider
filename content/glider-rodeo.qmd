@@ -16,20 +16,28 @@ editor:
 :::
 :::::
 
-## Goal 
+## Goals
+
+Accelerate the use of uncrewed vessels (UxS) to decrease dependence on
+large scale ship surveys. PAM-Gliders provide an opportunity to assess
+populations of marine mammals (protected species) and the environment to
+augment existing shipboard surveys.
+
+## Objectives
 
 Field testing of PAM-glider platforms to provide data-driven guidance on
 the capabilities of each system to (1) work in different operational
 environments and (2) address different research questions. This 2-week
 sea trial will be conducted off Oahu, Hawai’i in February 2026.
 
-## Approach 
+## Approach
 
 We will collect comparable data (at the same time and place) during the
-2-week sea trial to assess several glider capabilities. We will conduct
-several mission modes, with each mode serving as an in-situ experiment
-for assessing piloting strategies and impacts on navigation, endurance,
-and noise. Modes include:
+2-week sea trial to assess several glider capabilities. Gliders will
+transit tracklines with a 'Figure 8' design, while conducting several
+mission modes, with each mode serving as an in-situ experiment for
+assessing piloting strategies and impacts on navigation, endurance, and
+noise. Modes include:
 
 -   Optimize to survey coverage
 
@@ -66,7 +74,18 @@ and noise. Modes include:
     study the source of each noise identified and the degree to which
     these noise sources interfere with study objectives.
 
-Additional details on the \[Glider
-Rodeo\](<https://nmfs-ost.github.io/PAM-Glider/content/glider-rodeo.html>)
-will be updated on our \[PAM-Glider
-site\](<https://nmfs-ost.github.io/PAM-Glider/>).
+The Glider Rodeo will include glider teams from Pacific Islands
+Fisheries Science Center, Southwest Fisheries Science Center as well as
+academic partners (Oregon State University, Cornell University) and
+industry partners (Alseamar, Teledyne, and Jasco). For more information,
+see links to [Glider
+Platforms](https://nmfs-ost.github.io/PAM-Glider/content/gliders.html)and
+[PAM
+Sensors](https://nmfs-ost.github.io/PAM-Glider/content/sensors.html).
+The Glider Rodeo is part of a larger effort to develop a Transition to
+Operations plan for PAM-Gliders. For more information on these larger
+efforts, visit our [PAM-Glider
+site](https://nmfs-ost.github.io/PAM-Glider/).
+
+![Glider Rodeo draft figure-8 tracklines planned for offshore
+Hawaii.](images/GliderRodeoHawaii.png)
