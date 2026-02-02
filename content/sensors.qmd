@@ -68,7 +68,7 @@ The
 acoustic processing system is a proprietary system developed for the
 Alseamar SeaExplorer glider. It can accommodate up to 4 channels with embedded processing capabilities for detection, classification, and beamforming. 
 
-::: columns
+::::: columns
 ::: {.column width="\"80%"}
 
 ## OceanObserver
@@ -77,6 +77,6 @@ Alseamar SeaExplorer glider. It can accommodate up to 4 channels with embedded p
 ::: {.column width="\"20%"}
 ![](images/jasco_observer.png){width="182"}
 :::
-:::
+:::::
 
 [Jasco's OceanObserver](https://www.jasco.com/oceanobserver) can accommodate up to 16 acoustic channels with onboard processing for detection, ambient noise, and ocean environmental measurements. The Ocean Observer will be used on a Teledyne Slocum glider. 
