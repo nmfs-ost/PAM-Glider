@@ -7,44 +7,41 @@ editor:
 
 Glider platforms can support one or more options for PAM sensors.
 Technology is rapidly developing, and we will be testing the following
-PAM Sensors: 
+PAM Sensors:
 
-::: columns 
-::: {.column width="80%}
-
+::::: columns
+::: {.column width="\"80%"}
 ## WISPR
-
-::: 
-::: {.column width="20%}
-
-![](images/wispr.jfif){width="100"} 
-
-::: 
 :::
+
+::: {.column width="\"20%"}
+![](images/wispr.jfif){width="100"}
+:::
+:::::
 
 [WISPR](https://embeddedocean.com/passive-acoustics-2/){target="_blank"}
-(Wideband Intelligent Signal Processor and Recorder) is an acoustic processor 
-developed by Embedded Ocean Systems and designed for limited space and low 
-power, with options for customized applications. WISPR are currently used on 
-Seagliders, and recent integration with Slocum gliders is undergoing testing.
+(Wideband Intelligent Signal Processor and Recorder) is an acoustic
+processor developed by Embedded Ocean Systems and designed for limited
+space and low power, with options for customized applications. WISPR are
+currently used on Seagliders, and recent integration with Slocum gliders
+is undergoing testing.
 
-WISPR3 resources can be found [here](https://github.com/embeddedocean/wispr3).
+WISPR3 resources can be found
+[here](https://github.com/embeddedocean/wispr3).
 
-Additional resources installing and operating the WISPR system on Seagliders can
-be found at the [PIFSC Glider Lab WISPR page](https://noaa-pifsc.github.io/glider-lab/wispr.html). 
+Additional resources installing and operating the WISPR system on
+Seagliders can be found at the [PIFSC Glider Lab WISPR
+page](https://noaa-pifsc.github.io/glider-lab/wispr.html).
 
-::: columns
-::: {.column width="80%}
-
+::::: columns
+::: {.column width="\"80%"}
 ## DMON
-
 :::
-::: {.column width="20%}
 
+::: {.column width="\"20%"}
 ![](images/dmon.png){width="200"}
-
-::: 
 :::
+:::::
 
 The Digital MONitor
 ([DMON](https://apps.dtic.mil/sti/tr/pdf/ADA617025.pdf)) was developed
@@ -55,9 +52,31 @@ The current iteration of DMON has limited capacity for high frequency
 recording, but expansion of this capacity to improve storage capacity is
 under development.
 
+::::: columns
+::: {.column width="80%} 
 ## Auris
+:::
+
+::: {.column width="\"20%"}
+![](images/auris.jpg){width="182"}
+
+:::
+::::: 
 
 The
 [Auris](https://www.alseamar-alcen.com/index.php/products/underwater-glider/seaexplorer){target="_blank"}
 acoustic processing system is a proprietary system developed for the
-Alseamar SeaExplorer glider.
+Alseamar SeaExplorer glider. It can accommodate up to 4 channels with embedded processing capabilities for detection, classification, and beamforming. 
+
+::: columns
+::: {.column width="\"80%"}
+
+## OceanObserver
+
+:::
+::: {.column width="\"20%"}
+![](images/jasco_observer.png){width="182"}
+:::
+:::
+
+[Jasco's OceanObserver](https://www.jasco.com/oceanobserver) can accommodate up to 16 acoustic channels with onboard processing for detection, ambient noise, and ocean environmental measurements. The Ocean Observer will be used on a Teledyne Slocum glider. 
