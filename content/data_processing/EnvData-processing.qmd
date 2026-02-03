@@ -5,7 +5,7 @@ format: html
 
 # Slocum
 
-[Link to ESD instructions](https://swfsc.github.io/glider-lab-manual/content/glider-data.html#data-products)
+[Link to ESD instructions](https://swfsc.github.io/glider-lab-manual/content/slocum-glider-data.html)
 
 # Seaglider
 
@@ -14,3 +14,4 @@ format: html
 # Hefring
 
 1.  Extract environmental data and oceanscout mission summaries from Hefring website
+  
