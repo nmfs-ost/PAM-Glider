@@ -304,7 +304,7 @@
     "href": "content/sensors.html",
     "title": "PAM Sensors",
     "section": "",
-    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR (Wideband Intelligent Signal Processor and Recorder) is an acoustic processor developed by Embedded Ocean Systems and designed for limited space and low power, with options for customized applications. WISPR are currently used on Seagliders, and recent integration with Slocum gliders is undergoing testing.\nWISPR3 resources can be found here.\nAdditional resources installing and operating the WISPR system on Seagliders can be found at the PIFSC Glider Lab WISPR page.\nThe Digital MONitor (DMON) was developed by Woods Hole Oceanographic Institute and have been integrated on Slocum gliders and have been used with Seagliders. The current iteration of DMON has limited capacity for high frequency recording, but expansion of this capacity to improve storage capacity is under development.",
+    "text": "Glider platforms can support one or more options for PAM sensors. Technology is rapidly developing, and we will be testing the following PAM Sensors:\nWISPR (Wideband Intelligent Signal Processor and Recorder) is an acoustic processor developed by Embedded Ocean Systems and designed for limited space and low power, with options for customized applications. WISPR are currently used on Seagliders, and recent integration with Slocum gliders is undergoing testing.\nWISPR3 resources can be found here.\nAdditional resources installing and operating the WISPR system on Seagliders can be found at the PIFSC Glider Lab WISPR page.\nThe Digital MONitor (DMON) was developed by Woods Hole Oceanographic Institute and have been integrated on Slocum gliders and have been used with Seagliders. The current iteration of DMON has limited capacity for high frequency recording, but expansion of this capacity to improve storage capacity is under development.\nThe Auris acoustic processing system is a proprietary system developed for the Alseamar SeaExplorer glider. It can accommodate up to 4 channels with embedded processing capabilities for detection, classification, and beamforming.\nJasco’s OceanObserver can accommodate up to 16 acoustic channels with onboard processing for detection, ambient noise, and ocean environmental measurements. The Ocean Observer will be used on a Teledyne Slocum glider.",
     "crumbs": [
       "Resources",
       "Sensors"
@@ -337,7 +337,18 @@
     "href": "content/sensors.html#auris",
     "title": "PAM Sensors",
     "section": "Auris",
-    "text": "Auris\nThe Auris acoustic processing system is a proprietary system developed for the Alseamar SeaExplorer glider.",
+    "text": "Auris",
+    "crumbs": [
+      "Resources",
+      "Sensors"
+    ]
+  },
+  {
+    "objectID": "content/sensors.html#oceanobserver",
+    "href": "content/sensors.html#oceanobserver",
+    "title": "PAM Sensors",
+    "section": "OceanObserver",
+    "text": "OceanObserver",
     "crumbs": [
       "Resources",
       "Sensors"
