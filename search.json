@@ -235,68 +235,83 @@
     ]
   },
   {
-    "objectID": "content/contact.html",
-    "href": "content/contact.html",
-    "title": "Contact Us",
+    "objectID": "content/gliderSoundscapes.html",
+    "href": "content/gliderSoundscapes.html",
+    "title": "Glider Soundscapes",
     "section": "",
-    "text": "To reach out with a question or comment, please reach out via the form link, below, and we will try to respond in a timely manner.\nContact Us Form",
+    "text": "Soundscape analysis is a valuable tool for assessing changes to the marine environment. Soundscape analysis is complicated by instrument noise, variable instrument depth, and other complications. We will investigate two methods for assessing soundscape (PyPAM and MANTA), and test these analyses on glider data to define best practices to use PAM-equipped gliders for soundscape analysis.",
     "crumbs": [
-      "Contact Us"
+      "Soundscapes"
     ]
   },
   {
-    "objectID": "content/glider-LocalFieldTesting.html",
-    "href": "content/glider-LocalFieldTesting.html",
-    "title": "Local Sea Trials",
+    "objectID": "content/glider-FieldTesting.html",
+    "href": "content/glider-FieldTesting.html",
+    "title": "Field Testing",
     "section": "",
-    "text": "In-water instrumentation testing of newly installed or aquired PAM glider systems to test operational settings and modes and assess data quality and glider-generated noise sources (supported by the UxS Plankton to Whales Project and PAM SI).",
+    "text": "While PAM equipped gliders have been extensively used for specific survey needs, they are also rapidly evolving and require extensive expertise for successful adoption to address additional survey needs. A fundamental requirement to developing a sustainable transition to operations plan for NOAA Fisheries necessarily includes a series of field tests.\nOur field testing includes:\n\nLocal Sea Trials to field test individual gliders to ensure functionality\nGlider Rodeo to assess the strengths and limitations of different PAM-Glider platforms and sensors\nConcurrent Ship & Glider Surveys to collect data for developing advanced statistical methods to assess marine mammal populations using PAM-gliders and to better understand how these methods can augment shipboard surveys.\n\n\nDeployment Tracker\n\n\nSpreadsheet to track current and completed deployments. Link for NOAA personnel (password protected)",
     "crumbs": [
-      "Field Testing",
-      "Local Sea Trials"
+      "Field Testing"
     ]
   },
   {
-    "objectID": "content/glider-LocalFieldTesting.html#unit_1024-20250224",
-    "href": "content/glider-LocalFieldTesting.html#unit_1024-20250224",
-    "title": "Local Sea Trials",
-    "section": "unit_1024-20250224",
-    "text": "unit_1024-20250224\nSlocum with WISPR. Intial engineering test.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "objectID": "content/infoSharing.html",
+    "href": "content/infoSharing.html",
+    "title": "Information Sharing",
+    "section": "",
+    "text": "What is Open Science? The goals of ‘Open Science’ are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see Open Science for more info).\nBelow we outline the ways in which our PAM-Glider program aims to embrace Open Science. This is a work in progress, and we welcome suggestions in how we can improve on these efforts.",
     "crumbs": [
-      "Field Testing",
-      "Local Sea Trials"
+      "Information Sharing"
     ]
   },
   {
-    "objectID": "content/glider-LocalFieldTesting.html#stenella-20250414",
-    "href": "content/glider-LocalFieldTesting.html#stenella-20250414",
-    "title": "Local Sea Trials",
-    "section": "stenella-20250414",
-    "text": "stenella-20250414\nSlocum with WISPR. Two-week test of various WISPR settings resulting in some continous and some intermittent acoustic recordings with cycling of other Slocum sensors to diagnose noise sources.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "objectID": "content/infoSharing.html#open-educational-resources",
+    "href": "content/infoSharing.html#open-educational-resources",
+    "title": "Information Sharing",
+    "section": "Open Educational Resources",
+    "text": "Open Educational Resources\n\nBioacoustics Stack Exchange\nStack Exchange is a network of question and answer websites on topics in diverse fields. The Bioacoustics Stack Exchange site was created by our PAM community, for our PAM community. Answers to questions are crowd-sourced from the community, and both questions and answers are archived and publicly accessible via the site or by a search engine. For more information, visit the Bioacoustics Stack Exchange.\n\n\nZotero Group Library\nZotero is a free, open-source reference management tool that helps users collect, organize, cite, and share research resources. A Zotero Group Library is a shared library that allows users to collaboration on research projects by sharing and managing references. We have developed the following Zotero Group Libraries to allow users to identify and share related references. To join and contribute references, first create a Zotero account and request to be a member. These libraries are by no means complete, and our intent is to build a collaborative resource for the broader community of researchers, students, and practitioners.\nPAM-Glider Group Library\nSoundscape Group Library",
     "crumbs": [
-      "Field Testing",
-      "Local Sea Trials"
+      "Information Sharing"
     ]
   },
   {
-    "objectID": "content/glider-LocalFieldTesting.html#risso-20250414",
-    "href": "content/glider-LocalFieldTesting.html#risso-20250414",
-    "title": "Local Sea Trials",
-    "section": "risso-20250414",
-    "text": "risso-20250414\nSlocum with DMON. Two-week test with continuous low-frequency and duty cycled high-frequency acoustic recordings and cycling of other Slocum sensors.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "objectID": "content/infoSharing.html#research-compendium",
+    "href": "content/infoSharing.html#research-compendium",
+    "title": "Information Sharing",
+    "section": "Research Compendium",
+    "text": "Research Compendium\nA research compendium is a collection of all the digital components related to a research project, including data, code, text (like protocols and reports), and metadata. A research compendium provides a comprehensive package that allows others to fully reproduce research findings by accessing all the elements involved in the study process.\nWe will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below. (Stay Tuned!)",
     "crumbs": [
-      "Field Testing",
-      "Local Sea Trials"
+      "Information Sharing"
     ]
   },
   {
-    "objectID": "content/glider-LocalFieldTesting.html#elrond-20250908",
-    "href": "content/glider-LocalFieldTesting.html#elrond-20250908",
-    "title": "Local Sea Trials",
-    "section": "elrond-20250908",
-    "text": "elrond-20250908\nOceanscout. Initial piloting test with continous high-frequency acoustic recordings.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "objectID": "content/infoSharing.html#open-data",
+    "href": "content/infoSharing.html#open-data",
+    "title": "Information Sharing",
+    "section": "Open Data",
+    "text": "Open Data\nNOAA Fisheries’ Passive Acoustics Data is archived at the National Centers for Environmental Information (NCEI) and archived data can be accessed via the NCEI Passive Acoustic Data web portal.\nDetection data for a subset of NOAA Fisheries data can be viewed at the Passive Acoustic Cetacaean Map (PACM), developed at Northeast Fisheries Science Center. At present, the bulk of these data are from the U.S. East Coast, but an expanded PACM is in development. More information can be found at the PACM website.",
     "crumbs": [
-      "Field Testing",
-      "Local Sea Trials"
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/analysis.html",
+    "href": "content/analysis.html",
+    "title": "Analysis Methods",
+    "section": "",
+    "text": "This section provides an overview of the data analysis processes for glider missions, from initial data offloading and processing to generating comprehensive mission summaries.\nClick on the links below for detailed methods and instructions for each process.\n\nAcoustic Data Pre-Processing: Instructions for handling raw acoustic data from various glider and sensor combinations\nEnvironmental Data Processing: Methods for extracting and processing environmental data collected during glider deployments\nDeployment Summaries: Guidelines for creating post-mission reports that include sampling locations, acoustic effort, and glider paths",
+    "crumbs": [
+      "Analysis Methods"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NOAA Fisheries PAM-Equipped Glider Research",
+    "section": "",
+    "text": "This project is a part of NOAA Fisheries PAM SI coordination\n\n\nPassive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.\nThis site provides updated information on these efforts.\n\nInformation provided here is ongoing, and is frequently updated.\n\n\nFeatured\n\n  Sound Bytes Blog: It’s a boat, it’s a plane, it’s a passive acoustic ocean glider! Selene Fregosi (PIFSC) explains how underwater gliders help us listen for whales! \n\n\n  Ocean Gliders Listen for Whales off Oregon in Test of New Ways to Count Them Passive acoustic monitoring by ‘gliders’ may better detect some species",
+    "crumbs": [
+      "Home"
     ]
   },
   {
@@ -355,84 +370,118 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NOAA Fisheries PAM-Equipped Glider Research",
+    "objectID": "content/glider-LocalFieldTesting.html",
+    "href": "content/glider-LocalFieldTesting.html",
+    "title": "Local Sea Trials",
     "section": "",
-    "text": "This project is a part of NOAA Fisheries PAM SI coordination\n\n\nPassive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.\nThis site provides updated information on these efforts.\n\nInformation provided here is ongoing, and is frequently updated.\n\n\nFeatured\n\n  Sound Bytes Blog: It’s a boat, it’s a plane, it’s a passive acoustic ocean glider! Selene Fregosi (PIFSC) explains how underwater gliders help us listen for whales! \n\n\n  Ocean Gliders Listen for Whales off Oregon in Test of New Ways to Count Them Passive acoustic monitoring by ‘gliders’ may better detect some species",
+    "text": "In-water instrumentation testing of newly installed or aquired PAM glider systems to test operational settings and modes and assess data quality and glider-generated noise sources (supported by the UxS Plankton to Whales Project and PAM SI).",
     "crumbs": [
-      "Home"
+      "Field Testing",
+      "Local Sea Trials"
     ]
   },
   {
-    "objectID": "content/analysis.html",
-    "href": "content/analysis.html",
-    "title": "Analysis Methods",
+    "objectID": "content/glider-LocalFieldTesting.html#unit_1024-20250224",
+    "href": "content/glider-LocalFieldTesting.html#unit_1024-20250224",
+    "title": "Local Sea Trials",
+    "section": "unit_1024-20250224",
+    "text": "unit_1024-20250224\nSlocum with WISPR. Intial engineering test.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "crumbs": [
+      "Field Testing",
+      "Local Sea Trials"
+    ]
+  },
+  {
+    "objectID": "content/glider-LocalFieldTesting.html#stenella-20250414",
+    "href": "content/glider-LocalFieldTesting.html#stenella-20250414",
+    "title": "Local Sea Trials",
+    "section": "stenella-20250414",
+    "text": "stenella-20250414\nSlocum with WISPR. Two-week test of various WISPR settings resulting in some continous and some intermittent acoustic recordings with cycling of other Slocum sensors to diagnose noise sources.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "crumbs": [
+      "Field Testing",
+      "Local Sea Trials"
+    ]
+  },
+  {
+    "objectID": "content/glider-LocalFieldTesting.html#risso-20250414",
+    "href": "content/glider-LocalFieldTesting.html#risso-20250414",
+    "title": "Local Sea Trials",
+    "section": "risso-20250414",
+    "text": "risso-20250414\nSlocum with DMON. Two-week test with continuous low-frequency and duty cycled high-frequency acoustic recordings and cycling of other Slocum sensors.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "crumbs": [
+      "Field Testing",
+      "Local Sea Trials"
+    ]
+  },
+  {
+    "objectID": "content/glider-LocalFieldTesting.html#elrond-20250908",
+    "href": "content/glider-LocalFieldTesting.html#elrond-20250908",
+    "title": "Local Sea Trials",
+    "section": "elrond-20250908",
+    "text": "elrond-20250908\nOceanscout. Initial piloting test with continous high-frequency acoustic recordings.\n\nSWFSC Glider Lab Deployment Summary\n\n\nAcoustic Data Assessment\n\n\nSummary\nTo-do",
+    "crumbs": [
+      "Field Testing",
+      "Local Sea Trials"
+    ]
+  },
+  {
+    "objectID": "content/contact.html",
+    "href": "content/contact.html",
+    "title": "Contact Us",
     "section": "",
-    "text": "This section provides an overview of the data analysis processes for glider missions, from initial data offloading and processing to generating comprehensive mission summaries.\nClick on the links below for detailed methods and instructions for each process.\n\nAcoustic Data Pre-Processing: Instructions for handling raw acoustic data from various glider and sensor combinations\nEnvironmental Data Processing: Methods for extracting and processing environmental data collected during glider deployments\nDeployment Summaries: Guidelines for creating post-mission reports that include sampling locations, acoustic effort, and glider paths",
+    "text": "To reach out with a question or comment, please reach out via the form link, below, and we will try to respond in a timely manner.\nContact Us Form",
     "crumbs": [
-      "Analysis Methods"
+      "Contact Us"
     ]
   },
   {
-    "objectID": "content/infoSharing.html",
-    "href": "content/infoSharing.html",
-    "title": "Information Sharing",
+    "objectID": "content/glider-rodeo-partners.html",
+    "href": "content/glider-rodeo-partners.html",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
     "section": "",
-    "text": "What is Open Science? The goals of ‘Open Science’ are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see Open Science for more info).\nBelow we outline the ways in which our PAM-Glider program aims to embrace Open Science. This is a work in progress, and we welcome suggestions in how we can improve on these efforts.",
-    "crumbs": [
-      "Information Sharing"
-    ]
+    "text": "The Cooperative Institute for Marine and Ecosystem Resources Studies (CIMERS) and Marine Mammal Institute (MMI) at Oregon State University are world leaders in marine mammal and bioacoustics research.\nThey were involved in some of the earliest development to use gliders for marine mammal passive acoustic research and have conducted glider missions in many ocean basins for the U.S. Navy, BOEM, and NOAA."
   },
   {
-    "objectID": "content/infoSharing.html#open-educational-resources",
-    "href": "content/infoSharing.html#open-educational-resources",
-    "title": "Information Sharing",
-    "section": "Open Educational Resources",
-    "text": "Open Educational Resources\n\nBioacoustics Stack Exchange\nStack Exchange is a network of question and answer websites on topics in diverse fields. The Bioacoustics Stack Exchange site was created by our PAM community, for our PAM community. Answers to questions are crowd-sourced from the community, and both questions and answers are archived and publicly accessible via the site or by a search engine. For more information, visit the Bioacoustics Stack Exchange.\n\n\nZotero Group Library\nZotero is a free, open-source reference management tool that helps users collect, organize, cite, and share research resources. A Zotero Group Library is a shared library that allows users to collaboration on research projects by sharing and managing references. We have developed the following Zotero Group Libraries to allow users to identify and share related references. To join and contribute references, first create a Zotero account and request to be a member. These libraries are by no means complete, and our intent is to build a collaborative resource for the broader community of researchers, students, and practitioners.\nPAM-Glider Group Library\nSoundscape Group Library",
-    "crumbs": [
-      "Information Sharing"
-    ]
-  },
-  {
-    "objectID": "content/infoSharing.html#research-compendium",
-    "href": "content/infoSharing.html#research-compendium",
-    "title": "Information Sharing",
-    "section": "Research Compendium",
-    "text": "Research Compendium\nA research compendium is a collection of all the digital components related to a research project, including data, code, text (like protocols and reports), and metadata. A research compendium provides a comprehensive package that allows others to fully reproduce research findings by accessing all the elements involved in the study process.\nWe will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below. (Stay Tuned!)",
-    "crumbs": [
-      "Information Sharing"
-    ]
-  },
-  {
-    "objectID": "content/infoSharing.html#open-data",
-    "href": "content/infoSharing.html#open-data",
-    "title": "Information Sharing",
-    "section": "Open Data",
-    "text": "Open Data\nNOAA Fisheries’ Passive Acoustics Data is archived at the National Centers for Environmental Information (NCEI) and archived data can be accessed via the NCEI Passive Acoustic Data web portal.\nDetection data for a subset of NOAA Fisheries data can be viewed at the Passive Acoustic Cetacaean Map (PACM), developed at Northeast Fisheries Science Center. At present, the bulk of these data are from the U.S. East Coast, but an expanded PACM is in development. More information can be found at the PACM website.",
-    "crumbs": [
-      "Information Sharing"
-    ]
-  },
-  {
-    "objectID": "content/glider-FieldTesting.html",
-    "href": "content/glider-FieldTesting.html",
-    "title": "Field Testing",
+    "objectID": "content/glider-rodeo-partners.html#oregon-state-university",
+    "href": "content/glider-rodeo-partners.html#oregon-state-university",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
     "section": "",
-    "text": "While PAM equipped gliders have been extensively used for specific survey needs, they are also rapidly evolving and require extensive expertise for successful adoption to address additional survey needs. A fundamental requirement to developing a sustainable transition to operations plan for NOAA Fisheries necessarily includes a series of field tests.\nOur field testing includes:\n\nLocal Sea Trials to field test individual gliders to ensure functionality\nGlider Rodeo to assess the strengths and limitations of different PAM-Glider platforms and sensors\nConcurrent Ship & Glider Surveys to collect data for developing advanced statistical methods to assess marine mammal populations using PAM-gliders and to better understand how these methods can augment shipboard surveys.\n\n\nDeployment Tracker\n\n\nSpreadsheet to track current and completed deployments. Link for NOAA personnel (password protected)",
-    "crumbs": [
-      "Field Testing"
-    ]
+    "text": "The Cooperative Institute for Marine and Ecosystem Resources Studies (CIMERS) and Marine Mammal Institute (MMI) at Oregon State University are world leaders in marine mammal and bioacoustics research.\nThey were involved in some of the earliest development to use gliders for marine mammal passive acoustic research and have conducted glider missions in many ocean basins for the U.S. Navy, BOEM, and NOAA."
   },
   {
-    "objectID": "content/gliderSoundscapes.html",
-    "href": "content/gliderSoundscapes.html",
-    "title": "Glider Soundscapes",
-    "section": "",
-    "text": "Soundscape analysis is a valuable tool for assessing changes to the marine environment. Soundscape analysis is complicated by instrument noise, variable instrument depth, and other complications. We will investigate two methods for assessing soundscape (PyPAM and MANTA), and test these analyses on glider data to define best practices to use PAM-equipped gliders for soundscape analysis.",
-    "crumbs": [
-      "Soundscapes"
-    ]
+    "objectID": "content/glider-rodeo-partners.html#cornell-university",
+    "href": "content/glider-rodeo-partners.html#cornell-university",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "section": "Cornell University",
+    "text": "Cornell University\n\nK. Lisa Yang Center for Conservation Bioacoustics\n\n\n\n\n\n\n\n\n\nMaria Vasilkin\nPiloting Hefring Engineering Oceanscout Glider\nMaria is a software engineer at the K. Lisa Yang Center for Conservation Bioacoustics. She develops software for marine and terrestrial recorders for passive acoustic monitoring. Maria has been testing the PAM system on the Hefring Oceanscout gliders since they first acquired them in 2023, with plans to use the gliders for cetacean and fish monitoring projects carried out by researchers at their center."
+  },
+  {
+    "objectID": "content/glider-rodeo-partners.html#teledyne-webb-research",
+    "href": "content/glider-rodeo-partners.html#teledyne-webb-research",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "section": "Teledyne Webb Research",
+    "text": "Teledyne Webb Research\nDevelop and manufacture Slocum Gliders\n\n\n\n\n\nKarl Boettger\nCustomer Support Application Engineer\nKarl has over 21 years of experience in the Marine tech Industry, dating back to the Webb Research Corporation before it was acquired by Teledyne in 2010. Karl worked his way up through the company starting in materials management, then spent over ten years as a manufacturing technician building and testing Slocum Gliders.\nIn 2020 Karl joined the glider support team and his favorite part of the job is interacting with customers and helping solve technical challenges. Karl has assisted in customer trainings, deployments, and glider repairs all over the world.\n\n\n\n\n\n\n\n\nShea Quinn\nSentinel Mission Project Lead\nShea has over 15 years of experience in the subsea and marine tech industry, the past 5 at Teledyne. Shea is responsible for driving the product line for the Slocum G3S and Sentinel gliders, and bringing the voice of customers to the engineering and development process within the company.\nShea came to Teledyne Webb Research from Lockheed Martin, where he worked primarily as an Engineering Project Manager and Engineering Field Support lead for a variety of autonomous and remotely-operated subsea vehicle projects. He earned his Bachelor of Science in Electrical Engineering and Mechatronics at Villanova University and a Masters of Engineering in Systems Engineering and Project Management from Cornell University.\n\n\n\n\n\n\n\n\nCordie Goodrich\nSlocum Glider Technical Support and Field Operations Manager\nCordie leads the Glider Support Team - providing customer training, testing new hardware and software, piloting, and supporting Slocum Glider users all over the world. Prior to joining the TWR team in 2020, Cordie was a Teledyne Slocum Glider customer – working at the Bermuda Institute of Ocean Sciences where she managed the Mid-Atlantic Glider Initiative and Collaboration (MAGIC) Lab.\nCordie spent a year with the University of California, Davis, doing Slocum Glider work in Lake Tahoe and Antarctica. She received her Bachelor of Mathematics from Washington College and a Master’s degree in Marine Studies from the University of Delaware"
+  },
+  {
+    "objectID": "content/glider-rodeo-partners.html#alseamar",
+    "href": "content/glider-rodeo-partners.html#alseamar",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "section": "ALSEAMAR",
+    "text": "ALSEAMAR\nDevelop and manufacture SEAEXPLORER Gliders\n\n\n\n\n\nCamille Pierini\nTechnical Team Leader\nCamille currently holds the position of Technical Team Leader, responsible for workload planning, team coordination, and ensuring the proper operation of the instrumentation fleet. He oversees maintenance, calibrations, equipment tracking, and the training of new team members. He also carries out service missions as a technician, ensuring high quality standards and timely reporting. In addition, he is involved in the operation and piloting of gliders, including their maintenance and the update of associated management tools.\n\n\n\n\n\n\n\n\nLaurent Beguery\nLaurent Beguery obtained his degree in Mechanical Design Engineering in 1998. During the first 15 years of his career, he worked at the French National Centre for Scientific Research (CNRS), where he initially designed underwater seismic measurement stations for the Institut de Physique du Globe de Paris (IPGP). In 2018, he continued his career at the Technical Division of the National Institute for Earth Sciences and Astronomy (DT-INSU), where he initiated the use of underwater gliders for oceanographic studies in France.\nIn 2014, he joined the company ALSEAMAR, where he continued the design and testing of the first SEAEXPLORER glider and, together with his team, led the first sales of gliders. In 2016, wishing to further develop the use of gliders, he created the service of scientific studies, enabling companies and research centers to benefit from data acquired at sea."
+  },
+  {
+    "objectID": "content/glider-rodeo-partners.html#jasco-applied-science",
+    "href": "content/glider-rodeo-partners.html#jasco-applied-science",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "section": "JASCO Applied Science",
+    "text": "JASCO Applied Science\n\n\n\n\n\n\n\n\nJASCO specializes in passive acoustic monitoring and autonomous ocean observing systems. The OceanObserver, integrated onto a Teledyne glider platform, is designed to support long-duration monitoring and research applications.\nIn addition to environmental and scientific use cases, the system also has potential applications in maritime surveillance, including persistent monitoring through passive acoustic detection and localization."
+  },
+  {
+    "objectID": "content/glider-rodeo-partners.html#university-of-hawaii-marine-center",
+    "href": "content/glider-rodeo-partners.html#university-of-hawaii-marine-center",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "section": "University of Hawaii Marine Center",
+    "text": "University of Hawaii Marine Center\nSpecial thanks to UH Marine Center for providing charter vessel support"
   },
   {
     "objectID": "content/shipSurveys.html",
