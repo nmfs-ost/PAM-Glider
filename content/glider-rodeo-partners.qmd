@@ -1,0 +1,209 @@
+---
+title: "Meet Our Glider Rodeo Academic and Industry Partners"
+format: html
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Oregon State University
+
+::::: columns
+::: {.column width="30%"}
+![](images/rodeo%20partners/OSU%20CIMERS%20logo.jpeg)
+
+![](images/rodeo%20partners/OSU-mmi.png)
+:::
+
+::: {.column width="70%"}
+The Cooperative Institute for Marine and Ecosystem Resources Studies
+(CIMERS) and Marine Mammal Institute (MMI) at Oregon State University
+are world leaders in marine mammal and bioacoustics research.
+
+They were involved in some of the earliest development to use gliders
+for marine mammal passive acoustic research and have conducted glider
+missions in many ocean basins for the U.S. Navy, BOEM, and NOAA.
+:::
+:::::
+
+## Cornell University
+
+### K. Lisa Yang Center for Conservation Bioacoustics
+
+::::: columns
+::: {.column width="40%"}
+![](images/rodeo%20partners/MariaVasilkinCornell.jpg){fig-align="center"
+width="213"}
+:::
+
+::: {.column width="60%"}
+### **Maria Vasilkin**
+
+Piloting [Hefring Engineering Oceanscout
+Glider](https://www.hefring.com/oceanscout)
+
+Maria is a software engineer at the K. Lisa Yang Center for Conservation
+Bioacoustics. She develops software for marine and terrestrial recorders
+for passive acoustic monitoring. Maria has been testing the PAM system
+on the Hefring Oceanscout gliders since they first acquired them in
+2023, with plans to use the gliders for cetacean and fish monitoring
+projects carried out by researchers at their center.
+:::
+:::::
+
+## Teledyne Webb Research
+
+Develop and manufacture [Slocum
+Gliders](https://www.teledynemarine.com/brands/webb-research/slocum-glider)
+
+::::: columns
+::: {.column width="30%"}
+![](images/clipboard-3596333303.png){width="183"}
+:::
+
+::: {.column width="70%"}
+### Karl Boettger
+
+*Customer Support Application Engineer*
+
+Karl has over 21 years of experience in the Marine tech Industry, dating
+back to the Webb Research Corporation before it was acquired by Teledyne
+in 2010. Karl worked his way up through the company starting in
+materials management, then spent over ten years as a manufacturing
+technician building and testing Slocum Gliders.
+
+In 2020 Karl joined the glider support team and his favorite part of the
+job is interacting with customers and helping solve technical
+challenges. Karl has assisted in customer trainings, deployments, and
+glider repairs all over the world.
+:::
+:::::
+
+::::: columns
+::: {.column width="30%"}
+![](images/clipboard-186293568.jpeg){width="176"}
+:::
+
+::: {.column width="70%"}
+### Shea Quinn
+
+*Sentinel Mission Project Lead*
+
+Shea has over 15 years of experience in the subsea and marine tech
+industry, the past 5 at Teledyne. Shea is responsible for driving the
+product line for the Slocum G3S and Sentinel gliders, and bringing the
+voice of customers to the engineering and development process within the
+company.
+
+Shea came to Teledyne Webb Research from Lockheed Martin, where he
+worked primarily as an Engineering Project Manager and Engineering Field
+Support lead for a variety of autonomous and remotely-operated subsea
+vehicle projects. He earned his Bachelor of Science in Electrical
+Engineering and Mechatronics at Villanova University and a Masters of
+Engineering in Systems Engineering and Project Management from Cornell
+University.
+:::
+:::::
+
+::::: columns
+::: {.column width="30%"}
+![](images/clipboard-1636662483.png){width="216"}
+:::
+
+::: {.column width="70%"}
+### Cordie Goodrich
+
+*Slocum Glider Technical Support and Field Operations Manager*
+
+Cordie leads the Glider Support Team - providing customer training,
+testing new hardware and software, piloting, and supporting Slocum
+Glider users all over the world. Prior to joining the TWR team in 2020,
+Cordie was a Teledyne Slocum Glider customer – working at the Bermuda
+Institute of Ocean Sciences where she managed the Mid-Atlantic Glider
+Initiative and Collaboration (MAGIC) Lab.
+
+Cordie spent a year with the University of California, Davis, doing
+Slocum Glider work in Lake Tahoe and Antarctica. She received her
+Bachelor of Mathematics from Washington College and a Master’s degree in
+Marine Studies from the University of Delaware
+:::
+:::::
+
+## ALSEAMAR
+
+Develop and manufacture [SEAEXPLORER
+Gliders](https://www.alseamar-alcen.com/ocean-science-sector/seaexplorer-gliders/)
+
+::::: columns
+::: {.column width="30%"}
+![](images/rodeo%20partners/CamillePieriniALSEAMAR.png){width="208"}
+:::
+
+::: {.column width="70%"}
+### Camille Pierini
+
+*Technical Team Leader*
+
+Camille currently holds the position of Technical Team Leader,
+responsible for workload planning, team coordination, and ensuring the
+proper operation of the instrumentation fleet. He oversees maintenance,
+calibrations, equipment tracking, and the training of new team members.
+He also carries out service missions as a technician, ensuring high
+quality standards and timely reporting. In addition, he is involved in
+the operation and piloting of gliders, including their maintenance and
+the update of associated management tools.
+:::
+:::::
+
+::::: columns
+::: {.column width="30%"}
+![](images/rodeo%20partners/LaurentBegueryALSEAMAR.jpg){width="264"}
+:::
+
+::: {.column width="70%"}
+### Laurent Beguery
+
+Laurent Beguery obtained his degree in Mechanical Design Engineering in
+1998. During the first 15 years of his career, he worked at the French
+National Centre for Scientific Research (CNRS), where he initially
+designed underwater seismic measurement stations for the Institut de
+Physique du Globe de Paris (IPGP). In 2018, he continued his career at
+the Technical Division of the National Institute for Earth Sciences and
+Astronomy (DT-INSU), where he initiated the use of underwater gliders
+for oceanographic studies in France.
+
+In 2014, he joined the company ALSEAMAR, where he continued the design
+and testing of the first SEAEXPLORER glider and, together with his team,
+led the first sales of gliders. In 2016, wishing to further develop the
+use of gliders, he created the service of scientific studies, enabling
+companies and research centers to benefit from data acquired at sea.
+:::
+:::::
+
+## JASCO Applied Science
+
+::::: columns
+::: {.column width="30%"}
+![](images/rodeo%20partners/JASCOLogo.png){fig-align="center"
+width="215"}
+:::
+
+::: {.column width="70%"}
+JASCO specializes in passive acoustic monitoring and autonomous ocean
+observing systems. The
+[OceanObserver](https://www.jasco.com/oceanobserver), integrated onto a
+[Teledyne glider
+platform](https://www.jasco.com/oceanobserver-slocum-glider), is
+designed to support long-duration monitoring and research applications.
+
+In addition to environmental and scientific use cases, the system also
+has potential applications in maritime surveillance, including
+persistent monitoring through passive acoustic detection and
+localization.
+:::
+:::::
+
+## University of Hawaii Marine Center
+
+Special thanks to [UH Marine Center](https://www.soest.hawaii.edu/UHMC/)
+for providing charter vessel support
