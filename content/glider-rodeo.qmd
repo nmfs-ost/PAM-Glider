@@ -6,15 +6,7 @@ editor:
     wrap: 72
 ---
 
-::::: columns
-::: {.column width="75%"}
-![](images/GliderRodeoText.JPG)
-:::
-
-::: {.column width="25%"}
-![](images/GliderRodeo.png)
-:::
-:::::
+## *(Underwater Glider Challenge)*
 
 ## Goals
 
