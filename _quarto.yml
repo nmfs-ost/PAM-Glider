@@ -57,8 +57,8 @@ website:
       #   text: Spatial Modeling
       - href: content/transitionPlan.qmd
         text: Transition Plan
-      # - href: content/p2w.qmd
-      #   text: Plankton to Whales
+      - href: content/p2w.qmd
+        text: Plankton to Whales
       - section: content/analysis.qmd
         contents: 
           - section: content/data_processing/AcousticData-preprocessing.qmd
