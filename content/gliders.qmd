@@ -6,7 +6,7 @@ The primary contemporary gliders with PAM capacity include Slocum, Seagliders, O
 
 ## Slocum Gliders (Teledyne Webb) ![](images/SlocumGlider.jpg){width="97"}
 
-NOAA's Southwest Fisheries Science Center began deploying Slocum gliders to study Antarctic krill in 2018, and in 2025 they will expand their glider program with PAM-equipped gliders to study marine mammals off the U.S. West coast. Slocum Gliders are modular, and two different PAM systems will be tested: the [DMON](https://apps.dtic.mil/sti/tr/pdf/ADA617025.pdf){target="_blank"} (developed by WHOI) and [WISPR](https://embeddedocean.com/passive-acoustics-2/){target="_blank"} (Embedded Ocean Systems).
+NOAA's Southwest Fisheries Science Center began deploying Slocum gliders to study Antarctic krill in 2018, and in 2025 they will expand their glider program with PAM-equipped gliders to study marine mammals off the U.S. West coast. Slocum Gliders are modular, and three different PAM systems will be tested: the [DMON](https://apps.dtic.mil/sti/tr/pdf/ADA617025.pdf){target="_blank"} (developed by WHOI) and [WISPR](https://embeddedocean.com/passive-acoustics-2/){target="_blank"} (Embedded Ocean Systems), and [OceanObserver](https://static1.squarespace.com/static/52aa2773e4b0f29916f46675/t/6845b40f81c09d69d27e3a8e/1749398546414/OceanObserver+Slocum+Glider+Brochure.pdf) ((JASCO Applied Sciences)[https://www.jasco.com/].
 
 ## Seagliders (U Washington) ![](images/seaGlider.jpg){width="114"}
 

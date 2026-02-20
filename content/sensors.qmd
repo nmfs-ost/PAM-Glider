@@ -53,30 +53,34 @@ recording, but expansion of this capacity to improve storage capacity is
 under development.
 
 ::::: columns
-::: {.column width="80%} 
+::: {.column width="\"80%"}
 ## Auris
 :::
 
 ::: {.column width="\"20%"}
 ![](images/auris.jpg){width="182"}
-
 :::
-::::: 
+:::::
 
 The
 [Auris](https://www.alseamar-alcen.com/index.php/products/underwater-glider/seaexplorer){target="_blank"}
 acoustic processing system is a proprietary system developed for the
-Alseamar SeaExplorer glider. It can accommodate up to 4 channels with embedded processing capabilities for detection, classification, and beamforming. 
+Alseamar SeaExplorer glider. It can accommodate up to 4 channels with
+embedded processing capabilities for detection, classification, and
+beamforming.
 
 ::::: columns
 ::: {.column width="\"80%"}
-
 ## OceanObserver
-
 :::
+
 ::: {.column width="\"20%"}
 ![](images/jasco_observer.png){width="182"}
 :::
 :::::
 
-[Jasco's OceanObserver](https://www.jasco.com/oceanobserver) can accommodate up to 16 acoustic channels with onboard processing for detection, ambient noise, and ocean environmental measurements. The Ocean Observer will be used on a Teledyne Slocum glider. 
+[[Jasco’s
+OceanObserver]{.underline}](https://www.jasco.com/oceanobserver "https://www.jasco.com/oceanobserver") can
+accommodate up to 16 acoustic channels with onboard processing for
+detection, ambient noise, and ocean environmental measurements. The
+Ocean Observer will be used on a Teledyne Slocum glider.
