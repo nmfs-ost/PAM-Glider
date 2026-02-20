@@ -1,138 +1,185 @@
 [
   {
-    "objectID": "content/gliderSoundscapes.html",
-    "href": "content/gliderSoundscapes.html",
-    "title": "Glider Soundscapes",
+    "objectID": "content/resources.html",
+    "href": "content/resources.html",
+    "title": "Resources",
     "section": "",
-    "text": "Soundscape analysis is a valuable tool for assessing changes to the marine environment. Soundscape analysis is complicated by instrument noise, variable instrument depth, and other complications. We will investigate two methods for assessing soundscape (PyPAM and MANTA), and test these analyses on glider data to define best practices to use PAM-equipped gliders for soundscape analysis.",
+    "text": "This section provides an overview of the key components of our program: the labs that manage our gliders, the different types of gliders we deploy, and the passive acoustic monitoring (PAM) sensors they carry.\nGlider Labs\nGliders Types\nPAM Sensors",
     "crumbs": [
-      "Soundscapes"
+      "Resources"
     ]
   },
   {
-    "objectID": "content/glider-rodeo-partners.html",
-    "href": "content/glider-rodeo-partners.html",
-    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "objectID": "content/data_processing/slocum-wispr3.html",
+    "href": "content/data_processing/slocum-wispr3.html",
+    "title": "Slocum - WISPR 3",
     "section": "",
-    "text": "The Cooperative Institute for Marine and Ecosystem Resources Studies (CIMERS) and Marine Mammal Institute (MMI) at Oregon State University are world leaders in marine mammal and bioacoustics research.\nThey were involved in some of the earliest development to use gliders for marine mammal passive acoustic research and have conducted glider missions in many ocean basins for the U.S. Navy, BOEM, and NOAA."
+    "text": "Glider techs: open Slocum glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
+    "crumbs": [
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing",
+      "Slocum - WISPR 3"
+    ]
   },
   {
-    "objectID": "content/glider-rodeo-partners.html#oregon-state-university",
-    "href": "content/glider-rodeo-partners.html#oregon-state-university",
-    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "objectID": "content/data_processing/slocum-wispr3.html#offload-data",
+    "href": "content/data_processing/slocum-wispr3.html#offload-data",
+    "title": "Slocum - WISPR 3",
     "section": "",
-    "text": "The Cooperative Institute for Marine and Ecosystem Resources Studies (CIMERS) and Marine Mammal Institute (MMI) at Oregon State University are world leaders in marine mammal and bioacoustics research.\nThey were involved in some of the earliest development to use gliders for marine mammal passive acoustic research and have conducted glider missions in many ocean basins for the U.S. Navy, BOEM, and NOAA."
+    "text": "Glider techs: open Slocum glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
+    "crumbs": [
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing",
+      "Slocum - WISPR 3"
+    ]
   },
   {
-    "objectID": "content/glider-rodeo-partners.html#cornell-university",
-    "href": "content/glider-rodeo-partners.html#cornell-university",
-    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
-    "section": "Cornell University",
-    "text": "Cornell University\n\nK. Lisa Yang Center for Conservation Bioacoustics\n\n\n\n\n\n\n\n\n\nMaria Vasilkin\nPiloting Hefring Engineering Oceanscout Glider\nMaria is a software engineer at the K. Lisa Yang Center for Conservation Bioacoustics. She develops software for marine and terrestrial recorders for passive acoustic monitoring. Maria has been testing the PAM system on the Hefring Oceanscout gliders since they first acquired them in 2023, with plans to use the gliders for cetacean and fish monitoring projects carried out by researchers at their center."
+    "objectID": "content/data_processing/slocum-wispr3.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "href": "content/data_processing/slocum-wispr3.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "title": "Slocum - WISPR 3",
+    "section": "Decompress data and convert to usable audio file format",
+    "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example Hefring configuration file \nOpen configuration file with text editor and replace “% %%%     HEFRING WISPR EXAMPLE            %%%” with the glider deployment ID\n\ni.e. “% %%% stenella-20250414 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘stenella’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the last two lines of the configuration file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
+    "crumbs": [
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing",
+      "Slocum - WISPR 3"
+    ]
   },
   {
-    "objectID": "content/glider-rodeo-partners.html#teledyne-webb-research",
-    "href": "content/glider-rodeo-partners.html#teledyne-webb-research",
-    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
-    "section": "Teledyne Webb Research",
-    "text": "Teledyne Webb Research\nDevelop and manufacture Slocum Gliders\n\n\n\n\n\nKarl Boettger\nCustomer Support Application Engineer\nKarl has over 21 years of experience in the Marine tech Industry, dating back to the Webb Research Corporation before it was acquired by Teledyne in 2010. Karl worked his way up through the company starting in materials management, then spent over ten years as a manufacturing technician building and testing Slocum Gliders.\nIn 2020 Karl joined the glider support team and his favorite part of the job is interacting with customers and helping solve technical challenges. Karl has assisted in customer trainings, deployments, and glider repairs all over the world.\n\n\n\n\n\n\n\n\nShea Quinn\nSentinel Mission Project Lead\nShea has over 15 years of experience in the subsea and marine tech industry, the past 5 at Teledyne. Shea is responsible for driving the product line for the Slocum G3S and Sentinel gliders, and bringing the voice of customers to the engineering and development process within the company.\nShea came to Teledyne Webb Research from Lockheed Martin, where he worked primarily as an Engineering Project Manager and Engineering Field Support lead for a variety of autonomous and remotely-operated subsea vehicle projects. He earned his Bachelor of Science in Electrical Engineering and Mechatronics at Villanova University and a Masters of Engineering in Systems Engineering and Project Management from Cornell University.\n\n\n\n\n\n\n\n\nCordie Goodrich\nSlocum Glider Technical Support and Field Operations Manager\nCordie leads the Glider Support Team - providing customer training, testing new hardware and software, piloting, and supporting Slocum Glider users all over the world. Prior to joining the TWR team in 2020, Cordie was a Teledyne Slocum Glider customer – working at the Bermuda Institute of Ocean Sciences where she managed the Mid-Atlantic Glider Initiative and Collaboration (MAGIC) Lab.\nCordie spent a year with the University of California, Davis, doing Slocum Glider work in Lake Tahoe and Antarctica. She received her Bachelor of Mathematics from Washington College and a Master’s degree in Marine Studies from the University of Delaware"
+    "objectID": "content/data_processing/slocum-wispr3.html#create-full-bandwidth-ltsa",
+    "href": "content/data_processing/slocum-wispr3.html#create-full-bandwidth-ltsa",
+    "title": "Slocum - WISPR 3",
+    "section": "Create full bandwidth LTSA",
+    "text": "Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)",
+    "crumbs": [
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing",
+      "Slocum - WISPR 3"
+    ]
   },
   {
-    "objectID": "content/glider-rodeo-partners.html#alseamar",
-    "href": "content/glider-rodeo-partners.html#alseamar",
-    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
-    "section": "ALSEAMAR",
-    "text": "ALSEAMAR\nDevelop and manufacture SEAEXPLORER Gliders\n\n\n\n\n\nCamille Pierini\nTechnical Team Leader\nCamille currently holds the position of Technical Team Leader, responsible for workload planning, team coordination, and ensuring the proper operation of the instrumentation fleet. He oversees maintenance, calibrations, equipment tracking, and the training of new team members. He also carries out service missions as a technician, ensuring high quality standards and timely reporting. In addition, he is involved in the operation and piloting of gliders, including their maintenance and the update of associated management tools.\n\n\n\n\n\n\n\n\nLaurent Beguery\nLaurent Beguery obtained his degree in Mechanical Design Engineering in 1998. During the first 15 years of his career, he worked at the French National Centre for Scientific Research (CNRS), where he initially designed underwater seismic measurement stations for the Institut de Physique du Globe de Paris (IPGP). In 2018, he continued his career at the Technical Division of the National Institute for Earth Sciences and Astronomy (DT-INSU), where he initiated the use of underwater gliders for oceanographic studies in France.\nIn 2014, he joined the company ALSEAMAR, where he continued the design and testing of the first SEAEXPLORER glider and, together with his team, led the first sales of gliders. In 2016, wishing to further develop the use of gliders, he created the service of scientific studies, enabling companies and research centers to benefit from data acquired at sea."
+    "objectID": "content/data_processing/slocum-wispr3.html#update-deployment-tracker-spreadsheet",
+    "href": "content/data_processing/slocum-wispr3.html#update-deployment-tracker-spreadsheet",
+    "title": "Slocum - WISPR 3",
+    "section": "Update Deployment Tracker Spreadsheet",
+    "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
+    "crumbs": [
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing",
+      "Slocum - WISPR 3"
+    ]
   },
   {
-    "objectID": "content/glider-rodeo-partners.html#jasco-applied-science",
-    "href": "content/glider-rodeo-partners.html#jasco-applied-science",
-    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
-    "section": "JASCO Applied Science",
-    "text": "JASCO Applied Science\n\n\n\n\n\n\n\n\nJASCO specializes in passive acoustic monitoring and autonomous ocean observing systems. The OceanObserver, integrated onto a Teledyne glider platform, is designed to support long-duration monitoring and research applications.\nIn addition to environmental and scientific use cases, the system also has potential applications in maritime surveillance, including persistent monitoring through passive acoustic detection and localization."
-  },
-  {
-    "objectID": "content/glider-rodeo-partners.html#university-of-hawaii-marine-center",
-    "href": "content/glider-rodeo-partners.html#university-of-hawaii-marine-center",
-    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
-    "section": "University of Hawaii Marine Center",
-    "text": "University of Hawaii Marine Center\nSpecial thanks to UH Marine Center for providing charter vessel support"
-  },
-  {
-    "objectID": "content/glider-FieldTesting.html",
-    "href": "content/glider-FieldTesting.html",
-    "title": "Field Testing",
+    "objectID": "content/data_processing/seaglider-pmar-xl.html",
+    "href": "content/data_processing/seaglider-pmar-xl.html",
+    "title": "Seaglider - PMAR XL",
     "section": "",
-    "text": "While PAM equipped gliders have been extensively used for specific survey needs, they are also rapidly evolving and require extensive expertise for successful adoption to address additional survey needs. A fundamental requirement to developing a sustainable transition to operations plan for NOAA Fisheries necessarily includes a series of field tests.\nOur field testing includes:\n\nLocal Sea Trials to field test individual gliders to ensure functionality\nGlider Rodeo to assess the strengths and limitations of different PAM-Glider platforms and sensors\nConcurrent Ship & Glider Surveys to collect data for developing advanced statistical methods to assess marine mammal populations using PAM-gliders and to better understand how these methods can augment shipboard surveys.\n\n\nDeployment Tracker\n\n\nSpreadsheet to track current and completed deployments. Link for NOAA personnel (password protected)",
+    "text": "PMARXL has been removed from the OSU Seagliders and replaced with the WISPR3 system. If it is used again in the future by NMFS this page will be updated.",
     "crumbs": [
-      "Field Testing"
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing",
+      "Seaglider - PMAR XL"
     ]
   },
   {
-    "objectID": "content/gliders.html",
-    "href": "content/gliders.html",
-    "title": "Gliders",
+    "objectID": "content/data_processing/oceanscout-wispr6.html",
+    "href": "content/data_processing/oceanscout-wispr6.html",
+    "title": "Oceanscout WISPR 6",
     "section": "",
-    "text": "The primary contemporary gliders with PAM capacity include Slocum, Seagliders, Oceanscout, and SeaExporer. We understand that technology is rapidly changing, and even if we are unable to directly include additional platforms, we hope to learn more about technologies currently in development. In addition, there may be (unfunded) opportunities for including alternative platforms within the Glider Rodeo effort (Please see section on ‘Inquiries’).",
+    "text": "Glider techs: open glider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
-      "Resources",
-      "Gliders"
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
     ]
   },
   {
-    "objectID": "content/gliders.html#slocum-gliders-teledyne-webb",
-    "href": "content/gliders.html#slocum-gliders-teledyne-webb",
-    "title": "Gliders",
-    "section": "Slocum Gliders (Teledyne Webb) ",
-    "text": "Slocum Gliders (Teledyne Webb) \nNOAA’s Southwest Fisheries Science Center began deploying Slocum gliders to study Antarctic krill in 2018, and in 2025 they will expand their glider program with PAM-equipped gliders to study marine mammals off the U.S. West coast. Slocum Gliders are modular, and two different PAM systems will be tested: the DMON (developed by WHOI) and WISPR (Embedded Ocean Systems).",
+    "objectID": "content/data_processing/oceanscout-wispr6.html#offload-data",
+    "href": "content/data_processing/oceanscout-wispr6.html#offload-data",
+    "title": "Oceanscout WISPR 6",
+    "section": "",
+    "text": "Glider techs: open glider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
     "crumbs": [
-      "Resources",
-      "Gliders"
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
     ]
   },
   {
-    "objectID": "content/gliders.html#seagliders-u-washington",
-    "href": "content/gliders.html#seagliders-u-washington",
-    "title": "Gliders",
-    "section": "Seagliders (U Washington) ",
-    "text": "Seagliders (U Washington) \nSeagliders are buoyancy driven autonomous underwater vehicles developed at the University of Washington. Through a partnership with Dave Mellinger at Oregon State University, NOAA researchers at Pacific Islands Fisheries Science Center has been testing the passive acoustic capabilities of these gliders to conduct marine mammal monitoring off Hawaiʻi. They will continue this collaboration in 2025 as PIFSC builds out their own glider lab with Seagliders with onboard WISPR acoustic processors. Seaglider support resources can be found here , and WISPR 2.0 specifications can be found here . Note that WISPR 3.0 is under development.",
+    "objectID": "content/data_processing/oceanscout-wispr6.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "href": "content/data_processing/oceanscout-wispr6.html#decompress-data-and-convert-to-usable-audio-file-format",
+    "title": "Oceanscout WISPR 6",
+    "section": "Decompress data and convert to usable audio file format",
+    "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example Hefring configuration file \nOpen configuration file with text editor and replace “% %%%     HEFRING WISPR EXAMPLE            %%%” with the glider deployment ID\n\ni.e. “% %%% stenella-20250414 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘stenella’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the last two lines of the configuration file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
     "crumbs": [
-      "Resources",
-      "Gliders"
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
     ]
   },
   {
-    "objectID": "content/gliders.html#oceanscout-hefring",
-    "href": "content/gliders.html#oceanscout-hefring",
-    "title": "Gliders",
-    "section": "Oceanscout (Hefring) ",
-    "text": "Oceanscout (Hefring) \nThe Oceanscout is a small glider developed as a ‘user friendly’ PAM-equipped glider. They are much smaller and require less training and expertise to use. Southwest Fisheries Science Center has procured two Oceanscouts for testing and for specific scientific research efforts. The Oceanscout specifications can be found here.",
+    "objectID": "content/data_processing/oceanscout-wispr6.html#create-full-bandwidth-ltsa",
+    "href": "content/data_processing/oceanscout-wispr6.html#create-full-bandwidth-ltsa",
+    "title": "Oceanscout WISPR 6",
+    "section": "Create full bandwidth LTSA",
+    "text": "Create full bandwidth LTSA\n\nOpen Triton in MATLAB by typing ‘triton’ into command window. Ensure you are using a version of Triton that supports FLAC files\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)",
     "crumbs": [
-      "Resources",
-      "Gliders"
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
     ]
   },
   {
-    "objectID": "content/gliders.html#seaexplorer-alseamar",
-    "href": "content/gliders.html#seaexplorer-alseamar",
-    "title": "Gliders",
-    "section": "SeaExplorer (Alseamar) ",
-    "text": "SeaExplorer (Alseamar) \nThe SeaExplorer was developed by the French company Alcen-Alseamar. Alseamar SeaExplorers are not yet available for purchase in the United States, but the company offers their gliders as a service, with mission planning, piloting, and data delivery. We will include SeaExplorers in our Glider Rodeo (as a service). SeaExplorer specifications can be found here.",
+    "objectID": "content/data_processing/oceanscout-wispr6.html#update-deployment-tracker-spreadsheet",
+    "href": "content/data_processing/oceanscout-wispr6.html#update-deployment-tracker-spreadsheet",
+    "title": "Oceanscout WISPR 6",
+    "section": "Update Deployment Tracker Spreadsheet",
+    "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
     "crumbs": [
-      "Resources",
-      "Gliders"
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing",
+      "Oceanscout - WISPR 6.1"
     ]
   },
   {
-    "objectID": "content/gliders.html#developing-technology",
-    "href": "content/gliders.html#developing-technology",
-    "title": "Gliders",
-    "section": "Developing Technology",
-    "text": "Developing Technology\nWe understand that these technologies are rapidly developing, and we’d love to hear about new developments. Please contact us under the ‘Contact Us’ page.",
+    "objectID": "content/glider-rodeo.html#goals",
+    "href": "content/glider-rodeo.html#goals",
+    "title": "Glider Rodeo",
+    "section": "Goals",
+    "text": "Goals\nAccelerate the use of uncrewed vessels (UxS) to decrease dependence on large scale ship surveys. PAM-Gliders provide an opportunity to assess populations of marine mammals (protected species) and the environment to augment existing shipboard surveys.",
     "crumbs": [
-      "Resources",
-      "Gliders"
+      "Field Testing",
+      "Glider Rodeo"
     ]
+  },
+  {
+    "objectID": "content/glider-rodeo.html#objectives",
+    "href": "content/glider-rodeo.html#objectives",
+    "title": "Glider Rodeo",
+    "section": "Objectives",
+    "text": "Objectives\nField testing of PAM-glider platforms to provide data-driven guidance on the capabilities of each system to (1) work in different operational environments and (2) address different research questions. This 2-week sea trial will be conducted off Oahu, Hawai’i in February 2026.",
+    "crumbs": [
+      "Field Testing",
+      "Glider Rodeo"
+    ]
+  },
+  {
+    "objectID": "content/glider-rodeo.html#approach",
+    "href": "content/glider-rodeo.html#approach",
+    "title": "Glider Rodeo",
+    "section": "Approach",
+    "text": "Approach\nWe will collect comparable data (at the same time and place) during the 2-week sea trial to assess several glider capabilities. Gliders will transit tracklines with a ‘Figure 8’ design, while conducting several mission modes, with each mode serving as an in-situ experiment for assessing piloting strategies and impacts on navigation, endurance, and noise. Modes include:\n\nOptimize to survey coverage\nOptimize for low noise\nIntermediate approach to survey coverage and noise reduction\nDrifting (Quiet Mode)\n\n\nPiloting: To achieve mission goals, different gliders may have different approaches, advantages, and limitations. These approaches may have differing impacts on other critical components (navigation, endurance, noise). Also, each glider platform has a unique approach to piloting requiring different levels of expertise and abilities to modify a mission.\nNavigation: Different platforms vary in their ability to overcome challenges due to currents and navigating hazards. This may affect their suitability to work in certain environmental conditions, the survey area they can cover, flight efficiency and endurance, and the additional noise resulting from maintaining course (which reduces quality of acoustic data).\nEndurance: Primary endurance concerns are related to battery endurance (glider platform, environmental sensors, and PAM sensors) and PAM data storage. Survey modes provide a means of assessing power and storage endurance ranges under a variety of mission conditions to inform future survey planning.\nNoise: Our ability to use PAM gliders to effectively study specific species, anthropogenic noise, and/or the marine soundscape is necessarily dependent on interference by self-noise produced by the glider platform and its components. For each glider, we will study the source of each noise identified and the degree to which these noise sources interfere with study objectives.\n\nThe Glider Rodeo will include glider teams from Pacific Islands Fisheries Science Center, Southwest Fisheries Science Center as well as academic partners (Oregon State University, Cornell University) and industry partners (Alseamar, Teledyne, and Jasco). For more information, see links to Glider Platformsand PAM Sensors. The Glider Rodeo is part of a larger effort to develop a Transition to Operations plan for PAM-Gliders. For more information on these larger efforts, visit our PAM-Glider site.\n\n\n\nGlider Rodeo draft figure-8 tracklines planned for offshore Hawaii.",
+    "crumbs": [
+      "Field Testing",
+      "Glider Rodeo"
+    ]
+  },
+  {
+    "objectID": "content/modeling.html",
+    "href": "content/modeling.html",
+    "title": "Spatial Modeling",
+    "section": "",
+    "text": "Concurrent with the work to expand the use of PAM gliders across NOAA, a synergestic project is working to advance the analytical methods and tools to work towards incorporating glider-collected acoustic data into population modeling. The SPACIOUS (Spatial Population Assessment of Cetaceans Integrating acoustic Observations from Uncrewed Systems) project aims to develop an analytical framework to integrate data from slow-moving recording platforms (such as gliders and drifters) into spatial density models for cetaceans.\nMore information on this project can be found on the PAM-Stocks site. Our hope is to engage with the broader community of bioacousticians, population ecologists, and glider users that are also thinking about this problem and working toward this goal to create products that will be useful to NOAA and the others. We will plan to share updates and content related to SPACIOUS there."
   },
   {
     "objectID": "content/glider-labs.html",
@@ -168,13 +215,113 @@
     ]
   },
   {
-    "objectID": "content/p2w.html",
-    "href": "content/p2w.html",
-    "title": "Plankton to Whales",
+    "objectID": "content/about.html",
+    "href": "content/about.html",
+    "title": "About Us",
     "section": "",
-    "text": "The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.\nThis project is planned for 2026.",
+    "text": "Why This Matters: NOAA Fisheries is mandated by Congress to monitor marine mammals to mitigate current risks and support sustainable oceans by improving our understanding of marine mammals as functioning parts of marine ecosystems. PAM-equipped gliders allow for a more economical approach to improving our understanding of marine mammals and supporting their long-term conservation. Why This Matters: NOAA Fisheries is mandated by Congress to monitor marine mammals to mitigate current risks and support sustainable oceans by improving our understanding of marine mammals as functioning parts of marine ecosystems. PAM-equipped gliders allow for a more economical approach to improving our understanding of marine mammals and supporting their long-term conservation.\nTo this end, NOAA Fisheries will lead a 3 year effort to accelerate a transition to operations for using PAM-based glider surveys to augment existing surveys. These efforts are based on previous successful research efforts using PAM-equipped gliders off the U.S. East Coast to study right whales, and recent testing of Seagliders off Hawaiʻi. Slocum gliders are being used for real-time monitoring of North Atlantic right whales off the U.S. Atlantic coast through a NEFSC/WHOI collaboration. NOAA’s OMAO UxS Operation Center partnered with PIFSC to test PAM-equipped Seagliders to augment ship-based surveys across the vast Pacific Islands region. The results from these studies highlighted that PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including density.\nTo expand on these efforts, PIFSC and SWFSC will lead a 3 year effort to accelerate the transition to operations for PAM-based glider surveys. The work will be focused in the Pacific initially because these Centers are ready to act and they are collectively responsible for the largest area under NMFS jurisdiction, have acute shortages of adequate shiptime, and must find alternative survey modalities to maintain their assessment operations. Despite the regional focus, the goal will be to develop a Research to Operations plan that can be adapted or applied in other regions seeking to implement PAM-equipped glider surveys to support their marine mammal assessments. The effort includes:\n\nBuild capacity to sustain glider operations. PIFSC and SWFSC will increase capacity to sustain PAM-glider operations through support for glider technicians at each Center and for pilot and technician training. The Pacific-wide R2O plan will include considerations of operational costs for conducting PAM-glider surveys into the future. See Gliders and Sensors to learn more about available (and developing) hardware options.\nIn-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. For more information, see the Field Testing.\nConcurrent glider and shipboard surveys. We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys - PacMAPPS west coast in 2024 and PacMAPPS Hawaiʻi in 2026. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. For more information, see the section on Ship & Glider Surveys.\nDevelop Spatial Modeling Methods. We will initiate development of statistical models to accommodate marine mammal acoustic detection data from PAM Gliders, facilitating adoption of these methods to address our stock assessment needs. See PAM-Stocks - Mobile recorders for more information.",
     "crumbs": [
-      "Plankton to Whales"
+      "About Us"
+    ]
+  },
+  {
+    "objectID": "content/about.html#accelerating-the-use-of-passive-acoustic-equipped-gliders-to-monitor-and-assess-cetacean-populations",
+    "href": "content/about.html#accelerating-the-use-of-passive-acoustic-equipped-gliders-to-monitor-and-assess-cetacean-populations",
+    "title": "About Us",
+    "section": "",
+    "text": "Why This Matters: NOAA Fisheries is mandated by Congress to monitor marine mammals to mitigate current risks and support sustainable oceans by improving our understanding of marine mammals as functioning parts of marine ecosystems. PAM-equipped gliders allow for a more economical approach to improving our understanding of marine mammals and supporting their long-term conservation. Why This Matters: NOAA Fisheries is mandated by Congress to monitor marine mammals to mitigate current risks and support sustainable oceans by improving our understanding of marine mammals as functioning parts of marine ecosystems. PAM-equipped gliders allow for a more economical approach to improving our understanding of marine mammals and supporting their long-term conservation.\nTo this end, NOAA Fisheries will lead a 3 year effort to accelerate a transition to operations for using PAM-based glider surveys to augment existing surveys. These efforts are based on previous successful research efforts using PAM-equipped gliders off the U.S. East Coast to study right whales, and recent testing of Seagliders off Hawaiʻi. Slocum gliders are being used for real-time monitoring of North Atlantic right whales off the U.S. Atlantic coast through a NEFSC/WHOI collaboration. NOAA’s OMAO UxS Operation Center partnered with PIFSC to test PAM-equipped Seagliders to augment ship-based surveys across the vast Pacific Islands region. The results from these studies highlighted that PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including density.\nTo expand on these efforts, PIFSC and SWFSC will lead a 3 year effort to accelerate the transition to operations for PAM-based glider surveys. The work will be focused in the Pacific initially because these Centers are ready to act and they are collectively responsible for the largest area under NMFS jurisdiction, have acute shortages of adequate shiptime, and must find alternative survey modalities to maintain their assessment operations. Despite the regional focus, the goal will be to develop a Research to Operations plan that can be adapted or applied in other regions seeking to implement PAM-equipped glider surveys to support their marine mammal assessments. The effort includes:\n\nBuild capacity to sustain glider operations. PIFSC and SWFSC will increase capacity to sustain PAM-glider operations through support for glider technicians at each Center and for pilot and technician training. The Pacific-wide R2O plan will include considerations of operational costs for conducting PAM-glider surveys into the future. See Gliders and Sensors to learn more about available (and developing) hardware options.\nIn-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. For more information, see the Field Testing.\nConcurrent glider and shipboard surveys. We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys - PacMAPPS west coast in 2024 and PacMAPPS Hawaiʻi in 2026. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. For more information, see the section on Ship & Glider Surveys.\nDevelop Spatial Modeling Methods. We will initiate development of statistical models to accommodate marine mammal acoustic detection data from PAM Gliders, facilitating adoption of these methods to address our stock assessment needs. See PAM-Stocks - Mobile recorders for more information.",
+    "crumbs": [
+      "About Us"
+    ]
+  },
+  {
+    "objectID": "content/transitionPlan.html",
+    "href": "content/transitionPlan.html",
+    "title": "Transition to Operations",
+    "section": "",
+    "text": "Our ultimate goal is to develop a Research to Operations Plan that will transition our science to using PAM-Gliders to address our management needs. This plan will be outlined in a National Strategy RoadMap for PAM-Glider Operations.\n\nThese collective efforts will:\n\nAccelerate Pacific-Wide PAM-Glider Operations\nMatch appropriate technology to research questions\nProvide a framework to monitor technological developments\nIdentify future investment needs",
+    "crumbs": [
+      "Transition Plan"
+    ]
+  },
+  {
+    "objectID": "content/gliderSoundscapes.html",
+    "href": "content/gliderSoundscapes.html",
+    "title": "Glider Soundscapes",
+    "section": "",
+    "text": "Soundscape analysis is a valuable tool for assessing changes to the marine environment. Soundscape analysis is complicated by instrument noise, variable instrument depth, and other complications. We will investigate two methods for assessing soundscape (PyPAM and MANTA), and test these analyses on glider data to define best practices to use PAM-equipped gliders for soundscape analysis.",
+    "crumbs": [
+      "Soundscapes"
+    ]
+  },
+  {
+    "objectID": "content/glider-FieldTesting.html",
+    "href": "content/glider-FieldTesting.html",
+    "title": "Field Testing",
+    "section": "",
+    "text": "While PAM equipped gliders have been extensively used for specific survey needs, they are also rapidly evolving and require extensive expertise for successful adoption to address additional survey needs. A fundamental requirement to developing a sustainable transition to operations plan for NOAA Fisheries necessarily includes a series of field tests.\nOur field testing includes:\n\nLocal Sea Trials to field test individual gliders to ensure functionality\nGlider Rodeo to assess the strengths and limitations of different PAM-Glider platforms and sensors\nConcurrent Ship & Glider Surveys to collect data for developing advanced statistical methods to assess marine mammal populations using PAM-gliders and to better understand how these methods can augment shipboard surveys.\n\n\nDeployment Tracker\n\n\nSpreadsheet to track current and completed deployments. Link for NOAA personnel (password protected)",
+    "crumbs": [
+      "Field Testing"
+    ]
+  },
+  {
+    "objectID": "content/infoSharing.html",
+    "href": "content/infoSharing.html",
+    "title": "Information Sharing",
+    "section": "",
+    "text": "What is Open Science? The goals of ‘Open Science’ are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see Open Science for more info).\nBelow we outline the ways in which our PAM-Glider program aims to embrace Open Science. This is a work in progress, and we welcome suggestions in how we can improve on these efforts.",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/infoSharing.html#open-educational-resources",
+    "href": "content/infoSharing.html#open-educational-resources",
+    "title": "Information Sharing",
+    "section": "Open Educational Resources",
+    "text": "Open Educational Resources\n\nBioacoustics Stack Exchange\nStack Exchange is a network of question and answer websites on topics in diverse fields. The Bioacoustics Stack Exchange site was created by our PAM community, for our PAM community. Answers to questions are crowd-sourced from the community, and both questions and answers are archived and publicly accessible via the site or by a search engine. For more information, visit the Bioacoustics Stack Exchange.\n\n\nZotero Group Library\nZotero is a free, open-source reference management tool that helps users collect, organize, cite, and share research resources. A Zotero Group Library is a shared library that allows users to collaboration on research projects by sharing and managing references. We have developed the following Zotero Group Libraries to allow users to identify and share related references. To join and contribute references, first create a Zotero account and request to be a member. These libraries are by no means complete, and our intent is to build a collaborative resource for the broader community of researchers, students, and practitioners.\nPAM-Glider Group Library\nSoundscape Group Library",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/infoSharing.html#research-compendium",
+    "href": "content/infoSharing.html#research-compendium",
+    "title": "Information Sharing",
+    "section": "Research Compendium",
+    "text": "Research Compendium\nA research compendium is a collection of all the digital components related to a research project, including data, code, text (like protocols and reports), and metadata. A research compendium provides a comprehensive package that allows others to fully reproduce research findings by accessing all the elements involved in the study process.\nWe will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below. (Stay Tuned!)",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/infoSharing.html#open-data",
+    "href": "content/infoSharing.html#open-data",
+    "title": "Information Sharing",
+    "section": "Open Data",
+    "text": "Open Data\nNOAA Fisheries’ Passive Acoustics Data is archived at the National Centers for Environmental Information (NCEI) and archived data can be accessed via the NCEI Passive Acoustic Data web portal.\nDetection data for a subset of NOAA Fisheries data can be viewed at the Passive Acoustic Cetacaean Map (PACM), developed at Northeast Fisheries Science Center. At present, the bulk of these data are from the U.S. East Coast, but an expanded PACM is in development. More information can be found at the PACM website.",
+    "crumbs": [
+      "Information Sharing"
+    ]
+  },
+  {
+    "objectID": "content/analysis.html",
+    "href": "content/analysis.html",
+    "title": "Analysis Methods",
+    "section": "",
+    "text": "This section provides an overview of the data analysis processes for glider missions, from initial data offloading and processing to generating comprehensive mission summaries.\nClick on the links below for detailed methods and instructions for each process.\n\nAcoustic Data Pre-Processing: Instructions for handling raw acoustic data from various glider and sensor combinations\nEnvironmental Data Processing: Methods for extracting and processing environmental data collected during glider deployments\nDeployment Summaries: Guidelines for creating post-mission reports that include sampling locations, acoustic effort, and glider paths",
+    "crumbs": [
+      "Analysis Methods"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "NOAA Fisheries PAM-Equipped Glider Research",
+    "section": "",
+    "text": "This project is a part of NOAA Fisheries PAM SI coordination\n\n\nPassive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.\nThis site provides updated information on these efforts.\n\nInformation provided here is ongoing, and is frequently updated.\n\n\nFeatured\n\n  Sound Bytes: Meet the Pilots of the Underwater Glider ChallengeA conversation with the NOAA pilots guiding gliders to capture the sounds of our ocean\n\n\n  NOAA Fisheries Launches Underwater Glider Challenge in Hawai‘iNOAA Fisheries is leading a major effort to evaluate how next-generation ocean gliders can transform ocean monitoring and marine mammal conservation, while also benefitting U.S. fishermen and ocean industries\n\n\n  Sound Bytes Blog: It’s a boat, it’s a plane, it’s a passive acoustic ocean glider! Selene Fregosi (PIFSC) explains how underwater gliders help us listen for whales! \n\n\n  Ocean Gliders Listen for Whales off Oregon in Test of New Ways to Count Them Passive acoustic monitoring by ‘gliders’ may better detect some species",
+    "crumbs": [
+      "Home"
     ]
   },
   {
@@ -288,153 +435,6 @@
     ]
   },
   {
-    "objectID": "content/data_processing/DeploymentSummaries.html",
-    "href": "content/data_processing/DeploymentSummaries.html",
-    "title": "Deployment Summaries",
-    "section": "",
-    "text": "Slocum\nLink to ESD instructions\nMETHODS - Work in progress\nWork with SWFSC glider team to get post mission metadata (TBD) and create a Mission Report using this template. Save the report to … (TBD)\n\n\nSeaglider\nLink to Agate instructions\n\nFollow the Agate methods here to run post-mission processing.\n\nThis includes extracting sampling locations and environmental data, assessing acoustic effort, creating summary tables, and plotting the glider paths.\n\nCreate a Mission Report using this template. Save the report to … (TBD)\n\n\n\nHefring\nCreate a Mission Report using this template. Save the report to … (TBD)",
-    "crumbs": [
-      "Analysis Methods",
-      "Deployment Summaries"
-    ]
-  },
-  {
-    "objectID": "content/data_processing/slocum-wispr3.html",
-    "href": "content/data_processing/slocum-wispr3.html",
-    "title": "Slocum - WISPR 3",
-    "section": "",
-    "text": "Glider techs: open Slocum glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
-    "crumbs": [
-      "Analysis Methods",
-      "Acoustic Data Pre-Processing",
-      "Slocum - WISPR 3"
-    ]
-  },
-  {
-    "objectID": "content/data_processing/slocum-wispr3.html#offload-data",
-    "href": "content/data_processing/slocum-wispr3.html#offload-data",
-    "title": "Slocum - WISPR 3",
-    "section": "",
-    "text": "Glider techs: open Slocum glider and remove two micro SD cards from WISPR board\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
-    "crumbs": [
-      "Analysis Methods",
-      "Acoustic Data Pre-Processing",
-      "Slocum - WISPR 3"
-    ]
-  },
-  {
-    "objectID": "content/data_processing/slocum-wispr3.html#decompress-data-and-convert-to-usable-audio-file-format",
-    "href": "content/data_processing/slocum-wispr3.html#decompress-data-and-convert-to-usable-audio-file-format",
-    "title": "Slocum - WISPR 3",
-    "section": "Decompress data and convert to usable audio file format",
-    "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example Hefring configuration file \nOpen configuration file with text editor and replace “% %%%     HEFRING WISPR EXAMPLE            %%%” with the glider deployment ID\n\ni.e. “% %%% stenella-20250414 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘stenella’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the last two lines of the configuration file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
-    "crumbs": [
-      "Analysis Methods",
-      "Acoustic Data Pre-Processing",
-      "Slocum - WISPR 3"
-    ]
-  },
-  {
-    "objectID": "content/data_processing/slocum-wispr3.html#create-full-bandwidth-ltsa",
-    "href": "content/data_processing/slocum-wispr3.html#create-full-bandwidth-ltsa",
-    "title": "Slocum - WISPR 3",
-    "section": "Create full bandwidth LTSA",
-    "text": "Create full bandwidth LTSA\n\nDownload a zipped folder of Triton - flac version, extract and save it to your Matlab folder as Triton-flac\nOpen Matlab and set the path to this flac version of Triton\nOpen Triton by typing ‘triton’ into command window\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. stenella-20250414_200kHz_5s_200Hz.ltsa)",
-    "crumbs": [
-      "Analysis Methods",
-      "Acoustic Data Pre-Processing",
-      "Slocum - WISPR 3"
-    ]
-  },
-  {
-    "objectID": "content/data_processing/slocum-wispr3.html#update-deployment-tracker-spreadsheet",
-    "href": "content/data_processing/slocum-wispr3.html#update-deployment-tracker-spreadsheet",
-    "title": "Slocum - WISPR 3",
-    "section": "Update Deployment Tracker Spreadsheet",
-    "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
-    "crumbs": [
-      "Analysis Methods",
-      "Acoustic Data Pre-Processing",
-      "Slocum - WISPR 3"
-    ]
-  },
-  {
-    "objectID": "content/data_processing/AcousticData-preprocessing.html",
-    "href": "content/data_processing/AcousticData-preprocessing.html",
-    "title": "Acoustic Data Pre-Processing",
-    "section": "",
-    "text": "Each glider/PAM system combination has a unique set of data pre-processing steps to complete, prior to data analysis. These steps include offloading the data from the PAM system, decompressing files, creating LTSAs, decimating, and updating the deployment tracker.\nEach section below links to detailed methods for each glider/pam system combination\n\nSeaglider - WISPR\nSeaglider - PMAR XL\nSlocum - WISPR 3\nSlocum - DMON 2\nOceanscout - WISPR 6.1\nAlseamar",
-    "crumbs": [
-      "Analysis Methods",
-      "Acoustic Data Pre-Processing"
-    ]
-  },
-  {
-    "objectID": "content/data_processing/seaglider-pmar-xl.html",
-    "href": "content/data_processing/seaglider-pmar-xl.html",
-    "title": "Seaglider - PMAR XL",
-    "section": "",
-    "text": "PMARXL has been removed from the OSU Seagliders and replaced with the WISPR3 system. If it is used again in the future by NMFS this page will be updated.",
-    "crumbs": [
-      "Analysis Methods",
-      "Acoustic Data Pre-Processing",
-      "Seaglider - PMAR XL"
-    ]
-  },
-  {
-    "objectID": "content/resources.html",
-    "href": "content/resources.html",
-    "title": "Resources",
-    "section": "",
-    "text": "This section provides an overview of the key components of our program: the labs that manage our gliders, the different types of gliders we deploy, and the passive acoustic monitoring (PAM) sensors they carry.\nGlider Labs\nGliders Types\nPAM Sensors",
-    "crumbs": [
-      "Resources"
-    ]
-  },
-  {
-    "objectID": "content/glider-rodeo.html#goals",
-    "href": "content/glider-rodeo.html#goals",
-    "title": "Glider Rodeo",
-    "section": "Goals",
-    "text": "Goals\nAccelerate the use of uncrewed vessels (UxS) to decrease dependence on large scale ship surveys. PAM-Gliders provide an opportunity to assess populations of marine mammals (protected species) and the environment to augment existing shipboard surveys.",
-    "crumbs": [
-      "Field Testing",
-      "Glider Rodeo"
-    ]
-  },
-  {
-    "objectID": "content/glider-rodeo.html#objectives",
-    "href": "content/glider-rodeo.html#objectives",
-    "title": "Glider Rodeo",
-    "section": "Objectives",
-    "text": "Objectives\nField testing of PAM-glider platforms to provide data-driven guidance on the capabilities of each system to (1) work in different operational environments and (2) address different research questions. This 2-week sea trial will be conducted off Oahu, Hawai’i in February 2026.",
-    "crumbs": [
-      "Field Testing",
-      "Glider Rodeo"
-    ]
-  },
-  {
-    "objectID": "content/glider-rodeo.html#approach",
-    "href": "content/glider-rodeo.html#approach",
-    "title": "Glider Rodeo",
-    "section": "Approach",
-    "text": "Approach\nWe will collect comparable data (at the same time and place) during the 2-week sea trial to assess several glider capabilities. Gliders will transit tracklines with a ‘Figure 8’ design, while conducting several mission modes, with each mode serving as an in-situ experiment for assessing piloting strategies and impacts on navigation, endurance, and noise. Modes include:\n\nOptimize to survey coverage\nOptimize for low noise\nIntermediate approach to survey coverage and noise reduction\nDrifting (Quiet Mode)\n\n\nPiloting: To achieve mission goals, different gliders may have different approaches, advantages, and limitations. These approaches may have differing impacts on other critical components (navigation, endurance, noise). Also, each glider platform has a unique approach to piloting requiring different levels of expertise and abilities to modify a mission.\nNavigation: Different platforms vary in their ability to overcome challenges due to currents and navigating hazards. This may affect their suitability to work in certain environmental conditions, the survey area they can cover, flight efficiency and endurance, and the additional noise resulting from maintaining course (which reduces quality of acoustic data).\nEndurance: Primary endurance concerns are related to battery endurance (glider platform, environmental sensors, and PAM sensors) and PAM data storage. Survey modes provide a means of assessing power and storage endurance ranges under a variety of mission conditions to inform future survey planning.\nNoise: Our ability to use PAM gliders to effectively study specific species, anthropogenic noise, and/or the marine soundscape is necessarily dependent on interference by self-noise produced by the glider platform and its components. For each glider, we will study the source of each noise identified and the degree to which these noise sources interfere with study objectives.\n\nThe Glider Rodeo will include glider teams from Pacific Islands Fisheries Science Center, Southwest Fisheries Science Center as well as academic partners (Oregon State University, Cornell University) and industry partners (Alseamar, Teledyne, and Jasco). For more information, see links to Glider Platformsand PAM Sensors. The Glider Rodeo is part of a larger effort to develop a Transition to Operations plan for PAM-Gliders. For more information on these larger efforts, visit our PAM-Glider site.\n\n\n\nGlider Rodeo draft figure-8 tracklines planned for offshore Hawaii.",
-    "crumbs": [
-      "Field Testing",
-      "Glider Rodeo"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "NOAA Fisheries PAM-Equipped Glider Research",
-    "section": "",
-    "text": "This project is a part of NOAA Fisheries PAM SI coordination\n\n\nPassive Acoustic Monitoring is an effective means of monitoring marine mammals and the marine environment, and NOAA Fisheries is expanding their efforts into PAM-equipped underwater gliders as a means of conducting this research to meet their management needs.\nThis site provides updated information on these efforts.\n\nInformation provided here is ongoing, and is frequently updated.\n\n\nFeatured\n\n  Sound Bytes: Meet the Pilots of the Underwater Glider ChallengeA conversation with the NOAA pilots guiding gliders to capture the sounds of our ocean\n\n\n  NOAA Fisheries Launches Underwater Glider Challenge in Hawai‘iNOAA Fisheries is leading a major effort to evaluate how next-generation ocean gliders can transform ocean monitoring and marine mammal conservation, while also benefitting U.S. fishermen and ocean industries\n\n\n  Sound Bytes Blog: It’s a boat, it’s a plane, it’s a passive acoustic ocean glider! Selene Fregosi (PIFSC) explains how underwater gliders help us listen for whales! \n\n\n  Ocean Gliders Listen for Whales off Oregon in Test of New Ways to Count Them Passive acoustic monitoring by ‘gliders’ may better detect some species",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
     "objectID": "content/contact.html",
     "href": "content/contact.html",
     "title": "Contact Us",
@@ -445,63 +445,202 @@
     ]
   },
   {
-    "objectID": "content/data_processing/oceanscout-wispr6.html",
-    "href": "content/data_processing/oceanscout-wispr6.html",
-    "title": "Oceanscout WISPR 6",
+    "objectID": "content/glider-rodeo-partners.html",
+    "href": "content/glider-rodeo-partners.html",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
     "section": "",
-    "text": "Glider techs: open glider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
-    "crumbs": [
-      "Analysis Methods",
-      "Acoustic Data Pre-Processing",
-      "Oceanscout - WISPR 6.1"
-    ]
+    "text": "The Cooperative Institute for Marine and Ecosystem Resources Studies (CIMERS) and Marine Mammal Institute (MMI) at Oregon State University are world leaders in marine mammal and bioacoustics research.\nThey were involved in some of the earliest development to use gliders for marine mammal passive acoustic research and have conducted glider missions in many ocean basins for the U.S. Navy, BOEM, and NOAA."
   },
   {
-    "objectID": "content/data_processing/oceanscout-wispr6.html#offload-data",
-    "href": "content/data_processing/oceanscout-wispr6.html#offload-data",
-    "title": "Oceanscout WISPR 6",
+    "objectID": "content/glider-rodeo-partners.html#oregon-state-university",
+    "href": "content/glider-rodeo-partners.html#oregon-state-university",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
     "section": "",
-    "text": "Glider techs: open glider and remove two micro SD cards from WISPR board\n\nThese cards are numbered/ordered to be sure to replace them in the right order (From left to right when looking at the SD slots - Card 1, Card 2, power port)\n\nPlug cards into computer and copy raw .dat files to a hard drive\nPass hard drive off to PAM analyst",
+    "text": "The Cooperative Institute for Marine and Ecosystem Resources Studies (CIMERS) and Marine Mammal Institute (MMI) at Oregon State University are world leaders in marine mammal and bioacoustics research.\nThey were involved in some of the earliest development to use gliders for marine mammal passive acoustic research and have conducted glider missions in many ocean basins for the U.S. Navy, BOEM, and NOAA."
+  },
+  {
+    "objectID": "content/glider-rodeo-partners.html#cornell-university",
+    "href": "content/glider-rodeo-partners.html#cornell-university",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "section": "Cornell University",
+    "text": "Cornell University\n\nK. Lisa Yang Center for Conservation Bioacoustics\n\n\n\n\n\n\n\n\n\nMaria Vasilkin\nPiloting Hefring Engineering Oceanscout Glider\nMaria is a software engineer at the K. Lisa Yang Center for Conservation Bioacoustics. She develops software for marine and terrestrial recorders for passive acoustic monitoring. Maria has been testing the PAM system on the Hefring Oceanscout gliders since they first acquired them in 2023, with plans to use the gliders for cetacean and fish monitoring projects carried out by researchers at their center."
+  },
+  {
+    "objectID": "content/glider-rodeo-partners.html#teledyne-webb-research",
+    "href": "content/glider-rodeo-partners.html#teledyne-webb-research",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "section": "Teledyne Webb Research",
+    "text": "Teledyne Webb Research\nDevelop and manufacture Slocum Gliders\n\n\n\n\n\nKarl Boettger\nCustomer Support Application Engineer\nKarl has over 21 years of experience in the Marine tech Industry, dating back to the Webb Research Corporation before it was acquired by Teledyne in 2010. Karl worked his way up through the company starting in materials management, then spent over ten years as a manufacturing technician building and testing Slocum Gliders.\nIn 2020 Karl joined the glider support team and his favorite part of the job is interacting with customers and helping solve technical challenges. Karl has assisted in customer trainings, deployments, and glider repairs all over the world.\n\n\n\n\n\n\n\n\nShea Quinn\nSentinel Mission Project Lead\nShea has over 15 years of experience in the subsea and marine tech industry, the past 5 at Teledyne. Shea is responsible for driving the product line for the Slocum G3S and Sentinel gliders, and bringing the voice of customers to the engineering and development process within the company.\nShea came to Teledyne Webb Research from Lockheed Martin, where he worked primarily as an Engineering Project Manager and Engineering Field Support lead for a variety of autonomous and remotely-operated subsea vehicle projects. He earned his Bachelor of Science in Electrical Engineering and Mechatronics at Villanova University and a Masters of Engineering in Systems Engineering and Project Management from Cornell University.\n\n\n\n\n\n\n\n\nCordie Goodrich\nSlocum Glider Technical Support and Field Operations Manager\nCordie leads the Glider Support Team - providing customer training, testing new hardware and software, piloting, and supporting Slocum Glider users all over the world. Prior to joining the TWR team in 2020, Cordie was a Teledyne Slocum Glider customer – working at the Bermuda Institute of Ocean Sciences where she managed the Mid-Atlantic Glider Initiative and Collaboration (MAGIC) Lab.\nCordie spent a year with the University of California, Davis, doing Slocum Glider work in Lake Tahoe and Antarctica. She received her Bachelor of Mathematics from Washington College and a Master’s degree in Marine Studies from the University of Delaware"
+  },
+  {
+    "objectID": "content/glider-rodeo-partners.html#alseamar",
+    "href": "content/glider-rodeo-partners.html#alseamar",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "section": "ALSEAMAR",
+    "text": "ALSEAMAR\nDevelop and manufacture SEAEXPLORER Gliders\n\n\n\n\n\nCamille Pierini\nTechnical Team Leader\nCamille currently holds the position of Technical Team Leader, responsible for workload planning, team coordination, and ensuring the proper operation of the instrumentation fleet. He oversees maintenance, calibrations, equipment tracking, and the training of new team members. He also carries out service missions as a technician, ensuring high quality standards and timely reporting. In addition, he is involved in the operation and piloting of gliders, including their maintenance and the update of associated management tools.\n\n\n\n\n\n\n\n\nLaurent Beguery\nLaurent Beguery obtained his degree in Mechanical Design Engineering in 1998. During the first 15 years of his career, he worked at the French National Centre for Scientific Research (CNRS), where he initially designed underwater seismic measurement stations for the Institut de Physique du Globe de Paris (IPGP). In 2018, he continued his career at the Technical Division of the National Institute for Earth Sciences and Astronomy (DT-INSU), where he initiated the use of underwater gliders for oceanographic studies in France.\nIn 2014, he joined the company ALSEAMAR, where he continued the design and testing of the first SEAEXPLORER glider and, together with his team, led the first sales of gliders. In 2016, wishing to further develop the use of gliders, he created the service of scientific studies, enabling companies and research centers to benefit from data acquired at sea."
+  },
+  {
+    "objectID": "content/glider-rodeo-partners.html#jasco-applied-science",
+    "href": "content/glider-rodeo-partners.html#jasco-applied-science",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "section": "JASCO Applied Science",
+    "text": "JASCO Applied Science\n\n\n\n\n\n\n\n\nJASCO specializes in passive acoustic monitoring and autonomous ocean observing systems. The OceanObserver, integrated onto a Teledyne glider platform, is designed to support long-duration monitoring and research applications.\nIn addition to environmental and scientific use cases, the system also has potential applications in maritime surveillance, including persistent monitoring through passive acoustic detection and localization."
+  },
+  {
+    "objectID": "content/glider-rodeo-partners.html#university-of-hawaii-marine-center",
+    "href": "content/glider-rodeo-partners.html#university-of-hawaii-marine-center",
+    "title": "Meet Our Glider Rodeo Academic and Industry Partners",
+    "section": "University of Hawaii Marine Center",
+    "text": "University of Hawaii Marine Center\nSpecial thanks to UH Marine Center for providing charter vessel support"
+  },
+  {
+    "objectID": "content/shipSurveys.html",
+    "href": "content/shipSurveys.html",
+    "title": "Concurrent Shipboard & Glider Surveys",
+    "section": "",
+    "text": "Traditional large-scale surveys of marine mammals are conducted by visual observation from large research vessels. While these surveys collect extremely high-quality data that can be readily analyzed to assess marine mammal populations, they do have their limitations. These methods are complicated for deep-diving species that spend little time at the surface (beaked whales, sperm whales), and they are limited by weather conditions (including fog, rain, and high seas). These surveys are conducted ~ every 5 years during good weather seasons, and so are limited in their ability to assess seasonal and inter-annual variability.\nCan PAM-equipped gliders augment existing shipboard surveys to improve our understanding of deep-diving species or to improve our understanding of temporal variability in marine mammal populations?\nTo address this question, we need to collect data using traditional methods (shipboard visual surveys) and new methods (PAM-gliders) in the same region and at the same time. Data collected during these concurrent surveys are needed to develop and test statistical methods needed to use PAM-glider data to assess marine mammal populations.\nWe will conduct concurrent shipboard/glider surveys off the U.S. West Coast (CalCurCEAS) and Hawaiʻi (WHICEAS).\nData from these surveys will be used for developing Spatial Modeling.",
     "crumbs": [
-      "Analysis Methods",
-      "Acoustic Data Pre-Processing",
-      "Oceanscout - WISPR 6.1"
+      "Field Testing",
+      "Ship & Glider Surveys"
     ]
   },
   {
-    "objectID": "content/data_processing/oceanscout-wispr6.html#decompress-data-and-convert-to-usable-audio-file-format",
-    "href": "content/data_processing/oceanscout-wispr6.html#decompress-data-and-convert-to-usable-audio-file-format",
-    "title": "Oceanscout WISPR 6",
-    "section": "Decompress data and convert to usable audio file format",
-    "text": "Decompress data and convert to usable audio file format\n\nPAM analyst: use agate convert WISPR workflow script to convert from .dat to .flac\nDownload workflow_convertWISPR.m and the example Hefring configuration file \nOpen configuration file with text editor and replace “% %%%     HEFRING WISPR EXAMPLE            %%%” with the glider deployment ID\n\ni.e. “% %%% stenella-20250414 %%%”\n\nAdd the glider serial number to the ’CONFIG.glider = ‘ argument\n\ni.e. “CONFIG.glider = ‘stenella’;”\n\nAdd the path to the raw .dat files and path to converted flac files in the last two lines of the configuration file\nSave as ‘agate_config_DeploymentID.cnf’ to the input data directory\nIf you do not have agate downloaded already, clone the agate repository \nOpen the convert matlab script and set the path to the agate folder on line 36\nSet the path to the configuration file on line 42\nRun the script, processing should begin. You should see progress updates in the command window and flac files in the output directory you set in the config file\nIf .wav files are needed, use the flac2wav.m matlab script",
+    "objectID": "content/shipSurveys.html#calcurceas-2024",
+    "href": "content/shipSurveys.html#calcurceas-2024",
+    "title": "Concurrent Shipboard & Glider Surveys",
+    "section": "CalCurCEAS 2024",
+    "text": "CalCurCEAS 2024\n\n\nThree PAM-equipped Seagliders were deployed out of Newport Oregon and surveyed in a zig-zag pattern south towards Eureka, California:\n\nSG679: Offshore Tracks (orange trackline)\n\n63 days (8/23/2024 - 10/25/2024)\nFour transects, 297 dives\nSurveyed 1459 km trackline\n180 kHz sampling, 2.5 Tb data\n94% total mission has recordings\n\nSG639: Inshore Tracks (yellow); SG80 (red)\n\n41 days (9/14/2024 - 10/25/2024)\nSG639: 6 transects 217 dives, 789 km; bonus transect to Trinidad Canyon\nSG80: 8 transects, 232 dives, 806 km\n200 kHz sampling, 1.8 Tb data\n95% total mission has recordings\n\n\n\n\nThe PAM-equipped Seagliders were deployed by collaborator Dave Mellinger from Oregon State University with co-piloting by our PIFSC colleagues: Selene Fregosi, Erik Norris, and Calla Lloyd-Lim. The offshore glider was the longest mission of any of the OSU gliders to date! This was also the first time this experienced glider team piloted three gliders simultaneously.\n\n\n\n\n\n\nPlanned shipboard tracklines for the 2024 CalCurCEAS Survey.\n\n\n\nThese PAM-glider tracks overlap in both time and space with the CalCurCEAS shipboard visual observation survey. In addition to visual observations, drifting acoustic recorders were deployed offshore to study beaked whales. This provides an opportunity to compare detection of species offshore Oregon by three different platforms: shipboard visual observation, drifting acoustic recorders, and PAM-equipped gliders. These data will be used to develop the analytical framework for integrating data from slow-moving recording platforms (such as gliders and drifting recorders) into spatial density models for marine mammals (see Spatial Modeling).",
     "crumbs": [
-      "Analysis Methods",
-      "Acoustic Data Pre-Processing",
-      "Oceanscout - WISPR 6.1"
+      "Field Testing",
+      "Ship & Glider Surveys"
     ]
   },
   {
-    "objectID": "content/data_processing/oceanscout-wispr6.html#create-full-bandwidth-ltsa",
-    "href": "content/data_processing/oceanscout-wispr6.html#create-full-bandwidth-ltsa",
-    "title": "Oceanscout WISPR 6",
-    "section": "Create full bandwidth LTSA",
-    "text": "Create full bandwidth LTSA\n\nOpen Triton in MATLAB by typing ‘triton’ into command window. Ensure you are using a version of Triton that supports FLAC files\nIn the control window, click on Tools -&gt; Make LTSA from Directory of Files \nEnter 3 for flac\nNavigate to your directory of flac files and click ‘Select Folder’\nUse 5 seconds and 200 Hz settings, press ok, save LTSA as DeploymentID_SamplingRate_5s_200Hz.ltsa (ex. sg639_Sep2024_200kHz_5s_200Hz.ltsa)",
+    "objectID": "content/shipSurveys.html#whiceas-2026",
+    "href": "content/shipSurveys.html#whiceas-2026",
+    "title": "Concurrent Shipboard & Glider Surveys",
+    "section": "WHICEAS 2026",
+    "text": "WHICEAS 2026\nWinter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS) is currently scheduled for February/March 2026. We will update as these plans develop.",
     "crumbs": [
-      "Analysis Methods",
-      "Acoustic Data Pre-Processing",
-      "Oceanscout - WISPR 6.1"
+      "Field Testing",
+      "Ship & Glider Surveys"
     ]
   },
   {
-    "objectID": "content/data_processing/oceanscout-wispr6.html#update-deployment-tracker-spreadsheet",
-    "href": "content/data_processing/oceanscout-wispr6.html#update-deployment-tracker-spreadsheet",
-    "title": "Oceanscout WISPR 6",
-    "section": "Update Deployment Tracker Spreadsheet",
-    "text": "Update Deployment Tracker Spreadsheet\n\nOpen Glider Deployment Tracker Spreadsheet and ensure all fields have been completed\nUse the full bandwidth LTSA to mark the data start and end (or use file timestamps) and assess overall data quality \nCalculate the deployment duration, distance, and recording duration and fill in the associated columns",
+    "objectID": "content/gliders.html",
+    "href": "content/gliders.html",
+    "title": "Gliders",
+    "section": "",
+    "text": "The primary contemporary gliders with PAM capacity include Slocum, Seagliders, Oceanscout, and SeaExporer. We understand that technology is rapidly changing, and even if we are unable to directly include additional platforms, we hope to learn more about technologies currently in development. In addition, there may be (unfunded) opportunities for including alternative platforms within the Glider Rodeo effort (Please see section on ‘Inquiries’).",
+    "crumbs": [
+      "Resources",
+      "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/gliders.html#slocum-gliders-teledyne-webb",
+    "href": "content/gliders.html#slocum-gliders-teledyne-webb",
+    "title": "Gliders",
+    "section": "Slocum Gliders (Teledyne Webb) ",
+    "text": "Slocum Gliders (Teledyne Webb) \nNOAA’s Southwest Fisheries Science Center began deploying Slocum gliders to study Antarctic krill in 2018, and in 2025 they will expand their glider program with PAM-equipped gliders to study marine mammals off the U.S. West coast. Slocum Gliders are modular, and two different PAM systems will be tested: the DMON (developed by WHOI) and WISPR (Embedded Ocean Systems).",
+    "crumbs": [
+      "Resources",
+      "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/gliders.html#seagliders-u-washington",
+    "href": "content/gliders.html#seagliders-u-washington",
+    "title": "Gliders",
+    "section": "Seagliders (U Washington) ",
+    "text": "Seagliders (U Washington) \nSeagliders are buoyancy driven autonomous underwater vehicles developed at the University of Washington. Through a partnership with Dave Mellinger at Oregon State University, NOAA researchers at Pacific Islands Fisheries Science Center has been testing the passive acoustic capabilities of these gliders to conduct marine mammal monitoring off Hawaiʻi. They will continue this collaboration in 2025 as PIFSC builds out their own glider lab with Seagliders with onboard WISPR acoustic processors. Seaglider support resources can be found here , and WISPR 2.0 specifications can be found here . Note that WISPR 3.0 is under development.",
+    "crumbs": [
+      "Resources",
+      "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/gliders.html#oceanscout-hefring",
+    "href": "content/gliders.html#oceanscout-hefring",
+    "title": "Gliders",
+    "section": "Oceanscout (Hefring) ",
+    "text": "Oceanscout (Hefring) \nThe Oceanscout is a small glider developed as a ‘user friendly’ PAM-equipped glider. They are much smaller and require less training and expertise to use. Southwest Fisheries Science Center has procured two Oceanscouts for testing and for specific scientific research efforts. The Oceanscout specifications can be found here.",
+    "crumbs": [
+      "Resources",
+      "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/gliders.html#seaexplorer-alseamar",
+    "href": "content/gliders.html#seaexplorer-alseamar",
+    "title": "Gliders",
+    "section": "SeaExplorer (Alseamar) ",
+    "text": "SeaExplorer (Alseamar) \nThe SeaExplorer was developed by the French company Alcen-Alseamar. Alseamar SeaExplorers are not yet available for purchase in the United States, but the company offers their gliders as a service, with mission planning, piloting, and data delivery. We will include SeaExplorers in our Glider Rodeo (as a service). SeaExplorer specifications can be found here.",
+    "crumbs": [
+      "Resources",
+      "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/gliders.html#developing-technology",
+    "href": "content/gliders.html#developing-technology",
+    "title": "Gliders",
+    "section": "Developing Technology",
+    "text": "Developing Technology\nWe understand that these technologies are rapidly developing, and we’d love to hear about new developments. Please contact us under the ‘Contact Us’ page.",
+    "crumbs": [
+      "Resources",
+      "Gliders"
+    ]
+  },
+  {
+    "objectID": "content/presentations.html",
+    "href": "content/presentations.html",
+    "title": "Presentations & Publications",
+    "section": "",
+    "text": "Selene Fregosi, Erin Olseon, Erik Norris, Shannon Rankin, Kourtney Burger, Anthony Cossio, Jen Walsh, David Mellinger\nAbstract: A collaborative effort between PIFSC, SWFSC and OSU/PMEL aims to accelerate NMFS’s use of passive acoustic monitoring (PAM) glider surveys to augment existing ship-based surveys for cetacean stock assessment. This effort builds on historically successful efforts by NMFS to use PAM-equipped gliders including studies of endangered right whales off the U.S. East Coast and odontocetes around the Main Hawaiian Islands. This previous work highlighted the feasibility of using PAM-equipped gliders to bolster data collection efforts for cetacean surveys. Use of gliders is of particular interest in the Pacific region, which is the largest area under NMFS jurisdiction and is subject to acute shortages of adequate ship time; therefore, this region must identify survey modalities that maintain assessment operations over as large an area as possible. While the initial effort is focused in the Pacific region, this project will result in a Research-to-Operations plan that can be adapted or applied in other regions. Primary goals of this work are to (1) build capacity to sustain glider operations within NMFS through purchasing equipment, developing infrastructure, and hiring piloting and technical staff; (2) conduct detailed in-water instrumentation testing and comparison of currently available glider and sensor types to provide guidance for various use cases; (3) conduct concurrent glider and shipboard surveys off both the U.S. West Coast and Main Hawaiian Islands which will provide a unique opportunity to compare these two data streams; and (4) advance animal distribution modeling methods to integrate the PAM-glider collected data into stock assessments.\nLinks: Slides, [Video]\nAlso presented at ASA Honolulu December 2025\n\n\n\n\n\n\nShannon Rankin, Christian Reiss, Erin Oleson, Selene Fregosi, David K. Mellinger, Erik Norris\nAbstract: NOAA Fisheries has developed a strategic goal of investing in passive acoustic monitoring (PAM) from underwater gliders as part of an effort to build a dynamically managed fisheries system that accounts for climate change and supports science- based management and conservation. PAM-equipped gliders provide an autonomous solution to collecting encounter datasets for vocal species that can serve NMFS assessment needs. With dedicated R&D effort, PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including population density. As part of this strategic initiative, NOAA Fisheries will lead a 3-year effort to accelerate the transition to operations for PAM-based glider surveys. The goal will be to develop a research-to-operations plan to implement PAM-equipped glider surveys that support their marine mammal assessments. The effort includes (1) the Glider Rodeo, (2) concurrent glider and shipboard surveys, and (3) the Plankton to Whales project. The Glider Rodeo [see associated presentation], involving in-water testing of several PAM-glider systems, has the goal of examining glider and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. The concurrent surveys include deploying several PAM-equipped gliders in association with two large-scale assessment surveys: PacMAPPS West Coast in 2024 and PacMAPPS Hawaii in 2026. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. The Plankton to Whales project is a pilot study that will provide seasonal autonomous ecosystem sampling from plankton to whales using paired PAM and oceanographic gliders with shadow- graph sensors for observing plankton.\nLinks: Slides\n\n\n\n\n\n\nErik Norris, Shannon Rankin, Erin Oleson, Christian Reiss, Selene Fregosi, David K. Mellinger\nAbstract: As part of a strategic goal to invest in passive acoustic monitoring using the uncrewed systems strategic initiative, NOAA Fisheries is pursuing field tests of several underwater gliders equipped with passive acoustic monitoring (PAM) systems. These tests will take place during two 2-week ‘glider rodeos’ planned for the U.S. West Coast and Hawaii in 2025-2026. Testing will include Slocum (Teledyne Webb), Seaglider (Univ. Washington), OceanScout (Hefring), and SeaExplorer (Alseamar) platforms with DMON, WISPR, and Alseamar acoustic acquisition systems. A pre-designed survey path will allow resampling of the same area by each glider over each 2-week effort to maximize spatial and temporal overlap. Glider performance and acoustic recording and detection metrics will be measured for each system to enable comparison and inform future glider acquisitions and use by NOAA Fisheries. Metrics under consideration include survey, data quality, and acoustic metrics. This is a unique opportunity to examine the performance and capability of a diverse set of currently available PAMequipped underwater gliders, and we welcome community input into test design and assessment metrics. There may be unfunded opportunities for participation to compare other systems if they are provided, and we will offer logistical support when possible. Results will be made publicly available to inform future research and development.\nLinks: Poster",
+    "crumbs": [
+      "Presentations & Publications"
+    ]
+  },
+  {
+    "objectID": "content/presentations.html#presentations",
+    "href": "content/presentations.html#presentations",
+    "title": "Presentations & Publications",
+    "section": "",
+    "text": "Selene Fregosi, Erin Olseon, Erik Norris, Shannon Rankin, Kourtney Burger, Anthony Cossio, Jen Walsh, David Mellinger\nAbstract: A collaborative effort between PIFSC, SWFSC and OSU/PMEL aims to accelerate NMFS’s use of passive acoustic monitoring (PAM) glider surveys to augment existing ship-based surveys for cetacean stock assessment. This effort builds on historically successful efforts by NMFS to use PAM-equipped gliders including studies of endangered right whales off the U.S. East Coast and odontocetes around the Main Hawaiian Islands. This previous work highlighted the feasibility of using PAM-equipped gliders to bolster data collection efforts for cetacean surveys. Use of gliders is of particular interest in the Pacific region, which is the largest area under NMFS jurisdiction and is subject to acute shortages of adequate ship time; therefore, this region must identify survey modalities that maintain assessment operations over as large an area as possible. While the initial effort is focused in the Pacific region, this project will result in a Research-to-Operations plan that can be adapted or applied in other regions. Primary goals of this work are to (1) build capacity to sustain glider operations within NMFS through purchasing equipment, developing infrastructure, and hiring piloting and technical staff; (2) conduct detailed in-water instrumentation testing and comparison of currently available glider and sensor types to provide guidance for various use cases; (3) conduct concurrent glider and shipboard surveys off both the U.S. West Coast and Main Hawaiian Islands which will provide a unique opportunity to compare these two data streams; and (4) advance animal distribution modeling methods to integrate the PAM-glider collected data into stock assessments.\nLinks: Slides, [Video]\nAlso presented at ASA Honolulu December 2025\n\n\n\n\n\n\nShannon Rankin, Christian Reiss, Erin Oleson, Selene Fregosi, David K. Mellinger, Erik Norris\nAbstract: NOAA Fisheries has developed a strategic goal of investing in passive acoustic monitoring (PAM) from underwater gliders as part of an effort to build a dynamically managed fisheries system that accounts for climate change and supports science- based management and conservation. PAM-equipped gliders provide an autonomous solution to collecting encounter datasets for vocal species that can serve NMFS assessment needs. With dedicated R&D effort, PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including population density. As part of this strategic initiative, NOAA Fisheries will lead a 3-year effort to accelerate the transition to operations for PAM-based glider surveys. The goal will be to develop a research-to-operations plan to implement PAM-equipped glider surveys that support their marine mammal assessments. The effort includes (1) the Glider Rodeo, (2) concurrent glider and shipboard surveys, and (3) the Plankton to Whales project. The Glider Rodeo [see associated presentation], involving in-water testing of several PAM-glider systems, has the goal of examining glider and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. The concurrent surveys include deploying several PAM-equipped gliders in association with two large-scale assessment surveys: PacMAPPS West Coast in 2024 and PacMAPPS Hawaii in 2026. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. The Plankton to Whales project is a pilot study that will provide seasonal autonomous ecosystem sampling from plankton to whales using paired PAM and oceanographic gliders with shadow- graph sensors for observing plankton.\nLinks: Slides\n\n\n\n\n\n\nErik Norris, Shannon Rankin, Erin Oleson, Christian Reiss, Selene Fregosi, David K. Mellinger\nAbstract: As part of a strategic goal to invest in passive acoustic monitoring using the uncrewed systems strategic initiative, NOAA Fisheries is pursuing field tests of several underwater gliders equipped with passive acoustic monitoring (PAM) systems. These tests will take place during two 2-week ‘glider rodeos’ planned for the U.S. West Coast and Hawaii in 2025-2026. Testing will include Slocum (Teledyne Webb), Seaglider (Univ. Washington), OceanScout (Hefring), and SeaExplorer (Alseamar) platforms with DMON, WISPR, and Alseamar acoustic acquisition systems. A pre-designed survey path will allow resampling of the same area by each glider over each 2-week effort to maximize spatial and temporal overlap. Glider performance and acoustic recording and detection metrics will be measured for each system to enable comparison and inform future glider acquisitions and use by NOAA Fisheries. Metrics under consideration include survey, data quality, and acoustic metrics. This is a unique opportunity to examine the performance and capability of a diverse set of currently available PAMequipped underwater gliders, and we welcome community input into test design and assessment metrics. There may be unfunded opportunities for participation to compare other systems if they are provided, and we will offer logistical support when possible. Results will be made publicly available to inform future research and development.\nLinks: Poster",
+    "crumbs": [
+      "Presentations & Publications"
+    ]
+  },
+  {
+    "objectID": "content/presentations.html#publications",
+    "href": "content/presentations.html#publications",
+    "title": "Presentations & Publications",
+    "section": "Publications",
+    "text": "Publications",
+    "crumbs": [
+      "Presentations & Publications"
+    ]
+  },
+  {
+    "objectID": "content/p2w.html",
+    "href": "content/p2w.html",
+    "title": "Plankton to Whales",
+    "section": "",
+    "text": "The project will demonstrate the use of these enhancements to support glider-based ecosystem surveys off the west coast, in the California Current, and provide knowledge and support for the development of these surveys in other regions. The results of these surveys will support our management needs, with the capacity to augment and potentially replace some ship-based ecosystem surveys.\nThis project is planned for 2026.",
+    "crumbs": [
+      "Plankton to Whales"
+    ]
+  },
+  {
+    "objectID": "content/data_processing/DeploymentSummaries.html",
+    "href": "content/data_processing/DeploymentSummaries.html",
+    "title": "Deployment Summaries",
+    "section": "",
+    "text": "Slocum\nLink to ESD instructions\nMETHODS - Work in progress\nWork with SWFSC glider team to get post mission metadata (TBD) and create a Mission Report using this template. Save the report to … (TBD)\n\n\nSeaglider\nLink to Agate instructions\n\nFollow the Agate methods here to run post-mission processing.\n\nThis includes extracting sampling locations and environmental data, assessing acoustic effort, creating summary tables, and plotting the glider paths.\n\nCreate a Mission Report using this template. Save the report to … (TBD)\n\n\n\nHefring\nCreate a Mission Report using this template. Save the report to … (TBD)",
     "crumbs": [
       "Analysis Methods",
-      "Acoustic Data Pre-Processing",
-      "Oceanscout - WISPR 6.1"
+      "Deployment Summaries"
     ]
   },
   {
@@ -637,6 +776,17 @@
     ]
   },
   {
+    "objectID": "content/data_processing/AcousticData-preprocessing.html",
+    "href": "content/data_processing/AcousticData-preprocessing.html",
+    "title": "Acoustic Data Pre-Processing",
+    "section": "",
+    "text": "Each glider/PAM system combination has a unique set of data pre-processing steps to complete, prior to data analysis. These steps include offloading the data from the PAM system, decompressing files, creating LTSAs, decimating, and updating the deployment tracker.\nEach section below links to detailed methods for each glider/pam system combination\n\nSeaglider - WISPR\nSeaglider - PMAR XL\nSlocum - WISPR 3\nSlocum - DMON 2\nOceanscout - WISPR 6.1\nAlseamar",
+    "crumbs": [
+      "Analysis Methods",
+      "Acoustic Data Pre-Processing"
+    ]
+  },
+  {
     "objectID": "content/data_processing/EnvData-processing.html",
     "href": "content/data_processing/EnvData-processing.html",
     "title": "Environmental Data Processing",
@@ -645,156 +795,6 @@
     "crumbs": [
       "Analysis Methods",
       "Environmental Data Processing"
-    ]
-  },
-  {
-    "objectID": "content/presentations.html",
-    "href": "content/presentations.html",
-    "title": "Presentations & Publications",
-    "section": "",
-    "text": "Selene Fregosi, Erin Olseon, Erik Norris, Shannon Rankin, Kourtney Burger, Anthony Cossio, Jen Walsh, David Mellinger\nAbstract: A collaborative effort between PIFSC, SWFSC and OSU/PMEL aims to accelerate NMFS’s use of passive acoustic monitoring (PAM) glider surveys to augment existing ship-based surveys for cetacean stock assessment. This effort builds on historically successful efforts by NMFS to use PAM-equipped gliders including studies of endangered right whales off the U.S. East Coast and odontocetes around the Main Hawaiian Islands. This previous work highlighted the feasibility of using PAM-equipped gliders to bolster data collection efforts for cetacean surveys. Use of gliders is of particular interest in the Pacific region, which is the largest area under NMFS jurisdiction and is subject to acute shortages of adequate ship time; therefore, this region must identify survey modalities that maintain assessment operations over as large an area as possible. While the initial effort is focused in the Pacific region, this project will result in a Research-to-Operations plan that can be adapted or applied in other regions. Primary goals of this work are to (1) build capacity to sustain glider operations within NMFS through purchasing equipment, developing infrastructure, and hiring piloting and technical staff; (2) conduct detailed in-water instrumentation testing and comparison of currently available glider and sensor types to provide guidance for various use cases; (3) conduct concurrent glider and shipboard surveys off both the U.S. West Coast and Main Hawaiian Islands which will provide a unique opportunity to compare these two data streams; and (4) advance animal distribution modeling methods to integrate the PAM-glider collected data into stock assessments.\nLinks: Slides, [Video]\nAlso presented at ASA Honolulu December 2025\n\n\n\n\n\n\nShannon Rankin, Christian Reiss, Erin Oleson, Selene Fregosi, David K. Mellinger, Erik Norris\nAbstract: NOAA Fisheries has developed a strategic goal of investing in passive acoustic monitoring (PAM) from underwater gliders as part of an effort to build a dynamically managed fisheries system that accounts for climate change and supports science- based management and conservation. PAM-equipped gliders provide an autonomous solution to collecting encounter datasets for vocal species that can serve NMFS assessment needs. With dedicated R&D effort, PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including population density. As part of this strategic initiative, NOAA Fisheries will lead a 3-year effort to accelerate the transition to operations for PAM-based glider surveys. The goal will be to develop a research-to-operations plan to implement PAM-equipped glider surveys that support their marine mammal assessments. The effort includes (1) the Glider Rodeo, (2) concurrent glider and shipboard surveys, and (3) the Plankton to Whales project. The Glider Rodeo [see associated presentation], involving in-water testing of several PAM-glider systems, has the goal of examining glider and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. The concurrent surveys include deploying several PAM-equipped gliders in association with two large-scale assessment surveys: PacMAPPS West Coast in 2024 and PacMAPPS Hawaii in 2026. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. The Plankton to Whales project is a pilot study that will provide seasonal autonomous ecosystem sampling from plankton to whales using paired PAM and oceanographic gliders with shadow- graph sensors for observing plankton.\nLinks: Slides\n\n\n\n\n\n\nErik Norris, Shannon Rankin, Erin Oleson, Christian Reiss, Selene Fregosi, David K. Mellinger\nAbstract: As part of a strategic goal to invest in passive acoustic monitoring using the uncrewed systems strategic initiative, NOAA Fisheries is pursuing field tests of several underwater gliders equipped with passive acoustic monitoring (PAM) systems. These tests will take place during two 2-week ‘glider rodeos’ planned for the U.S. West Coast and Hawaii in 2025-2026. Testing will include Slocum (Teledyne Webb), Seaglider (Univ. Washington), OceanScout (Hefring), and SeaExplorer (Alseamar) platforms with DMON, WISPR, and Alseamar acoustic acquisition systems. A pre-designed survey path will allow resampling of the same area by each glider over each 2-week effort to maximize spatial and temporal overlap. Glider performance and acoustic recording and detection metrics will be measured for each system to enable comparison and inform future glider acquisitions and use by NOAA Fisheries. Metrics under consideration include survey, data quality, and acoustic metrics. This is a unique opportunity to examine the performance and capability of a diverse set of currently available PAMequipped underwater gliders, and we welcome community input into test design and assessment metrics. There may be unfunded opportunities for participation to compare other systems if they are provided, and we will offer logistical support when possible. Results will be made publicly available to inform future research and development.\nLinks: Poster",
-    "crumbs": [
-      "Presentations & Publications"
-    ]
-  },
-  {
-    "objectID": "content/presentations.html#presentations",
-    "href": "content/presentations.html#presentations",
-    "title": "Presentations & Publications",
-    "section": "",
-    "text": "Selene Fregosi, Erin Olseon, Erik Norris, Shannon Rankin, Kourtney Burger, Anthony Cossio, Jen Walsh, David Mellinger\nAbstract: A collaborative effort between PIFSC, SWFSC and OSU/PMEL aims to accelerate NMFS’s use of passive acoustic monitoring (PAM) glider surveys to augment existing ship-based surveys for cetacean stock assessment. This effort builds on historically successful efforts by NMFS to use PAM-equipped gliders including studies of endangered right whales off the U.S. East Coast and odontocetes around the Main Hawaiian Islands. This previous work highlighted the feasibility of using PAM-equipped gliders to bolster data collection efforts for cetacean surveys. Use of gliders is of particular interest in the Pacific region, which is the largest area under NMFS jurisdiction and is subject to acute shortages of adequate ship time; therefore, this region must identify survey modalities that maintain assessment operations over as large an area as possible. While the initial effort is focused in the Pacific region, this project will result in a Research-to-Operations plan that can be adapted or applied in other regions. Primary goals of this work are to (1) build capacity to sustain glider operations within NMFS through purchasing equipment, developing infrastructure, and hiring piloting and technical staff; (2) conduct detailed in-water instrumentation testing and comparison of currently available glider and sensor types to provide guidance for various use cases; (3) conduct concurrent glider and shipboard surveys off both the U.S. West Coast and Main Hawaiian Islands which will provide a unique opportunity to compare these two data streams; and (4) advance animal distribution modeling methods to integrate the PAM-glider collected data into stock assessments.\nLinks: Slides, [Video]\nAlso presented at ASA Honolulu December 2025\n\n\n\n\n\n\nShannon Rankin, Christian Reiss, Erin Oleson, Selene Fregosi, David K. Mellinger, Erik Norris\nAbstract: NOAA Fisheries has developed a strategic goal of investing in passive acoustic monitoring (PAM) from underwater gliders as part of an effort to build a dynamically managed fisheries system that accounts for climate change and supports science- based management and conservation. PAM-equipped gliders provide an autonomous solution to collecting encounter datasets for vocal species that can serve NMFS assessment needs. With dedicated R&D effort, PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including population density. As part of this strategic initiative, NOAA Fisheries will lead a 3-year effort to accelerate the transition to operations for PAM-based glider surveys. The goal will be to develop a research-to-operations plan to implement PAM-equipped glider surveys that support their marine mammal assessments. The effort includes (1) the Glider Rodeo, (2) concurrent glider and shipboard surveys, and (3) the Plankton to Whales project. The Glider Rodeo [see associated presentation], involving in-water testing of several PAM-glider systems, has the goal of examining glider and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. The concurrent surveys include deploying several PAM-equipped gliders in association with two large-scale assessment surveys: PacMAPPS West Coast in 2024 and PacMAPPS Hawaii in 2026. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. The Plankton to Whales project is a pilot study that will provide seasonal autonomous ecosystem sampling from plankton to whales using paired PAM and oceanographic gliders with shadow- graph sensors for observing plankton.\nLinks: Slides\n\n\n\n\n\n\nErik Norris, Shannon Rankin, Erin Oleson, Christian Reiss, Selene Fregosi, David K. Mellinger\nAbstract: As part of a strategic goal to invest in passive acoustic monitoring using the uncrewed systems strategic initiative, NOAA Fisheries is pursuing field tests of several underwater gliders equipped with passive acoustic monitoring (PAM) systems. These tests will take place during two 2-week ‘glider rodeos’ planned for the U.S. West Coast and Hawaii in 2025-2026. Testing will include Slocum (Teledyne Webb), Seaglider (Univ. Washington), OceanScout (Hefring), and SeaExplorer (Alseamar) platforms with DMON, WISPR, and Alseamar acoustic acquisition systems. A pre-designed survey path will allow resampling of the same area by each glider over each 2-week effort to maximize spatial and temporal overlap. Glider performance and acoustic recording and detection metrics will be measured for each system to enable comparison and inform future glider acquisitions and use by NOAA Fisheries. Metrics under consideration include survey, data quality, and acoustic metrics. This is a unique opportunity to examine the performance and capability of a diverse set of currently available PAMequipped underwater gliders, and we welcome community input into test design and assessment metrics. There may be unfunded opportunities for participation to compare other systems if they are provided, and we will offer logistical support when possible. Results will be made publicly available to inform future research and development.\nLinks: Poster",
-    "crumbs": [
-      "Presentations & Publications"
-    ]
-  },
-  {
-    "objectID": "content/presentations.html#publications",
-    "href": "content/presentations.html#publications",
-    "title": "Presentations & Publications",
-    "section": "Publications",
-    "text": "Publications",
-    "crumbs": [
-      "Presentations & Publications"
-    ]
-  },
-  {
-    "objectID": "content/analysis.html",
-    "href": "content/analysis.html",
-    "title": "Analysis Methods",
-    "section": "",
-    "text": "This section provides an overview of the data analysis processes for glider missions, from initial data offloading and processing to generating comprehensive mission summaries.\nClick on the links below for detailed methods and instructions for each process.\n\nAcoustic Data Pre-Processing: Instructions for handling raw acoustic data from various glider and sensor combinations\nEnvironmental Data Processing: Methods for extracting and processing environmental data collected during glider deployments\nDeployment Summaries: Guidelines for creating post-mission reports that include sampling locations, acoustic effort, and glider paths",
-    "crumbs": [
-      "Analysis Methods"
-    ]
-  },
-  {
-    "objectID": "content/modeling.html",
-    "href": "content/modeling.html",
-    "title": "Spatial Modeling",
-    "section": "",
-    "text": "Concurrent with the work to expand the use of PAM gliders across NOAA, a synergestic project is working to advance the analytical methods and tools to work towards incorporating glider-collected acoustic data into population modeling. The SPACIOUS (Spatial Population Assessment of Cetaceans Integrating acoustic Observations from Uncrewed Systems) project aims to develop an analytical framework to integrate data from slow-moving recording platforms (such as gliders and drifters) into spatial density models for cetaceans.\nMore information on this project can be found on the PAM-Stocks site. Our hope is to engage with the broader community of bioacousticians, population ecologists, and glider users that are also thinking about this problem and working toward this goal to create products that will be useful to NOAA and the others. We will plan to share updates and content related to SPACIOUS there."
-  },
-  {
-    "objectID": "content/about.html",
-    "href": "content/about.html",
-    "title": "About Us",
-    "section": "",
-    "text": "Why This Matters: NOAA Fisheries is mandated by Congress to monitor marine mammals to mitigate current risks and support sustainable oceans by improving our understanding of marine mammals as functioning parts of marine ecosystems. PAM-equipped gliders allow for a more economical approach to improving our understanding of marine mammals and supporting their long-term conservation.\nTo this end, NOAA Fisheries will lead a 3 year effort to accelerate a transition to operations for using PAM-based glider surveys to augment existing surveys. These efforts are based on previous successful research efforts using PAM-equipped gliders off the U.S. East Coast to study right whales, and recent testing of Seagliders off Hawaiʻi. Slocum gliders are being used for real-time monitoring of North Atlantic right whales off the U.S. Atlantic coast through a NEFSC/WHOI collaboration. NOAA’s OMAO UxS Operation Center partnered with PIFSC to test PAM-equipped Seagliders to augment ship-based surveys across the vast Pacific Islands region. The results from these studies highlighted that PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including density.\nTo expand on these efforts, PIFSC and SWFSC will lead a 3 year effort to accelerate the transition to operations for PAM-based glider surveys. The work will be focused in the Pacific initially because these Centers are ready to act and they are collectively responsible for the largest area under NMFS jurisdiction, have acute shortages of adequate shiptime, and must find alternative survey modalities to maintain their assessment operations. Despite the regional focus, the goal will be to develop a Research to Operations plan that can be adapted or applied in other regions seeking to implement PAM-equipped glider surveys to support their marine mammal assessments. The effort includes:\n\nBuild capacity to sustain glider operations. PIFSC and SWFSC will increase capacity to sustain PAM-glider operations through support for glider technicians at each Center and for pilot and technician training. The Pacific-wide R2O plan will include considerations of operational costs for conducting PAM-glider surveys into the future. See Gliders and Sensors to learn more about available (and developing) hardware options.\nIn-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. For more information, see the Field Testing.\nConcurrent glider and shipboard surveys. We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys - PacMAPPS west coast in 2024 and PacMAPPS Hawaiʻi in 2026. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. For more information, see the section on Ship & Glider Surveys.\nDevelop Spatial Modeling Methods. We will initiate development of statistical models to accommodate marine mammal acoustic detection data from PAM Gliders, facilitating adoption of these methods to address our stock assessment needs. See PAM-Stocks - Mobile recorders for more information.",
-    "crumbs": [
-      "About Us"
-    ]
-  },
-  {
-    "objectID": "content/about.html#accelerating-the-use-of-passive-acoustic-equipped-gliders-to-monitor-and-assess-cetacean-populations",
-    "href": "content/about.html#accelerating-the-use-of-passive-acoustic-equipped-gliders-to-monitor-and-assess-cetacean-populations",
-    "title": "About Us",
-    "section": "",
-    "text": "Why This Matters: NOAA Fisheries is mandated by Congress to monitor marine mammals to mitigate current risks and support sustainable oceans by improving our understanding of marine mammals as functioning parts of marine ecosystems. PAM-equipped gliders allow for a more economical approach to improving our understanding of marine mammals and supporting their long-term conservation.\nTo this end, NOAA Fisheries will lead a 3 year effort to accelerate a transition to operations for using PAM-based glider surveys to augment existing surveys. These efforts are based on previous successful research efforts using PAM-equipped gliders off the U.S. East Coast to study right whales, and recent testing of Seagliders off Hawaiʻi. Slocum gliders are being used for real-time monitoring of North Atlantic right whales off the U.S. Atlantic coast through a NEFSC/WHOI collaboration. NOAA’s OMAO UxS Operation Center partnered with PIFSC to test PAM-equipped Seagliders to augment ship-based surveys across the vast Pacific Islands region. The results from these studies highlighted that PAM-equipped gliders can augment and replace some ship-based survey efforts, informing climate assessments, including changes in range or space use, and quantitative metrics, including density.\nTo expand on these efforts, PIFSC and SWFSC will lead a 3 year effort to accelerate the transition to operations for PAM-based glider surveys. The work will be focused in the Pacific initially because these Centers are ready to act and they are collectively responsible for the largest area under NMFS jurisdiction, have acute shortages of adequate shiptime, and must find alternative survey modalities to maintain their assessment operations. Despite the regional focus, the goal will be to develop a Research to Operations plan that can be adapted or applied in other regions seeking to implement PAM-equipped glider surveys to support their marine mammal assessments. The effort includes:\n\nBuild capacity to sustain glider operations. PIFSC and SWFSC will increase capacity to sustain PAM-glider operations through support for glider technicians at each Center and for pilot and technician training. The Pacific-wide R2O plan will include considerations of operational costs for conducting PAM-glider surveys into the future. See Gliders and Sensors to learn more about available (and developing) hardware options.\nIn-water instrumentation testing of several PAM-glider systems with the goal of examining hardware and sensor choices and how these choices may vary based on regional differences in assessment needs and oceanographic realities. For more information, see the Field Testing.\nConcurrent glider and shipboard surveys. We will deploy several PAM-equipped gliders in association with two large-scale assessment surveys - PacMAPPS west coast in 2024 and PacMAPPS Hawaiʻi in 2026. These surveys provide an opportunity to collect glider datasets that can be compared alongside traditional cetacean survey data to guide future survey design and analytical advancements. These surveys happen infrequently, such that this is a time-sensitive opportunity to begin validation of glider-based work. For more information, see the section on Ship & Glider Surveys.\nDevelop Spatial Modeling Methods. We will initiate development of statistical models to accommodate marine mammal acoustic detection data from PAM Gliders, facilitating adoption of these methods to address our stock assessment needs. See PAM-Stocks - Mobile recorders for more information.",
-    "crumbs": [
-      "About Us"
-    ]
-  },
-  {
-    "objectID": "content/transitionPlan.html",
-    "href": "content/transitionPlan.html",
-    "title": "Transition to Operations",
-    "section": "",
-    "text": "Our ultimate goal is to develop a Research to Operations Plan that will transition our science to using PAM-Gliders to address our management needs. This plan will be outlined in a National Strategy RoadMap for PAM-Glider Operations.\n\nThese collective efforts will:\n\nAccelerate Pacific-Wide PAM-Glider Operations\nMatch appropriate technology to research questions\nProvide a framework to monitor technological developments\nIdentify future investment needs",
-    "crumbs": [
-      "Transition Plan"
-    ]
-  },
-  {
-    "objectID": "content/infoSharing.html",
-    "href": "content/infoSharing.html",
-    "title": "Information Sharing",
-    "section": "",
-    "text": "What is Open Science? The goals of ‘Open Science’ are to democratize access to research, promote equitable resource distribution, foster accountability and trustworthiness, accelerate self-correction, and improve rigor and reproducibility (see Open Science for more info).\nBelow we outline the ways in which our PAM-Glider program aims to embrace Open Science. This is a work in progress, and we welcome suggestions in how we can improve on these efforts.",
-    "crumbs": [
-      "Information Sharing"
-    ]
-  },
-  {
-    "objectID": "content/infoSharing.html#open-educational-resources",
-    "href": "content/infoSharing.html#open-educational-resources",
-    "title": "Information Sharing",
-    "section": "Open Educational Resources",
-    "text": "Open Educational Resources\n\nBioacoustics Stack Exchange\nStack Exchange is a network of question and answer websites on topics in diverse fields. The Bioacoustics Stack Exchange site was created by our PAM community, for our PAM community. Answers to questions are crowd-sourced from the community, and both questions and answers are archived and publicly accessible via the site or by a search engine. For more information, visit the Bioacoustics Stack Exchange.\n\n\nZotero Group Library\nZotero is a free, open-source reference management tool that helps users collect, organize, cite, and share research resources. A Zotero Group Library is a shared library that allows users to collaboration on research projects by sharing and managing references. We have developed the following Zotero Group Libraries to allow users to identify and share related references. To join and contribute references, first create a Zotero account and request to be a member. These libraries are by no means complete, and our intent is to build a collaborative resource for the broader community of researchers, students, and practitioners.\nPAM-Glider Group Library\nSoundscape Group Library",
-    "crumbs": [
-      "Information Sharing"
-    ]
-  },
-  {
-    "objectID": "content/infoSharing.html#research-compendium",
-    "href": "content/infoSharing.html#research-compendium",
-    "title": "Information Sharing",
-    "section": "Research Compendium",
-    "text": "Research Compendium\nA research compendium is a collection of all the digital components related to a research project, including data, code, text (like protocols and reports), and metadata. A research compendium provides a comprehensive package that allows others to fully reproduce research findings by accessing all the elements involved in the study process.\nWe will make a concerted effort to create research compendiums for all PAM-Glider research going forward, and to provide a list of links, below. (Stay Tuned!)",
-    "crumbs": [
-      "Information Sharing"
-    ]
-  },
-  {
-    "objectID": "content/infoSharing.html#open-data",
-    "href": "content/infoSharing.html#open-data",
-    "title": "Information Sharing",
-    "section": "Open Data",
-    "text": "Open Data\nNOAA Fisheries’ Passive Acoustics Data is archived at the National Centers for Environmental Information (NCEI) and archived data can be accessed via the NCEI Passive Acoustic Data web portal.\nDetection data for a subset of NOAA Fisheries data can be viewed at the Passive Acoustic Cetacaean Map (PACM), developed at Northeast Fisheries Science Center. At present, the bulk of these data are from the U.S. East Coast, but an expanded PACM is in development. More information can be found at the PACM website.",
-    "crumbs": [
-      "Information Sharing"
-    ]
-  },
-  {
-    "objectID": "content/shipSurveys.html",
-    "href": "content/shipSurveys.html",
-    "title": "Concurrent Shipboard & Glider Surveys",
-    "section": "",
-    "text": "Traditional large-scale surveys of marine mammals are conducted by visual observation from large research vessels. While these surveys collect extremely high-quality data that can be readily analyzed to assess marine mammal populations, they do have their limitations. These methods are complicated for deep-diving species that spend little time at the surface (beaked whales, sperm whales), and they are limited by weather conditions (including fog, rain, and high seas). These surveys are conducted ~ every 5 years during good weather seasons, and so are limited in their ability to assess seasonal and inter-annual variability.\nCan PAM-equipped gliders augment existing shipboard surveys to improve our understanding of deep-diving species or to improve our understanding of temporal variability in marine mammal populations?\nTo address this question, we need to collect data using traditional methods (shipboard visual surveys) and new methods (PAM-gliders) in the same region and at the same time. Data collected during these concurrent surveys are needed to develop and test statistical methods needed to use PAM-glider data to assess marine mammal populations.\nWe will conduct concurrent shipboard/glider surveys off the U.S. West Coast (CalCurCEAS) and Hawaiʻi (WHICEAS).\nData from these surveys will be used for developing Spatial Modeling.",
-    "crumbs": [
-      "Field Testing",
-      "Ship & Glider Surveys"
-    ]
-  },
-  {
-    "objectID": "content/shipSurveys.html#calcurceas-2024",
-    "href": "content/shipSurveys.html#calcurceas-2024",
-    "title": "Concurrent Shipboard & Glider Surveys",
-    "section": "CalCurCEAS 2024",
-    "text": "CalCurCEAS 2024\n\n\nThree PAM-equipped Seagliders were deployed out of Newport Oregon and surveyed in a zig-zag pattern south towards Eureka, California:\n\nSG679: Offshore Tracks (orange trackline)\n\n63 days (8/23/2024 - 10/25/2024)\nFour transects, 297 dives\nSurveyed 1459 km trackline\n180 kHz sampling, 2.5 Tb data\n94% total mission has recordings\n\nSG639: Inshore Tracks (yellow); SG80 (red)\n\n41 days (9/14/2024 - 10/25/2024)\nSG639: 6 transects 217 dives, 789 km; bonus transect to Trinidad Canyon\nSG80: 8 transects, 232 dives, 806 km\n200 kHz sampling, 1.8 Tb data\n95% total mission has recordings\n\n\n\n\nThe PAM-equipped Seagliders were deployed by collaborator Dave Mellinger from Oregon State University with co-piloting by our PIFSC colleagues: Selene Fregosi, Erik Norris, and Calla Lloyd-Lim. The offshore glider was the longest mission of any of the OSU gliders to date! This was also the first time this experienced glider team piloted three gliders simultaneously.\n\n\n\n\n\n\nPlanned shipboard tracklines for the 2024 CalCurCEAS Survey.\n\n\n\nThese PAM-glider tracks overlap in both time and space with the CalCurCEAS shipboard visual observation survey. In addition to visual observations, drifting acoustic recorders were deployed offshore to study beaked whales. This provides an opportunity to compare detection of species offshore Oregon by three different platforms: shipboard visual observation, drifting acoustic recorders, and PAM-equipped gliders. These data will be used to develop the analytical framework for integrating data from slow-moving recording platforms (such as gliders and drifting recorders) into spatial density models for marine mammals (see Spatial Modeling).",
-    "crumbs": [
-      "Field Testing",
-      "Ship & Glider Surveys"
-    ]
-  },
-  {
-    "objectID": "content/shipSurveys.html#whiceas-2026",
-    "href": "content/shipSurveys.html#whiceas-2026",
-    "title": "Concurrent Shipboard & Glider Surveys",
-    "section": "WHICEAS 2026",
-    "text": "WHICEAS 2026\nWinter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS) is currently scheduled for February/March 2026. We will update as these plans develop.",
-    "crumbs": [
-      "Field Testing",
-      "Ship & Glider Surveys"
     ]
   }
 ]
