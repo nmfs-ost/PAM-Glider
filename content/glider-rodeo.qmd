@@ -8,6 +8,10 @@ editor:
 
 ## *(Underwater Glider Challenge)*
 
+Link to our [GliderRodeo
+Site](https://nmfs-pam-glider.github.io/GliderRodeo/) for more
+information.
+
 ## Goals
 
 Accelerate the use of uncrewed vessels (UxS) to decrease dependence on
@@ -31,13 +35,13 @@ mission modes, with each mode serving as an in-situ experiment for
 assessing piloting strategies and impacts on navigation, endurance, and
 noise. Modes include:
 
--   Optimize to survey coverage
+- Optimize to survey coverage
 
--   Optimize for low noise
+- Optimize for low noise
 
--   Intermediate approach to survey coverage and noise reduction
+- Intermediate approach to survey coverage and noise reduction
 
--   Drifting (Quiet Mode)
+- Drifting (Quiet Mode)
 
 1.  **Piloting:** To achieve mission goals, different gliders may have
     different approaches, advantages, and limitations. These approaches
@@ -71,13 +75,15 @@ Fisheries Science Center, Southwest Fisheries Science Center as well as
 academic partners (Oregon State University, Cornell University) and
 industry partners (Alseamar, Teledyne, and Jasco). For more information,
 see links to [Glider
-Platforms](https://nmfs-ost.github.io/PAM-Glider/content/gliders.html)and
-[PAM
+Platforms](https://nmfs-ost.github.io/PAM-Glider/content/gliders.html)
+and [PAM
 Sensors](https://nmfs-ost.github.io/PAM-Glider/content/sensors.html).
 The Glider Rodeo is part of a larger effort to develop a Transition to
-Operations plan for PAM-Gliders. For more information on these larger
-efforts, visit our [PAM-Glider
-site](https://nmfs-ost.github.io/PAM-Glider/).
+Operations plan for PAM-Gliders.
 
 ![Glider Rodeo draft figure-8 tracklines planned for offshore
 Hawaii.](images/GliderRodeoHawaii.png)
+
+Link to our [GliderRodeo
+Site](https://nmfs-pam-glider.github.io/GliderRodeo/) for more
+information.
