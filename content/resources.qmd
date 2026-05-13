@@ -11,6 +11,6 @@ This section provides an overview of the key components of our program: the labs
 
 [**PAM Sensors**](https://nmfs-ost.github.io/PAM-Glider/content/sensors.html)
 
-[**GitHub Repositories**](https://nmfs-ost.github.io/PAM-Glider/content/repos.html)
+[**GitHub Repositories**](https://nmfs-ost.github.io/PAM-Glider/content/GHrepos.html)
 
 
