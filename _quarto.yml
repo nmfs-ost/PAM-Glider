@@ -43,6 +43,8 @@ website:
           text: Gliders
         - href: content/sensors.qmd
           text: Sensors
+        - href: content\GHrepos.qmd
+          text: GitHub Repos
       - section: content/glider-FieldTesting.qmd
         contents: 
         - href: content/glider-LocalFieldTesting.qmd

@@ -1,0 +1,9 @@
+---
+title: PAM Glider GitHub Repos
+---
+
+| Repo Link | Description |
+|---------------------------------|---------------------------------------|
+| [glider-CalCurCEAS](https://github.com/sfregosi-noaa/glider-CalCurCEAS) | Glider piloting and general mission analysis for CalCurCEAS 2024 |
+| glider-WHICEAS |  |
+| [GliderRodeo](https://github.com/NMFS-PAM-Glider/GliderRodeo) | Research Compendium for NOAA Fisheries PAM-Glider Rodeo 2026 |
