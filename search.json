@@ -14,7 +14,7 @@
     "href": "content/resources.html",
     "title": "Resources",
     "section": "",
-    "text": "This section provides an overview of the key components of our program: the labs that manage our gliders, the different types of gliders we deploy, and the passive acoustic monitoring (PAM) sensors they carry.\nGlider Labs\nGliders Types\nPAM Sensors",
+    "text": "This section provides an overview of the key components of our program: the labs that manage our gliders, the different types of gliders we deploy, and the passive acoustic monitoring (PAM) sensors they carry. We also have a list of related GitHub repositories for more information on various projects and PAM glider deployments across NOAA Fisheries\nGlider Labs\nGliders Types\nPAM Sensors\nGitHub Repositories",
     "crumbs": [
       "Resources"
     ]
@@ -386,6 +386,17 @@
     "text": "While PAM equipped gliders have been extensively used for specific survey needs, they are also rapidly evolving and require extensive expertise for successful adoption to address additional survey needs. A fundamental requirement to developing a sustainable transition to operations plan for NOAA Fisheries necessarily includes a series of field tests.\nOur field testing includes:\n\nLocal Sea Trials to field test individual gliders to ensure functionality\nGlider Rodeo to assess the strengths and limitations of different PAM-Glider platforms and sensors\nConcurrent Ship & Glider Surveys to collect data for developing advanced statistical methods to assess marine mammal populations using PAM-gliders and to better understand how these methods can augment shipboard surveys.\n\n\nDeployment Tracker\n\n\nSpreadsheet to track current and completed deployments. Link for NOAA personnel (password protected)",
     "crumbs": [
       "Field Testing"
+    ]
+  },
+  {
+    "objectID": "content/GHrepos.html",
+    "href": "content/GHrepos.html",
+    "title": "PAM Glider GitHub Repos",
+    "section": "",
+    "text": "Repo Link\nDescription\n\n\n\n\nglider-CalCurCEAS\nGlider piloting and general mission analysis for CalCurCEAS 2024\n\n\nglider-WHICEAS\n\n\n\nGliderRodeo\nResearch Compendium for NOAA Fisheries PAM-Glider Rodeo 2026",
+    "crumbs": [
+      "Resources",
+      "GitHub Repos"
     ]
   },
   {
