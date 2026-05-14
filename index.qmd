@@ -23,6 +23,12 @@ This site provides updated information on these efforts.
 ::: media-sidebar
 ### Featured
 ::: media-card
+![](content/images/media/glider-challenge-2026.JPG)
+<a href="https://www.fisheries.noaa.gov/science-blog/sound-bytes-synchronous-swimming-robots-behind-glider-challenge">
+<strong>Sound Bytes: Synchronous Swimming (With Robots) – Behind the Glider Challenge</strong><br>The exciting work of flying robots underwater takes science, teamwork, and flexibility</a>
+:::
+
+::: media-card
 ![](content/images/media/Glider_challenge_soundBytes.JPG)
 <a href="https://www.fisheries.noaa.gov/science-blog/sound-bytes-meet-pilots-underwater-glider-challenge">
 <strong>Sound Bytes: Meet the Pilots of the Underwater Glider Challenge</strong><br>A conversation with the NOAA pilots guiding gliders to capture the sounds of our ocean</a>
