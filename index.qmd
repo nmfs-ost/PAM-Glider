@@ -3,7 +3,7 @@ title: "NOAA Fisheries PAM-Equipped Glider Research"
 page-layout: full
 ---
 
-*This project is a part of NOAA Fisheries [PAM SI
+*This project is a part of NOAA Fisheries UxS Strategic Iniative and [PAM SI
 coordination](https://nmfs-ost.github.io/PAM_National_Network/content/SI%20coord/SI_Coordination.html)*
 
 ::: page-layout

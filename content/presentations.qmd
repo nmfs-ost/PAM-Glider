@@ -42,7 +42,7 @@ editor:
   mammal monitoring programs in the Pacific.
 
 - **Links:**
-  [Slides](https://github.com/nmfs-ost/PAM-Glider/blob/main/supplemental/Presentations/fregosi_UG2_2026_StPete_pam_glider_surveys.pdf)
+  [Poster](https://github.com/nmfs-ost/PAM-Glider/blob/main/supplemental/Presentations/fregosi_UG2_2026_StPete_pam_glider_surveys.pdf)
 
 ### NOAA Fisheries Glider Challenge: Accelerating the Use of Passive Acoustic-Equipped Gliders to Monitor and Assess Cetacean Populations in the Pacific, [Underwater Glider User Group Workshop 2026](https://underwatergliders.org/ug2-workshop-st-pete-florida-26/)
 
