@@ -36,7 +36,7 @@ Three PAM-equipped Seagliders were deployed out of Newport Oregon and surveyed i
 :::
 
 ::: {.column width="\"60%"}
-![](images/CalCurCEAS_gliderMap.png){width="580"}
+![Three passive acoustic Seagliders (red, yellow, and orange lines) surveyed off the Oregon and California coast concurrently with a ship-based visual cetacean survey (white lines)](images/CalCurCEAS_allGliders_withShip_white.png){width="580"}
 :::
 
 The PAM-equipped Seagliders were deployed by collaborator Dave Mellinger from Oregon State University with co-piloting by our PIFSC colleagues: Selene Fregosi, Erik Norris, and Calla Lloyd-Lim. The offshore glider was the longest mission of any of the OSU gliders to date! This was also the first time this experienced glider team piloted three gliders simultaneously.
@@ -54,6 +54,18 @@ These PAM-glider tracks overlap in both time and space with the CalCurCEAS shipb
 
 ## WHICEAS 2026
 
-Winter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS) is currently scheduled for February/March 2026. We will update as these plans develop.
+Concurrently with the Winter Hawaiian Cetacean Ecosystem Assessment Survey (WHICEAS), 5 passive acoustic gliders were deployed within the WHICEAS survey area and collected high-frequency acoustic data from February to April 2026. 
 
-![](images/WHICEAS_example.png){width="500"}
+::: columns
+
+::: {.column width="\"50%"}
+![Gliders (colored lines) surveyed acoustically in the same survey area as a ship-based visual and acoustic line-transect survey (white lines) around the Main Hawaiian Islands from February to April.](images/WHICEAS_allGliders_withShip_white.png)
+:::
+
+::: {.column width="\"50%"}
+This mission included three types of gliders - a Slocum G3 (green line), a Seaglider SGX which is the newest design (orange line) and three Seagliders of the original design, the M1 (yellow, purple, and red lines). The Slocum was piloted by the SWFSC glider team while the Seagliders, a mix of PIFSC and OSU assets, were piloted by a combined OSU and PIFSC team. We surpassed our previous longest PAM glider deployment (from CalCurCEAS above) with SG274, which surveyed over 1500 km in 82 days. 
+:::
+
+:::
+
+
