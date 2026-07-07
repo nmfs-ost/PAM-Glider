@@ -58,11 +58,11 @@ Concurrently with the Winter Hawaiian Cetacean Ecosystem Assessment Survey (WHIC
 
 ::: columns
 
-::: {.column width="\"50%"}
+::: {.column width="\"65%"}
 ![Gliders (colored lines) surveyed acoustically in the same survey area as a ship-based visual and acoustic line-transect survey (white lines) around the Main Hawaiian Islands from February to April.](images/WHICEAS_allGliders_withShip_white.png)
 :::
 
-::: {.column width="\"50%"}
+::: {.column width="\"35%"}
 This mission included three types of gliders - a Slocum G3 (green line), a Seaglider SGX which is the newest design (orange line) and three Seagliders of the original design, the M1 (yellow, purple, and red lines). The Slocum was piloted by the SWFSC glider team while the Seagliders, a mix of PIFSC and OSU assets, were piloted by a combined OSU and PIFSC team. We surpassed our previous longest PAM glider deployment (from CalCurCEAS above) with SG274, which surveyed over 1500 km in 82 days. 
 :::
 
